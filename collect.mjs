@@ -2,8 +2,9 @@
 // 영업이슈 뉴스 수집기 — 구글 뉴스 RSS + 네이버 검색 API → docs/news.json
 // 의존성 없음. Node 20+ 내장 fetch 사용.
 //
-//   node collect.mjs          실수집
-//   node collect.mjs --test   네트워크 없이 파싱·중복제거·매칭 자체검사
+//   node collect.mjs                    실수집
+//   node collect.mjs --test             네트워크 없이 파싱·중복제거·매칭 자체검사
+//   node collect.mjs --topics <경로>     다른 설정 파일로 수집 (검증용)
 
 import { readFileSync, writeFileSync, existsSync } from 'node:fs'
 import { dirname, join } from 'node:path'
@@ -12,6 +13,10 @@ import assert from 'node:assert/strict'
 
 const ROOT = dirname(fileURLToPath(import.meta.url))
 const OUT = join(ROOT, 'docs', 'news.json')
+
+// --topics <경로> 로 다른 설정 파일을 물릴 수 있다. 에이전트가 원본을 건드리지 않고 검증할 때 쓴다.
+const argIdx = process.argv.indexOf('--topics')
+const TOPICS = argIdx > -1 ? process.argv[argIdx + 1] : join(ROOT, 'topics.json')
 
 // ── 네이버 API는 이관 중. 어느 키를 넣었느냐로 엔드포인트가 갈린다.
 //    NAVER_KEY_ID/NAVER_KEY      → NAVER API HUB (신규 발급)
@@ -48,6 +53,36 @@ const PRESS = {
   'thebell.co.kr': '더벨', 'biz.chosun.com': '조선비즈', 'dailian.co.kr': '데일리안',
 }
 
+const PRESS_TIER = JSON.parse(readFileSync(join(ROOT, 'press.json'), 'utf8'))
+
+// 자사는 노출, 타사 상품 기사는 가린다. 단 타사에 대한 부정적 보도는 노출한다.
+// ⚠ CLAUDE.md §5「자사·타사 상품 비판을 자료에 담지 않는다」와 충돌하는 지점 — 사용자 지시로 채택.
+const OWN = ['삼성화재']
+const RIVALS = ['현대해상','DB손해보험','KB손해보험','KB손보','메리츠화재','한화손해보험','한화손보','흥국화재',
+  '롯데손해보험','MG손해보험','NH농협손해보험','농협손보','하나손해보험','하나손보','캐롯손해보험','AXA손해보험',
+  '교보생명','삼성생명','한화생명','신한라이프','NH농협생명','미래에셋생명','동양생명','흥국생명','KB라이프',
+  '메트라이프','라이나생명','AIA생명','처브라이프','ABL생명','iM라이프','푸본현대생명']
+// 이 말이 있으면 「상품 홍보」가 아니라 「부정적 보도」로 보고 노출한다.
+const NEGATIVE = ['적발','제재','과징금','과태료','징계','검사 착수','기관주의','시정명령','환수','고발','기소',
+  '불완전판매','부당','미지급','부지급','거절','거부','분쟁','소송','패소','피소','민원','논란','의혹','제동','철퇴']
+
+/** 타사 상품 기사인가 (가려야 하는가). 자사·부정보도는 가리지 않는다. */
+export function isRivalPromo(title) {
+  const t = String(title)
+  if (OWN.some((c) => t.includes(c))) return false
+  if (!RIVALS.some((c) => t.includes(c))) return false
+  return !NEGATIVE.some((w) => t.includes(w))
+}
+
+/** 매체 등급. 이름이 도메인 형태면 구글조차 매체명을 모르는 곳이라 차단한다. */
+export function tierOf(press) {
+  const p = String(press)
+  if (/^[a-z0-9-]+\.[a-z]{2,}/i.test(p) || p.includes('.co.kr') || p.includes('.kr/')) return 0
+  if (PRESS_TIER.T1.some((x) => p.includes(x))) return 1
+  if (PRESS_TIER.T2.some((x) => p.includes(x))) return 2
+  return 3
+}
+
 // ─────────────────────────────────────────── 순수 함수 (테스트 대상)
 
 const ENT = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ', '#39': "'" }
@@ -74,9 +109,14 @@ export function parseRss(xml) {
     let title = tag(s, 'title')
     // 구글은 제목 끝에 " - 언론사"를 붙인다.
     if (press && title.endsWith(' - ' + press)) title = title.slice(0, -(press.length + 3))
+    title = stripNav(title)
     return { title, url: tag(s, 'link'), press, summary: '', published: tag(s, 'pubDate') }
   })
 }
+
+/** 언론사 사이트의 네비게이션 찌꺼기가 제목에 딸려 온다. 떼어낸다. */
+export const stripNav = (t) =>
+  String(t).replace(/\s*[>|｜]\s*(뉴스|기사|홈|메인|속보)\s*$/, '').trim()
 
 /** 제목을 비교용 어절로 쪼갠다. 한 글자짜리는 버린다. */
 export function tokens(title) {
@@ -121,10 +161,16 @@ export function pressOf(url, fallback = '') {
  * 토픽 규칙 적용. 통과하면 점수, 탈락이면 null.
  * must 전부 포함(AND) → not 하나라도 걸리면 탈락 → any 가 있으면 최소 1개 히트 필요.
  */
+const HANJA = [[/車/g,'자동차'],[/損保/g,'손해보험'],[/生保/g,'생명보험'],[/銀/g,'은행'],[/美/g,'미국'],[/中/g,'중국'],[/日/g,'일본']]
+export const unhanja = (s) => HANJA.reduce((a,[re,to])=>a.replace(re,to), String(s))
+
 export function matchTopic(topic, text, ageHours) {
-  const t = text.toLowerCase()
+  const t = unhanja(text).toLowerCase()
   const has = (w) => t.includes(w.toLowerCase())
-  if (!(topic.must ?? []).every(has)) return null
+  // must 의 각 항목은 `|` 로 대안을 적을 수 있다 — 「암|항암|종양」 이면 셋 중 하나만 있으면 된다.
+  // 항목끼리는 AND. 「암 계열 단어 + 비용 계열 단어」 같은 2단 조건이 이걸로 표현된다.
+  const hasAny = (w) => String(w).split('|').some(has)
+  if (!(topic.must ?? []).every(hasAny)) return null
   if ((topic.not ?? []).some(has)) return null
   const hits = (topic.any ?? []).filter(has).length
   if ((topic.any ?? []).length && hits === 0) return null
@@ -167,8 +213,8 @@ async function get(url, opts = {}) {
   return res
 }
 
-async function fromGoogle(q) {
-  const url = `https://news.google.com/rss/search?q=${encodeURIComponent(q + ' when:2d')}&hl=ko&gl=KR&ceid=KR:ko`
+async function fromGoogle(q, days) {
+  const url = `https://news.google.com/rss/search?q=${encodeURIComponent(`${q} when:${days}d`)}&hl=ko&gl=KR&ceid=KR:ko`
   const xml = await (await get(url, { headers: { 'user-agent': 'Mozilla/5.0' } })).text()
   return parseRss(xml)
 }
@@ -187,7 +233,7 @@ async function fromNaver(q) {
 }
 
 async function main() {
-  const cfg = JSON.parse(readFileSync(join(ROOT, 'topics.json'), 'utf8'))
+  const cfg = JSON.parse(readFileSync(TOPICS, 'utf8'))
   const now = Date.now()
   const maxAge = (cfg.maxAgeDays ?? 3) * 24 * 3600e3
   const pool = []
@@ -195,25 +241,32 @@ async function main() {
   // 공통 제외어는 토픽별 not 에 합쳐서 한 곳에서만 관리한다.
   const topics = cfg.topics.map((t) => ({ ...t, not: [...(t.not ?? []), ...(cfg.blockWords ?? [])] }))
   const blocked = (press) => (cfg.blockPress ?? []).some((p) => press.includes(p))
+  let tries = 0
+  let fails = 0
 
   for (const topic of cfg.topics) {
     for (const q of topic.q) {
-      for (const [src, fn] of [['google', fromGoogle], ['naver', fromNaver]]) {
+      for (const [src, fn] of [['google', (x) => fromGoogle(x, cfg.searchDays ?? 7)], ['naver', fromNaver]]) {
+        if (src === 'naver' && !NAVER) continue
+        tries += 1
         try {
           for (const raw of await fn(q)) {
             const at = Date.parse(raw.published)
             if (!raw.title || !raw.url || !Number.isFinite(at) || now - at > maxAge) continue
             const press = pressOf(raw.url, raw.press)
             if (blocked(press)) continue
+            if (tierOf(press) === 0) continue          // 매체명이 도메인 형태 = 출처 불명
+            if (isRivalPromo(raw.title)) continue      // 타사 상품 기사
             pool.push({ ...raw, at, press, topics: [], score: 0 })
           }
         } catch (e) {
+          fails += 1
           console.warn(`  ! ${src} "${q}" 실패: ${e.message}`)
         }
       }
     }
   }
-  console.log(`수집 ${pool.length}건`)
+  console.log(`수집 ${pool.length}건 (요청 ${tries}회 중 ${fails}회 실패)`)
 
   const items = dedupe(pool)
   console.log(`중복 제거 후 ${items.length}건`)
@@ -240,8 +293,15 @@ async function main() {
       .forEach((it) => keep.add(it))
   }
 
+  // 「이번에 새로 들어온 기사」를 표시하려면 이전 회차 기록이 필요하다.
+  const nowIso = new Date().toISOString()
+  const seenBefore = new Map(
+    (existsSync(OUT) ? JSON.parse(readFileSync(OUT, 'utf8')).items ?? [] : [])
+      .map((i) => [normUrl(i.url), i.firstSeenAt ?? i.publishedAt])
+  )
+
   const out = {
-    updatedAt: new Date().toISOString(),
+    updatedAt: nowIso,
     naver: !!NAVER,
     topics: cfg.topics.map((t) => ({
       id: t.id,
@@ -251,15 +311,35 @@ async function main() {
     })),
     items: [...keep]
       .sort((a, b) => b.at - a.at)
-      .map(({ title, url, press, summary, at, others, topics }) => ({
-        title, url, press, summary: summary.slice(0, 160), others, topics,
+      .map(({ title, url, press, summary, at, others, topics, score }) => ({
+        title, url, press, summary: summary.slice(0, 160), others, topics, score,
+        tier: tierOf(press),
         publishedAt: new Date(at).toISOString(),
+        firstSeenAt: seenBefore.get(normUrl(url)) ?? nowIso,   // 언제 처음 들어왔는지
       })),
   }
 
-  // 내용이 그대로면 커밋이 생기지 않게 파일을 건드리지 않는다.
   const body = JSON.stringify(out, null, 1)
-  const prev = existsSync(OUT) ? JSON.parse(readFileSync(OUT, 'utf8')) : null
+  const prev2 = existsSync(OUT) ? JSON.parse(readFileSync(OUT, 'utf8')) : null
+  const prev = prev2
+
+  // ── 안전장치. 구글이 데이터센터 IP를 막으면 수집이 통째로 비는데,
+  //    그걸 그대로 쓰면 멀쩡하던 페이지가 빈 화면이 된다. 옛 기사가 빈 화면보다 낫다.
+  //    실패로 종료해서 Actions 를 빨갛게 만든다 — 지속되면 사람이 알아채야 한다.
+  const bad =
+    fails > tries / 2 ? `요청 ${tries}회 중 ${fails}회 실패`
+    : !out.items.length && prev?.items?.length ? '수집 0건'
+    : null
+  if (bad && prev) {
+    console.error(`
+⚠ ${bad} — 기존 파일을 유지한다. news.json 은 그대로 둔다.`)
+    process.exitCode = 1
+    return
+  }
+  // ponytail: 일부 토픽만 실패해 결과가 홀쭉해지는 경우는 안 막는다.
+  //           조용한 뉴스 날과 구분이 안 돼서, 막으면 오탐이 더 잦다.
+
+  // 내용이 그대로면 커밋이 생기지 않게 파일을 건드리지 않는다.
   if (prev && JSON.stringify(prev.items) === JSON.stringify(out.items)) {
     console.log('변경 없음 — 파일 유지')
     return
@@ -301,6 +381,13 @@ function test() {
   assert.equal(matchTopic(T, '실손보험 손해율 상승', 1), null)         // any 0히트
   assert.equal(matchTopic(T, '5세대 실손 전환', 1), 2 * 2 + 3)         // 2히트 + 최신
   assert.equal(matchTopic(T, '5세대 실손 전환', 99), 2 * 2)            // 오래됨 → 보너스 없음
+
+  // must 의 `|` — 항목 안은 OR, 항목끼리는 AND
+  const C = { must: ['암|항암|종양', '비급여|치료비|부담'], any: [], not: [] }
+  assert.ok(matchTopic(C, '비급여 항암치료 부담 커져', 1) !== null)
+  assert.ok(matchTopic(C, '표적항암제 치료비 급등', 1) !== null)
+  assert.equal(matchTopic(C, '35개 주요수술 진료비 10조원 돌파', 1), null)   // 암 계열 없음 → 탈락
+  assert.equal(matchTopic(C, '암 신약 임상 성공', 1), null)                  // 비용 계열 없음 → 탈락
 
   assert.deepEqual(tokens('5세대 실손, 개편안 발표!'), ['5세대', '실손', '개편안', '발표'])
   assert.ok(sameStory('5세대 실손 개편안 발표', '5세대 실손 개편안 발표 확정'))   // 뒷말만 붙은 경우

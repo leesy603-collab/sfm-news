@@ -1,183 +1,296 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ko">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="color-scheme" content="light">
+<meta name="color-scheme" content="light dark">
 <title>영업이슈 뉴스</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500;700;900&family=IBM+Plex+Mono:wght@500;600&display=swap">
+
 <style>
-  :root{
-    --canvas:#faf9f5; --card:#efe9de; --hairline:#d8d2c5;
-    --ink:#141413; --body:#2a2a28; --muted:#5a5853;
-    --blue:#003CDC; --spring:#5BC2E7; --coral:#cc785c;
-    --font: system-ui, "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", sans-serif;
+:root{
+  --canvas:#faf9f5;  --card:#efe9de;  --hairline:#c9c1b0;
+  --ink:#141413;     --body:#2a2a28;  --muted:#514f4a;
+  --accent:#003CDC;  --accent-ink:#fff;  --spring:#5BC2E7;
+  --tag:#9f4d32;     --alert:#b85042;  --new:#1c6b52;
+  --shade:rgba(20,20,19,.06);
+  --sans:"Gothic A1","Malgun Gothic","Apple SD Gothic Neo",sans-serif;
+  --mono:"IBM Plex Mono","Gothic A1",monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --canvas:#181715; --card:#252320; --hairline:#4a463f;
+    --ink:#f2efe8;    --body:#ddd8ce;  --muted:#a8a296;
+    --accent:#8fb3ff; --accent-ink:#10131f;
+    --tag:#e8a184;    --alert:#e88b7c;  --new:#6fd0ac;
+    --shade:rgba(255,255,255,.07);
   }
-  *{box-sizing:border-box; -webkit-tap-highlight-color:transparent}
-  body{
-    margin:0; background:var(--canvas); color:var(--body);
-    font-family:var(--font); font-size:18px; line-height:1.6;
-    padding-bottom:env(safe-area-inset-bottom);
-  }
+}
+:root[data-theme="dark"]{
+  --canvas:#181715; --card:#252320; --hairline:#4a463f;
+  --ink:#f2efe8;    --body:#ddd8ce;  --muted:#a8a296;
+  --accent:#8fb3ff; --accent-ink:#10131f;
+  --tag:#e8a184;    --alert:#e88b7c;  --new:#6fd0ac;
+  --shade:rgba(255,255,255,.07);
+}
 
-  /* ── 헤더 + 필터: 각각 top:0 으로 붙이면 필터가 헤더 뒤로 숨는다. 하나로 묶어 고정한다. */
-  .top{position:sticky; top:0; z-index:9}
-  header{
-    background:var(--blue); color:#fff;
-    padding:14px 18px calc(14px + env(safe-area-inset-top)) 18px;
-    padding-top:calc(14px + env(safe-area-inset-top));
-    display:flex; align-items:baseline; justify-content:space-between; gap:12px;
-  }
-  header h1{margin:0; font-size:21px; font-weight:800; letter-spacing:-.01em}
-  header time{font-size:14px; opacity:.85; white-space:nowrap; font-variant-numeric:tabular-nums}
+*{box-sizing:border-box}
+body{margin:0; background:var(--canvas); color:var(--body);
+  font-family:var(--sans); font-size:19px; line-height:1.6; -webkit-font-smoothing:antialiased}
+.wrap{max-width:720px; margin-inline:auto}
 
-  /* ── 토픽 필터 */
-  nav{
-    background:var(--canvas); border-bottom:1px solid var(--hairline);
-    display:flex; gap:8px; overflow-x:auto; padding:12px 18px;
-    scrollbar-width:none;
-  }
-  nav::-webkit-scrollbar{display:none}
-  nav button{
-    flex:0 0 auto; min-height:40px; padding:6px 15px; border-radius:999px; cursor:pointer;
-    border:1px solid var(--hairline); background:transparent; color:var(--muted);
-    font-family:inherit; font-size:15px; font-weight:600; white-space:nowrap;
-  }
-  nav button[aria-pressed="true"]{background:var(--blue); border-color:var(--blue); color:#fff}
-  nav button b{font-weight:600; opacity:.7; margin-left:4px; font-variant-numeric:tabular-nums}
+/* ── 마스트헤드 (고정) */
+.mast{position:sticky; top:0; z-index:20; background:var(--accent); color:var(--accent-ink);
+  display:flex; align-items:center; justify-content:space-between; gap:14px; padding:14px 20px}
+.mast h1{margin:0; font-size:22px; font-weight:900; letter-spacing:-.02em}
+.mast .when{font-family:var(--mono); font-size:14px; font-weight:500;
+  font-variant-numeric:tabular-nums; opacity:.9; white-space:nowrap}
+.stale{display:none; background:var(--alert); color:#fff; font-size:16px; font-weight:700;
+  padding:12px 20px; text-align:center}
+.stale.on{display:block}
 
-  /* ── 카드 */
-  main{padding:16px 18px 8px; display:flex; flex-direction:column; gap:14px}
-  article{
-    background:var(--card); border:1px solid var(--hairline); border-radius:12px;
-    padding:18px 18px 12px;
-  }
-  .tags{display:flex; flex-wrap:wrap; gap:6px; margin-bottom:8px}
-  .tag{
-    font-size:11px; font-weight:700; letter-spacing:.15em; text-transform:uppercase;
-    color:var(--coral); border:1px solid currentColor; border-radius:999px; padding:3px 9px;
-  }
-  h2{margin:0 0 8px; font-size:22px; line-height:1.35; font-weight:800; color:var(--ink); letter-spacing:-.01em}
-  h2 a{color:inherit; text-decoration:none}
-  .snippet{margin:0 0 10px; font-size:17px; color:var(--body)}
-  .meta{font-size:14px; color:var(--muted); border-top:1px solid var(--hairline); padding-top:10px;
-        display:flex; align-items:center; gap:10px; flex-wrap:wrap}
-  .meta .press{font-weight:700; color:var(--body)}
-  .actions{margin-left:auto; display:flex; gap:8px}
-  .actions button, .actions a{
-    min-height:40px; display:inline-flex; align-items:center; padding:6px 14px; border-radius:8px;
-    border:1px solid var(--blue); background:transparent; color:var(--blue);
-    font-family:inherit; font-size:15px; font-weight:700; cursor:pointer; text-decoration:none;
-  }
-  .actions button.done{background:var(--spring); border-color:var(--spring); color:var(--ink)}
+/* ── 브리핑 — 아침조회에서 이것만 보면 되도록 */
+.brief{padding:18px 20px 4px}
+.brief h2{margin:0 0 12px; font-size:13px; font-weight:900; letter-spacing:.16em;
+  color:var(--tag); text-transform:uppercase}
+.brief ol{margin:0; padding:0; list-style:none; display:flex; flex-direction:column; gap:10px}
+.brief li{background:var(--card); border:1px solid var(--hairline); border-radius:12px; padding:15px 16px}
+.brief .cat{font-size:13px; font-weight:900; color:var(--tag); letter-spacing:.04em}
+.brief a{display:block; margin:5px 0 8px; font-size:21px; line-height:1.35; font-weight:900;
+  color:var(--ink); text-decoration:none; letter-spacing:-.02em; text-wrap:balance}
+.brief a:hover{text-decoration:underline; text-underline-offset:3px}
 
-  /* ── 상태·각주 */
-  .state{padding:48px 18px; text-align:center; color:var(--muted); font-size:17px}
-  footer{
-    padding:20px 18px 40px; margin-top:12px; border-top:1px solid var(--hairline);
-    font-size:14px; line-height:1.7; color:var(--muted);
-  }
-  footer p{margin:0 0 6px}
-  @media (min-width:720px){
-    header,nav{max-width:720px; margin-inline:auto}
-    main,footer{max-width:720px; margin-inline:auto}
-  }
+/* ── 카테고리 칩 — 가로 스크롤 없이 줄바꿈 */
+.rail{display:flex; flex-wrap:wrap; gap:9px; padding:16px 20px 6px}
+.rail button{flex:0 1 auto; min-height:48px; padding:10px 17px; border-radius:999px; cursor:pointer;
+  border:1.5px solid var(--hairline); background:transparent; color:var(--muted);
+  font-family:inherit; font-size:17px; font-weight:700; white-space:nowrap;
+  display:inline-flex; align-items:center; gap:7px}
+.rail button:hover{border-color:var(--accent); color:var(--accent)}
+.rail button[aria-pressed="true"]{background:var(--accent); border-color:var(--accent); color:var(--accent-ink)}
+.rail button .n{font-family:var(--mono); font-size:15px; font-weight:600;
+  font-variant-numeric:tabular-nums; opacity:.75}
+.rail button.zero{opacity:.55}
+.rail button:focus-visible,.act:focus-visible,summary:focus-visible,.themer:focus-visible{
+  outline:3px solid var(--accent); outline-offset:2px}
+
+/* ── 카테고리 섹션 (기본 접힘) */
+main{padding:6px 20px 8px; display:flex; flex-direction:column; gap:11px}
+details{background:var(--card); border:1px solid var(--hairline); border-radius:12px}
+summary{list-style:none; cursor:pointer; min-height:56px; padding:14px 16px;
+  display:flex; align-items:center; gap:11px}
+summary::-webkit-details-marker{display:none}
+summary .name{font-size:20px; font-weight:900; color:var(--ink); letter-spacing:-.01em}
+summary .n{font-family:var(--mono); font-size:15px; font-weight:600; color:var(--muted);
+  font-variant-numeric:tabular-nums}
+summary .peek{flex:1; font-size:15px; color:var(--muted); overflow:hidden;
+  text-overflow:ellipsis; white-space:nowrap; min-width:0}
+summary .arrow{margin-left:auto; color:var(--muted); font-size:15px; transition:transform .15s}
+details[open] summary .arrow{transform:rotate(180deg)}
+details[open] summary{border-bottom:1px solid var(--hairline)}
+details[open] summary .peek{display:none}
+.items{display:flex; flex-direction:column}
+article{padding:16px; border-top:1px solid var(--hairline)}
+article:first-child{border-top:none}
+h3{margin:0 0 10px; font-size:21px; line-height:1.36; font-weight:900;
+  letter-spacing:-.02em; color:var(--ink); text-wrap:balance}
+h3 a{color:inherit; text-decoration:none}
+h3 a:hover{text-decoration:underline; text-underline-offset:3px}
+.sum{margin:0 0 11px; font-size:17px; line-height:1.62; color:var(--body)}
+.meta{display:flex; align-items:center; gap:9px; flex-wrap:wrap; font-size:16px; color:var(--muted)}
+.press{font-weight:700; color:var(--body)}
+.meta .t{font-family:var(--mono); font-size:15px; font-variant-numeric:tabular-nums}
+.badge{font-size:13px; font-weight:900; letter-spacing:.04em; border-radius:999px; padding:3px 9px}
+.badge.new{background:var(--new); color:#fff}
+.badge.more{background:var(--shade); color:var(--muted)}
+.badge.t3{border:1.5px solid var(--hairline); color:var(--muted)}
+.acts{margin-left:auto; display:flex; gap:9px}
+.act{min-height:44px; display:inline-flex; align-items:center; padding:8px 16px; border-radius:8px;
+  border:1.5px solid var(--accent); background:transparent; color:var(--accent);
+  font-family:inherit; font-size:16px; font-weight:700; cursor:pointer; text-decoration:none}
+.act:hover{background:var(--accent); color:var(--accent-ink)}
+.act.done{background:var(--spring); border-color:var(--spring); color:#141413}
+.empty{padding:22px 16px; border-top:1px solid var(--hairline); font-size:17px; color:var(--muted)}
+.empty b{display:block; color:var(--ink); font-weight:900; font-size:19px; margin-bottom:6px}
+.empty .out{margin-top:12px; display:flex; gap:9px; flex-wrap:wrap}
+
+footer{margin-top:24px; padding:20px 20px 46px; border-top:1px solid var(--hairline);
+  font-size:15px; line-height:1.75; color:var(--muted)}
+footer p{margin:0 0 8px}
+footer .src{font-family:var(--mono); font-size:13px}
+.themer{margin-top:12px; background:transparent; border:1.5px solid var(--hairline); color:var(--muted);
+  font-family:inherit; font-size:15px; font-weight:700; border-radius:999px; padding:10px 16px;
+  cursor:pointer; min-height:44px}
+@media (prefers-reduced-motion: reduce){*{transition:none !important; scroll-behavior:auto !important}}
 </style>
 </head>
 <body>
 
-<div class="top">
-  <header>
-    <h1>영업이슈 뉴스</h1>
-    <time id="updated"></time>
-  </header>
-  <nav id="filters" aria-label="영업이슈 필터"></nav>
-</div>
-<main id="list"><p class="state">불러오는 중…</p></main>
+<header class="mast wrap">
+  <h1>영업이슈 뉴스</h1>
+  <span class="when" id="when"></span>
+</header>
+<p class="stale wrap" id="stale" role="status"></p>
 
-<footer>
-  <p>기사 제목·발췌·링크만 제공하며 본문을 재배포하지 않습니다. 내용은 각 언론사의 것이며 삼성화재의 공식 입장이 아닙니다.</p>
-  <p>상품 보장내용·지급기준은 반드시 해당 약관과 상품설명서로 확인하십시오.</p>
-  <p id="src"></p>
+<section class="brief wrap" id="brief"></section>
+<nav class="rail wrap" id="rail" aria-label="카테고리"></nav>
+<main class="wrap" id="main"></main>
+
+<footer class="wrap">
+  <p>기사 제목과 원문 링크만 제공하며 본문을 재배포하지 않습니다. 본 페이지는 개인이 모은 언론 기사 목록이며, 어떤 회사의 공식 입장도 아닙니다.</p>
+  <p>보장내용·지급기준은 반드시 해당 약관과 상품설명서로 확인하십시오. 기사 제목은 각 언론사가 작성한 것입니다.</p>
+  <p class="src" id="src"></p>
+  <button class="themer" id="themer" type="button">다크 / 라이트 전환</button>
 </footer>
 
 <script>
-const $ = (s) => document.querySelector(s)
-let DATA = null, ACTIVE = 'all'
-
+const $ = (s) => document.querySelector(s);
+let DATA = null;
+const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let CAT = {};
+const NOW = Date.now();
+const pad = (n) => String(n).padStart(2, '0');
 const ago = (iso) => {
-  const m = (Date.now() - Date.parse(iso)) / 60000
-  if (m < 60) return `${Math.max(1, Math.round(m))}분 전`
-  if (m < 1440) return `${Math.round(m / 60)}시간 전`
-  return `${Math.round(m / 1440)}일 전`
-}
-const stamp = (iso) => {
-  const d = new Date(iso)
-  const p = (n) => String(n).padStart(2, '0')
-  return `${p(d.getMonth() + 1)}.${p(d.getDate())} ${p(d.getHours())}:${p(d.getMinutes())} 기준`
-}
-const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]))
+  const m = (NOW - Date.parse(iso)) / 60000;
+  if (m < 60) return Math.max(1, Math.round(m)) + '분 전';
+  if (m < 1440) return Math.round(m / 60) + '시간 전';
+  return Math.round(m / 1440) + '일 전';
+};
+// 첫 수집이면 firstSeenAt 이 전부 같다 — 그때는 NEW 를 발행시각 기준으로 매긴다.
+let FIRST_RUN = false;
+const isNew = (i) => NOW - Date.parse((FIRST_RUN ? i.publishedAt : i.firstSeenAt) || i.publishedAt) < 6 * 3600e3;
+const catOf = (i) => CAT[i.topics[0]];
 
-function renderFilters() {
-  const shown = DATA.topics.filter((t) => t.count > 0)
-  const all = [{ id: 'all', label: '전체', count: DATA.items.length }, ...shown]
-  $('#filters').innerHTML = all.map((t) =>
-    `<button data-id="${t.id}" aria-pressed="${t.id === ACTIVE}">${esc(t.label)}<b>${t.count}</b></button>`
-  ).join('')
-  // 필터를 고르면 그 칩이 화면 밖으로 밀려 있을 수 있다. 끌어다 놓는다.
-  $('#filters [aria-pressed="true"]')?.scrollIntoView({ block: 'nearest', inline: 'center' })
-}
-
-function renderList() {
-  const labels = Object.fromEntries(DATA.topics.map((t) => [t.id, t.label]))
-  const items = ACTIVE === 'all' ? DATA.items : DATA.items.filter((i) => i.topics.includes(ACTIVE))
-  if (!items.length) { $('#list').innerHTML = '<p class="state">이 이슈에 걸린 기사가 아직 없습니다.</p>'; return }
-
-  $('#list').innerHTML = items.map((i) => `
-    <article>
-      <div class="tags">${i.topics.map((t) => `<span class="tag">${esc(labels[t] || t)}</span>`).join('')}</div>
-      <h2><a href="${esc(i.url)}" target="_blank" rel="noopener noreferrer">${esc(i.title)}</a></h2>
-      ${i.summary ? `<p class="snippet">${esc(i.summary)}</p>` : ''}
-      <div class="meta">
-        <span class="press">${esc(i.press)}</span>
-        <span>${ago(i.publishedAt)}</span>
-        ${i.others ? `<span>외 ${i.others}개 매체</span>` : ''}
-        <span class="actions">
-          <a href="${esc(i.url)}" target="_blank" rel="noopener noreferrer">원문 ↗</a>
-          <button type="button" data-copy="${esc(i.title)}\n${esc(i.press)}\n${esc(i.url)}">복사</button>
-        </span>
-      </div>
-    </article>`).join('')
-}
-
-$('#filters').addEventListener('click', (e) => {
-  const b = e.target.closest('button'); if (!b) return
-  ACTIVE = b.dataset.id
-  renderFilters(); renderList(); scrollTo({ top: 0, behavior: 'smooth' })
-})
-
-$('#list').addEventListener('click', async (e) => {
-  const b = e.target.closest('button[data-copy]'); if (!b) return
-  try {
-    await navigator.clipboard.writeText(b.dataset.copy)
-    b.textContent = '복사됨'; b.classList.add('done')
-    setTimeout(() => { b.textContent = '복사'; b.classList.remove('done') }, 1600)
-  } catch {
-    b.textContent = '복사 실패'
-    setTimeout(() => { b.textContent = '복사' }, 1600)
+/* 카톡 공유 — navigator.share 가 되면 4터치, 안 되면 클립보드로 내려간다 */
+async function share(btn) {
+  const { title, press, url } = JSON.parse(btn.dataset.item);
+  const text = `${title}\n${press}\n${url}`;
+  if (navigator.share) {
+    try { await navigator.share({ title, text: `${title}\n${press}`, url }); return; } catch { /* 취소 */ }
   }
-})
+  try {
+    await navigator.clipboard.writeText(text);
+    btn.textContent = '복사됨'; btn.classList.add('done');
+  } catch { btn.textContent = '복사 실패'; }
+  setTimeout(() => { btn.textContent = '공유'; btn.classList.remove('done'); }, 1600);
+}
+
+function card(i) {
+  const item = esc(JSON.stringify({ title: i.title, press: i.press, url: i.url }));
+  return `<article>
+    <h3><a href="${esc(i.url)}" target="_blank" rel="noopener noreferrer">${esc(i.title)}</a></h3>
+    ${i.summary ? `<p class="sum">${esc(i.summary)}</p>` : ''}
+    <div class="meta">
+      ${isNew(i) ? '<span class="badge new">NEW</span>' : ''}
+      <span class="press">${esc(i.press)}</span>
+      <span class="t">${ago(i.publishedAt)}</span>
+      ${i.others ? `<span class="badge more">외 ${i.others}곳</span>` : ''}
+      ${i.tier === 3 ? '<span class="badge t3">단독매체</span>' : ''}
+      <span class="acts">
+        <a class="act" href="${esc(i.url)}" target="_blank" rel="noopener noreferrer">원문</a>
+        <button class="act" type="button" data-item="${item}">공유</button>
+      </span>
+    </div>
+  </article>`;
+}
+
+/* 가격 소구 헤드라인은 브리핑 맨 위에 올리지 않는다.
+   「보험료 최대 반값」이 조회 톱에 걸리면 승환 권유로 읽힌다 (금소법 §22 · 보험업법 §97). */
+const PITCHY = /반값|공짜|무료|할인|최저가|절반 가격|지금 가입|서둘러/;
+
+/* 브리핑 — 간병·수술비·치료비 세 담보를 고정으로 한 건씩. 순서도 고정한다.
+   조회에서 매일 같은 자리에 같은 축이 오도록. 실손·정책은 아래 섹션에서 본다. */
+const BRIEF_CATS = ['ganbyeong', 'susul', 'chiryo'];
+function renderBrief() {
+  const picked = [];
+  for (const cat of BRIEF_CATS) {
+    const pool = DATA.items
+      .filter((i) => i.topics.includes(cat) && !PITCHY.test(i.title))
+      .sort((a, b) => a.tier - b.tier || (b.score ?? 0) - (a.score ?? 0) || Date.parse(b.publishedAt) - Date.parse(a.publishedAt));
+    if (pool[0]) picked.push({ ...pool[0], briefCat: cat });
+  }
+  $('#brief').innerHTML = picked.length
+    ? `<h2>오늘 이 ${picked.length}건</h2><ol>` + picked.map((i) => `<li>
+        <span class="cat">${esc(CAT[i.briefCat]?.label || '')}</span>
+        <a href="${esc(i.url)}" target="_blank" rel="noopener noreferrer">${esc(i.title)}</a>
+        <div class="meta"><span class="press">${esc(i.press)}</span><span class="t">${ago(i.publishedAt)}</span>
+          <span class="acts"><button class="act" type="button" data-item="${esc(JSON.stringify({title:i.title,press:i.press,url:i.url}))}">공유</button></span>
+        </div></li>`).join('') + '</ol>'
+    : '';
+}
+
+function renderRail() {
+  const all = [{ id: 'all', label: '전체', count: DATA.items.length }, ...DATA.topics];
+  $('#rail').innerHTML = all.map((t) =>
+    `<button data-id="${t.id}" aria-pressed="false" class="${t.count ? '' : 'zero'}">${esc(t.label)}<span class="n">${t.count}</span></button>`
+  ).join('');
+}
+
+function renderMain() {
+  $('#main').innerHTML = DATA.topics.map((t) => {
+    const it = DATA.items.filter((i) => i.topics.includes(t.id))
+      .sort((a, b) => a.tier - b.tier || Date.parse(b.publishedAt) - Date.parse(a.publishedAt));
+    const fresh = it.filter(isNew).length;
+    const body = it.length
+      ? `<div class="items">${it.map(card).join('')}</div>`
+      : `<div class="empty"><b>${esc(t.label)} — 최근 7일간 기사 없음</b>
+           이슈는 유지되고 있으나 이 기간에 관련 보도가 없었습니다.
+           <span class="out">${DATA.topics.filter((x) => x.id !== t.id && x.count).slice(0, 2)
+             .map((x) => `<button class="act" type="button" data-open="${x.id}">${esc(x.label)} 보기</button>`).join('')}</span></div>`;
+    return `<details id="sec-${t.id}" data-cat="${t.id}">
+      <summary>
+        <span class="name">${esc(t.label)}</span>
+        <span class="n">${t.count}</span>
+        ${fresh ? `<span class="badge new">+${fresh}</span>` : ''}
+        <span class="peek">${esc(it[0]?.title || '기사 없음')}</span>
+        <span class="arrow">▾</span>
+      </summary>${body}</details>`;
+  }).join('');
+}
+
+/* 칩 = 해당 섹션만 펼치고 그리로 이동. 「전체」는 모두 펼침 */
+$('#rail').addEventListener('click', (e) => {
+  const b = e.target.closest('button'); if (!b) return;
+  const id = b.dataset.id;
+  document.querySelectorAll('.rail button').forEach((x) => x.setAttribute('aria-pressed', x === b));
+  document.querySelectorAll('details').forEach((d) => { d.open = id === 'all' || d.dataset.cat === id; });
+  if (id !== 'all') $('#sec-' + id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+});
+
+document.addEventListener('click', (e) => {
+  const s = e.target.closest('button[data-item]'); if (s) { share(s); return; }
+  const o = e.target.closest('button[data-open]');
+  if (o) {
+    const d = $('#sec-' + o.dataset.open);
+    d.open = true; d.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+});
+
+$('#themer').addEventListener('click', () => {
+  const dark = getComputedStyle(document.body).backgroundColor === 'rgb(24, 23, 21)';
+  document.documentElement.dataset.theme = dark ? 'light' : 'dark';
+});
 
 // 캐시된 옛 파일을 잡지 않도록 쿼리를 붙인다.
 fetch('news.json?t=' + Date.now())
   .then((r) => r.json())
   .then((d) => {
-    DATA = d
-    $('#updated').textContent = stamp(d.updatedAt)
-    $('#updated').dateTime = d.updatedAt
-    $('#src').textContent = '출처: 구글 뉴스' + (d.naver ? ' · 네이버 뉴스검색' : '')
-    renderFilters(); renderList()
+    DATA = d;
+    CAT = Object.fromEntries(DATA.topics.map((t) => [t.id, t]));
+    FIRST_RUN = new Set(DATA.items.map((i) => i.firstSeenAt)).size <= 1;
+
+    const u = new Date(DATA.updatedAt);
+    $('#when').textContent = `${pad(u.getMonth() + 1)}.${pad(u.getDate())} ${pad(u.getHours())}:${pad(u.getMinutes())} 기준`;
+    $('#src').textContent = '출처: 구글 뉴스' + (DATA.naver ? ' · 네이버 뉴스검색' : ' (네이버 미연결 — 제목만 수집)');
+    const lag = (Date.now() - Date.parse(DATA.updatedAt)) / 3600e3;
+    if (lag > 5) { $('#stale').textContent = `갱신이 ${Math.floor(lag)}시간 멈춰 있습니다 — 최신 기사가 아닐 수 있습니다`; $('#stale').classList.add('on'); }
+
+    renderBrief(); renderRail(); renderMain();
   })
-  .catch(() => { $('#list').innerHTML = '<p class="state">기사를 불러오지 못했습니다. 잠시 후 새로고침해 주세요.</p>' })
+  .catch(() => { $('#main').innerHTML = '<p class="empty"><b>기사를 불러오지 못했습니다</b>잠시 후 새로고침해 주십시오.</p>'; });
 </script>
+
 </body>
 </html>

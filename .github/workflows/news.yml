@@ -40,4 +40,4 @@ jobs:
           git add docs/news.json
           git diff --staged --quiet && echo "변경 없음" && exit 0
           git commit -m "뉴스 갱신 $(TZ=Asia/Seoul date '+%m.%d %H:%M')"
-          git push
+          git push   # 사람이 그 사이 push 했으면 실패한다. 다음 실행이 알아서 따라잡는다
