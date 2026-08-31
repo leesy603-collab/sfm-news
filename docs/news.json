@@ -1,0 +1,220 @@
+{
+ "updatedAt": "2026-08-31T03:49:26.420Z",
+ "naver": false,
+ "topics": [
+  {
+   "id": "silson",
+   "label": "실손 5세대",
+   "kind": "상시테마",
+   "count": 0
+  },
+  {
+   "id": "gwanri",
+   "label": "관리급여·도수치료",
+   "kind": "상시테마",
+   "count": 1
+  },
+  {
+   "id": "ganbyeong",
+   "label": "간병·치료비",
+   "kind": "상시테마",
+   "count": 3
+  },
+  {
+   "id": "carins",
+   "label": "자동차보험",
+   "kind": "상시테마",
+   "count": 3
+  },
+  {
+   "id": "ga",
+   "label": "GA·설계사 제도",
+   "kind": "상시테마",
+   "count": 8
+  },
+  {
+   "id": "sonhae",
+   "label": "손해율·보험료",
+   "kind": "상시테마",
+   "count": 1
+  }
+ ],
+ "items": [
+  {
+   "title": "금감원, 의료기관 주도 보험사기 하반기 집중조사…자동차보험 경상환자 보호방안도 논의",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5tcU1BTzA0YVJHbHN1U1RwRWNMRXBJckNXbnZjZmI4akphLWxPMlhiblpRVmdSWjU3OVlRRzJhQUVrUW9nWUxIeXpvMkw5aW90em8wVHBEdzVMYzhvMVhYNnZBSWsxMGFIQkV5T1FnOA?oc=5",
+   "press": "보험저널",
+   "summary": "",
+   "others": 0,
+   "topics": [
+    "carins"
+   ],
+   "publishedAt": "2026-08-31T01:26:12.000Z"
+  },
+  {
+   "title": "1200%룰 확대에 '신인 보험설계사' 쟁탈전 과열 조짐…연 1800만원 지원",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE54bExXZl9ubFFjdlFxRzVLSExLNHVBXzd1UDdQa1VsblVVZjhzLWtMVHNNbmhJXy1zOHgtbzFUTDhEVmZxSW5qYlcwZi11UQ?oc=5",
+   "press": "전자신문",
+   "summary": "",
+   "others": 1,
+   "topics": [
+    "ga"
+   ],
+   "publishedAt": "2026-08-31T01:03:41.000Z"
+  },
+  {
+   "title": "GA설계사 ‘1200%룰’의 새 풍선효과… ‘수수료율 경쟁’에서 ‘고액계약 경쟁’으로 이동 조짐",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBEVUxVRVdpVlRnXzZnUnNOaTVxeU5qVVlnNVB2UmZTaFFsWmt1YU1talpnem4tOWpORnAyejMxcTY5NzE0djlyZDJtaW92OWxsNUFiUDJyejNYV0JkbGo0eHBuSkw3eFpoZ2NhRi1JSQ?oc=5",
+   "press": "보험저널",
+   "summary": "",
+   "others": 0,
+   "topics": [
+    "ga"
+   ],
+   "publishedAt": "2026-08-30T22:41:30.000Z"
+  },
+  {
+   "title": "GA 내부통제 60점 ‘현장 관리’에 몰렸다…DB·지사 통제가 성적 가른다",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5LekctWjFPZVkzenBPaFdmR1F5Y0JkMFJTTEVnZUNVNVZ3TGVFRHNUdXN2UEJreVIzeFltTW00NjA3ZllqaUgxRDJlMHBhcmRxaTRrRzlubzdBRzgwQU0tRzRmZGR2WU1R?oc=5",
+   "press": "보험매일",
+   "summary": "",
+   "others": 0,
+   "topics": [
+    "ga"
+   ],
+   "publishedAt": "2026-08-30T21:42:59.000Z"
+  },
+  {
+   "title": "한방첩약·약침 처방·시술 횟수 제한 자보 손해율 안정화 기대",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE10OG5wYkt4SGNabVdHbUY4emhKWWZ5SmQ5N01uMEdQZ3lvWG5fVnY1TU13cW85bjBadEdGRXYyYVF2dFA3S0hBZGQ1UEdld3BRa0x5YVI5ZUdlWEFzb2Y5cy1kLVVLbTVnTERz?oc=5",
+   "press": "보험신보",
+   "summary": "",
+   "others": 1,
+   "topics": [
+    "carins"
+   ],
+   "publishedAt": "2026-08-30T15:00:00.000Z"
+  },
+  {
+   "title": "[기자수첩] 설계사 영입전 바꾼 1200%룰…‘정착’에 방점",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1rc3NKSHJ4ZFdDODhwaDVZc251TXNIc2lwWEh3MEkxZDllZHMzLWhJSHZwYlZlbUduX2pWYnZyWEV4TVhxLWwxbEc1LUFlcVJjdmJOQlJXeTlzQnE3MnFhMDZLZDlNTFVWTm5UcHh3eFhUYkNHNmhGOVlDb2Q?oc=5",
+   "press": "한국금융신문",
+   "summary": "",
+   "others": 0,
+   "topics": [
+    "ga"
+   ],
+   "publishedAt": "2026-08-30T15:00:00.000Z"
+  },
+  {
+   "title": "보험권 내부통제 강화… 사기 가담자 진입 차단한다",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1Wb09scVJ3YWdKLVJjTlhpOWtWU3hrQ1BfSWJ6NzNKTzJXWTAzdnUxOGd5dkxFd2tUQ1ltZ3k2UjdkbkNnOUJqOWlyZ0RiV3ZJMkl4YVVtLUpybnpaTWFzdXJ2Zmx6ZWE2RXNv0gFvQVVfeXFMUHlNaG44dFkxNEJwT21VWnJ5RG5iUVRqSEYzd2FsMmVHWWFad1ZJWTJTNHRyVllLNkVpTnBOWHJVVVowVDlVaHU4NDNsWjBoODlZRUE5d0kzRV9vYm5fRFlJQ01mclVkS2FVOHh5Tk9F?oc=5",
+   "press": "한국보험신문",
+   "summary": "",
+   "others": 0,
+   "topics": [
+    "ga"
+   ],
+   "publishedAt": "2026-08-30T15:00:00.000Z"
+  },
+  {
+   "title": "프리랜서 원천징수 3.3→2.2%… 보험설계사는 제외",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBRMVpYbktHUUNzc0s1b0YwT25obmdnUXBOS3ZYQnp2TXU2UEJTa0V5T0hISFE5cW45NlNnTHVPTzB5WEI2aWJ0TTJSbFR1bjBEcG5kWElPUHd0d0Z2MmFyWUtUdWJNNVlEYVBj0gFvQVVfeXFMT21NZGYtaEMtSHpiSmhNM1F4V3FwMmowSjNOWEIzRUh0bFM3d2dSa2VHcTRId2Z1cG5kZTE4Nlo1UmNPUUVaM2lOeG50eDhGZ1kyZXBhUUFIalZpVWdUR0hiVzcwZE9PMVJ2cDA4MXlr?oc=5",
+   "press": "한국보험신문",
+   "summary": "",
+   "others": 1,
+   "topics": [
+    "ga"
+   ],
+   "publishedAt": "2026-08-30T15:00:00.000Z"
+  },
+  {
+   "title": "[사설] 불완전판매 책임은 현장이 우선이다",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE01SnZlNF9QNk5lWnR3WXo0eGlNSDJqSUQ1b2tOeE4xSUpoX0NsenlDTjdLLVdudVpKbk9IdGtkZ0FwNkZKNk9qTEFxZ1dRYmtWRF9tZGZ4ZnlucklJalpfNkpPN2JaVzRGZkcw?oc=5",
+   "press": "보험신보",
+   "summary": "",
+   "others": 0,
+   "topics": [
+    "ga"
+   ],
+   "publishedAt": "2026-08-30T15:00:00.000Z"
+  },
+  {
+   "title": "자동차보험 비교 구조와 원리…가입 전 반드시 확인해야 할 핵심 기준",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5PaU9PZDR2ZmFsN0lwcW16dmt4WUtydlZhZXJnQnZDTkU0Qk9Bclo1RnVteVdnMElKT1FFaTZud2VCNWl4Tm1XdDRGd3FqVXNCNGsxRE1XQkNrTFZ5YXZCSUZNdDdGUEZ5Tmw2Nmt1T0hQOEU?oc=5",
+   "press": "스페셜타임스",
+   "summary": "",
+   "others": 0,
+   "topics": [
+    "carins"
+   ],
+   "publishedAt": "2026-08-30T13:02:13.000Z"
+  },
+  {
+   "title": "[단독] 생존권 걸린 해에 '도수치료 보험' 교육은 2시간뿐…내용은 죄다 '미정'",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5MM0V0bTFJS3FzYXFhV3AtcDU0Z2d6eWFNRUdMZ2ZKRDVKSDVPMVB4SmNOQTIyVTN6RTgxM0J3cVlMNFJUMUpEc2ZYTGx0dEtKOEpuM016YWtPalBkWUxSTDZjNmt3WEdtb1NENXdSd9IBb0FVX3lxTE5MM0V0bTFJS3FzYXFhV3AtcDU0Z2d6eWFNRUdMZ2ZKRDVKSDVPMVB4SmNOQTIyVTN6RTgxM0J3cVlMNFJUMUpEc2ZYTGx0dEtKOEpuM016YWtPalBkWUxSTDZjNmt3WEdtb1NENXdSdw?oc=5",
+   "press": "서울일보",
+   "summary": "",
+   "others": 2,
+   "topics": [
+    "gwanri"
+   ],
+   "publishedAt": "2026-08-30T10:21:09.000Z"
+  },
+  {
+   "title": "[공공간병은 언제쯤?] 간병 SOS 참여 시·군 느는데…경기도는 '재정 비상'",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5fRm5lRFhTczN6bktKRlNBM3NDSDRzVkJMRGtvSmtpZ0NkWE5tTVpoUG5mRWlXRXVsOEhBcmE1cnNHQ21SQ2tQek9GeERqZVRxQlBJQkJjX0NVSkhOeTNITTFR?oc=5",
+   "press": "경기신문",
+   "summary": "",
+   "others": 0,
+   "topics": [
+    "ganbyeong"
+   ],
+   "publishedAt": "2026-08-30T06:53:01.000Z"
+  },
+  {
+   "title": "\"보험금 대신 간병인 지원\"…간병보험, 현물급부 승부수",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1yTzlTNlRaZFZ5c2s4RkE2YXppMy1FRUZyQkFmRVBBeEVOZ2NTSHRIaklLOVZDS2JtRGItQjlEdDJyQU9ZQklja3dFVWhmM0trWmhUaXBRQ2FZdkJKUzlVaG9lVG1kNUl6ZURlOHdrcUM?oc=5",
+   "press": "신아일보",
+   "summary": "",
+   "others": 2,
+   "topics": [
+    "ganbyeong"
+   ],
+   "publishedAt": "2026-08-30T02:30:00.000Z"
+  },
+  {
+   "title": "보험업계 9조원 벌 때 하나손보 711억 적자…왜 유독 컸나",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1aZDJnYmdOT2NYa1ZmbWpaTzlRd1lmNWd0RFV1RlJNUndzNnFtNzN1TE9GaGFNampselNhbVNlYjA5MjB5MkxQZU1fTFFxUl9OdHY4RGZ0NmE4TFM0N3dmU1BLSQ?oc=5",
+   "press": "쿠키뉴스",
+   "summary": "",
+   "others": 3,
+   "topics": [
+    "sonhae"
+   ],
+   "publishedAt": "2026-08-29T21:00:03.000Z"
+  },
+  {
+   "title": "정부, 편의점 알바 구하듯 ‘간병 알바’ 쓰게 한다는데…",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPU1BJRTQ3MGRQUmNoOUJWQWVRWjFZeVctdlRmUWxFbFJEV2djSGRzVkt3V3g5aGFrWHVLMEJwYWF6UmhWT05BdVY3bW1QSHo5OC01RFNKRXhoemtXREZMT2JzLUVTSmxZR2syaW5kcW5TajVvRldGanc5Sk5iY29mZ3lQMlYzdUJmTkJsY1puNA?oc=5",
+   "press": "조선일보",
+   "summary": "",
+   "others": 0,
+   "topics": [
+    "ganbyeong"
+   ],
+   "publishedAt": "2026-08-29T07:28:42.000Z"
+  },
+  {
+   "title": "하나금융파인드 “이직 설계사 영업방해 사실무근…청약제한은 한 달”",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBBRHhxRWZYYThpeW9qU2xkX2lYNjh4by11RTNoZ1VSSkcyZnpyd3lBU21HSk9SV3J3X3kxRGQtVzU4bUJsekZiaktEWG4wcVplc2U5ZlV1blJpTFgzRHYxeWdvM3JSaXZTTDV2TF9oRQ?oc=5",
+   "press": "이코노미사이언스",
+   "summary": "",
+   "others": 0,
+   "topics": [
+    "ga"
+   ],
+   "publishedAt": "2026-08-29T04:29:05.000Z"
+  }
+ ]
+}

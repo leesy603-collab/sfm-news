@@ -1,0 +1,43 @@
+name: news
+
+on:
+  schedule:
+    # GitHub Actions 는 UTC 기준. 스케줄은 정각 보장이 아니라 수 분~수십 분 밀릴 수 있다.
+    - cron: '40 21 * * *'        # 06:40 KST — 아침조회 전에 채워두려고 20분 당겨 둔다
+    - cron: '0 1,4,7,10 * * *'   # 10 / 13 / 16 / 19 시 KST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: news
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: 자체검사
+        run: node collect.mjs --test
+
+      - name: 수집
+        env:
+          NAVER_KEY_ID: ${{ secrets.NAVER_KEY_ID }}   # NAVER API HUB 키 (없으면 구글 뉴스만)
+          NAVER_KEY: ${{ secrets.NAVER_KEY }}
+        run: node collect.mjs
+
+      - name: 변경분만 커밋
+        run: |
+          git config user.name  "news-bot"
+          git config user.email "news-bot@users.noreply.github.com"
+          git add docs/news.json
+          git diff --staged --quiet && echo "변경 없음" && exit 0
+          git commit -m "뉴스 갱신 $(TZ=Asia/Seoul date '+%m.%d %H:%M')"
+          git push
