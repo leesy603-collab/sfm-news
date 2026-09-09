@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-09T13:59:31.112Z",
+ "updatedAt": "2026-09-09T23:29:24.762Z",
  "naver": false,
  "topics": [
   {
@@ -12,19 +12,19 @@
    "id": "susul",
    "label": "수술비",
    "kind": "담보",
-   "count": 2
+   "count": 1
   },
   {
    "id": "chiryo",
    "label": "치료비",
    "kind": "담보",
-   "count": 3
+   "count": 1
   },
   {
    "id": "silson",
    "label": "실손",
    "kind": "담보",
-   "count": 10
+   "count": 9
   },
   {
    "id": "jeongchaek",
@@ -34,20 +34,6 @@
   }
  ],
  "items": [
-  {
-   "title": "내일부터 자동차보험 ‘8주룰’…손해율 개선 기대 속 ‘풍선효과’ 변수",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4waDk1Y25TZ1hkcFpPeEp1aHFsTzJBbDlxUlNleTU2bVdXa3FQXzd1UWpsbktwVUZsSEtTRnF2cWl0Njd0bVYzdGpoQTVsMVJQMkdYcA?oc=5",
-   "press": "이투데이",
-   "summary": "",
-   "others": 1,
-   "topics": [
-    "jeongchaek"
-   ],
-   "score": 5,
-   "tier": 3,
-   "publishedAt": "2026-09-09T06:54:00.000Z",
-   "firstSeenAt": "2026-09-09T13:59:31.112Z"
-  },
   {
    "title": "자동차보험 '8주룰' D-1…성패는 '꼼수 진료' 차단",
    "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNQ3M5cTdTeTBuTXRzRGdEUnFkTkU2RWRLeU5vbjJHWTR0UFdsTXhtZGs0T01uclpnam5JZm5GY29YNU94RzNHREx0QlEzbkxRc1ZQc0RibmY0V1hXSFhzOU1hb1cxdHlSTlpNS1QzZnNsWkQtQVhETnVNR0g1aU9Xb1dqazU0djNvZThCQjRkMXJCUGFWdERzWE56QV8wZGJyNXFrRkM5MEI3OXBfQlhtTjJTcUdhQkhHMlFaOVVOSzc1ci01Q2FrOXZlM0xneWQzV2xVRXVHMmlmRTlWSEp4cHRFcTY0QllOejRZWldjTjBGYUZvU2FrWA?oc=5",
@@ -77,18 +63,18 @@
    "firstSeenAt": "2026-09-09T08:31:10.155Z"
   },
   {
-   "title": "환자 지갑 터는 비급여 항목…치료재료·암치료비 증가세 '뚜렷'",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBqOHV4bThaZ3lWZjRfX09YN29KUVllSFY3T1VSYWxrVnhEY00zN2dyWS01bExnOUE4UEVKcmZTdnVkTjF2TnhiYjNYNW9XQWFNMGc?oc=5",
-   "press": "노컷뉴스",
+   "title": "병원급 비급여 월 7499억원…정부, 관리급여 확대",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB6SEU1TWUzbU1OdU1vbDU0ZzZMem9YUzhjSGZFWTNxcnhmQzlLWGxhamxSWXdlWi1NUnd4ZUJJUHFCX1pDMUlSNmlzLVU?oc=5",
+   "press": "전자신문",
    "summary": "",
-   "others": 0,
+   "others": 1,
    "topics": [
-    "chiryo"
+    "jeongchaek"
    ],
-   "score": 7,
-   "tier": 3,
-   "publishedAt": "2026-09-09T03:00:00.000Z",
-   "firstSeenAt": "2026-09-09T08:31:10.155Z"
+   "score": 5,
+   "tier": 1,
+   "publishedAt": "2026-09-09T04:26:19.000Z",
+   "firstSeenAt": "2026-09-09T23:29:24.762Z"
   },
   {
    "title": "[국감이 묻는다⑥] 신규는 4만건인데 전환은 7258건…5세대 실손의 벽",
@@ -103,6 +89,20 @@
    "tier": 3,
    "publishedAt": "2026-09-09T03:00:00.000Z",
    "firstSeenAt": "2026-09-09T08:31:10.155Z"
+  },
+  {
+   "title": "9월 10일부터 자동차보험 바뀐다…경상환자 ‘8주 치료’ 기준, 무엇이 달라지나",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wcFd2NzhVV09DUFVqb3EwUFJ0cUpSLWFkc1Y4cmluTTEybml6djRfWHZVbnNRb0pWR1YxMTlIemdZa2RRMThMVHR0U3hqS0tmdWN5bVRpQXYtb0t1bU5GZThkVWRjM1VLdnQ3VGVKUdIBckFVX3lxTE1xU0h6di1ibEUwOXNad25hMVFrdXYtT0wxRVVEU0lXM1BrdFgzdmF0TjVrdFZiV2RTVlZ3VFJWRUJEMTd4RWdvcjl3SGpUaG80MVlQZmlkWlp4Q1dxMkhMY0E5LVF0NDlUbks3ZEl0UmpoUQ?oc=5",
+   "press": "강릉뉴스",
+   "summary": "",
+   "others": 0,
+   "topics": [
+    "jeongchaek"
+   ],
+   "score": 5,
+   "tier": 3,
+   "publishedAt": "2026-09-09T02:01:29.000Z",
+   "firstSeenAt": "2026-09-09T23:29:24.762Z"
   },
   {
    "title": "의사 10명 중 8명 ‘비급여 관리 정책’ 부정적… “진료 자율성 위축 가장 불만”",
@@ -141,7 +141,7 @@
    "topics": [
     "silson"
    ],
-   "score": 7,
+   "score": 4,
    "tier": 3,
    "publishedAt": "2026-09-08T21:00:00.000Z",
    "firstSeenAt": "2026-09-09T13:59:31.112Z"
@@ -155,7 +155,7 @@
    "topics": [
     "ganbyeong"
    ],
-   "score": 7,
+   "score": 4,
    "tier": 2,
    "publishedAt": "2026-09-08T15:00:38.000Z",
    "firstSeenAt": "2026-09-09T08:31:10.155Z"
@@ -193,7 +193,7 @@
    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1OZmtVRUZBZmtlUnh6VGpEYVJuaWFvNE1MRVFwT1RkaktlVXIwMWh3NFd4a3dlZlhQbmVUZE1vQ1pBSjNsNXYyUmYwUWxuQ204RE9BMUF1VmwwQW1uOVBJLXZFellXR29iZWdz?oc=5",
    "press": "라이센스뉴스",
    "summary": "",
-   "others": 9,
+   "others": 6,
    "topics": [
     "silson"
    ],
@@ -207,7 +207,7 @@
    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9WOG96eGJ5Y1pUVWZrcW4yTFpNMVhTZFR6ano1azBSWE1PRXVYWDNzYkZoRFRGaFpuaWlXYlZVSkx6LW1NOEpTc1RSOTBXZUY1XzF1aTFZLXNqV1pJNVVGYTM5eGxUUTE3elZlMUM2R284WFU?oc=5",
    "press": "오늘경제",
    "summary": "",
-   "others": 11,
+   "others": 9,
    "topics": [
     "jeongchaek"
    ],
@@ -231,20 +231,6 @@
    "firstSeenAt": "2026-09-09T08:52:37.995Z"
   },
   {
-   "title": "입원일당·간병특약 보장 대폭 축소?…제3자 리스크관리 파장",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1HZXg1MDdHQ1hjYllhWDdXVlpMdjBJaENjNW8xckEtQXFDTWVnZnU4cllHemdDM0hEb0VfaFh0TzJIc0NZcGVYSnVCY2ZpVUYwLVJRRW81aW45MUp1NjhqOGUtNUpiWF9qcXNV?oc=5",
-   "press": "뉴스포트",
-   "summary": "",
-   "others": 0,
-   "topics": [
-    "ganbyeong"
-   ],
-   "score": 2,
-   "tier": 3,
-   "publishedAt": "2026-09-08T00:01:43.000Z",
-   "firstSeenAt": "2026-09-09T08:52:37.995Z"
-  },
-  {
    "title": "[단독] 차보험 '8주룰' 시행 사흘 앞…심사위원 위촉 미완료",
    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5zS19DVlFzenFsRXY3b2RFVktoN0RIUFB2TDVwTXFfb1dEcnZsSzd2X0I1dFBXbUVKcWxSakdpaWt5NFNHVTVORFE2MEtLZnBGeDRmSUg4VkRRWkN2TUNHVDBoRmRlX2FKZVdlVW52TVHSAXRBVV95cUxQTHVBaFl0Rkkwdmh4ZExLQ0tTcDlWUElSWVU3NWJ3NHliejVzYjh1RmRmRktSUnRzWVloaURIbzNXQWNQTVQwRGdwMkFNWlNDYW1UYzRlWnpQR1A0X2gtZFVZbnhGQTRMQWtFc05xVWV5X3hkVQ?oc=5",
    "press": "포인트데일리",
@@ -259,18 +245,18 @@
    "firstSeenAt": "2026-09-09T08:52:37.995Z"
   },
   {
-   "title": "의료급여, 요양급여 항목에 간병 포함 추진",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBLQUEtbTVqZDNBamJlZmRTNjhId1AzNGMyUzZiX21PMlBqZnpwaVBMeVhPdjBjYVB0V2VmWC1PbW9MVXEzMVloRzlpNkJ4OG9aSHBIdHgzNkpvLWtqUThHZUpubzQ3eHpBaEE?oc=5",
-   "press": "병원신문",
+   "title": "'간병비 부담' 완화될까?",
+   "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFAyMjVNczluTWtWUHlpcGdua0ZERHUyOXMwcGlueGxSZTFfcGFOdmp1M0YtcmFvZmFWa2x0aFZjZFJiQ3Rn?oc=5",
+   "press": "시사코리아",
    "summary": "",
    "others": 0,
    "topics": [
     "ganbyeong"
    ],
-   "score": 2,
+   "score": 4,
    "tier": 3,
-   "publishedAt": "2026-09-07T00:54:56.000Z",
-   "firstSeenAt": "2026-09-09T08:52:37.995Z"
+   "publishedAt": "2026-09-07T02:30:00.000Z",
+   "firstSeenAt": "2026-09-09T23:29:24.762Z"
   },
   {
    "title": "박용갑, 상속인이 부담한 치료·간병비도 상속재산서 공제 추진",
@@ -285,6 +271,20 @@
    "tier": 3,
    "publishedAt": "2026-09-06T23:07:56.000Z",
    "firstSeenAt": "2026-09-09T08:31:10.155Z"
+  },
+  {
+   "title": "간병비 건강보험·의료급여 적용 추진…취약계층 본인부담 면제",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBrOFlLUEgtSEdKRU1fMXBwdnlPaUxYRTZuUDR0LUlQTzFxZUR4eEVwemlIMDh5THhwT3dHcFlNQkVYY001clZrRGJteVBoVElyM0F2UkZrVnNpMEktNXBJX0VPNW5aZWJFNUpIbDhB?oc=5",
+   "press": "뉴스더보이스헬스케어",
+   "summary": "",
+   "others": 0,
+   "topics": [
+    "ganbyeong"
+   ],
+   "score": 4,
+   "tier": 2,
+   "publishedAt": "2026-09-06T21:11:33.000Z",
+   "firstSeenAt": "2026-09-09T23:29:24.762Z"
   },
   {
    "title": "하지정맥류 실손보험 심사 강화에 관리급여까지 ‘이중 압박’",
@@ -305,7 +305,7 @@
    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9BNHFGTjVxODdpVDk0X25FM2pjeHpwNGN2b3FnS3g4QnY0M1ZKYlpUVU5JcHlOWXNIU1pRRk1aandUYmFhYmR2dVpBbTkzZ1lYdl9Sak9rRjQ2WDZUbXU1WDA2cGxPb2ZSZjhNV0FrY9IBb0FVX3lxTE9BNHFGTjVxODdpVDk0X25FM2pjeHpwNGN2b3FnS3g4QnY0M1ZKYlpUVU5JcHlOWXNIU1pRRk1aandUYmFhYmR2dVpBbTkzZ1lYdl9Sak9rRjQ2WDZUbXU1WDA2cGxPb2ZSZjhNV0FrYw?oc=5",
    "press": "한국보험신문",
    "summary": "",
-   "others": 6,
+   "others": 3,
    "topics": [
     "silson"
    ],
@@ -315,32 +315,33 @@
    "firstSeenAt": "2026-09-09T08:31:10.155Z"
   },
   {
-   "title": "\"3년간 보험료 반값\"…5세대 실손 '환승' 고민하시나요",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5Zc29qLWtocWJhTG0yemFmWl9HNEIwaHY4b2dGdmYyS2lMcjVKUkNvRlI4N2RNQ2FKZjI1YkptbWJIS1o1QnZoUlhHT0xYVlhjeWpWcDU1MTNMdw?oc=5",
-   "press": "한국경제",
+   "title": "박용갑, 사회복지사 보호부터 간병비 부담까지 복지법안 잇따라 발의",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1uSkVOMVhrdUh2bTJLS0w4a1VKaG9pZWJTcGs4V3J6eV8wYkFIbnRza0RuamwyckF6cjVHaENaRFhMRk14dzByUFFHMmFVMTVCbEpPeGdiQWtMMUU5b2o3TFlvZHkwc05CQkE?oc=5",
+   "press": "충청매일",
    "summary": "",
-   "others": 5,
+   "others": 0,
    "topics": [
-    "silson"
+    "ganbyeong"
    ],
    "score": 4,
-   "tier": 1,
-   "publishedAt": "2026-09-06T09:19:27.000Z",
-   "firstSeenAt": "2026-09-09T08:31:10.155Z"
+   "tier": 3,
+   "publishedAt": "2026-09-06T08:55:26.000Z",
+   "firstSeenAt": "2026-09-09T23:29:24.762Z"
   },
   {
-   "title": "도수치료 관리급여 시행 두 달...치료공백 현실화",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4xOUlvTUM4XzhXNUVZQlI5akI2YzFTTjFjN3JoaGpLcEdrOXRLai1IQnBXOG9FVWhqR1J6b1BqcnA0bUo2Ym15MWRfNTVNclJ5NGpfQm80MGlURFdrLUN4TnlRN3NtSmEyQ1E?oc=5",
-   "press": "의학신문",
+   "title": "‘간병 파산’ 막는다… 박용갑 의원, 간병비 급여화·세제 개편 ‘간병비 3법’ 대표발의",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBHcHNPYkN2YW16T2s2OEE4bU1tWEhwdS1fN3FwaGFHd0JsbWNYcmtNQ2NVMzU3Y0w3eDRKOUJDZGZWTWQ2cTk4UUZ4M2xOQm1wMEtEWmpn?oc=5",
+   "press": "위키트리",
    "summary": "",
-   "others": 3,
+   "others": 4,
    "topics": [
+    "ganbyeong",
     "jeongchaek"
    ],
-   "score": 2,
-   "tier": 2,
-   "publishedAt": "2026-09-06T05:00:00.000Z",
-   "firstSeenAt": "2026-09-09T08:52:37.995Z"
+   "score": 4,
+   "tier": 3,
+   "publishedAt": "2026-09-06T06:56:00.000Z",
+   "firstSeenAt": "2026-09-09T23:29:24.762Z"
   },
   {
    "title": "[문혜원의 e콕보험] '간병인보험' 보상한도 한시적 상향...보험사 속내는?",
@@ -357,20 +358,6 @@
    "firstSeenAt": "2026-09-09T08:31:10.155Z"
   },
   {
-   "title": "월 370만 원 ‘간병비 폭탄’ 줄인다…박용갑, 건강보험부터 상속세까지 ‘간병비 3법’",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9CeFVkeDltRjRTcG14YzZMUzJMV0VwUkh5dzdLM0VKZVhnb2VIZXJDc25OY0VRQk5HVk5DaFNnZTN2MTRuWllBaDAyeEM2QjItUXdxSW9uY0NxdHFsQVpINjh4TmNFTTJLRnRjd0tB?oc=5",
-   "press": "뉴스홈(newshome)",
-   "summary": "",
-   "others": 0,
-   "topics": [
-    "ganbyeong"
-   ],
-   "score": 4,
-   "tier": 3,
-   "publishedAt": "2026-09-06T01:58:05.000Z",
-   "firstSeenAt": "2026-09-09T13:59:31.112Z"
-  },
-  {
    "title": "PD-L1 낮은 폐암 치료 ‘옵디보+여보이’ 병용요법 관심↑…“비용 부담 관건” [쿠키인터뷰]",
    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9lNEZleXJSMS1PRHVaVUFuVFpKQVlJZnN2UktLdE9GNy1PWFk2NHpKVWJsUm04emRIQzE0NnVoZlJtUWZnbW9KYnBFLUxVNlNfWktUSUxxNTFQWXR5eU5EczQ5NA?oc=5",
    "press": "쿠키뉴스",
@@ -385,21 +372,6 @@
    "firstSeenAt": "2026-09-09T08:52:37.995Z"
   },
   {
-   "title": "박용갑 의원, ‘간병비 급여화’ 추진…취약계층 부담 없앤다",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE05MGM2YUZFY3lhZ3Zwb3lNOHN0U0RmSUFlWHd4Q3R5RlJ5SFozZjEtS2M0SVFCbWpUanpmRzJWQXJDVmQ1TmljQjZRQ0JlTVVHNDBqVU5MUHdQcExnV056SERERlNyeTY1c0hGWg?oc=5",
-   "press": "공뉴스",
-   "summary": "",
-   "others": 6,
-   "topics": [
-    "ganbyeong",
-    "jeongchaek"
-   ],
-   "score": 4,
-   "tier": 3,
-   "publishedAt": "2026-09-06T00:29:12.000Z",
-   "firstSeenAt": "2026-09-09T13:59:31.112Z"
-  },
-  {
    "title": "가계대출·5세대 실손·레버리지 ETF…금융권 흔들 국감 핵심 쟁점",
    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5RSXBuZ3BtaTU4OGttR29CR1dnRDFTRUNQUXllcDJtcFdCM2VpUUZqREFNTE1paTV3WWFBa3dSX0dRU3pPbUJEb0ZWMzR2cGdsU3pscnRTRXdJajl4MnlWREJBLTFQMDdqYWgtbHNRb3k?oc=5",
    "press": "신아일보",
@@ -412,20 +384,6 @@
    "tier": 3,
    "publishedAt": "2026-09-05T21:00:00.000Z",
    "firstSeenAt": "2026-09-09T08:55:31.715Z"
-  },
-  {
-   "title": "60세 이상 수술 환자의 85.8%가‘백내장’",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9RMDBFdXh6Y2VvQnI0MVVkSTJyaGxTMFJkSVFkMUZBcWJZMjZxQkliYm5PNkp4ajhFeWplN2xGdmp5OEprVXA2OFVCbHREclJYZ29pcnZQSndYNVk5bGJocGhBdDhlZ2k5SGVn?oc=5",
-   "press": "백세시대",
-   "summary": "",
-   "others": 1,
-   "topics": [
-    "susul"
-   ],
-   "score": 2,
-   "tier": 3,
-   "publishedAt": "2026-09-04T07:27:32.000Z",
-   "firstSeenAt": "2026-09-09T08:31:10.155Z"
   },
   {
    "title": "IM라이프, 치매간병보험 출시…연금 넘어 노년기 보장까지",
@@ -456,9 +414,9 @@
    "firstSeenAt": "2026-09-09T08:31:10.155Z"
   },
   {
-   "title": "4세대 실손보험료 최대 300% 할증? 5세대 출시 후 달라진 점",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84YzBuNjRKZFRmRTlPYVlRVHBjR1ppXzhEd1Z2d0NOLTF1T0sxMEFRalVZb2FkTDhrdlRTeGsyRHFvZk9admFTN3dDUkRPR0dtYnVzYWx6SnM1ZklrWTJNc2RjdmxPWWc?oc=5",
-   "press": "KB Think",
+   "title": "보험료 반값인데도 안 갈아탄다…‘5세대 실손’ 앞에서 멈춘 가입자들",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBORnl1bjhSNHhYZTlJMThoUDdpYzhrTHRwOEJIcTliVHprb2U1djRta2NMS0hEQjkwVWZxWHE0UnhfMkRJd0Z3WjBlV1d5MHpFazFmNmtDaEcxTE9hbUJvWTNoWkM?oc=5",
+   "press": "용인신문",
    "summary": "",
    "others": 1,
    "topics": [
@@ -466,15 +424,15 @@
    ],
    "score": 4,
    "tier": 3,
-   "publishedAt": "2026-09-03T04:05:00.000Z",
-   "firstSeenAt": "2026-09-09T08:52:37.995Z"
+   "publishedAt": "2026-09-03T01:37:35.000Z",
+   "firstSeenAt": "2026-09-09T23:29:24.762Z"
   },
   {
    "title": "[실손보험] 보험료는 절반인데 보장은 축소…1·2세대 가입자, 5세대 실손으로 갈아타야 할까?",
    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA5U0R6cG9FUVlKYXd3bmRvWmk3a0tmT19KdkhhLWdKUWxQc2xXRE0xOVc5RXg5LTBxSFR2eFVkcE02UllsTmVtZk5nS0dZWnBLajN1N0tiRDV1UHdTbEYxTlo3RXFrT2lOdXJjQtIBcEFVX3lxTE1OQVVNWFNPREM3RDNzQ2xpdk9ia3JYV29mcVRjdlB5R3lnLUViV1BxMkwtamRPdmsyM0wwQklpMHU0M3c0b3NPZklxUGZkVkV6ajF4RnEwSkZQY3lHQm9jS2kzd3BiYzFQV3dPWjFycC0?oc=5",
    "press": "내외뉴스통신",
    "summary": "",
-   "others": 0,
+   "others": 1,
    "topics": [
     "silson"
    ],
@@ -488,7 +446,7 @@
    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9fRmtSMXNiTktqb013d0ptQnVaLUEzZ2hzUi1IeE1lYnduLVJhQ2M4WXlNZDhSTGdtYWNQcEFNVW1qZHVJSHJBcXpDY21DSEpNMEo3WEJqa2h5ZDNGVUNfeEhlMTVzNjJMRXc?oc=5",
    "press": "서울파이낸스",
    "summary": "",
-   "others": 1,
+   "others": 3,
    "topics": [
     "silson"
    ],
@@ -496,20 +454,6 @@
    "tier": 3,
    "publishedAt": "2026-09-03T00:00:00.000Z",
    "firstSeenAt": "2026-09-09T08:52:37.995Z"
-  },
-  {
-   "title": "담관암 표적항암제 '팁소보', 급여등재 마지막 관문 돌입",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5hc09LbDVuZm5VRzZ5alRFYUZqUm9Ed19rOHZXTTBtdmNLckNUNzRhZ3dBeGVqdFhPc0drMWpHdlppUjMtcC11Y0hIT005Tm1tT1VIdmdB?oc=5",
-   "press": "데일리팜",
-   "summary": "",
-   "others": 0,
-   "topics": [
-    "chiryo"
-   ],
-   "score": 4,
-   "tier": 2,
-   "publishedAt": "2026-09-02T21:00:54.000Z",
-   "firstSeenAt": "2026-09-09T08:31:10.155Z"
   }
  ]
 }
