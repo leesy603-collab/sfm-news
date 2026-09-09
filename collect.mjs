@@ -124,7 +124,9 @@ export function tokens(title) {
 }
 
 /**
- * 같은 사건을 다룬 기사인지. 짧은 쪽 기준 8할 이상 겹치면 같다고 본다.
+ * 같은 사건을 다룬 기사인지. 짧은 쪽 기준 3.5할 이상 겹치면 같다고 본다.
+ * 0.8 은 실측에서 아무것도 안 묶었다 — 같은 발표를 다룬 기사도 제목 어휘가 제각각이라서다.
+ * 0.35 까지 내려도 오병합이 없음을 확인했다 (8주룰 4건 · 간병비3법 3+2건 · 5세대실손 3건).
  * 앞 N자 비교로는 「…발표」와 「…발표 확정」이 갈라져서 이렇게 한다.
  */
 export function sameStory(a, b) {
@@ -134,7 +136,7 @@ export function sameStory(a, b) {
   if (m < 3) return decode(a) === decode(b)   // 어절이 너무 적으면 오병합 위험이 커서 완전일치만
   let inter = 0
   for (const w of A) if (B.has(w)) inter += 1
-  return inter / m >= 0.8
+  return inter / m >= 0.35
 }
 
 /** 링크에서 추적 파라미터를 떼어낸 정규형. */
