@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-09T08:52:37.995Z",
+ "updatedAt": "2026-09-09T08:55:31.715Z",
  "naver": false,
  "topics": [
   {
@@ -24,7 +24,7 @@
    "id": "silson",
    "label": "실손",
    "kind": "담보",
-   "count": 7
+   "count": 9
   },
   {
    "id": "jeongchaek",
@@ -34,20 +34,6 @@
   }
  ],
  "items": [
-  {
-   "title": "내일부터 자동차보험 ‘8주룰’…손해율 개선 기대 속 ‘풍선효과’ 변수",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4waDk1Y25TZ1hkcFpPeEp1aHFsTzJBbDlxUlNleTU2bVdXa3FQXzd1UWpsbktwVUZsSEtTRnF2cWl0Njd0bVYzdGpoQTVsMVJQMkdYcA?oc=5",
-   "press": "이투데이",
-   "summary": "",
-   "others": 1,
-   "topics": [
-    "jeongchaek"
-   ],
-   "score": 5,
-   "tier": 3,
-   "publishedAt": "2026-09-09T06:54:00.000Z",
-   "firstSeenAt": "2026-09-09T08:31:10.155Z"
-  },
   {
    "title": "자동차보험 '8주룰' D-1…성패는 '꼼수 진료' 차단",
    "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNQ3M5cTdTeTBuTXRzRGdEUnFkTkU2RWRLeU5vbjJHWTR0UFdsTXhtZGs0T01uclpnam5JZm5GY29YNU94RzNHREx0QlEzbkxRc1ZQc0RibmY0V1hXSFhzOU1hb1cxdHlSTlpNS1QzZnNsWkQtQVhETnVNR0g1aU9Xb1dqazU0djNvZThCQjRkMXJCUGFWdERzWE56QV8wZGJyNXFrRkM5MEI3OXBfQlhtTjJTcUdhQkhHMlFaOVVOSzc1ci01Q2FrOXZlM0xneWQzV2xVRXVHMmlmRTlWSEp4cHRFcTY0QllOejRZWldjTjBGYUZvU2FrWA?oc=5",
@@ -119,6 +105,20 @@
    "firstSeenAt": "2026-09-09T08:31:10.155Z"
   },
   {
+   "title": "[치매치료의 새 길]③쏟아질 수요 전망 속 '위양성·수가' 과제",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5Sd1Myc3ZVeUhiMVhmLXhLMkh5dGR1WHhGX1BISjFMV2lYOXhRTW9FWnZDVUo0NGlVb3B0Z0ozelV5dmJ3U3hvZzRZYnNySU1ZUUlvQkMyVlM4ZHVFVERucg?oc=5",
+   "press": "아시아경제",
+   "summary": "",
+   "others": 0,
+   "topics": [
+    "ganbyeong"
+   ],
+   "score": 5,
+   "tier": 1,
+   "publishedAt": "2026-09-09T01:02:00.000Z",
+   "firstSeenAt": "2026-09-09T08:55:31.715Z"
+  },
+  {
    "title": "의사 10명 중 8명 ‘비급여 관리 정책’ 부정적… “진료 자율성 위축 가장 불만”",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE94Z0dPSi1TaFBKTFFlQTMwYzN4X1lOQVRoWW94NlZoVGFYenMwMWpwTjVIU29zV0JjUFFkX09jVlVWM1pPZzFlV3ZqTjVZOFVBUXVDeG5zOFpjZ3cyVWFYYjM2VUJMRG9OcXFFa25zZGlRUWNwT1VWQUxXdEZLN00?oc=5",
    "press": "헬스조선",
@@ -173,6 +173,20 @@
    "tier": 3,
    "publishedAt": "2026-09-08T05:36:00.000Z",
    "firstSeenAt": "2026-09-09T08:52:37.995Z"
+  },
+  {
+   "title": "5세대 실손·GA 1200%룰 본격 점검…보험 국감, ‘현장 변화’ 따진다",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1OZmtVRUZBZmtlUnh6VGpEYVJuaWFvNE1MRVFwT1RkaktlVXIwMWh3NFd4a3dlZlhQbmVUZE1vQ1pBSjNsNXYyUmYwUWxuQ204RE9BMUF1VmwwQW1uOVBJLXZFellXR29iZWdz?oc=5",
+   "press": "라이센스뉴스",
+   "summary": "",
+   "others": 9,
+   "topics": [
+    "silson"
+   ],
+   "score": 4,
+   "tier": 3,
+   "publishedAt": "2026-09-08T03:00:00.000Z",
+   "firstSeenAt": "2026-09-09T08:55:31.715Z"
   },
   {
    "title": "[이슈] 車보험 '8주룰' 10일 시행...경상환자 장기치료 심사받는다",
@@ -268,7 +282,7 @@
     "ganbyeong"
    ],
    "score": 4,
-   "tier": 3,
+   "tier": 2,
    "publishedAt": "2026-09-06T21:11:33.000Z",
    "firstSeenAt": "2026-09-09T08:31:10.155Z"
   },
@@ -284,20 +298,6 @@
    "score": 2,
    "tier": 2,
    "publishedAt": "2026-09-06T20:50:00.000Z",
-   "firstSeenAt": "2026-09-09T08:52:37.995Z"
-  },
-  {
-   "title": "중국 장기요양보험, ‘지급 표준화’로 기금 관리 강화",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5IcWtFczBRQ0tnRHhhb1lWM0hmOW1pSUk2eDk5b2NYM19MV0Z5OFlpUTZ6dFdSN2xSWnBscmVPbWVvWVpEVXdCbVU0cGUyZ01NWFdaZ0Q3bkt4ZktCbEtFc3BDY2Y0TGtzRG9wRjM1RdIBb0FVX3lxTE5IcWtFczBRQ0tnRHhhb1lWM0hmOW1pSUk2eDk5b2NYM19MV0Z5OFlpUTZ6dFdSN2xSWnBscmVPbWVvWVpEVXdCbVU0cGUyZ01NWFdaZ0Q3bkt4ZktCbEtFc3BDY2Y0TGtzRG9wRjM1RQ?oc=5",
-   "press": "한국보험신문",
-   "summary": "",
-   "others": 1,
-   "topics": [
-    "ganbyeong"
-   ],
-   "score": 2,
-   "tier": 2,
-   "publishedAt": "2026-09-06T15:00:00.000Z",
    "firstSeenAt": "2026-09-09T08:52:37.995Z"
   },
   {
@@ -333,7 +333,7 @@
    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4xOUlvTUM4XzhXNUVZQlI5akI2YzFTTjFjN3JoaGpLcEdrOXRLai1IQnBXOG9FVWhqR1J6b1BqcnA0bUo2Ym15MWRfNTVNclJ5NGpfQm80MGlURFdrLUN4TnlRN3NtSmEyQ1E?oc=5",
    "press": "의학신문",
    "summary": "",
-   "others": 2,
+   "others": 4,
    "topics": [
     "jeongchaek"
    ],
@@ -361,7 +361,7 @@
    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9fZzllc2h4cEN1Q1NYaHJpY2xoVDlTUUNoLWpUdzNhbzZaQUd5MVp2YlRXQlc1S052Y0dGT0RpRXJsaEUyUzk0NXVfQkVjZVlHUVNDYWVybFhuaGhvc2dmSUx2VWoxZHl4SGpR?oc=5",
    "press": "일간투데이",
    "summary": "",
-   "others": 2,
+   "others": 1,
    "topics": [
     "ganbyeong"
    ],
@@ -385,6 +385,48 @@
    "firstSeenAt": "2026-09-09T08:52:37.995Z"
   },
   {
+   "title": "자동차보험 '8주룰' 시행 코앞…치료기간 늘리는 '풍선효과' 우려 - 머니투데이",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1TZHpfaDBYVUpuOTBxRWYwSHNKNTVac3VoWnhTVkRVNmZUZFFuaG5Sb1hGQnFfdHZCUUsxdzJrZDB1TWt1aE1YNEhCal9FYkdwRjRfRHpkZXFNRGhVaWFocDNhanNLSXRTb1RnZWlkNkFTc2JlVHAybUUweTNPZ9IBfkFVX3lxTE1TZHpfaDBYVUpuOTBxRWYwSHNKNTVac3VoWnhTVkRVNmZUZFFuaG5Sb1hGQnFfdHZCUUsxdzJrZDB1TWt1aE1YNEhCal9FYkdwRjRfRHpkZXFNRGhVaWFocDNhanNLSXRTb1RnZWlkNkFTc2JlVHAybUUweTNPZw?oc=5",
+   "press": "머니투데이",
+   "summary": "",
+   "others": 2,
+   "topics": [
+    "jeongchaek"
+   ],
+   "score": 2,
+   "tier": 1,
+   "publishedAt": "2026-09-06T00:53:10.000Z",
+   "firstSeenAt": "2026-09-09T08:55:31.715Z"
+  },
+  {
+   "title": "[기획]자동차보험 '8주룰' 실효성 의문…\"11급으로 진단명 바꾸면 그만\"",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5xa3NFcFBiWHRyOTRUWXBNamNELXlWWi10VEZBUG9oZVlBX21pQkw2amFQTmNtTDB0cURsd3hBbTFYbm82TGVSYVFEeWY5WXJkTGMwNkhSTTRYZGh4MWF4NGEzMTU?oc=5",
+   "press": "서울경제TV",
+   "summary": "",
+   "others": 0,
+   "topics": [
+    "jeongchaek"
+   ],
+   "score": 2,
+   "tier": 1,
+   "publishedAt": "2026-09-05T23:11:02.000Z",
+   "firstSeenAt": "2026-09-09T08:55:31.715Z"
+  },
+  {
+   "title": "가계대출·5세대 실손·레버리지 ETF…금융권 흔들 국감 핵심 쟁점",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5RSXBuZ3BtaTU4OGttR29CR1dnRDFTRUNQUXllcDJtcFdCM2VpUUZqREFNTE1paTV3WWFBa3dSX0dRU3pPbUJEb0ZWMzR2cGdsU3pscnRTRXdJajl4MnlWREJBLTFQMDdqYWgtbHNRb3k?oc=5",
+   "press": "신아일보",
+   "summary": "",
+   "others": 1,
+   "topics": [
+    "silson"
+   ],
+   "score": 4,
+   "tier": 3,
+   "publishedAt": "2026-09-05T21:00:00.000Z",
+   "firstSeenAt": "2026-09-09T08:55:31.715Z"
+  },
+  {
    "title": "60세 이상 수술 환자의 85.8%가‘백내장’",
    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9RMDBFdXh6Y2VvQnI0MVVkSTJyaGxTMFJkSVFkMUZBcWJZMjZxQkliYm5PNkp4ajhFeWplN2xGdmp5OEprVXA2OFVCbHREclJYZ29pcnZQSndYNVk5bGJocGhBdDhlZ2k5SGVn?oc=5",
    "press": "백세시대",
@@ -396,21 +438,6 @@
    "score": 2,
    "tier": 3,
    "publishedAt": "2026-09-04T07:27:32.000Z",
-   "firstSeenAt": "2026-09-09T08:31:10.155Z"
-  },
-  {
-   "title": "'보장 축소·전환율 저조'…5세대 실손 국감 예고",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE11MXZ4R25RczlYeFZLX1pSU21STmIzTDZjTG04NjJDRnZqX2doRS1ta1dJNGxINU1ad0lTd0F5ZWZqUUxQS0M4MnM2bmFUeG15Q09CYVFERHJ6V2Q0RWV5eA?oc=5",
-   "press": "뉴스토마토",
-   "summary": "",
-   "others": 7,
-   "topics": [
-    "silson",
-    "jeongchaek"
-   ],
-   "score": 8,
-   "tier": 1,
-   "publishedAt": "2026-09-04T06:32:12.000Z",
    "firstSeenAt": "2026-09-09T08:31:10.155Z"
   },
   {
@@ -437,7 +464,7 @@
     "susul"
    ],
    "score": 2,
-   "tier": 3,
+   "tier": 2,
    "publishedAt": "2026-09-03T05:36:54.000Z",
    "firstSeenAt": "2026-09-09T08:31:10.155Z"
   },
@@ -456,11 +483,25 @@
    "firstSeenAt": "2026-09-09T08:52:37.995Z"
   },
   {
+   "title": "[실손보험] 보험료는 절반인데 보장은 축소…1·2세대 가입자, 5세대 실손으로 갈아타야 할까?",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA5U0R6cG9FUVlKYXd3bmRvWmk3a0tmT19KdkhhLWdKUWxQc2xXRE0xOVc5RXg5LTBxSFR2eFVkcE02UllsTmVtZk5nS0dZWnBLajN1N0tiRDV1UHdTbEYxTlo3RXFrT2lOdXJjQtIBcEFVX3lxTE1OQVVNWFNPREM3RDNzQ2xpdk9ia3JYV29mcVRjdlB5R3lnLUViV1BxMkwtamRPdmsyM0wwQklpMHU0M3c0b3NPZklxUGZkVkV6ajF4RnEwSkZQY3lHQm9jS2kzd3BiYzFQV3dPWjFycC0?oc=5",
+   "press": "내외뉴스통신",
+   "summary": "",
+   "others": 0,
+   "topics": [
+    "silson"
+   ],
+   "score": 4,
+   "tier": 3,
+   "publishedAt": "2026-09-03T00:51:14.000Z",
+   "firstSeenAt": "2026-09-09T08:55:31.715Z"
+  },
+  {
    "title": "[2026 국감 프리뷰] 5세대 실손부터 부당승환까지 도마위에",
    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9fRmtSMXNiTktqb013d0ptQnVaLUEzZ2hzUi1IeE1lYnduLVJhQ2M4WXlNZDhSTGdtYWNQcEFNVW1qZHVJSHJBcXpDY21DSEpNMEo3WEJqa2h5ZDNGVUNfeEhlMTVzNjJMRXc?oc=5",
    "press": "서울파이낸스",
    "summary": "",
-   "others": 0,
+   "others": 1,
    "topics": [
     "silson"
    ],
@@ -479,7 +520,7 @@
     "chiryo"
    ],
    "score": 4,
-   "tier": 3,
+   "tier": 2,
    "publishedAt": "2026-09-02T21:00:54.000Z",
    "firstSeenAt": "2026-09-09T08:31:10.155Z"
   }
