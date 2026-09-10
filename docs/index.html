@@ -4,136 +4,212 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="light dark">
-<title>영업이슈 뉴스</title>
+<meta name="theme-color" content="#001E6E">
+<title>혜안 — 보험을 보는 눈</title>
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="혜안 — 보험을 보는 눈">
+<meta property="og:description" content="간병·수술비·치료비·실손·정책. 오늘 봐야 할 보험 이슈를 하루 다섯 번 골라 모읍니다.">
+<meta property="og:locale" content="ko_KR">
+<meta name="description" content="간병·수술비·치료비·실손·정책. 오늘 봐야 할 보험 이슈를 하루 다섯 번 골라 모읍니다.">
+<link rel="manifest" href="manifest.json">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500;700;900&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500;700;900&family=Gowun+Batang:wght@400;700&family=IBM+Plex+Mono:wght@500;600&display=swap">
 
 <style>
 :root{
-  --canvas:#faf9f5;  --card:#efe9de;  --hairline:#c9c1b0;
-  --ink:#141413;     --body:#2a2a28;  --muted:#514f4a;
-  --accent:#003CDC;  --accent-ink:#fff;  --spring:#5BC2E7;
-  --tag:#9f4d32;     --alert:#b85042;  --new:#1c6b52;
-  --shade:rgba(20,20,19,.06);
+  --canvas:#faf9f5;   --card:#fffdf9;   --sunk:#f3f0e8;
+  --line:#ded7c8;     --line-soft:#eae4d8;
+  --ink:#0b1220;      --body:#2a2a28;   --muted:#565349;
+  --navy:#001E6E;     --accent:#003CDC; --sky:#5BC2E7;
+  --tag:#9f4d32;      --alert:#b0392c;  --new:#146b52;
+  --grad:linear-gradient(135deg,#001E6E 0%,#0033B5 52%,#0C4FE0 100%);
+  --shadow:0 1px 2px rgba(11,18,32,.04), 0 8px 24px -12px rgba(11,18,32,.10);
+  --serif:"Gowun Batang","Batang","Apple SD Gothic Neo",serif;
   --sans:"Gothic A1","Malgun Gothic","Apple SD Gothic Neo",sans-serif;
   --mono:"IBM Plex Mono","Gothic A1",monospace;
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
-    --canvas:#181715; --card:#252320; --hairline:#4a463f;
-    --ink:#f2efe8;    --body:#ddd8ce;  --muted:#a8a296;
-    --accent:#8fb3ff; --accent-ink:#10131f;
-    --tag:#e8a184;    --alert:#e88b7c;  --new:#6fd0ac;
-    --shade:rgba(255,255,255,.07);
+    --canvas:#12131a; --card:#1b1d26; --sunk:#171922;
+    --line:#333747;   --line-soft:#282c39;
+    --ink:#f2f2ee;    --body:#dcdbd4;  --muted:#9a9a92;
+    --navy:#0b1a4a;   --accent:#8fb3ff; --sky:#5BC2E7;
+    --tag:#e8a184;    --alert:#e8897c; --new:#5fc9a4;
+    --grad:linear-gradient(135deg,#050b26 0%,#0b1f5e 52%,#12327f 100%);
+    --shadow:0 1px 2px rgba(0,0,0,.3), 0 8px 24px -12px rgba(0,0,0,.5);
   }
 }
 :root[data-theme="dark"]{
-  --canvas:#181715; --card:#252320; --hairline:#4a463f;
-  --ink:#f2efe8;    --body:#ddd8ce;  --muted:#a8a296;
-  --accent:#8fb3ff; --accent-ink:#10131f;
-  --tag:#e8a184;    --alert:#e88b7c;  --new:#6fd0ac;
-  --shade:rgba(255,255,255,.07);
+  --canvas:#12131a; --card:#1b1d26; --sunk:#171922;
+  --line:#333747;   --line-soft:#282c39;
+  --ink:#f2f2ee;    --body:#dcdbd4;  --muted:#9a9a92;
+  --navy:#0b1a4a;   --accent:#8fb3ff; --sky:#5BC2E7;
+  --tag:#e8a184;    --alert:#e8897c; --new:#5fc9a4;
+  --grad:linear-gradient(135deg,#050b26 0%,#0b1f5e 52%,#12327f 100%);
+  --shadow:0 1px 2px rgba(0,0,0,.3), 0 8px 24px -12px rgba(0,0,0,.5);
 }
 
 *{box-sizing:border-box}
+html{scroll-behavior:smooth}
 body{margin:0; background:var(--canvas); color:var(--body);
-  font-family:var(--sans); font-size:19px; line-height:1.6; -webkit-font-smoothing:antialiased}
-.wrap{max-width:720px; margin-inline:auto}
+  font-family:var(--sans); font-size:19px; line-height:1.62; -webkit-font-smoothing:antialiased}
+.wrap{max-width:760px; margin-inline:auto}
 
-/* ── 마스트헤드 (고정) */
-.mast{position:sticky; top:0; z-index:20; background:var(--accent); color:var(--accent-ink);
-  display:flex; align-items:center; justify-content:space-between; gap:14px; padding:14px 20px}
-.mast h1{margin:0; font-size:22px; font-weight:900; letter-spacing:-.02em}
-.mast .when{font-family:var(--mono); font-size:14px; font-weight:500;
-  font-variant-numeric:tabular-nums; opacity:.9; white-space:nowrap}
+/* ── 스크롤 진행 */
+#prog{position:fixed; top:0; left:0; height:3px; width:0; z-index:60;
+  background:linear-gradient(90deg,var(--sky),var(--accent)); transition:width .1s linear}
+
+/* ── 마스트헤드 */
+.mast{background:var(--grad); color:#fff; padding:26px 24px 20px; position:relative; overflow:hidden}
+.mast::after{content:""; position:absolute; inset:auto -20% -60% 40%; height:200%;
+  background:radial-gradient(closest-side, rgba(91,194,231,.20), transparent 72%); pointer-events:none}
+.mast .row{display:flex; align-items:flex-end; justify-content:space-between; gap:18px; position:relative; z-index:1}
+.hanja{font-family:var(--serif); font-size:14px; letter-spacing:.42em; opacity:.62; margin:0 0 2px}
+.logo{font-family:var(--serif); font-weight:700; font-size:44px; line-height:1;
+  letter-spacing:.06em; margin:0; text-shadow:0 2px 18px rgba(0,0,0,.22)}
+.tagline{font-size:15px; font-weight:500; opacity:.86; margin:9px 0 0; letter-spacing:.02em}
+.mast .meta{text-align:right; flex:0 0 auto}
+.mast .when{display:block; font-family:var(--mono); font-size:14px; opacity:.95;
+  font-variant-numeric:tabular-nums; white-space:nowrap; text-shadow:0 1px 6px rgba(0,0,0,.35)}
+.mast .hits{display:block; margin-top:8px; height:20px; opacity:.92}
+.mast .hits img{height:20px; display:block; margin-left:auto}
+
 .stale{display:none; background:var(--alert); color:#fff; font-size:16px; font-weight:700;
-  padding:12px 20px; text-align:center}
+  padding:12px 24px; text-align:center}
 .stale.on{display:block}
 
-/* ── 브리핑 — 아침조회에서 이것만 보면 되도록 */
-.brief{padding:18px 20px 4px}
-.brief h2{margin:0 0 12px; font-size:13px; font-weight:900; letter-spacing:.16em;
-  color:var(--tag); text-transform:uppercase}
-.brief ol{margin:0; padding:0; list-style:none; display:flex; flex-direction:column; gap:10px}
-.brief li{background:var(--card); border:1px solid var(--hairline); border-radius:12px; padding:15px 16px}
-.brief .cat{font-size:13px; font-weight:900; color:var(--tag); letter-spacing:.04em}
-.brief a{display:block; margin:5px 0 8px; font-size:21px; line-height:1.35; font-weight:900;
+/* ── 오늘 요약 줄 */
+.pulse{display:flex; align-items:center; gap:10px; flex-wrap:wrap;
+  padding:14px 24px 0; font-size:15px; color:var(--muted)}
+.pulse b{color:var(--ink); font-weight:900; font-family:var(--mono); font-variant-numeric:tabular-nums}
+.pulse .dot{width:6px; height:6px; border-radius:50%; background:var(--sky); flex:0 0 auto}
+
+/* ── 오늘의 혜안 */
+.brief{padding:16px 24px 4px}
+.brief h2{margin:0 0 14px; font-family:var(--serif); font-size:21px; font-weight:700;
+  color:var(--ink); letter-spacing:.03em; display:flex; align-items:center; gap:12px}
+.brief h2::after{content:""; flex:1; height:1px; background:var(--line)}
+.brief ol{margin:0; padding:0; list-style:none; display:flex; flex-direction:column; gap:12px}
+.brief li{background:var(--card); border:1px solid var(--line-soft); border-radius:16px;
+  padding:18px 19px 14px; box-shadow:var(--shadow); position:relative; overflow:hidden;
+  opacity:0; transform:translateY(14px); animation:rise .55s cubic-bezier(.16,.84,.44,1) forwards}
+.brief li:nth-child(2){animation-delay:.09s} .brief li:nth-child(3){animation-delay:.18s}
+.brief li::before{content:""; position:absolute; left:0; top:0; bottom:0; width:3px; background:var(--accent)}
+.brief .cat{font-size:13px; font-weight:900; color:var(--tag); letter-spacing:.13em}
+.brief a.t{display:block; margin:7px 0 11px; font-size:22px; line-height:1.36; font-weight:900;
   color:var(--ink); text-decoration:none; letter-spacing:-.02em; text-wrap:balance}
-.brief a:hover{text-decoration:underline; text-underline-offset:3px}
+@keyframes rise{to{opacity:1; transform:none}}
 
-/* ── 카테고리 칩 — 가로 스크롤 없이 줄바꿈 */
-.rail{display:flex; flex-wrap:wrap; gap:9px; padding:16px 20px 6px}
-.rail button{flex:0 1 auto; min-height:48px; padding:10px 17px; border-radius:999px; cursor:pointer;
-  border:1.5px solid var(--hairline); background:transparent; color:var(--muted);
+/* ── 카테고리 칩 */
+.rail{display:flex; flex-wrap:wrap; gap:9px; padding:20px 24px 8px}
+.rail button{flex:0 1 auto; min-height:48px; padding:10px 18px; border-radius:999px; cursor:pointer;
+  border:1.5px solid var(--line); background:var(--card); color:var(--muted);
   font-family:inherit; font-size:17px; font-weight:700; white-space:nowrap;
-  display:inline-flex; align-items:center; gap:7px}
+  display:inline-flex; align-items:center; gap:8px;
+  transition:background .18s, border-color .18s, color .18s, transform .12s}
 .rail button:hover{border-color:var(--accent); color:var(--accent)}
-.rail button[aria-pressed="true"]{background:var(--accent); border-color:var(--accent); color:var(--accent-ink)}
+.rail button:active{transform:scale(.96)}
+.rail button[aria-pressed="true"]{background:var(--accent); border-color:var(--accent); color:#fff;
+  box-shadow:0 4px 14px -6px var(--accent)}
 .rail button .n{font-family:var(--mono); font-size:15px; font-weight:600;
-  font-variant-numeric:tabular-nums; opacity:.75}
-.rail button.zero{opacity:.55}
-.rail button:focus-visible,.act:focus-visible,summary:focus-visible,.themer:focus-visible{
-  outline:3px solid var(--accent); outline-offset:2px}
+  font-variant-numeric:tabular-nums; opacity:.72}
+.rail button.zero{opacity:.5}
 
-/* ── 카테고리 섹션 (기본 접힘) */
-main{padding:6px 20px 8px; display:flex; flex-direction:column; gap:11px}
-details{background:var(--card); border:1px solid var(--hairline); border-radius:12px}
-summary{list-style:none; cursor:pointer; min-height:56px; padding:14px 16px;
-  display:flex; align-items:center; gap:11px}
+/* ── 섹션 */
+main{padding:8px 24px; display:flex; flex-direction:column; gap:12px}
+details{background:var(--card); border:1px solid var(--line-soft); border-radius:16px;
+  box-shadow:var(--shadow); overflow:hidden}
+summary{list-style:none; cursor:pointer; min-height:60px; padding:16px 18px;
+  display:flex; align-items:center; gap:12px; transition:background .15s}
 summary::-webkit-details-marker{display:none}
+summary:hover{background:var(--sunk)}
+summary:active{transform:scale(.995)}
 summary .name{font-size:20px; font-weight:900; color:var(--ink); letter-spacing:-.01em}
 summary .n{font-family:var(--mono); font-size:15px; font-weight:600; color:var(--muted);
   font-variant-numeric:tabular-nums}
 summary .peek{flex:1; font-size:15px; color:var(--muted); overflow:hidden;
   text-overflow:ellipsis; white-space:nowrap; min-width:0}
-summary .arrow{margin-left:auto; color:var(--muted); font-size:15px; transition:transform .15s}
+summary .arrow{margin-left:auto; color:var(--muted); font-size:14px; transition:transform .28s cubic-bezier(.16,.84,.44,1)}
 details[open] summary .arrow{transform:rotate(180deg)}
-details[open] summary{border-bottom:1px solid var(--hairline)}
+details[open] summary{border-bottom:1px solid var(--line-soft)}
 details[open] summary .peek{display:none}
-.items{display:flex; flex-direction:column}
-article{padding:16px; border-top:1px solid var(--hairline)}
+
+article{padding:18px; border-top:1px solid var(--line-soft);
+  animation:fade .4s cubic-bezier(.16,.84,.44,1) backwards}
 article:first-child{border-top:none}
-h3{margin:0 0 10px; font-size:21px; line-height:1.36; font-weight:900;
+@keyframes fade{from{opacity:0; transform:translateY(8px)}}
+article.seen{opacity:.5}
+article.seen h3 a{font-weight:700}
+h3{margin:0 0 11px; font-size:21px; line-height:1.38; font-weight:900;
   letter-spacing:-.02em; color:var(--ink); text-wrap:balance}
 h3 a{color:inherit; text-decoration:none}
-h3 a:hover{text-decoration:underline; text-underline-offset:3px}
+h3 a:hover{text-decoration:underline; text-underline-offset:4px; text-decoration-thickness:1.5px}
 .sum{margin:0 0 11px; font-size:17px; line-height:1.62; color:var(--body)}
-.meta{display:flex; align-items:center; gap:9px; flex-wrap:wrap; font-size:16px; color:var(--muted)}
+
+.meta{display:flex; align-items:center; gap:10px; flex-wrap:wrap; font-size:16px; color:var(--muted)}
 .press{font-weight:700; color:var(--body)}
 .meta .t{font-family:var(--mono); font-size:15px; font-variant-numeric:tabular-nums}
-.badge{font-size:13px; font-weight:900; letter-spacing:.04em; border-radius:999px; padding:3px 9px}
+.badge{font-size:13px; font-weight:900; letter-spacing:.03em; border-radius:999px; padding:3px 10px}
 .badge.new{background:var(--new); color:#fff}
-.badge.more{background:var(--shade); color:var(--muted)}
-.badge.t3{border:1.5px solid var(--hairline); color:var(--muted)}
-.acts{margin-left:auto; display:flex; gap:9px}
-.act{min-height:44px; display:inline-flex; align-items:center; padding:8px 16px; border-radius:8px;
-  border:1.5px solid var(--accent); background:transparent; color:var(--accent);
-  font-family:inherit; font-size:16px; font-weight:700; cursor:pointer; text-decoration:none}
-.act:hover{background:var(--accent); color:var(--accent-ink)}
-.act.done{background:var(--spring); border-color:var(--spring); color:#141413}
-.empty{padding:22px 16px; border-top:1px solid var(--hairline); font-size:17px; color:var(--muted)}
-.empty b{display:block; color:var(--ink); font-weight:900; font-size:19px; margin-bottom:6px}
-.empty .out{margin-top:12px; display:flex; gap:9px; flex-wrap:wrap}
+.badge.today{background:var(--accent); color:#fff}
+.badge.more{background:var(--sunk); color:var(--muted); border:1px solid var(--line-soft)}
+.badge.t3{border:1.5px solid var(--line); color:var(--muted)}
+.badge.read{border:1.5px solid var(--line); color:var(--muted)}
 
-footer{margin-top:24px; padding:20px 20px 46px; border-top:1px solid var(--hairline);
+.acts{margin-left:auto; display:flex; gap:9px}
+.act{min-height:44px; display:inline-flex; align-items:center; padding:8px 17px; border-radius:11px;
+  border:1.5px solid var(--accent); background:transparent; color:var(--accent);
+  font-family:inherit; font-size:16px; font-weight:700; cursor:pointer; text-decoration:none;
+  transition:background .16s, color .16s, transform .12s}
+.act:hover{background:var(--accent); color:#fff}
+.act:active{transform:scale(.95)}
+.act.done{background:var(--new); border-color:var(--new); color:#fff}
+
+.empty{padding:24px 18px; border-top:1px solid var(--line-soft); font-size:17px; color:var(--muted)}
+.empty b{display:block; color:var(--ink); font-weight:900; font-size:19px; margin-bottom:7px}
+.empty .out{margin-top:14px; display:flex; gap:9px; flex-wrap:wrap}
+
+footer{margin-top:30px; padding:24px 24px 48px; border-top:1px solid var(--line);
   font-size:15px; line-height:1.75; color:var(--muted)}
 footer p{margin:0 0 8px}
 footer .src{font-family:var(--mono); font-size:13px}
-.themer{margin-top:12px; background:transparent; border:1.5px solid var(--hairline); color:var(--muted);
-  font-family:inherit; font-size:15px; font-weight:700; border-radius:999px; padding:10px 16px;
-  cursor:pointer; min-height:44px}
-@media (prefers-reduced-motion: reduce){*{transition:none !important; scroll-behavior:auto !important}}
+.tools{margin-top:16px; display:flex; gap:9px; flex-wrap:wrap}
+.tools button{background:transparent; border:1.5px solid var(--line); color:var(--muted);
+  font-family:inherit; font-size:15px; font-weight:700; border-radius:999px;
+  padding:10px 16px; cursor:pointer; min-height:44px; transition:border-color .16s, color .16s}
+.tools button:hover{border-color:var(--accent); color:var(--accent)}
+
+:focus-visible{outline:3px solid var(--accent); outline-offset:2px; border-radius:4px}
+@media (prefers-reduced-motion: reduce){
+  *{transition:none !important; animation:none !important; scroll-behavior:auto !important}
+  .brief li{opacity:1; transform:none}
+}
+@media (max-width:400px){ .logo{font-size:38px} .mast{padding:22px 20px 18px} }
 </style>
 </head>
 <body>
 
-<header class="mast wrap">
-  <h1>영업이슈 뉴스</h1>
-  <span class="when" id="when"></span>
+<div id="prog"></div>
+
+<header class="mast">
+  <div class="wrap row">
+    <div>
+      <p class="hanja">慧眼</p>
+      <h1 class="logo">혜안</h1>
+      <p class="tagline">보험을 보는 눈</p>
+    </div>
+    <div class="meta">
+      <span class="when" id="when"></span>
+      <span class="hits" id="hits"></span>
+    </div>
+  </div>
 </header>
 <p class="stale wrap" id="stale" role="status"></p>
 
+<p class="pulse wrap" id="pulse"></p>
 <section class="brief wrap" id="brief"></section>
 <nav class="rail wrap" id="rail" aria-label="카테고리"></nav>
 <main class="wrap" id="main"></main>
@@ -142,52 +218,70 @@ footer .src{font-family:var(--mono); font-size:13px}
   <p>기사 제목과 원문 링크만 제공하며 본문을 재배포하지 않습니다. 본 페이지는 개인이 모은 언론 기사 목록이며, 어떤 회사의 공식 입장도 아닙니다.</p>
   <p>보장내용·지급기준은 반드시 해당 약관과 상품설명서로 확인하십시오. 기사 제목은 각 언론사가 작성한 것입니다.</p>
   <p class="src" id="src"></p>
-  <button class="themer" id="themer" type="button">다크 / 라이트 전환</button>
+  <div class="tools">
+    <button id="themer" type="button">다크 · 라이트</button>
+    <button id="expand" type="button">전체 펼치기</button>
+    <button id="clearRead" type="button">읽음 표시 지우기</button>
+  </div>
 </footer>
 
 <script>
 const $ = (s) => document.querySelector(s);
-let DATA = null;
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-let CAT = {};
-const NOW = Date.now();
 const pad = (n) => String(n).padStart(2, '0');
-const ago = (iso) => {
-  const m = (NOW - Date.parse(iso)) / 60000;
-  if (m < 60) return Math.max(1, Math.round(m)) + '분 전';
-  if (m < 1440) return Math.round(m / 60) + '시간 전';
-  return Math.round(m / 1440) + '일 전';
-};
-// 첫 수집이면 firstSeenAt 이 전부 같다 — 그때는 NEW 를 발행시각 기준으로 매긴다.
-let FIRST_RUN = false;
-const isNew = (i) => NOW - Date.parse((FIRST_RUN ? i.publishedAt : i.firstSeenAt) || i.publishedAt) < 6 * 3600e3;
-const catOf = (i) => CAT[i.topics[0]];
+const NOW = Date.now();
 
-/* 카톡 공유 — navigator.share 가 되면 4터치, 안 되면 클립보드로 내려간다 */
+let DATA = null, CAT = {}, FIRST_RUN = false;
+
+/* 읽음 표시 — 하루 다섯 번 보는 사람이 뭘 봤는지 기억하게. 이 폰에만 남는다. */
+const READ_KEY = 'hyean.read.v1';
+let READ = new Set();
+try { READ = new Set(JSON.parse(localStorage.getItem(READ_KEY) || '[]')); } catch {}
+const saveRead = () => { try { localStorage.setItem(READ_KEY, JSON.stringify([...READ].slice(-400))); } catch {} };
+const keyOf = (i) => i.url.slice(-40);
+
+const hours = (iso) => (NOW - Date.parse(iso)) / 3600e3;
+const ago = (iso) => {
+  const h = hours(iso);
+  if (h < 1) return Math.max(1, Math.round(h * 60)) + '분 전';
+  if (h < 24) return Math.round(h) + '시간 전';
+  return Math.round(h / 24) + '일 전';
+};
+const isNew = (i) => (NOW - Date.parse((FIRST_RUN ? i.publishedAt : i.firstSeenAt) || i.publishedAt)) < 6 * 3600e3;
+const isToday = (i) => hours(i.publishedAt) < 24;
+
+/* 정렬 — 신선도가 먼저다. 등급은 같은 날짜대 안에서만 겨룬다.
+   등급을 앞세웠더니 일주일 된 기사가 화면 위에 올라왔다. */
+const rank = (a, b) =>
+  (Math.floor(hours(a.publishedAt) / 24) - Math.floor(hours(b.publishedAt) / 24))
+  || (a.tier - b.tier)
+  || ((b.score ?? 0) - (a.score ?? 0));
+
+/* 카톡 공유. navigator.share 가 되면 4터치, 안 되면 클립보드로 내려간다. */
 async function share(btn) {
   const { title, press, url } = JSON.parse(btn.dataset.item);
   const text = `${title}\n${press}\n${url}`;
   if (navigator.share) {
-    try { await navigator.share({ title, text: `${title}\n${press}`, url }); return; } catch { /* 취소 */ }
+    try { await navigator.share({ title, text: `${title}\n${press}`, url }); return; } catch {}
   }
-  try {
-    await navigator.clipboard.writeText(text);
-    btn.textContent = '복사됨'; btn.classList.add('done');
-  } catch { btn.textContent = '복사 실패'; }
+  try { await navigator.clipboard.writeText(text); btn.textContent = '복사됨'; btn.classList.add('done'); }
+  catch { btn.textContent = '복사 실패'; }
   setTimeout(() => { btn.textContent = '공유'; btn.classList.remove('done'); }, 1600);
 }
 
-function card(i) {
+function card(i, idx) {
   const item = esc(JSON.stringify({ title: i.title, press: i.press, url: i.url }));
-  return `<article>
+  const seen = READ.has(keyOf(i));
+  return `<article class="${seen ? 'seen' : ''}" data-k="${esc(keyOf(i))}" style="animation-delay:${Math.min(idx, 8) * 45}ms">
     <h3><a href="${esc(i.url)}" target="_blank" rel="noopener noreferrer">${esc(i.title)}</a></h3>
     ${i.summary ? `<p class="sum">${esc(i.summary)}</p>` : ''}
     <div class="meta">
-      ${isNew(i) ? '<span class="badge new">NEW</span>' : ''}
+      ${isNew(i) ? '<span class="badge new">NEW</span>' : isToday(i) ? '<span class="badge today">오늘</span>' : ''}
       <span class="press">${esc(i.press)}</span>
       <span class="t">${ago(i.publishedAt)}</span>
       ${i.others ? `<span class="badge more">외 ${i.others}곳</span>` : ''}
       ${i.tier === 3 ? '<span class="badge t3">단독매체</span>' : ''}
+      ${seen ? '<span class="badge read">읽음</span>' : ''}
       <span class="acts">
         <a class="act" href="${esc(i.url)}" target="_blank" rel="noopener noreferrer">원문</a>
         <button class="act" type="button" data-item="${item}">공유</button>
@@ -196,29 +290,36 @@ function card(i) {
   </article>`;
 }
 
-/* 가격 소구 헤드라인은 브리핑 맨 위에 올리지 않는다.
-   「보험료 최대 반값」이 조회 톱에 걸리면 승환 권유로 읽힌다 (금소법 §22 · 보험업법 §97). */
+/* 오늘의 혜안 — 간병·수술비·치료비 세 담보를 고정 순서로 한 건씩 */
+const BRIEF_CATS = ['ganbyeong', 'susul', 'chiryo'];
 const PITCHY = /반값|공짜|무료|할인|최저가|절반 가격|지금 가입|서둘러/;
 
-/* 브리핑 — 간병·수술비·치료비 세 담보를 고정으로 한 건씩. 순서도 고정한다.
-   조회에서 매일 같은 자리에 같은 축이 오도록. 실손·정책은 아래 섹션에서 본다. */
-const BRIEF_CATS = ['ganbyeong', 'susul', 'chiryo'];
 function renderBrief() {
   const picked = [];
   for (const cat of BRIEF_CATS) {
-    const pool = DATA.items
-      .filter((i) => i.topics.includes(cat) && !PITCHY.test(i.title))
-      .sort((a, b) => a.tier - b.tier || (b.score ?? 0) - (a.score ?? 0) || Date.parse(b.publishedAt) - Date.parse(a.publishedAt));
+    const pool = DATA.items.filter((i) => i.topics.includes(cat) && !PITCHY.test(i.title)).sort(rank);
     if (pool[0]) picked.push({ ...pool[0], briefCat: cat });
   }
   $('#brief').innerHTML = picked.length
-    ? `<h2>오늘 이 ${picked.length}건</h2><ol>` + picked.map((i) => `<li>
+    ? '<h2>오늘의 혜안</h2><ol>' + picked.map((i) => `<li>
         <span class="cat">${esc(CAT[i.briefCat]?.label || '')}</span>
-        <a href="${esc(i.url)}" target="_blank" rel="noopener noreferrer">${esc(i.title)}</a>
-        <div class="meta"><span class="press">${esc(i.press)}</span><span class="t">${ago(i.publishedAt)}</span>
+        <a class="t" href="${esc(i.url)}" target="_blank" rel="noopener noreferrer">${esc(i.title)}</a>
+        <div class="meta">
+          ${isToday(i) ? '<span class="badge today">오늘</span>' : ''}
+          <span class="press">${esc(i.press)}</span><span class="t">${ago(i.publishedAt)}</span>
           <span class="acts"><button class="act" type="button" data-item="${esc(JSON.stringify({title:i.title,press:i.press,url:i.url}))}">공유</button></span>
         </div></li>`).join('') + '</ol>'
     : '';
+}
+
+function renderPulse() {
+  const today = DATA.items.filter(isToday).length;
+  const fresh = DATA.items.filter(isNew).length;
+  const unread = DATA.items.filter((i) => !READ.has(keyOf(i))).length;
+  $('#pulse').innerHTML =
+    `<span class="dot"></span>오늘 들어온 기사 <b>${today}</b>건` +
+    (fresh ? ` · 최근 6시간 <b>${fresh}</b>건` : '') +
+    ` · 안 본 기사 <b>${unread}</b>건`;
 }
 
 function renderRail() {
@@ -230,8 +331,7 @@ function renderRail() {
 
 function renderMain() {
   $('#main').innerHTML = DATA.topics.map((t) => {
-    const it = DATA.items.filter((i) => i.topics.includes(t.id))
-      .sort((a, b) => a.tier - b.tier || Date.parse(b.publishedAt) - Date.parse(a.publishedAt));
+    const it = DATA.items.filter((i) => i.topics.includes(t.id)).sort(rank);
     const fresh = it.filter(isNew).length;
     const body = it.length
       ? `<div class="items">${it.map(card).join('')}</div>`
@@ -250,28 +350,51 @@ function renderMain() {
   }).join('');
 }
 
-/* 칩 = 해당 섹션만 펼치고 그리로 이동. 「전체」는 모두 펼침 */
 $('#rail').addEventListener('click', (e) => {
   const b = e.target.closest('button'); if (!b) return;
   const id = b.dataset.id;
   document.querySelectorAll('.rail button').forEach((x) => x.setAttribute('aria-pressed', x === b));
   document.querySelectorAll('details').forEach((d) => { d.open = id === 'all' || d.dataset.cat === id; });
   if (id !== 'all') $('#sec-' + id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  else scrollTo({ top: 0, behavior: 'smooth' });
 });
 
 document.addEventListener('click', (e) => {
   const s = e.target.closest('button[data-item]'); if (s) { share(s); return; }
   const o = e.target.closest('button[data-open]');
-  if (o) {
-    const d = $('#sec-' + o.dataset.open);
-    d.open = true; d.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  if (o) { const d = $('#sec-' + o.dataset.open); d.open = true; d.scrollIntoView({ behavior: 'smooth', block: 'start' }); return; }
+  // 원문을 열면 읽음으로 표시한다
+  const link = e.target.closest('article a[href^="http"]');
+  if (link) {
+    const art = link.closest('article');
+    if (art && !art.classList.contains('seen')) {
+      READ.add(art.dataset.k); saveRead(); art.classList.add('seen');
+      art.querySelector('.meta')?.insertAdjacentHTML('beforeend', '<span class="badge read">읽음</span>');
+      renderPulse();
+    }
   }
 });
 
 $('#themer').addEventListener('click', () => {
-  const dark = getComputedStyle(document.body).backgroundColor === 'rgb(24, 23, 21)';
+  const dark = getComputedStyle(document.body).backgroundColor === 'rgb(18, 19, 26)';
   document.documentElement.dataset.theme = dark ? 'light' : 'dark';
 });
+$('#expand').addEventListener('click', (e) => {
+  const open = [...document.querySelectorAll('details')].some((d) => !d.open);
+  document.querySelectorAll('details').forEach((d) => { d.open = open; });
+  e.target.textContent = open ? '전체 접기' : '전체 펼치기';
+});
+$('#clearRead').addEventListener('click', () => {
+  READ.clear(); saveRead();
+  document.querySelectorAll('article.seen').forEach((a) => a.classList.remove('seen'));
+  document.querySelectorAll('.badge.read').forEach((b) => b.remove());
+  renderPulse();
+});
+
+addEventListener('scroll', () => {
+  const h = document.documentElement.scrollHeight - innerHeight;
+  $('#prog').style.width = (h > 0 ? (scrollY / h) * 100 : 0) + '%';
+}, { passive: true });
 
 // 캐시된 옛 파일을 잡지 않도록 쿼리를 붙인다.
 fetch('news.json?t=' + Date.now())
@@ -284,13 +407,19 @@ fetch('news.json?t=' + Date.now())
     const u = new Date(DATA.updatedAt);
     $('#when').textContent = `${pad(u.getMonth() + 1)}.${pad(u.getDate())} ${pad(u.getHours())}:${pad(u.getMinutes())} 기준`;
     $('#src').textContent = '출처: 구글 뉴스' + (DATA.naver ? ' · 네이버 뉴스검색' : ' (네이버 미연결 — 제목만 수집)');
+
     const lag = (Date.now() - Date.parse(DATA.updatedAt)) / 3600e3;
     if (lag > 5) { $('#stale').textContent = `갱신이 ${Math.floor(lag)}시간 멈춰 있습니다 — 최신 기사가 아닐 수 있습니다`; $('#stale').classList.add('on'); }
 
-    renderBrief(); renderRail(); renderMain();
-  })
-  .catch(() => { $('#main').innerHTML = '<p class="empty"><b>기사를 불러오지 못했습니다</b>잠시 후 새로고침해 주십시오.</p>'; });
-</script>
+    renderPulse(); renderBrief(); renderRail(); renderMain();
 
+    // 접속 집계 — 오늘 / 누적. 개인정보를 남기지 않는 외부 카운터다.
+    // hits.sh 는 끝 슬래시가 붙으면 "Not a valid URI" 로 거절한다.
+    const h = (location.host + location.pathname).replace(/\/+$/, '');
+    $('#hits').innerHTML = `<img alt="접속" loading="lazy"
+      src="https://hits.sh/${h}.svg?view=today-total&style=flat-square&label=%EC%A0%91%EC%86%8D&color=5BC2E7&labelColor=0B1220">`;
+  })
+  .catch(() => { $('#main').innerHTML = '<div class="empty"><b>기사를 불러오지 못했습니다</b>잠시 후 새로고침해 주십시오.</div>'; });
+</script>
 </body>
 </html>

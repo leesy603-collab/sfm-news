@@ -55,23 +55,34 @@ const PRESS = {
 
 const PRESS_TIER = JSON.parse(readFileSync(join(ROOT, 'press.json'), 'utf8'))
 
-// 자사는 노출, 타사 상품 기사는 가린다. 단 타사에 대한 부정적 보도는 노출한다.
-// ⚠ CLAUDE.md §5「자사·타사 상품 비판을 자료에 담지 않는다」와 충돌하는 지점 — 사용자 지시로 채택.
-const OWN = ['삼성화재']
-const RIVALS = ['현대해상','DB손해보험','KB손해보험','KB손보','메리츠화재','한화손해보험','한화손보','흥국화재',
-  '롯데손해보험','MG손해보험','NH농협손해보험','농협손보','하나손해보험','하나손보','캐롯손해보험','AXA손해보험',
-  '교보생명','삼성생명','한화생명','신한라이프','NH농협생명','미래에셋생명','동양생명','흥국생명','KB라이프',
-  '메트라이프','라이나생명','AIA생명','처브라이프','ABL생명','iM라이프','푸본현대생명']
-// 이 말이 있으면 「상품 홍보」가 아니라 「부정적 보도」로 보고 노출한다.
-const NEGATIVE = ['적발','제재','과징금','과태료','징계','검사 착수','기관주의','시정명령','환수','고발','기소',
-  '불완전판매','부당','미지급','부지급','거절','거부','분쟁','소송','패소','피소','민원','논란','의혹','제동','철퇴']
+// ── 보험사 상품 광고 배제 (자사·타사 구분 없이)
+// 「삼성생명 가족대표건강보험 Plus+ 출시」 한 건이 25개 매체에 살포되는 식이다.
+// 실측 41건 중 16개 대표 유형으로 규칙을 짜서 16/16 차단, 정보성 기사 오차단 0 을 확인했다.
+const INSURERS = ['삼성화재','삼성생명','현대해상','DB손해보험','DB손보','KB손해보험','KB손보','KB라이프',
+  '메리츠화재','한화손해보험','한화손보','한화생명','흥국화재','흥국생명','롯데손해보험','MG손해보험',
+  'NH농협손해보험','농협손해보험','농협손보','NH농협생명','하나손해보험','하나손보','캐롯','AXA',
+  '교보생명','미래에셋생명','동양생명','신한라이프','신한생명','메트라이프','라이나','AIA','처브',
+  'ABL생명','iM라이프','푸본현대생명']
 
-/** 타사 상품 기사인가 (가려야 하는가). 자사·부정보도는 가리지 않는다. */
-export function isRivalPromo(title) {
+// 이 말이 있으면 광고가 아니라 「부정적 보도」로 보고 살린다.
+const NEGATIVE = ['적발','제재','과징금','과태료','징계','기관주의','시정명령','환수','고발','기소',
+  '불완전판매','부당','미지급','부지급','거절','거부','분쟁','소송','패소','피소','민원','논란','의혹',
+  '제동','철퇴','오류','부진','적자','악화']
+
+const AD_WORD = /출시|선보|선봬|론칭|런칭|신상품|신담보|등판|내놨|내놓았|판매 개시|단독 판매|가입 이벤트|리뉴얼/
+// 따옴표로 감싼 상품명 — 광고 기사의 가장 확실한 지문이다
+const PRODUCT = /['‘’"“”「『][^'‘’"“”」』]{2,30}(보험|보장|플랜|케어|라이프|통치|치간지)[^'‘’"“”」』]{0,12}['‘’"“”」』]/
+const CORP_PR = /지정|기업|협력|확장|체질개선|포트폴리오|업무협약|MOU|캠페인/
+
+/** 보험사 상품 광고·기업홍보 기사인가. 부정 보도는 광고로 보지 않는다. */
+export function isProductAd(title) {
   const t = String(title)
-  if (OWN.some((c) => t.includes(c))) return false
-  if (!RIVALS.some((c) => t.includes(c))) return false
-  return !NEGATIVE.some((w) => t.includes(w))
+  if (NEGATIVE.some((w) => t.includes(w))) return false
+  const named = INSURERS.some((c) => t.toLowerCase().includes(c.toLowerCase()))
+  if (named && (AD_WORD.test(t) || PRODUCT.test(t) || CORP_PR.test(t))) return true
+  if (/신상품|신담보/.test(t)) return true                     // 실명 없이 「9월 손보 신상품」 식으로도 온다
+  if (/론칭|런칭/.test(t) && /보험|보장/.test(t)) return true
+  return false
 }
 
 /** 매체 등급. 이름이 도메인 형태면 구글조차 매체명을 모르는 곳이라 차단한다. */
@@ -176,7 +187,9 @@ export function matchTopic(topic, text, ageHours) {
   if ((topic.not ?? []).some(has)) return null
   const hits = (topic.any ?? []).filter(has).length
   if ((topic.any ?? []).length && hits === 0) return null
-  return hits * 2 + (ageHours <= 24 ? 3 : 0)
+  // 신선도 가중. 화면 상단에 일주일 전 기사가 오르던 문제를 여기서 잡는다.
+  const fresh = ageHours <= 24 ? 8 : ageHours <= 48 ? 5 : ageHours <= 72 ? 2 : 0
+  return hits * 2 + fresh
 }
 
 /** 구글 뉴스가 주는 중계 주소인가. 언론사 원문 주소가 있으면 그쪽을 쓴다. */
@@ -258,7 +271,7 @@ async function main() {
             const press = pressOf(raw.url, raw.press)
             if (blocked(press)) continue
             if (tierOf(press) === 0) continue          // 매체명이 도메인 형태 = 출처 불명
-            if (isRivalPromo(raw.title)) continue      // 타사 상품 기사
+            if (isProductAd(raw.title)) continue       // 보험사 상품 광고·기업홍보
             pool.push({ ...raw, at, press, topics: [], score: 0 })
           }
         } catch (e) {
@@ -381,10 +394,18 @@ function test() {
   assert.equal(matchTopic(T, '자동차보험 인상', 1), null)              // must 불충족
   assert.equal(matchTopic(T, '실손 드라마 5세대', 1), null)            // not 걸림
   assert.equal(matchTopic(T, '실손보험 손해율 상승', 1), null)         // any 0히트
-  assert.equal(matchTopic(T, '5세대 실손 전환', 1), 2 * 2 + 3)         // 2히트 + 최신
+  assert.equal(matchTopic(T, '5세대 실손 전환', 1), 2 * 2 + 8)         // 2히트 + 24h 이내
+  assert.equal(matchTopic(T, '5세대 실손 전환', 30), 2 * 2 + 5)        // 48h 이내
   assert.equal(matchTopic(T, '5세대 실손 전환', 99), 2 * 2)            // 오래됨 → 보너스 없음
 
   // must 의 `|` — 항목 안은 OR, 항목끼리는 AND
+  // 보험사 상품 광고 배제 — 실측 41건에서 뽑은 대표 유형
+  assert.ok(isProductAd('삼성생명, 치료 횟수별 보장 강화한 ‘가족대표건강보험 Plus+’ 출시'))
+  assert.ok(isProductAd('IM라이프, 치매간병보험 출시…연금 넘어 노년기 보장까지'))   // 대소문자 무시
+  assert.ok(isProductAd('9월 손보 신상품 ‘보장 공백’ 파고든다'))              // 실명 없어도
+  assert.ok(!isProductAd('4세대 실손보험료 최대 300% 할증? 5세대 출시 후 달라진 점'))     // 정보성은 살린다
+  assert.ok(!isProductAd('[단독] 메리츠화재 ‘질문톡’서 보상 답변 오류…정정 완료')) // 부정 보도는 살린다
+
   const C = { must: ['암|항암|종양', '비급여|치료비|부담'], any: [], not: [] }
   assert.ok(matchTopic(C, '비급여 항암치료 부담 커져', 1) !== null)
   assert.ok(matchTopic(C, '표적항암제 치료비 급등', 1) !== null)
