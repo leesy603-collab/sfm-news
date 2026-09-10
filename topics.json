@@ -1,7 +1,7 @@
 {
  "updated": "2026-09",
- "searchDays": 7,
- "maxAgeDays": 7,
+ "searchDays": 30,
+ "maxAgeDays": 30,
  "perTopic": 10,
  "blockWords": [
   "베트남",
