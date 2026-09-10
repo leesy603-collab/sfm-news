@@ -678,7 +678,8 @@ fetch('news.json?t=' + Date.now())
 
     // 접속 집계 — 오늘/누적. 개인정보를 남기지 않는다. 끝 슬래시는 떼야 한다.
     const h = (location.host + location.pathname).replace(/\/+$/, '');
-    $('#hits').innerHTML = '<img alt="접속자 수" loading="lazy" src="https://hits.sh/' + h
+    // 광고 차단기가 막으면 깨진 그림 대신 조용히 사라진다
+    $('#hits').innerHTML = '<img alt="" onerror="this.remove()" loading="lazy" src="https://hits.sh/' + h
       + '.svg?view=today-total&style=flat-square&label=%EC%A0%91%EC%86%8D&color=5BC2E7&labelColor=0B1220">';
   })
   .catch(() => {
