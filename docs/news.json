@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-10T01:22:15.302Z",
+ "updatedAt": "2026-09-10T01:28:46.971Z",
  "naver": false,
  "topics": [
   {
@@ -105,6 +105,20 @@
    "firstSeenAt": "2026-09-09T08:31:10.155Z"
   },
   {
+   "title": "8주룰 시행 앞둔 자동차보험, 손해율 개선 기대",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9pVjN3Nm12VTBrQzZqYV9iR2dkeXQwdzJHYkloa0tNdWE3V0xxdmtVMTV6ekdDbnp1NjdJeXBxUGJUNFJ1ajlvdjNWN0wzcmJ5cmZkZWFoTUsySFY4RFE?oc=5",
+   "press": "데이터뉴스",
+   "summary": "",
+   "others": 1,
+   "topics": [
+    "jeongchaek"
+   ],
+   "score": 7,
+   "tier": 3,
+   "publishedAt": "2026-09-08T23:50:00.000Z",
+   "firstSeenAt": "2026-09-10T01:28:46.971Z"
+  },
+  {
    "title": "‘8주룰’ 시행 이틀 전…이의제기 기간 치료비 피해자가 먼저 부담",
    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBQMEoxdnVrYnRIN2ppb3g4eHl0ZkZ1R1pQZzIzZU9fZFM0N0FZYWM5S09ZZnk5Qno5UTdRMU82b1VnMlV1dk1ESmtkbFVkQURjSE9SRFB6ZV9laE4yTFRIdXF6cnhuSHRGRk5n0gFrQVVfeXFMUFAwSjF2dWtidEg3amlveDh4eXRmRnVHWlBnMjNlT19kUzQ3QVlhYzlLT1lmeTlCejlRN1ExTzZvVWcyVXV2TURKa2RsVWRBRGNIT1JEUHplX2VoTjJMVEh1cXpyeG5IdEZGTmc?oc=5",
    "press": "SR타임스",
@@ -207,7 +221,7 @@
    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9WOG96eGJ5Y1pUVWZrcW4yTFpNMVhTZFR6ano1azBSWE1PRXVYWDNzYkZoRFRGaFpuaWlXYlZVSkx6LW1NOEpTc1RSOTBXZUY1XzF1aTFZLXNqV1pJNVVGYTM5eGxUUTE3elZlMUM2R284WFU?oc=5",
    "press": "오늘경제",
    "summary": "",
-   "others": 9,
+   "others": 10,
    "topics": [
     "jeongchaek"
    ],
@@ -273,20 +287,6 @@
    "firstSeenAt": "2026-09-09T08:31:10.155Z"
   },
   {
-   "title": "하지정맥류 실손보험 심사 강화에 관리급여까지 ‘이중 압박’",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1BMGgxYVZBR0VfNmpMNElGaUZLa2RjdlBIMkVvRzM5cGlILXFaQXZBWEJGZGdzYVdka0QySU5MQ1Q2TGFnM1RTY0dYRDdRRV91c3h0QXZWQ1BKXy1PUF9PY1hJbWZtM3ItTWc?oc=5",
-   "press": "의학신문",
-   "summary": "",
-   "others": 1,
-   "topics": [
-    "jeongchaek"
-   ],
-   "score": 2,
-   "tier": 2,
-   "publishedAt": "2026-09-06T20:50:00.000Z",
-   "firstSeenAt": "2026-09-09T08:52:37.995Z"
-  },
-  {
    "title": "중국 장기요양보험, ‘지급 표준화’로 기금 관리 강화",
    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5IcWtFczBRQ0tnRHhhb1lWM0hmOW1pSUk2eDk5b2NYM19MV0Z5OFlpUTZ6dFdSN2xSWnBscmVPbWVvWVpEVXdCbVU0cGUyZ01NWFdaZ0Q3bkt4ZktCbEtFc3BDY2Y0TGtzRG9wRjM1RdIBb0FVX3lxTE5IcWtFczBRQ0tnRHhhb1lWM0hmOW1pSUk2eDk5b2NYM19MV0Z5OFlpUTZ6dFdSN2xSWnBscmVPbWVvWVpEVXdCbVU0cGUyZ01NWFdaZ0Q3bkt4ZktCbEtFc3BDY2Y0TGtzRG9wRjM1RQ?oc=5",
    "press": "한국보험신문",
@@ -333,7 +333,7 @@
    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5Zc29qLWtocWJhTG0yemFmWl9HNEIwaHY4b2dGdmYyS2lMcjVKUkNvRlI4N2RNQ2FKZjI1YkptbWJIS1o1QnZoUlhHT0xYVlhjeWpWcDU1MTNMdw?oc=5",
    "press": "한국경제",
    "summary": "",
-   "others": 5,
+   "others": 4,
    "topics": [
     "silson"
    ],
@@ -355,20 +355,6 @@
    "tier": 3,
    "publishedAt": "2026-09-06T08:55:26.000Z",
    "firstSeenAt": "2026-09-10T01:22:15.302Z"
-  },
-  {
-   "title": "도수치료 관리급여 시행 두 달...치료공백 현실화",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4xOUlvTUM4XzhXNUVZQlI5akI2YzFTTjFjN3JoaGpLcEdrOXRLai1IQnBXOG9FVWhqR1J6b1BqcnA0bUo2Ym15MWRfNTVNclJ5NGpfQm80MGlURFdrLUN4TnlRN3NtSmEyQ1E?oc=5",
-   "press": "의학신문",
-   "summary": "",
-   "others": 2,
-   "topics": [
-    "jeongchaek"
-   ],
-   "score": 2,
-   "tier": 2,
-   "publishedAt": "2026-09-06T05:00:00.000Z",
-   "firstSeenAt": "2026-09-09T08:52:37.995Z"
   },
   {
    "title": "[문혜원의 e콕보험] '간병인보험' 보상한도 한시적 상향...보험사 속내는?",
@@ -456,18 +442,19 @@
    "firstSeenAt": "2026-09-09T08:31:10.155Z"
   },
   {
-   "title": "4세대 실손보험료 최대 300% 할증? 5세대 출시 후 달라진 점",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84YzBuNjRKZFRmRTlPYVlRVHBjR1ppXzhEd1Z2d0NOLTF1T0sxMEFRalVZb2FkTDhrdlRTeGsyRHFvZk9admFTN3dDUkRPR0dtYnVzYWx6SnM1ZklrWTJNc2RjdmxPWWc?oc=5",
-   "press": "KB Think",
+   "title": "5세대 실손보험 전환·부당승환 행위…올해 국정감사 보험관련 주요 과제 보니",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAzaW1pQW5mN2V0ZHA3bHhIdWxJMWZLNGFOcnd4N2NmZzJVaUZ0dXB2U2twRlBpNDUzRFAtNTYyeS1xLURIY1dMOHlWX21MNHhYaFhHcg?oc=5",
+   "press": "매일경제",
    "summary": "",
-   "others": 1,
+   "others": 0,
    "topics": [
-    "silson"
+    "silson",
+    "jeongchaek"
    ],
-   "score": 4,
-   "tier": 3,
-   "publishedAt": "2026-09-03T07:00:00.000Z",
-   "firstSeenAt": "2026-09-09T08:52:37.995Z"
+   "score": 6,
+   "tier": 1,
+   "publishedAt": "2026-09-03T06:40:47.000Z",
+   "firstSeenAt": "2026-09-10T01:28:46.971Z"
   },
   {
    "title": "서울 병원 수술환자 10명 중 4명이 ‘지방 환자’···진료비로는 절반",
