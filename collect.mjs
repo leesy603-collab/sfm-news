@@ -96,14 +96,19 @@ export function tierOf(press) {
 
 // ─────────────────────────────────────────── 순수 함수 (테스트 대상)
 
-const ENT = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ', '#39': "'" }
+const ENT = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ', middot: '·', hellip: '…', lsquo: '‘', rsquo: '’',
+  ldquo: '“', rdquo: '”', ndash: '–', mdash: '—', bull: '•', laquo: '«', raquo: '»', times: '×', sim: '∼' }
 
-/** CDATA·HTML 태그·엔티티를 걷어내고 평문으로 만든다. */
+/** CDATA·HTML 태그·엔티티를 걷어내고 평문으로 만든다. 16진수 엔티티·이모지까지. */
 export function decode(s) {
   return String(s)
     .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
     .replace(/<[^>]+>/g, '')
-    .replace(/&(#?\w+);/g, (m, k) => ENT[k] ?? (k[0] === '#' ? String.fromCharCode(+k.slice(1)) : m))
+    .replace(/&(?:#(\d+)|#x([\da-f]+)|(\w+));/gi, (m, d, h, name) => {
+      if (name) return ENT[name] ?? m
+      const cp = d ? +d : parseInt(h, 16)
+      return cp > 0 && cp <= 0x10ffff ? String.fromCodePoint(cp) : m
+    })
     .replace(/\s+/g, ' ')
     .trim()
 }
@@ -220,6 +225,216 @@ export function dedupe(items) {
   return out
 }
 
+// ─────────────────────────────────────────── 구글 뉴스 → 원문 주소
+// CBMi… 아이디는 AU_yqL… 신형이라 오프라인 복호화가 안 된다 (2026-09-11 실측 42/42 신형).
+// 서명은 59만 바이트짜리 기사 페이지 맨 끝에 있어서 끝까지 받아야 한다.
+// 429(google.com/sorry)는 「그만」 신호다. 다른 경로로 우회하지 않고 이번 회차를 접는다.
+
+export const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36'
+export const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
+
+export function parseSig(html) {
+  const sg = /data-n-a-sg="([^"]+)"/.exec(html)?.[1]
+  const ts = /data-n-a-ts="(\d+)"/.exec(html)?.[1]
+  return sg && ts ? { sg, ts: +ts } : null
+}
+
+export async function googleSig(url) {
+  const id = new URL(url).pathname.split('/').pop()
+  // 두 번째 경로는 페이지 형식이 바뀌어 서명이 안 보일 때만 쓴다. 차단(4xx)이면 바로 던진다.
+  for (const base of ['https://news.google.com/articles/', 'https://news.google.com/rss/articles/']) {
+    const res = await fetch(base + id, { headers: { 'user-agent': UA, 'accept-language': 'ko-KR,ko;q=0.9' }, signal: AbortSignal.timeout(10000) })
+    if (!res.ok) throw new Error(`google GET ${res.status}`)
+    if (res.url.includes('consent.google.')) throw new Error('google consent')
+    const sig = parseSig(await res.text())
+    if (sig) return { id, ...sig }
+  }
+  throw new Error('google no signature')
+}
+
+const GN_CTX = [['X', 'X', ['X', 'X'], null, null, 1, 1, 'US:en', null, 1, null, null, null, null, null, 0, 1], 'X', 'X', 1, [1, 1, 1], 1, 1, null, 0, 0, null, 0]
+
+export const garturlBody = (sigs) => 'f.req=' + encodeURIComponent(JSON.stringify([
+  sigs.map(({ id, ts, sg }, i) => ['Fbv4je', JSON.stringify(['garturlreq', GN_CTX, id, ts, sg]), null, String(i + 1)]),
+]))
+
+/** batchexecute 응답에서 주소를 뽑는다. 요청 순서대로, 실패한 칸은 null. */
+export function parseGarturl(text, n) {
+  const out = Array(n).fill(null)
+  for (const m of text.matchAll(/\["wrb\.fr","Fbv4je","((?:[^"\\]|\\.)*)",null,null,null,"(\d+|generic)"\]/g)) {
+    const url = JSON.parse(JSON.parse(`"${m[1]}"`))[1]
+    const k = m[2] === 'generic' ? 0 : +m[2] - 1
+    if (k < n && /^https?:\/\//.test(url)) out[k] = url
+  }
+  return out
+}
+
+/** 서명 여러 개를 POST 한 번에 푼다. 10개 묶음 실측 202ms, 개별과 10/10 동일. */
+export async function googleResolve(sigs) {
+  const res = await fetch('https://news.google.com/_/DotsSplashUi/data/batchexecute', {
+    method: 'POST',
+    headers: { 'user-agent': UA, 'content-type': 'application/x-www-form-urlencoded;charset=UTF-8' },
+    body: garturlBody(sigs),
+    signal: AbortSignal.timeout(10000),
+  })
+  if (!res.ok) throw new Error(`google POST ${res.status}`)
+  return parseGarturl(await res.text(), sigs.length)
+}
+
+export async function resolveGoogleNewsUrl(url) {
+  const [link] = await googleResolve([await googleSig(url)])
+  if (!link) throw new Error('google no url')
+  return link
+}
+
+// ─────────────────────────────────────────── 언론사 HTML → 메타
+
+// WHATWG 라벨에 없는 한국 별칭. euc-kr·ks_c_5601-1987·windows-949 는 TextDecoder 가 원래 안다.
+const CHARSET_ALIAS = { cp949: 'euc-kr', ms949: 'euc-kr', 'x-windows-949': 'euc-kr', uhc: 'euc-kr' }
+
+/** 헤더 charset 우선, 없으면 앞 32KB 의 meta 태그. 브라우저와 같은 순서다. */
+export function charsetOf(type, bytes) {
+  const pick = (s) => /charset\s*=\s*["']?([\w:.-]+)/i.exec(s)?.[1]?.toLowerCase()
+  const metas = Buffer.from(bytes.subarray(0, 32768)).toString('latin1').match(/<meta\b[^>]*>/gi)?.join(' ') ?? ''
+  return pick(type) ?? pick(metas) ?? 'utf-8'
+}
+
+export function decodeHtml(bytes, type = '') {
+  const cs = charsetOf(type, bytes)
+  try { return new TextDecoder(CHARSET_ALIAS[cs] ?? cs).decode(bytes) } catch { return new TextDecoder().decode(bytes) }
+}
+
+const TAG = (name) => new RegExp(`<${name}\\b(?:[^>"']|"[^"]*"|'[^']*')*>`, 'gi')   // 따옴표 안의 > 도 견딘다
+const attr = (tag, name) => {
+  const r = new RegExp(`\\s${name}\\s*=\\s*(?:"([^"]*)"|'([^']*)'|([^\\s"'>]+))`, 'i').exec(tag)
+  return r ? r[1] ?? r[2] ?? r[3] : undefined
+}
+const absHttp = (u, base) => { try { const h = new URL(u, base).href; return /^https?:/.test(h) ? h : '' } catch { return '' } }
+
+export function parseMeta(html, base) {
+  const m = {}
+  for (const [tag] of html.matchAll(TAG('meta'))) {
+    const key = (attr(tag, 'property') ?? attr(tag, 'name') ?? '').toLowerCase()
+    const val = attr(tag, 'content')
+    // 두 번 푼다 — 「&amp;lt;표&amp;gt;」 처럼 이중 이스케이프하는 곳이 있다 (실측 1/40)
+    if (key && val && !(key in m)) m[key] = decode(decode(val))
+  }
+  let canonical = ''
+  for (const [tag] of html.matchAll(TAG('link'))) if (/^canonical$/i.test(attr(tag, 'rel') ?? '')) { canonical = absHttp(decode(attr(tag, 'href') ?? ''), base); break }
+  const img = m['og:image'] || m['og:image:url'] || m['og:image:secure_url'] || m['twitter:image'] || m['twitter:image:src'] || ''
+  const image = img ? absHttp(img, base) : ''
+  return {
+    // ponytail: 파일명에 logo 가 든 대표 이미지는 사이트 로고로 본다 (실측 1/40). 오판이 보이면 언론사별 목록으로 올린다.
+    image: /logo[^/]*$/i.test(image) ? '' : image,
+    desc: (m['og:description'] || m['twitter:description'] || m.description || '').slice(0, 160),
+    canonical: canonical || (m['og:url'] ? absHttp(m['og:url'], base) : ''),
+  }
+}
+
+/**
+ * 8초·1.5MB 상한. og 태그는 <head> 안에 있으니 </head> 를 보면 그만 받는다 (실측 손실 0/40, 중앙값 10KB 에서 끊김).
+ * 구글이 AMP 판본을 주면 og 태그가 없다 (실측 3/40) → canonical 로 한 번만 더 간다.
+ */
+export async function fetchMeta(url, { timeout = 8000, cap = 1.5e6, follow = true } = {}) {
+  const res = await fetch(url, {
+    headers: { 'user-agent': UA, accept: 'text/html,application/xhtml+xml;q=0.9,*/*;q=0.8', 'accept-language': 'ko-KR,ko;q=0.9' },
+    signal: AbortSignal.timeout(timeout),
+  })
+  if (!res.ok) throw new Error(`HTTP ${res.status}`)
+  const type = res.headers.get('content-type') ?? ''
+  if (type && !/html|xml/i.test(type)) { res.body?.cancel(); throw new Error(`not html: ${type}`) }
+  const chunks = []
+  let size = 0
+  for await (const c of res.body) {
+    chunks.push(c)
+    size += c.length
+    if (size >= cap || Buffer.from(c.buffer, c.byteOffset, c.length).includes('</head>')) break
+  }
+  const meta = { link: res.url, ...parseMeta(decodeHtml(Buffer.concat(chunks, Math.min(size, cap)), type), res.url) }
+  if (follow && !meta.image && !meta.desc && meta.canonical && meta.canonical !== res.url) {
+    return fetchMeta(meta.canonical, { timeout, cap, follow: false }).catch(() => meta)
+  }
+  return meta
+}
+
+// ─────────────────────────────────────────── 동시성·운영
+
+/** 동시 n 개로 fn 을 돌린다. 결과는 Promise.allSettled 모양 — 하나가 터져도 나머지를 잃지 않는다. */
+export async function pool(list, n, fn) {
+  const out = new Array(list.length)
+  let next = 0
+  const worker = async () => {
+    while (next < list.length) {
+      const i = next++
+      try { out[i] = { status: 'fulfilled', value: await fn(list[i], i) } } catch (reason) { out[i] = { status: 'rejected', reason } }
+    }
+  }
+  await Promise.all(Array.from({ length: Math.min(n, list.length) }, worker))
+  return out
+}
+
+/** 이전 회차의 link·image·desc 를 url 기준으로 옮겨 싣는다. 아직 image 를 못 정한 항목만 돌려준다. */
+export function carryOver(items, prevItems) {
+  const old = new Map(prevItems.map((p) => [normUrl(p.url), p]))
+  return items.filter((it) => {
+    const p = old.get(normUrl(it.url))
+    for (const f of ['link', 'image', 'desc']) if (p?.[f] !== undefined && it[f] === undefined) it[f] = p[f]
+    return it.image === undefined
+  })
+}
+
+/**
+ * 미리보기 채우기. 던지지 않는다. items 를 직접 고친다.
+ *   link  언론사 원문 주소 (구글을 못 풀면 없음 → 다음 회차 재시도)
+ *   image og:image. '' = 찾아봤는데 없음·실패 (재시도 안 함)
+ * 구글 GET 은 회차당 cap 건까지, 약 1초 간격. 실측: 연속 40건(+POST 41건)은 통과, 그 직후 /articles/ 가 429.
+ */
+// ponytail: 첫 1주(~2026-09-18)는 회차당 10건·약 2초 간격으로 조심해서 시작한다. Actions 로그에 429 가 없으면 cap 20·gap 800~1200ms 로 올린다
+export async function enrich(items, prevItems = [], { cap = 10, conc = 4, budgetMs = 120e3, gap = () => 1800 + Math.random() * 400 } = {}) {
+  const t0 = Date.now()
+  const over = () => Date.now() - t0 > budgetMs
+  const todo = carryOver(items, prevItems).slice(0, cap)
+  let fail = 0
+  try {
+    // 1) 서명 — 구글에는 순차로. 429·동의화면·연속 3회 실패면 이번 회차는 접는다.
+    const sigs = []
+    let streak = 0
+    for (const it of todo) {
+      if (it.link) continue
+      if (!isRedirect(it.url)) { it.link = it.url; continue }
+      if (over()) break
+      try { sigs.push([it, await googleSig(it.url)]); streak = 0 } catch (e) {
+        fail += 1
+        console.warn(`  ! 구글 서명: ${e.message}`)
+        if (/429|consent/.test(e.message) || ++streak >= 3) break
+      }
+      await sleep(gap())
+    }
+    // 2) 원문 주소 — 서명 10개씩 POST 한 번
+    for (let i = 0; i < sigs.length; i += 10) {
+      const chunk = sigs.slice(i, i + 10)
+      try {
+        (await googleResolve(chunk.map(([, s]) => s))).forEach((link, k) => { if (link) chunk[k][0].link = link; else fail += 1 })
+      } catch (e) { fail += chunk.length; console.warn(`  ! 구글 주소: ${e.message}`); break }
+      await sleep(gap())
+    }
+    // 3) 메타 — 언론사는 제각각이라 동시에 conc 개
+    const ready = todo.filter((it) => it.link && it.image === undefined)
+    const res = await pool(ready, conc, async (it) => { if (over()) throw new Error('budget'); return fetchMeta(it.link) })
+    res.forEach((r, k) => {
+      const it = ready[k]
+      if (r.status === 'fulfilled') { it.link = r.value.link; it.image = r.value.image; it.desc = r.value.desc }
+      else if (r.reason?.message !== 'budget') { it.image = ''; it.desc = ''; fail += 1 }
+    })
+  } catch (e) {
+    console.warn(`  ! 미리보기 중단: ${e.message}`)     // 여기까지 채운 것만 남는다
+  }
+  const c = (f) => todo.filter((it) => it[f]).length
+  const line = `미리보기 대상 ${todo.length} · 링크 ${c('link')} · 그림 ${c('image')} · 설명 ${c('desc')} · 실패 ${fail} · ${((Date.now() - t0) / 1000).toFixed(1)}s`
+  console.log(line)
+  return line
+}
+
 // ─────────────────────────────────────────── 수집
 
 async function get(url, opts = {}) {
@@ -334,7 +549,6 @@ async function main() {
       })),
   }
 
-  const body = JSON.stringify(out, null, 1)
   const prev2 = existsSync(OUT) ? JSON.parse(readFileSync(OUT, 'utf8')) : null
   const prev = prev2
 
@@ -353,6 +567,10 @@ async function main() {
   }
   // ponytail: 일부 토픽만 실패해 결과가 홀쭉해지는 경우는 안 막는다.
   //           조용한 뉴스 날과 구분이 안 돼서, 막으면 오탐이 더 잦다.
+
+  // 미리보기 — 이전 회차 값을 이월하고 새 기사만 찾는다. 여기서 무슨 일이 나도 수집 결과는 그대로 쓴다.
+  try { await enrich(out.items, prev?.items ?? []) } catch (e) { console.warn(`  ! 미리보기 건너뜀: ${e.message}`) }
+  const body = JSON.stringify(out, null, 1)
 
   // 내용이 그대로면 커밋이 생기지 않게 파일을 건드리지 않는다.
   if (prev && JSON.stringify(prev.items) === JSON.stringify(out.items)) {
@@ -432,5 +650,113 @@ function test() {
   console.log('자체검사 통과')
 }
 
-if (process.argv.includes('--test')) test()
+/** 미리보기 자체검사 — 네트워크 없음 */
+async function previewTest() {
+  // decode — collect.mjs 의 기존 검사 두 개가 그대로 통과해야 교체할 수 있다
+  assert.equal(decode('<![CDATA[<b>실손</b>&amp;간병]]>'), '실손&간병')
+  assert.equal(decode('&#39;5세대&#39;  실손'), "'5세대' 실손")
+  assert.equal(decode('A&#x27;B &middot; C&hellip; &ldquo;D&rdquo; &#128512; &bogus;'), "A'B · C… “D” 😀 &bogus;")
+  assert.equal(decode('&#0; &#x110000;'), '&#0; &#x110000;')          // 잘못된 코드포인트는 건드리지 않는다
+
+  // parseMeta — 속성 순서·작은따옴표·따옴표 안의 > ·첫 값 우선·엔티티
+  const base = 'https://www.x.co.kr/news/articleView.html?idxno=1'
+  const m = parseMeta(`<head>
+    <meta content="https://img.x.co.kr/a.jpg" property="og:image">
+    <meta property='og:image' content='https://img.x.co.kr/second.jpg'>
+    <meta name="twitter:image" content="/tw.jpg">
+    <meta property="og:description" content="수술비 > 치료비? &quot;5세대&quot; 실손&amp;간병 &#x2F; 정리">
+    <link rel="canonical" href="/news/articleView.html?idxno=1&amp;x=2">
+  </head>`, base)
+  assert.equal(m.image, 'https://img.x.co.kr/a.jpg')
+  assert.equal(m.desc, '수술비 > 치료비? "5세대" 실손&간병 / 정리')
+  assert.equal(m.canonical, 'https://www.x.co.kr/news/articleView.html?idxno=1&x=2')
+  assert.equal(parseMeta('<meta property="og:description" content="&amp;lt;표=CEO&amp;gt;국감 A&amp;amp;B">', base).desc, '<표=CEO>국감 A&B')  // 이중 이스케이프
+
+  // 상대·프로토콜 상대·한글 파일명·위험 스킴·로고
+  assert.equal(parseMeta('<meta name="twitter:image" content="/data/photo/1.jpg">', base).image, 'https://www.x.co.kr/data/photo/1.jpg')
+  assert.equal(parseMeta('<meta property="og:image" content="//cdn.x.kr/p.png">', base).image, 'https://cdn.x.kr/p.png')
+  assert.equal(parseMeta('<meta property="og:image" content="https://x.kr/사진 1.jpg">', base).image, 'https://x.kr/%EC%82%AC%EC%A7%84%201.jpg')
+  assert.equal(parseMeta('<meta property="og:image" content="javascript:alert(1)">', base).image, '')
+  assert.equal(parseMeta('<meta property="og:image" content="/img/d_logo.jpg">', base).image, '')
+  assert.equal(parseMeta('<meta property="og:image" content="https://logo.x.kr/news/1.jpg">', base).image, 'https://logo.x.kr/news/1.jpg')  // 호스트명은 안 본다
+  assert.deepEqual(parseMeta('<title>메타 없음</title>', base), { image: '', desc: '', canonical: '' })
+  assert.equal(parseMeta('<meta name="description" content="요약만">', base).desc, '요약만')          // og 없으면 일반 description
+
+  // 문자셋 — EUC-KR 바이트: 한 = C7 D1, 글 = B1 DB
+  const euc = Buffer.concat([Buffer.from('<meta charset="euc-kr"><meta property="og:description" content="'), Buffer.from([0xc7, 0xd1, 0xb1, 0xdb]), Buffer.from('">')])
+  assert.equal(parseMeta(decodeHtml(euc, 'text/html'), base).desc, '한글')                     // meta 의 charset
+  assert.equal(decodeHtml(Buffer.from([0xc7, 0xd1]), 'text/html; charset=EUC-KR'), '한')         // 헤더의 charset
+  assert.equal(decodeHtml(Buffer.from([0xc7, 0xd1]), 'text/html; charset=ks_c_5601-1987'), '한')
+  assert.equal(decodeHtml(Buffer.from([0xc7, 0xd1]), 'text/html; charset=cp949'), '한')          // WHATWG 라벨에 없는 별칭
+  assert.equal(decodeHtml(Buffer.from('한', 'utf8'), 'text/html; charset=bogus'), '한')          // 모르는 라벨 → utf-8
+  assert.equal(charsetOf('text/html', Buffer.from('<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">')), 'euc-kr')
+  assert.equal(charsetOf('text/html; charset=utf-8', Buffer.from('<meta charset="euc-kr">')), 'utf-8')   // 헤더가 이긴다
+
+  // fetchMeta 전체 경로 — 가짜 fetch: AMP(메타 없음) → canonical 한 번 따라가기, 거기는 EUC-KR 헤더
+  const pages = {
+    'https://x.kr/amp/1': ['text/html', Buffer.from('<html><head><link rel="canonical" href="/news/1"></head>')],
+    'https://x.kr/news/1': ['text/html; charset=euc-kr', Buffer.concat([Buffer.from('<head><meta property="og:image" content="/p/1.jpg"><meta property="og:description" content="'), Buffer.from([0xc7, 0xd1, 0xb1, 0xdb]), Buffer.from('"></head><body>')])],
+    'https://x.kr/amp/404': ['text/html', Buffer.from('<head><link rel="canonical" href="/gone"></head>')],
+  }
+  const realFetch = globalThis.fetch
+  const hits = []
+  globalThis.fetch = async (u) => {
+    hits.push(u)
+    if (!pages[u]) return new Response('no', { status: 404 })
+    const r = new Response(pages[u][1], { headers: { 'content-type': pages[u][0] } })
+    Object.defineProperty(r, 'url', { value: u })
+    return r
+  }
+  try {
+    assert.deepEqual(await fetchMeta('https://x.kr/amp/1'), { link: 'https://x.kr/news/1', image: 'https://x.kr/p/1.jpg', desc: '한글', canonical: '' })
+    assert.equal((await fetchMeta('https://x.kr/amp/404')).link, 'https://x.kr/amp/404')   // canonical 이 죽었으면 원래 결과
+    assert.equal(hits.length, 4)
+  } finally { globalThis.fetch = realFetch }
+
+  // 구글 — 서명 추출, 요청 본문, 응답 해석 (= 이스케이프 포함)
+  assert.deepEqual(parseSig('<div data-n-a-id="CBMi" data-n-a-ts="1789088568" data-n-a-sg="Ae5Wzi8uAdQU"></div>'), { sg: 'Ae5Wzi8uAdQU', ts: 1789088568 })
+  assert.equal(parseSig('<html>consent</html>'), null)
+  const req = JSON.parse(decodeURIComponent(garturlBody([{ id: 'CBMiA', ts: 1, sg: 'S1' }, { id: 'CBMiB', ts: 2, sg: 'S2' }]).slice(6)))[0]
+  assert.deepEqual([req.length, req[1][0], req[1][3]], [2, 'Fbv4je', '2'])
+  assert.deepEqual(JSON.parse(req[1][1]).slice(2), ['CBMiB', 2, 'S2'])
+  const wrb = (inner, idx) => ['wrb.fr', 'Fbv4je', inner, null, null, null, idx]
+  const text = ")]}'\n\n" + JSON.stringify([
+    wrb('["garturlres","http://www.x.com/news/articleViewAmp.html?idxno\\u003d851558",1]', '2'),
+    ['wrb.fr', 'Fbv4je', null, null, null, [3], '1'],          // 실패한 칸
+    ['di', 13], ['af.httprm', 12, '790', 1],
+  ])
+  assert.deepEqual(parseGarturl(text, 2), [null, 'http://www.x.com/news/articleViewAmp.html?idxno=851558'])
+  assert.deepEqual(parseGarturl(")]}'\n\n" + JSON.stringify([wrb('["garturlres","https://a.kr/1",1]', 'generic')]), 1), ['https://a.kr/1'])
+
+  // pool — 동시 상한·순서 보존·하나 실패해도 나머지 유지
+  let live = 0
+  let peak = 0
+  const got = await pool([30, 10, 20, 0, 5], 2, async (ms, i) => {
+    live += 1; peak = Math.max(peak, live); await sleep(ms); live -= 1
+    if (i === 3) throw new Error('boom')
+    return i
+  })
+  assert.equal(peak, 2)
+  assert.deepEqual(got.map((r) => (r.status === 'fulfilled' ? r.value : r.reason.message)), [0, 1, 2, 'boom', 4])
+
+  // carryOver — 이전 값 보존, 못 끝낸 항목만 다시
+  const g = (x) => `https://news.google.com/rss/articles/${x}?oc=5`
+  const prev = [
+    { url: g('A'), link: 'https://a.kr/1', image: 'https://a.kr/1.jpg', desc: '가' },
+    { url: g('B'), link: 'https://b.kr/1' },                          // 링크만 풀고 메타 전에 끝난 회차
+    { url: g('C'), link: 'https://c.kr/1', image: '', desc: '' },     // 확정 실패 — 다시 안 찾는다
+  ]
+  const cur = ['A', 'B', 'C', 'D'].map((x) => ({ url: g(x) }))
+  assert.deepEqual(carryOver(cur, prev).map((t) => t.url.at(-6)), ['B', 'D'])
+  assert.deepEqual([cur[0].image, cur[1].link, cur[1].image, cur[2].image], ['https://a.kr/1.jpg', 'https://b.kr/1', undefined, ''])
+
+  // enrich — 전부 이월된 경우 아무 요청도 안 하고 끝난다
+  const cur2 = [{ url: g('A') }, { url: g('C') }]
+  assert.match(await enrich(cur2, prev), /대상 0 /)
+  assert.equal(cur2[0].desc, '가')
+
+  console.log('미리보기 자체검사 통과')
+}
+
+if (process.argv.includes('--test')) { test(); await previewTest() }
 else await main()

@@ -1,7 +1,7 @@
 {
   "name": "혜안 — 보험을 보는 눈",
   "short_name": "혜안",
-  "description": "간병·수술비·치료비·실손·정책. 오늘 봐야 할 보험 이슈를 하루 다섯 번 골라 모읍니다.",
+  "description": "간병·수술비·치료비·실손·정책. 오늘 봐야 할 보험 이슈를 골라 모읍니다.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
