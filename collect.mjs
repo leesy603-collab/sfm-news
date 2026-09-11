@@ -569,7 +569,7 @@ async function main() {
   //           조용한 뉴스 날과 구분이 안 돼서, 막으면 오탐이 더 잦다.
 
   // 미리보기 — 이전 회차 값을 이월하고 새 기사만 찾는다. 여기서 무슨 일이 나도 수집 결과는 그대로 쓴다.
-  try { await enrich(out.items, prev?.items ?? []) } catch (e) { console.warn(`  ! 미리보기 건너뜀: ${e.message}`) }
+  try { await enrich(out.items, prev?.items ?? [], process.env.PREVIEW_CAP ? { cap: +process.env.PREVIEW_CAP, budgetMs: 360e3 } : {}) } catch (e) { console.warn(`  ! 미리보기 건너뜀: ${e.message}`) }
   const body = JSON.stringify(out, null, 1)
 
   // 내용이 그대로면 커밋이 생기지 않게 파일을 건드리지 않는다.

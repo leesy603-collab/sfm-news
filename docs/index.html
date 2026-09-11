@@ -36,7 +36,7 @@
   --ink:#101418; --body:#343a43; --muted:#4b5563;
   --accent:#003CDC; --on-accent:#fff; --accent-soft:#edf2ff; --sky:#5BC2E7;
   --leaf:#12614a; --on-leaf:#fff; --alert:#9e3226;
-  --c-ganbyeong:#12614a; --c-susul:#003CDC; --c-chiryo:#9a3f22; --c-silson:#5b3fb0; --c-jeongchaek:#80560a;
+  --c-ganbyeong:#101418; --c-susul:#101418; --c-chiryo:#101418; --c-silson:#101418; --c-jeongchaek:#101418;   /* 분야별 색 없음 — 무채 */
   --E:cubic-bezier(.32,.72,0,1);
   --bar:3.75rem; --tab:4.25rem; --pad:1.125rem;
   --safe-t:env(safe-area-inset-top,0px); --safe-b:env(safe-area-inset-bottom,0px);
@@ -64,7 +64,7 @@ svg{flex:0 0 auto}
 .bar.scrolled{border-bottom-color:var(--line)}
 .bar .wrap{height:var(--bar); display:flex; align-items:center; gap:.75rem}
 .brand{margin:0; font-size:inherit; min-width:0}
-.logo{display:inline-block; line-height:2.75rem; font-size:1.625rem; font-weight:800; letter-spacing:-.02em;
+.logo{display:inline-block; line-height:2.75rem; font-size:1.625rem; font-weight:700; letter-spacing:-.02em;
   color:var(--ink); text-decoration:none; white-space:nowrap; transition:transform .35s var(--E)}
 .logo:active{transform:scale(.94)}
 .logo small{margin-left:.5rem; font-size:.8125rem; font-weight:600; letter-spacing:0; color:var(--muted)}
@@ -73,12 +73,12 @@ svg{flex:0 0 auto}
 
 /* 방문 수 — 홈 맨 위, 로고 바로 아래 두 칸. 숫자는 크게, 색은 주색 하나. 카운트업·반짝임 없음
    자리는 먼저 잡고(흔들림 없음) 숫자가 오면 드러난다. 끝내 실패하면 띠째 뺀다 */
-.stats{display:grid; grid-template-columns:1fr 1fr; margin:.5rem 0 .75rem; border:1px solid var(--line); border-radius:.875rem; background:#fff}
+.stats{display:grid; grid-template-columns:1fr 1fr; margin:.5rem 0 .75rem; border:1px solid var(--line); border-radius:.5rem; background:#fff}
 .stat{min-height:4.25rem; padding:.625rem 1rem; opacity:0; visibility:hidden; transition:opacity .24s linear, visibility .24s}
 .stats.on .stat{opacity:1; visibility:visible}
 .stat + .stat{border-left:1px solid var(--line)}
 .stat .k{display:block; font-size:.9375rem; font-weight:600; line-height:1.3; color:var(--muted)}
-.stat .v{font-size:1.75rem; font-weight:800; line-height:1.2; color:var(--accent); font-variant-numeric:tabular-nums; font-kerning:none; white-space:nowrap}
+.stat .v{font-size:1.75rem; font-weight:700; line-height:1.2; color:var(--accent); font-variant-numeric:tabular-nums; font-kerning:none; white-space:nowrap}
 .stat .u{margin-left:.125rem; font-size:1rem; font-weight:600; color:var(--muted)}
 
 .stale{margin:0; background:var(--alert); color:#fff; font-size:1rem; font-weight:700;
@@ -89,78 +89,41 @@ svg{flex:0 0 auto}
 @keyframes up{from{opacity:0; transform:translateY(14px)}}
 @keyframes spin{to{transform:rotate(360deg)}}
 
-/* ── 홈 히어로 — 돋보기 속 눈이 오늘 기사를 한 번 훑고, 아래 「오늘의 혜안」을 내려다본다
-   대비(가장 짙은 #eaf2ff 기준): ink 17 · body 10.6 · 주색 7.2 · 주색 버튼 흰 글자 7.8. Spring Blue 는 글자에 쓰지 않는다 */
-.hero{--sky-0:#f5f9ff; --sky-1:#eaf2ff; --sky-3:#cddffa;
-  position:relative; overflow:hidden; margin:0 0 1.5rem; border-radius:1.5rem; padding:1.25rem 1.25rem 1rem; color:var(--ink);
-  background:linear-gradient(165deg,var(--sky-0),var(--sky-1)); box-shadow:inset 0 0 0 1px rgba(0,60,220,.07);
-  /* 글 칸 최소폭을 rem 으로 → 글자를 키우면 그림 칸만 준다(더 크게에서 숫자가 쪼개지지 않는다) */
-  display:grid; grid-template-columns:minmax(8rem,1fr) minmax(0,12rem); column-gap:.5rem;
-  grid-template-areas:"tx art" "where where" "go go" "foot foot"}
-.hero-tx{grid-area:tx; align-self:center; min-width:0}
-.hero-date{margin:0; font-size:1.0625rem; font-weight:600; line-height:1.35; color:var(--body); white-space:nowrap}
-.hero-h{margin:.375rem 0 0; font-size:1.3125rem; font-weight:800; line-height:1.3; color:var(--ink)}
-.hero-n{margin:.125rem 0 0; display:flex; align-items:baseline; gap:.25rem; line-height:1; white-space:nowrap}
-.hero-n b{font-size:4rem; font-weight:800; letter-spacing:-.03em; color:var(--accent)}
-.hero-n span{font-size:1.5rem; font-weight:700; color:var(--ink)}
-.hero-zero{margin:.25rem 0 0; font-size:1.875rem; font-weight:800; line-height:1.2; color:var(--ink)}
-.hero-cap{margin:.375rem 0 0; font-size:1.0625rem; font-weight:600; line-height:1.4; color:var(--body)}
+/* ── 홈 요약 — 글만. 큰 숫자 하나에만 주색 */
+.hero{margin:0 0 1.5rem; padding:1.25rem 1.25rem 1rem; border:1px solid var(--line); border-radius:.625rem; background:#fff; color:var(--ink)}
+.hero-date{margin:0; font-size:1rem; font-weight:500; color:var(--muted)}
+.hero-h{margin:.5rem 0 0; font-size:1.25rem; font-weight:700; color:var(--ink)}
+.hero-n{margin:.25rem 0 0; display:flex; align-items:baseline; gap:.25rem; line-height:1; white-space:nowrap}
+.hero-n b{font-size:3.5rem; font-weight:700; letter-spacing:-.03em; color:var(--accent); font-variant-numeric:tabular-nums; font-kerning:none}
+.hero-n span{font-size:1.375rem; font-weight:600; color:var(--ink)}
+.hero-zero{margin:.375rem 0 0; font-size:1.75rem; font-weight:700; color:var(--ink)}
+.hero-cap{margin:.5rem 0 0; font-size:1rem; color:var(--muted)}
 .hero-cap:empty{display:none}
-
-.hero-art{grid-area:art; position:relative; align-self:center; aspect-ratio:1; margin-right:-.5rem}
-.hero-art img{position:absolute; inset:0; width:100%; height:100%; object-fit:contain}
-/* 그림이 없을 때 CSS 로 그린 신문 — 생성 그림과 같은 실루엣(-5° 종이 한 장, 그림자 없음) */
-.hero-art.noimg::before{content:""; position:absolute; inset:16% 10% 12% 8%; border-radius:.75rem; transform:rotate(-5deg);
-  background:linear-gradient(var(--accent),var(--accent)) 14% 13% / 46% 7% no-repeat,
-    repeating-linear-gradient(180deg,transparent 0 10%,var(--sky-3) 10% 17%) 50% 88% / 76% 60% no-repeat, #fff;
-  box-shadow:inset 0 0 0 2px var(--sky)}
-
-.lens{position:absolute; left:0; top:0; width:62%; height:auto; overflow:visible; pointer-events:none;
-  transform:translate(36%,50%)}                 /* 쉬는 자리 = 본문 줄 위. 제목 막대를 가리지 않는다 */
-.lens .ap,.lens .eye{transform-box:view-box; transform-origin:48px 48px}
-.lens .spark{opacity:0; transform-box:fill-box; transform-origin:center}
-.lens .eye{transform:scaleY(.1); transition:transform .4s var(--E)}          /* 불러오는 중·실패 = 감은 눈 */
-.hero.is-on .eye,.hero.is-rest .eye{transform:none; animation:blink 7s ease-in-out 1.6s infinite}
-.hero.is-on .lens{animation:scan 8s var(--E) .6s}                             /* 한 번만 훑는다 */
-.hero.is-on .pupil{animation:gaze 8s var(--E) .6s}
-.hero.is-on .spark{animation:spark 8s var(--E) .6s}
-.hero.is-on .ap{animation:focus 8s var(--E) .6s, spin 60s linear 8.6s infinite}
-.hero.is-rest .ap{animation:spin 60s linear infinite}
-@keyframes scan{0%{transform:translate(36%,50%)} 10%,24%{transform:translate(2%,6%)} 34%,48%{transform:translate(50%,20%)} 58%,72%{transform:translate(8%,48%)} 86%,100%{transform:translate(36%,50%)}}
-@keyframes focus{0%,12%{transform:rotate(0)} 20%,36%{transform:rotate(120deg)} 44%,60%{transform:rotate(240deg)} 68%,100%{transform:rotate(360deg)}}
-@keyframes gaze{0%{transform:none} 8%,86%{transform:translate(0,-5px)} 100%{transform:none}}   /* 기본 동공은 아래(오늘의 혜안)를 본다 */
-@keyframes spark{0%,14%,24%,38%,48%,62%,72%,100%{opacity:0; transform:scale(.3)} 18%,42%,66%{opacity:1; transform:scale(1)}}
-@keyframes blink{0%,92%,100%{transform:scaleY(1)} 96%{transform:scaleY(.1)}}
-
-.hero-where{grid-area:where; margin:.75rem 0 0; font-size:1.1875rem; font-weight:700; line-height:1.45; color:var(--ink)}
-.dot{display:inline-block; width:.625rem; height:.625rem; margin:0 .5rem 0 .125rem; border-radius:50%; vertical-align:.12em;
-  background:var(--accent); box-shadow:0 0 0 3px rgba(0,60,220,.16)}
-.hero-go{grid-area:go; margin-top:.875rem; min-height:3.25rem; display:flex; align-items:center; justify-content:center; gap:.375rem;
-  border-radius:1rem; background:var(--accent); color:var(--on-accent); font-size:1.1875rem; font-weight:800; text-decoration:none;
-  transition:transform .35s var(--E)}
-.hero-go:active{transform:scale(.97)}
-.hero-go svg{width:1.25rem; height:1.25rem}
-.hero-foot{grid-area:foot; margin:.875rem 0 0; padding-top:.625rem; border-top:1px solid rgba(0,60,220,.12);
-  font-size:1rem; line-height:1.5; color:var(--body)}
-.hero-foot b{font-weight:800; color:var(--ink); font-variant-numeric:tabular-nums; font-kerning:none}
+.hero-where{margin:.75rem 0 0; font-size:1.0625rem; font-weight:600; color:var(--body)}
+.dot{display:inline-block; width:.5rem; height:.5rem; margin:0 .5rem 0 0; border-radius:50%; vertical-align:.15em; background:var(--accent)}
+.hero-go{margin-top:1rem; min-height:3.25rem; display:flex; align-items:center; justify-content:center; gap:.375rem;
+  border-radius:.5rem; background:var(--ink); color:#fff; font-size:1.125rem; font-weight:700; text-decoration:none}
+.hero-go svg{width:1.125rem; height:1.125rem}
+.hero-foot{margin:1rem 0 0; padding-top:.75rem; border-top:1px solid var(--line); font-size:.9375rem; color:var(--muted)}
+.hero-foot b{font-weight:700; color:var(--ink); font-variant-numeric:tabular-nums; font-kerning:none}
 
 /* ── 섹션 — 흰 바탕 위에서 옅은 회색 띠로 가른다(화면 끝까지) */
 .sec{margin-inline:calc(var(--pad) * -1); padding:1.375rem var(--pad) .5rem; border-top:.5rem solid var(--band)}
 .sh{display:flex; align-items:baseline; flex-wrap:wrap; gap:.25rem .625rem; margin:0 0 .375rem; min-height:2.5rem}
-.sh h2{margin:0; font-size:1.375rem; font-weight:800; letter-spacing:-.02em; color:var(--ink)}
+.sh h2{margin:0; font-size:1.375rem; font-weight:700; letter-spacing:-.02em; color:var(--ink)}
 .sh .sub{font-size:.9375rem; font-weight:600; color:var(--muted)}
 .sh .btn{margin-left:auto; align-self:center}
 .hint{margin:0 0 .875rem; font-size:1rem; color:var(--muted)}
 
 /* ── 버튼 */
 .btn{min-height:2.75rem; display:inline-flex; align-items:center; justify-content:center; gap:.375rem;
-  padding:.5rem 1rem; border-radius:.875rem; border:1px solid var(--line-2); background:#fff;
+  padding:.5rem 1rem; border-radius:.5rem; border:1px solid var(--line-2); background:#fff;
   color:var(--ink); font-size:1rem; font-weight:700; line-height:1.2; cursor:pointer; text-decoration:none; white-space:nowrap;
   transition:transform .35s var(--E), background .35s var(--E), border-color .35s var(--E), color .35s var(--E)}
 .btn:active{transform:scale(.96)}
 .btn svg{width:1.125rem; height:1.125rem}
 .btn.primary{background:var(--accent); border-color:var(--accent); color:var(--on-accent)}
-.btn.big{width:100%; min-height:3.5rem; border-radius:1rem; font-size:1.25rem; font-weight:800}
+.btn.big{width:100%; min-height:3.5rem; border-radius:.5rem; font-size:1.25rem; font-weight:700}
 .btn.save.on{color:var(--accent); border-color:var(--accent); background:var(--accent-soft)}
 .btn.save.on svg{fill:currentColor}
 
@@ -180,36 +143,36 @@ svg{flex:0 0 auto}
 
 .top{display:flex; align-items:center; flex-wrap:wrap; gap:.25rem .5rem; min-height:1.5rem}
 .top:empty{display:none}
-.num{font-size:1.25rem; font-weight:800; line-height:1; color:var(--cc,var(--accent)); font-variant-numeric:tabular-nums; font-kerning:none}
-.cat{display:inline-flex; align-items:center; gap:.375rem; font-size:.9375rem; font-weight:700; color:var(--cc,var(--accent))}
-.cat::before{content:""; width:.5rem; height:.5rem; border-radius:50%; background:currentColor}
+.num{font-size:1.25rem; font-weight:700; line-height:1; color:var(--ink); font-variant-numeric:tabular-nums; font-kerning:none}
+.cat{font-size:.9375rem; font-weight:600; color:var(--muted)}
 .meta{display:flex; align-items:center; flex-wrap:wrap; gap:.125rem .75rem; margin-top:.375rem; font-size:1rem; color:var(--muted)}
 .press{font-weight:700; color:var(--body)}
 .meta .t{font-variant-numeric:tabular-nums; font-kerning:none}
 
-.pill{font-size:.75rem; font-weight:700; letter-spacing:.02em; line-height:1.5; border-radius:999px; padding:.125rem .5rem; white-space:nowrap}
-.pill.new{background:var(--leaf); color:var(--on-leaf)}
+.pill{font-size:.75rem; font-weight:700; letter-spacing:.02em; line-height:1.5; border-radius:.25rem; padding:.125rem .4375rem; white-space:nowrap}
+.pill.new{background:var(--accent); color:#fff}
 .pill.today{background:var(--accent-soft); color:var(--accent)}
 .pill.more{background:var(--fill); color:var(--body)}
 .pill.t3{border:1px solid var(--line-2); color:var(--muted)}
 
 /* ── 오늘의 혜안 — 사진이 위에 크게 오는 카드 3장 */
 .brief{display:flex; flex-direction:column; gap:.875rem; padding-bottom:.75rem}
-.bcard{position:relative; border:1px solid var(--line); border-radius:1.125rem; overflow:hidden; background:#fff;
+.bcard{position:relative; border:1px solid var(--line); border-radius:.5rem; overflow:hidden; background:#fff;
   animation:up .5s var(--E) backwards; animation-delay:calc(var(--i,0) * 60ms); transition:transform .35s var(--E)}
 .bcard:has(.open:active){transform:scale(.985)}
-.bcard .pic{aspect-ratio:2/1}
+.bcard .pic{aspect-ratio:16/9}
 .bcard .pic .ph{width:30%; height:60%}
 .bbody{padding:.875rem 1rem 1rem}
-.bcard h3{margin:.375rem 0 0; font-size:1.4375rem; font-weight:800; line-height:1.4; letter-spacing:-.02em; color:var(--ink); text-wrap:pretty}
+.bcard h3{margin:.375rem 0 0; font-size:1.4375rem; font-weight:700; line-height:1.4; letter-spacing:-.02em; color:var(--ink); text-wrap:pretty}
 
 /* ── 기사 목록 — 제목 왼쪽, 사진 오른쪽(네이버 뉴스 목록 짜임)
    글자를 키웠거나 폰이 좁아 목록 폭이 18rem 이하면 사진을 제목 위로 올린다(제목 칸이 한두 글자로 쪼개지지 않게) */
 .list{display:flex; flex-direction:column; container-type:inline-size}
-.item{position:relative; display:grid; grid-template-columns:minmax(0,1fr) auto; grid-template-rows:auto auto 1fr;
-  grid-template-areas:"top pic" "title pic" "meta pic"; column-gap:.875rem; padding:1rem 0; border-top:1px solid var(--line);
+.item{position:relative; display:grid; grid-template-columns:minmax(0,1fr); grid-template-rows:auto auto 1fr;
+  grid-template-areas:"top" "title" "meta"; column-gap:.875rem; padding:1rem 0; border-top:1px solid var(--line);
   animation:up .45s var(--E) backwards; animation-delay:calc(var(--i,0) * 40ms)}
 .item:first-child{border-top:0}
+.item.withpic{grid-template-columns:minmax(0,1fr) auto; grid-template-areas:"top pic" "title pic" "meta pic"}
 .item .top{grid-area:top}
 .item h3{grid-area:title; margin:.125rem 0 0; font-size:1.3125rem; font-weight:700; line-height:1.42; letter-spacing:-.02em; color:var(--ink)}
 /* 줄 수 자르기는 버튼에 건다 — 버튼은 제 상자 안에서 줄을 바꾸므로 h3 에 걸면 먹지 않는다 */
@@ -218,9 +181,9 @@ svg{flex:0 0 auto}
 .item::before{content:""; position:absolute; inset:0 calc(var(--pad) * -1); background:rgba(0,60,220,.06);
   opacity:0; transition:opacity 80ms linear; pointer-events:none}
 .item:has(.open:active)::before{opacity:1}
-.item .pic{grid-area:pic; width:6rem; aspect-ratio:4/3; margin-top:.25rem; border-radius:.625rem}
+.item .pic{grid-area:pic; width:6rem; aspect-ratio:4/3; margin-top:.25rem; border-radius:.25rem}
 @container (max-width: 18rem){
-  .item{grid-template-columns:minmax(0,1fr); grid-template-rows:none; grid-template-areas:"pic" "top" "title" "meta"}
+  .item.withpic{grid-template-columns:minmax(0,1fr); grid-template-rows:none; grid-template-areas:"pic" "top" "title" "meta"}
   .item .pic{width:100%; height:auto; aspect-ratio:2/1; margin:0 0 .625rem}
   .item .pic .ph{width:28%; height:56%}
 }
@@ -239,7 +202,7 @@ svg{flex:0 0 auto}
   color:inherit; text-decoration:none; border-top:1px solid var(--line)}
 .row:first-child{border-top:0}
 .row .ic{width:3rem; height:3rem; border-radius:.9375rem; display:grid; place-items:center; flex:0 0 auto; padding:.3125rem;
-  font-size:1.125rem; font-weight:800; color:var(--cc); background:var(--fill); transition:transform .45s var(--E)}
+  font-size:1.125rem; font-weight:700; color:var(--cc); background:var(--fill); transition:transform .45s var(--E)}
 /* color-mix 는 var() 가 섞이면 미지원 브라우저에서 앞 줄로 돌아가지 않고 투명해진다 — 지원할 때만 덧칠한다 */
 @supports (color: color-mix(in srgb, red 8%, #fff)){
   .pic{background:color-mix(in srgb, var(--cc,var(--accent)) 8%, #fff)}
@@ -248,7 +211,7 @@ svg{flex:0 0 auto}
 .row .ic img{width:100%; height:100%; object-fit:contain; display:block}
 .row:active .ic{transform:scale(.9)}
 .row .tx{flex:1; min-width:0}
-.row .nm{display:block; font-size:1.1875rem; font-weight:800; color:var(--ink)}
+.row .nm{display:block; font-size:1.1875rem; font-weight:700; color:var(--ink)}
 .row .nm .dot{margin:0 0 0 .5rem}
 .row .pv{display:block; font-size:.9375rem; color:var(--muted); white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
 .row > svg{width:1.25rem; height:1.25rem; color:var(--muted)}
@@ -263,7 +226,7 @@ svg{flex:0 0 auto}
 .ctab[aria-pressed="true"]{color:var(--cc,var(--ink))}
 .ctab[aria-pressed="true"]::after{transform:scaleX(1)}
 .lh{display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:.5rem; margin:1rem 0 .25rem}
-.lh h2{margin:0; font-size:1.375rem; font-weight:800; color:var(--ink); letter-spacing:-.02em}
+.lh h2{margin:0; font-size:1.375rem; font-weight:700; color:var(--ink); letter-spacing:-.02em}
 .lh h2 .n{font-size:1rem; font-weight:600; color:var(--muted); margin-left:.375rem; font-variant-numeric:tabular-nums; font-kerning:none}
 .sort{display:inline-grid; grid-auto-flow:column; gap:.25rem; padding:.25rem; background:var(--fill); border-radius:999px}
 .sort button{min-height:2.75rem; padding:0 1rem; border:0; border-radius:999px; background:transparent; cursor:pointer;
@@ -280,7 +243,7 @@ svg{flex:0 0 auto}
 /* ── 더보기 */
 .group{padding:1rem 0 1.125rem; border-top:1px solid var(--line)}
 .sh + .group{border-top:0}
-.group h3{margin:0 0 .75rem; font-size:1.0625rem; font-weight:800; color:var(--ink)}
+.group h3{margin:0 0 .75rem; font-size:1.0625rem; font-weight:700; color:var(--ink)}
 .group p{margin:0; font-size:1rem; line-height:1.7}
 .group p + p{margin-top:.5rem}
 .seg{display:grid; grid-auto-flow:column; grid-auto-columns:1fr; gap:.25rem; padding:.25rem; background:var(--fill); border-radius:.875rem}
@@ -306,7 +269,7 @@ footer .src{font-size:.8125rem}
 .sheet::backdrop{background:transparent}
 .scrim{position:absolute; inset:0; background:rgba(16,20,24,.46); opacity:0; transition:opacity .24s linear; cursor:pointer}
 .panel{position:absolute; left:0; right:0; bottom:0; max-width:760px; margin-inline:auto; max-height:92vh; max-height:92dvh;
-  display:flex; flex-direction:column; background:#fff; border-radius:1.5rem 1.5rem 0 0;
+  display:flex; flex-direction:column; background:#fff; border-radius:1rem 1rem 0 0;
   box-shadow:0 -16px 40px -24px rgba(0,0,0,.4); padding-bottom:var(--safe-b);
   transform:translateY(100%); transition:transform .4s var(--E)}
 .sheet.on .scrim{opacity:1}
@@ -318,9 +281,9 @@ footer .src{font-size:.8125rem}
   border:0; border-radius:50%; background:var(--fill); cursor:pointer}
 .x svg{width:1.25rem; height:1.25rem}
 .sheet-body{overflow:auto; overscroll-behavior:contain; padding:.5rem 1.25rem 1.25rem}
-.sheet .pic{aspect-ratio:16/9; margin:.25rem 0 1rem; border-radius:1rem}
+.sheet .pic{aspect-ratio:16/9; margin:.25rem 0 1rem; border-radius:.375rem}
 .sheet .pic .ph{width:26%; height:46%}
-.sheet h2{margin:.375rem 0 0; font-size:1.5rem; font-weight:800; line-height:1.4; letter-spacing:-.02em; color:var(--ink); text-wrap:pretty}
+.sheet h2{margin:.375rem 0 0; font-size:1.5rem; font-weight:700; line-height:1.4; letter-spacing:-.02em; color:var(--ink); text-wrap:pretty}
 .sdesc{margin:1rem 0 0; font-size:1.1875rem; line-height:1.75; color:var(--body)}
 .snote{margin:.375rem 0 0; font-size:.875rem; color:var(--muted)}
 .sacts{margin-top:1.25rem; display:grid; gap:.5rem}
@@ -381,20 +344,6 @@ footer .src{font-size:.8125rem}
         <p class="hero-n" id="heroN" hidden><b id="bigN">0</b><span>건</span></p>
         <p class="hero-zero" id="heroZero" hidden>아직 없어요</p>
         <p class="hero-cap" id="heroCap"></p>
-      </div>
-      <!-- 무대(신문 그림) + 배우(코드로 그린 돋보기 속 눈). 누르는 대상이 아니다 -->
-      <div class="hero-art" id="heroArt" aria-hidden="true">
-        <img src="img/hero-news.webp" alt="" width="512" height="512" decoding="async" onerror="this.parentNode.classList.add('noimg');this.remove()">
-        <svg class="lens" viewBox="0 0 120 120">
-          <path d="M74 74 104 104" stroke="#003CDC" stroke-width="13" stroke-linecap="round"/>
-          <circle cx="48" cy="48" r="36" fill="#EFF9FD" stroke="#003CDC" stroke-width="8"/>
-          <circle class="ap" cx="48" cy="48" r="28" fill="none" stroke="#5BC2E7" stroke-width="6" stroke-dasharray="13.5 8.49"/>
-          <g class="eye">
-            <path d="M24 48Q48 20 72 48Q48 76 24 48Z" fill="#FFFDF8" stroke="#0B1220" stroke-width="2.5" stroke-linejoin="round"/>
-            <g class="pupil"><circle cx="48" cy="52" r="8" fill="#003CDC"/><circle cx="48" cy="52" r="3.6" fill="#0B1220"/><circle cx="50.8" cy="49.2" r="2" fill="#FFFDF8"/></g>
-          </g>
-          <path class="spark" d="M100 6l3.2 8.8 8.8 3.2-8.8 3.2-3.2 8.8-3.2-8.8-8.8-3.2 8.8-3.2z" fill="#003CDC"/>
-        </svg>
       </div>
       <p class="hero-where" id="heroWhere" hidden><i class="dot" aria-hidden="true"></i><span id="heroWhereT"></span></p>
       <a class="hero-go" id="heroGo" href="#news/all/latest" hidden><span id="heroGoT">오늘 기사 보기</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5.5 6.5 6.5L9 18.5"/></svg></a>
@@ -470,7 +419,7 @@ footer .src{font-size:.8125rem}
         <dt><span class="pill more">외 3곳</span></dt><dd>같은 내용을 다른 언론 3곳도 보도</dd>
         <dt><span class="pill t3">단독매체</span></dt><dd>주요 언론 목록 밖의 매체 한 곳만 보도한 기사. 원문 출처를 한 번 더 확인하세요</dd>
         <dt>보도순</dt><dd>기사 탭에서 같은 내용을 다룬 언론이 많은 기사부터 보기</dd>
-        <dt>기사 사진</dt><dd>언론사가 공개한 대표 사진이에요. 사진이 없는 기사는 분야 그림으로 대신해요</dd>
+        <dt>기사 사진</dt><dd>링크 미리보기에 뜨는 언론사 대표 사진이에요. 사진이 없는 기사는 제목만 보여요</dd>
       </dl>
     </div>
 
@@ -583,17 +532,10 @@ const ICON = {
 };
 const svg = (k) => '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + ICON[k] + '</svg>';
 
-/* 카테고리 그림 — gpt-image 로 만든 2D 아이콘 */
-const ICON_IDS = ['ganbyeong', 'susul', 'chiryo', 'silson', 'jeongchaek'];
-const catIcon = (t) => ICON_IDS.includes(t.id)
-  ? `<img src="img/cat-${esc(t.id)}.webp" alt="" width="160" height="160" loading="lazy" decoding="async" data-l="${esc(t.label.slice(0, 1))}" onerror="this.replaceWith(this.dataset.l)">`
-  : esc(t.label.slice(0, 1));
-
-/* 사진 한 칸 — 분야 그림을 깔고, 기사 사진(언론사 서버에서 바로)이 오면 위에 덮는다. 실패하면 사진만 빠진다 */
-const pic = (i, c, eager) => '<div class="pic" aria-hidden="true">'
-  + (ICON_IDS.includes(c) ? `<img class="ph" src="img/cat-${esc(c)}.webp" alt="" loading="lazy" decoding="async">` : '')
-  + (safe(i.image) ? `<img class="real" src="${esc(i.image)}" alt="" loading="${eager ? 'eager' : 'lazy'}" decoding="async" referrerpolicy="no-referrer" onload="this.classList.add('ok')" onerror="this.remove()">` : '')
-  + '</div>';
+/* 기사 사진 — 링크 미리보기의 대표 사진(og:image)을 언론사 서버에서 바로. 없거나 실패하면 사진 칸을 뺀다 */
+const pic = (i, c, eager) => safe(i.image)
+  ? `<div class="pic" aria-hidden="true"><img class="real" src="${esc(i.image)}" alt="" loading="${eager ? 'eager' : 'lazy'}" decoding="async" referrerpolicy="no-referrer" onload="this.classList.add('ok')" onerror="var p=this.parentNode;p.parentNode.classList.remove('withpic');p.remove()"></div>`
+  : '';
 
 const badges = (i) =>
   (isNew(i) ? '<span class="pill new">NEW</span>' : isToday(i) ? '<span class="pill today">오늘</span>' : '')
@@ -607,7 +549,7 @@ const metaLine = (i) => `<div class="meta"><span class="press">${esc(i.press)}</
 function itemRow(i, n, o = {}) {
   const k = keyOf(i), c = o.cat || (i.topics || [])[0];
   const top = (o.showCat !== false && CAT[c] ? `<span class="cat">${esc(CAT[c].label)}</span>` : '') + badges(i);
-  return `<article class="item" style="--i:${Math.min(n, 8)};${c ? cc(c) : ''}">`
+  return `<article class="item${safe(i.image) ? ' withpic' : ''}" style="--i:${Math.min(n, 8)};${c ? cc(c) : ''}">`
     + `<div class="top">${top}</div><h3>${openBtn(i, k, c)}</h3>${metaLine(i)}`
     + pic(i, c) + '</article>';
 }
@@ -807,7 +749,6 @@ function renderHome() {
   $('#rows').innerHTML = DATA.topics.map((t) => {
     const it = DATA.items.filter((i) => i.topics.includes(t.id)).sort(rank);
     return `<a class="row" href="#news/${esc(t.id)}" style="${cc(t.id)}">`
-      + `<span class="ic" aria-hidden="true">${catIcon(t)}</span>`
       + `<span class="tx"><span class="nm">${esc(t.label)}${it.some(isToday) ? '<i class="dot" role="img" aria-label="오늘 새 기사 있음"></i>' : ''}</span>`
       + `<span class="pv">${esc(it[0] ? it[0].title : '최근 30일간 기사 없음')}</span></span>${svg('chev')}</a>`;
   }).join('');
