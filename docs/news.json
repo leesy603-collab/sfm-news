@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-05T00:08:24.934Z",
+ "updatedAt": "2026-10-05T06:21:52.038Z",
  "naver": false,
  "topics": [
   {
@@ -12,13 +12,13 @@
    "id": "susul",
    "label": "수술비",
    "kind": "담보",
-   "count": 2
+   "count": 4
   },
   {
    "id": "chiryo",
    "label": "치료비",
    "kind": "담보",
-   "count": 6
+   "count": 8
   },
   {
    "id": "silson",
@@ -35,21 +35,72 @@
  ],
  "items": [
   {
-   "title": "이 대통령 “비용 때문에 치료 주저 없도록…간병비 건강보험 적용 추진”",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5OV2lSZnN6Q2stNlpRaHdVX2FjWlZLTGJua1RlQnNfMUJaOHM3TnZqUDJWdGR4OEZQVnNLemNGUklmeklEbUVQSzQxdHFxaFE3V2lRZXBSUGZmMVBIdnRmUENyTmFSZktrbmxmWm9JTUQ?oc=5",
-   "press": "팍스메디컬뉴스",
+   "title": "수술 건수 증가와 감염 예방 프로토콜에 힘입어 2035년까지 확장 전망인 무균 수술용 드레이프 시장",
+   "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPVnlJUk1rcjdROEEzcm9KYnpMU3BMeHRQekN4RjNEUlZfYlljQ0JDb3lKWVpSVVdzSzYtWGFMRTRPR0ZUZUwtUmVlYU1TY0VYaHp0S2tyY0FqUGdfaTFjQnRTRmlvYWJ1TFpRSzNNT1ZOR1ZTVVd5QTktREFUazZSN1UwUDNnRGFMVy1GWlJscEVnWnlnRWpyU0ZlVlFiek5OOTM1ZVFsRDVwVWY0ckRleTlSUVFvdmlYNGs4S012RjU2N00zT1lSU1VCM0g3cFVyeDdjMnlHUWdubDI2N0liaWppOGZHRzYwWE0tTUxmOE54bnRoczhGeUU5Zy1KdjQ?oc=5",
+   "press": "IndexBox",
+   "summary": "",
+   "others": 0,
+   "topics": [
+    "susul"
+   ],
+   "score": 9,
+   "tier": 3,
+   "publishedAt": "2026-10-03T19:51:04.000Z",
+   "firstSeenAt": "2026-10-05T06:21:52.038Z",
+   "link": "https://www.indexbox.io/ko/blog/sterile-surgical-field-drapes-market-forecast-to-expand-through-2035-driven-by-rising-surgical-volumes-and-infection-prevention-protocols/",
+   "image": "https://www.indexbox.io/landing/img/blog/custom-report-v2-localized/ko/sterile-surgical-field-drapes-market-forecast-to-expand-through-2035-driven-by-rising-surgical-volumes-and-infection-prevention-protocols-601b48094e65035c.webp",
+   "desc": "글로벌 무균 수술용 드레이프 시장은 강화된 감염 예방 프로토콜과 전 세계 수술 건수 증가에 힘입어 2035년까지 확장될 전망입니다."
+  },
+  {
+   "title": "초고령시대 잔혹사 ‘간병살인’…돌봄 국가책임, 어디까지 왔나[李정부 보건복지 1년②]",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBfWEg5RGpSMURVdVNfVWZldnUtWkEyNzdfZUpLVjhNV2szRTJfOC1KUjhITERRUDluYXFXckV6clptOU1XY1hCWnByQ1hvTFRaWDJHWUJDMnFTakJZWktrcFVrWQ?oc=5",
+   "press": "쿠키뉴스",
    "summary": "",
    "others": 0,
    "topics": [
     "ganbyeong"
    ],
-   "score": 9,
+   "score": 7,
+   "tier": 1,
+   "publishedAt": "2026-10-03T16:06:27.000Z",
+   "firstSeenAt": "2026-10-05T06:21:52.038Z",
+   "link": "https://www.kukinews.com/article/view/kuk202606020169",
+   "image": "",
+   "desc": ""
+  },
+  {
+   "title": "요오드계 수술용 손 소독제 시장 2035년 전망: 수술 건수 증가가 성장 견인 - 뉴스 및 통계",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNVUdVTkhib3B0d1hzUEZENlJCZFZab3RISE5pem5IWmt3NjQwYVBNN0E5SXAxSGR2NjJ5M2g4UTR4OGRiSmNxRDd0a2E3WFlZcVN6UFRBek9zNzROUDZlMS1tNUhyZjdVc2pKWXBLVV9YUzE0TzRkTUNwbEhWYmNqTDVYRmdVWFNDSUs1cnBlTE1PS1V6c0k1UEJxT1JYbzFxNFp2TnlLck1xTHZKbk4tUVVSZVdpMEkwWFBic0tvSmcxbDZ3NkVZaGdYS1JWSlRTVHF5T2FYMEM?oc=5",
+   "press": "IndexBox",
+   "summary": "",
+   "others": 2,
+   "topics": [
+    "susul"
+   ],
+   "score": 11,
    "tier": 3,
-   "publishedAt": "2026-10-03T12:55:19.000Z",
-   "firstSeenAt": "2026-10-05T00:08:24.934Z",
-   "link": "https://www.paxmedicalnews.com/news/articleView.html?idxno=3100",
-   "image": "https://cdn.paxmedicalnews.com/news/photo/202610/3100_3086_5918.jpg",
-   "desc": "[팍스메디컬뉴스] 이재명 대통령이 간병비에 건강보험을 적용하겠다고 밝히면서 정부의 간병비 부담 완화 정책에 다시 관심이 쏠리고 있다.이 대통령은 지난 2일 서울"
+   "publishedAt": "2026-10-03T10:26:04.000Z",
+   "firstSeenAt": "2026-10-05T06:21:52.038Z",
+   "link": "https://www.indexbox.io/ko/blog/iodine-based-surgical-hand-scrub-market-to-accelerate-on-rising-surgical-volumes-driving-growth-through-2035/",
+   "image": "https://www.indexbox.io/landing/img/blog/custom-report-v2-localized/ko/iodine-based-surgical-hand-scrub-market-to-accelerate-on-rising-surgical-volumes-driving-growth-through-2035-c9e5d0e8a0b67184.webp",
+   "desc": "글로벌 요오드계 수술용 손 소독제 시장이 2035년까지 수술 건수 증가와 감염 관리 규정 강화에 힘입어 성장할 전망이다."
+  },
+  {
+   "title": "2030은 실손 점검, 5060은 간병 대비…삼성금융 하루에만 200명 상담 [헤럴드머니페스타2026]",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zU3MtdlBqVFg4Vmk4OE9QYm1yYVRPbWJibThyMGViYzRIVjIzMHA2bjFlYl9HMTNQQTRPZDdQSUxld1QzZnh3Ui1mQlRvQzJxekxud213?oc=5",
+   "press": "헤럴드경제",
+   "summary": "",
+   "others": 0,
+   "topics": [
+    "ganbyeong"
+   ],
+   "score": 7,
+   "tier": 1,
+   "publishedAt": "2026-10-03T07:21:30.000Z",
+   "firstSeenAt": "2026-10-05T06:21:52.038Z",
+   "link": "https://biz.heraldcorp.com/article/10892598",
+   "image": "https://wimg.heraldcorp.com/news/cms/2026/10/03/news-p.v1.20261003.6569c95634a749afb063618e8bb5435b_P1.png",
+   "desc": "[헤럴드경제=유혜림·경예은·김서현 기자] “부모님이 들어주신 보험, 보험료가 얼마인지도 몰랐어요.” 2~3일 서울 동대문디자인플라자(DDP)에서 열린 ‘헤럴드머니페스"
   },
   {
    "title": "“보험금 다툼 끊이질 않네”…민원·분쟁신청 꾸준한데 5세대 실손 앞날은",
@@ -67,6 +118,23 @@
    "link": "https://www.mk.co.kr/news/economy/12167710",
    "image": "https://pimg.mk.co.kr/news/cms/202610/03/news-p.v1.20261002.b69c0b8c950f431ea06433311790c646_R.jpg",
    "desc": "올해 국감서도 5세대 실손보험 안건 실손 비롯해 보장성 보험 민원 꾸준 약관해석과 보험금 지급 사유 때문"
+  },
+  {
+   "title": "기초연금 25.7조·노인일자리 118만개에 간병비까지… '노인복지 슈퍼패키지', 재원은",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE43ektROEpQd0dwUHhTVGVzOW1QZUxxYVJkaVB1Q1NCS3FKcnJjd21WR2JianBjUFh3ckZaa0pjRzlMRDFKYTg1M2plYkNKMUhwYkwyeFpJM05OVEpPaTU5cFhLVC0ybEFNMEV6QllacXZWR1BBTE9OdVF5UdIBgAFBVV95cUxPZ0pSamtJWjZPeWh5TVdhaWFRUlUxbHNCWlFvSHVWbC1acnFpcWtncWUxOTNxNWNBVXZocDV2cjJycHczVExRZ2pGbU00alh0N2hDUlVKWHVvY2dTT3RKSS1fbjlfcTl2WVJ5OFJjYUJTR0ducEJzRkswbnNRX2NtOA?oc=5",
+   "press": "뉴데일리",
+   "summary": "",
+   "others": 0,
+   "topics": [
+    "ganbyeong"
+   ],
+   "score": 6,
+   "tier": 3,
+   "publishedAt": "2026-10-02T23:00:00.000Z",
+   "firstSeenAt": "2026-10-05T06:21:52.038Z",
+   "link": "https://biz.newdaily.co.kr/site/data/html/2026/10/02/2026100200309.html",
+   "image": "https://image.newdaily.co.kr/site/data/img/2026/10/02/2026100200309_0.jpg?u=20261003204958?u=20261003204958",
+   "desc": "이재명 대통령이 내년 노인일자리를 역대 최대 규모인 118만개로 확대하고 저소득층 기초연금 지원을 강화하는 데 이어 간병비에도 건강보험을 적용하겠다고 밝혔다. 초고령사회에 대응해 노후 소득과 일자리, 돌봄을 동시에 강화하겠다는 구상이지만 이미 빠르게 늘고 있는 고령층 복지 지출에 간병비"
   },
   {
    "title": "루게릭 간병비 월 400만원, 11월 건보 시범사업 개시",
@@ -107,11 +175,11 @@
    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9oUGY0WndsRHFXcnBfdVptVndYcGVCMzFBSnB5M1hTVGE5Z0JhelV0U0xfRTNQQ3p0QVZVRU9zWGIxR0xybExtYUpHUFRQajJVd0ctWjdwMUNnMDJmcWt3SGhBNFNvWG1hSERLN1VCTXc?oc=5",
    "press": "데일리메디팜",
    "summary": "",
-   "others": 1,
+   "others": 2,
    "topics": [
     "ganbyeong"
    ],
-   "score": 6,
+   "score": 4,
    "tier": 2,
    "publishedAt": "2026-10-02T04:52:37.000Z",
    "firstSeenAt": "2026-10-02T13:17:13.868Z",
@@ -135,23 +203,6 @@
    "link": "https://www.startuptoday.co.kr/news/articleView.html?idxno=814782",
    "image": "https://cdn.startuptoday.co.kr/news/photo/202610/814782_614033_198.jpg",
    "desc": "한화손해보험이 간병 보장 기간을 연간 최대 365일까지 가져가고 있다. 입원 초기 180일에 보장을 집중했던 간병보험에서 181일 이후 장기 입원까지 따로 챙겼다"
-  },
-  {
-   "title": "이주영 의원, 정책토론회 및 국정감사 현장질의 등 문제 제기",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE52czc4ODNPQkU4NVk1Y1FSenZQNlpUcFZzSTF1SGt6Nm01ZWs3Nmw0ZjVoSVoycXpPZk1oeHlPNW5lNWtHY05RVDR1d3JsYU1hQmVFYlhWN2tncU43MmYzY3NGQVRnemJH?oc=5",
-   "press": "한국뉴스통신",
-   "summary": "",
-   "others": 0,
-   "topics": [
-    "jeongchaek"
-   ],
-   "score": 2,
-   "tier": 3,
-   "publishedAt": "2026-10-01T11:37:49.000Z",
-   "firstSeenAt": "2026-10-04T06:28:34.484Z",
-   "link": "https://www.newssun.kr/news/articleView.html?idxno=103499",
-   "image": "https://cdn.newssun.kr/news/thumbnail/202610/103499_73602_3648_v150.jpg",
-   "desc": "[정치=한국뉴스통신] 강희진 기자 = 오는 10월 1일부터 국소 진행성 또는 전이성 요로상피암 환자의 1차 치료에 사용되는 파드셉(엔포투맙 베도틴)과 키트루다(펨브롤리주맙) 병용요법에 건강보험이 적용된다.국회 교육위원회 이주영 국회의원(개혁신당)은 건강보험정책심의원회 심의를 통해 이와"
   },
   {
    "title": "삼성화재, 1~5종 수술비 신규 가입기준 10월 11일 변경… ‘매회 지급’서 연 1회로",
@@ -205,38 +256,55 @@
    "desc": "[한국정경신문=석지연 기자] 보험업계가 오는 6일부터 시작되는 국정감사 준비작업을 본격화 하고 있다. 올해 국감에서는 5세대 실손의료보험과 실손보험 청구 전산화 등 최근 도입된 제도의 현장 안착 여부를 비롯해 법인보험대리점(GA) 판매수수료와 부당승환, 요양병원 보험사기 등이 주요 쟁점"
   },
   {
-   "title": "政, 희귀·소외암 치료비 부담 낮춘다… 10월부터 암 치료제 건강보험 적용 확대",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBqeXFZTmxWaHFfR05xYVd6cGJtR2Zjai1ycWpIMVQtRlFNbndkYXZhYml3YmJGZDVxQTlNOFhFSDNxNWFXc3ptX19pX1JVSGJBbHhTbldvaC1Yd1lnVHdHVGlGWXk?oc=5",
-   "press": "매일일보",
+   "title": "희귀·소외암환자 치료비 부담 낮아진다···10월부터 건강보험 적용 확대",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAyY25zUHdtQVhKZDVxMkppVGtkVzhzT0N1T2VfYXlmandOS3luSFdVOTA3NkxMTUVvSVZONmRDR211SHVyTU40VUF4OFExMDRwcGJXVGFxaThwb1d5NFRaZEFSOER6azJfbW55emJnMA?oc=5",
+   "press": "의사신문",
    "summary": "",
-   "others": 13,
+   "others": 14,
    "topics": [
     "chiryo"
    ],
    "score": 2,
    "tier": 3,
-   "publishedAt": "2026-09-30T04:38:26.000Z",
-   "firstSeenAt": "2026-10-04T06:28:34.484Z",
-   "link": "https://www.m-i.kr/news/articleView.html?idxno=2001188",
-   "image": "https://cdn.m-i.kr/news/photo/202609/2001188_2000928_1327.jpg",
-   "desc": "매일일보 = 이용 기자 | 희귀·소외암 환자의 치료비 부담을 낮추기 위해 다음 달부터 일부 항암제에 대한 건강보험 적용이 확대된다. 유전자 변이 희귀 폐암 치료제"
+   "publishedAt": "2026-09-30T05:26:00.000Z",
+   "firstSeenAt": "2026-10-05T06:21:52.038Z",
+   "link": "http://www.doctorstimes.com/news/articleView.html?idxno=240232",
+   "image": "http://www.doctorstimes.com/news/thumbnail/202609/240232_112448_4639_v150.jpg",
+   "desc": "10월부터 희귀·소외암 환자의 치료비 부담을 낮추기 위해 주요 암 치료제의 건강보험 적용이 확대된다. 레테브모캡슐, 빌로이주, 파드셉주+키트루다주 병용요법 등이 급여 대상에 포함된다.보건복지부는 오는 1일부터 건강보험정책심의위원회 심의를 거쳐 이들 치료제에 대한 건강보험 적용 확대를 의"
   },
   {
-   "title": "항암제 3종 건보 문턱 낮아진다…다른 제약사 신약 병용 첫 급여 - 조선비즈",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQmdVSmtxcDZaOTRsOXNyQmdFZkd0TFU1N2lkbmxmajVickUwMUd5NmpibHBhYllQQzNFUmRFcmhaX1kxN21UYk9NdGgwS2RHbE9sY3h0aWVoR01VMkg1bTVqNk5YeXo0UXZ4NXB1SEVHNm9tazVIa2RybDktT3pMWm00NzEySzTSAZsBQVVfeXFMTnRRdTZsQ0lVOWJIa09XS1JJb1EyM25zUzM4cTVxNXZsdl8ySW43aDU3T3ZtUkF1QmpPVFdjWmNydzBGMnY3SlRnb1pHemZ4T0w0aWp5eGFYLU0tSVNrYTAtS2xDU2FwYnZQNkpPOFVfVmw0cExhUVk0OGlCUURqTHBIczBUTWl6S2RoeVFVWTIwS2NiRXkxb0JnYjQ?oc=5",
-   "press": "Chosunbiz",
+   "title": "레테브모·빌로이·파드셉-키트루다 10월부터 급여…암 치료 보장성 확대",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5jS1g3MXlkNVF4YVlWUmRkM0RpRVp0QmNudkw5SGQyLTBJb1k4cV9xTk5HYU1EOF85RlZ5RF9Dc25NaDB2RVl0ajZLU0NWMzQtV3NnWU90c1FqMUlYWkRNTHFOeW5XWWJQQmk4?oc=5",
+   "press": "한국의약통신",
    "summary": "",
    "others": 0,
    "topics": [
     "chiryo"
    ],
-   "score": 4,
-   "tier": 1,
-   "publishedAt": "2026-09-30T03:00:00.000Z",
-   "firstSeenAt": "2026-10-04T06:28:34.484Z",
-   "link": "https://biz.chosun.com/science-chosun/bio/2026/09/30/VGXHB56AEBE35IHKLAD6YUX5RU/",
-   "image": "https://biz.chosun.com/resizer/v2/TACYW63YNNP4BC4WNTOQQ5TNRA.JPG?auth=52cd1ea096d113af08246a2ffcb3a4d7489d800810cdb8cdcdf2c1d630fae9e0&width=1200&height=630&smart=true",
-   "desc": "항암제 3종 건보 문턱 낮아진다다른 제약사 신약 병용 첫 급여 폐암 레테브모· 위암 빌로이 요로상피암 파드셉+키트루다 병용"
+   "score": 2,
+   "tier": 3,
+   "publishedAt": "2026-09-30T05:04:37.000Z",
+   "firstSeenAt": "2026-10-05T06:21:52.038Z",
+   "link": "https://www.kmpnews.co.kr/news/articleView.html?idxno=73414",
+   "image": "https://cdn.kmpnews.co.kr/news/thumbnail/202609/73414_70030_47_v150.jpg",
+   "desc": "희귀 유전자 변이 폐암과 진행성 위암, 요로상피암 환자를 대상으로 한 항암 신약의 건강보험 적용 범위가 10월부터 확대된다.보건복지부는 10월 1일부터 ‘레테브모캡슐’, ‘빌로이주’, ‘파드셉주·키트루다주’ 병용요법에 건강보험을 적용하는 안이 건강보험정책심의위원회 심의를 거쳐 의결됐다고"
+  },
+  {
+   "title": "2026 국정감사, 실손부터 IFRS17까지... '쟁점 산적'",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE02dzlfakZKUlZUWGYzNzN0cXRxWmxTT0VmNG9VOEkwMkdLUTE1d0dhVU9FVmM4d0xJUXJyeUJkSk93dHdNdGYwOWowcVg5ZWNDS3o1Qm5MNjhmRmZFeWhOTlRFbmY1MVNO?oc=5",
+   "press": "보험매일",
+   "summary": "",
+   "others": 2,
+   "topics": [
+    "jeongchaek"
+   ],
+   "score": 2,
+   "tier": 2,
+   "publishedAt": "2026-09-30T00:56:05.000Z",
+   "firstSeenAt": "2026-10-05T06:21:52.038Z",
+   "link": "https://www.fins.co.kr/news/articleView.html?idxno=110118",
+   "image": "https://cdn.fins.co.kr/news/thumbnail/202609/110118_26613_5525_v150.jpg",
+   "desc": "2026년 국정감사를 앞두고 보험업계가 촉각을 곤두세우고 있다. 올해 보험권 국감은 단순히 개별 보험사의 경영 현안을 넘어 실손보험과 비급여, 보험금 지급, 판매채널, IFRS17과 K-ICS 등 보험산업의 구조적 문제가 두루 다뤄질 것으로 전망된다.특히 실손보험 개편과 비급여 관리, "
   },
   {
    "title": "보험업계 국감, 굵직한 악재 피했지만…'5세대 실손·GA 불완전판매' 칼날 집중 될 듯",
@@ -274,6 +342,23 @@
    "desc": "※유튜브 채널 '보험저널TV'를 구독하면 더 많은 영상을 보실 수 있습니다.(https://youtube.com/channel/UC6v10hcO7KLhWBNYZE4vkDQ)한화손해보험이 암 치료비와 장기 간병비를 함께 대비할 수 있도록 보장 구성을 강화했다. 암은 급여·비급여·특정 비"
   },
   {
+   "title": "가파른 고령화에 판 커진 치매·간병보험...생·손보사, 2년 새 신계약 2배 급증",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5NRHIzbkc5TDJSNVNHSmRMdExSR1A5X2l1OTdKSHNUenBiLVV5NFhwVUdJRDl4OFhyLWpPOE9xMm9hS1FVaXFLSXRiNXJLbEg0Z3V2emdKMW92VElEZnU1eVVwR3pwU2Fh?oc=5",
+   "press": "녹색경제신문",
+   "summary": "",
+   "others": 1,
+   "topics": [
+    "ganbyeong"
+   ],
+   "score": 4,
+   "tier": 3,
+   "publishedAt": "2026-09-29T03:35:00.000Z",
+   "firstSeenAt": "2026-10-05T06:21:52.038Z",
+   "link": "https://www.greened.kr/news/articleView.html?idxno=350980",
+   "image": "https://www.greened.kr/news/thumbnail/202609/350980_402698_2853_v150.jpg",
+   "desc": "[녹색경제신문 = 윤덕제 기자]국내 고령화 추세가 가팔라지면서 치매·간병 관련 보장 수요가 크게 증가하고 있다. 보험업계는 기존의 단순 보장 수준을 넘어 보장 세분화, 간병·요양까지 아우르는 통합형 상품으로 경쟁 범위도 확대되는 추세다.29일 보험개발원의 보험통계조회서비스에 따르면, 올"
+  },
+  {
    "title": "재수하고 연장협상까지…아스텔라스 항암제 '동반 급여' 눈앞",
    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1JUGtPV1JUdF8yd2Rxc05HaXh4blcxNmRCVXQ0cDBsaDJ0U21pYWtRaVdCUFZqdzRoeTVyeG5aRnRKMzlQMUUzM2hiR085SDA1?oc=5",
    "press": "데일리팜",
@@ -291,6 +376,23 @@
    "desc": "한국아스텔라스제약이 드디어 빛을 보게 됐다. 보유 항암제 2종이 우여곡절 끝에 보험급여 진입을 앞두고 있는 것. 주인공은 항체약물접합체(ADC, Antibody-Drug Conjugates) 파드셉(엔포투맙베도틴)과 표적항암제 빌로이(졸베툭시맙)다. 두 약제는 지난해 첫 급여 도전에서 "
   },
   {
+   "title": "전이성 전립선암 환자 96.6% \"후속 치료제 급여 확대 필요\"",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5POEZJMzd0Y1NRVFF0OTF3U0Y5ZUZNUVdpRVJyV01WYjYxUUpqQVlsWWRnQlNTa1B3Mk42RjBMcjlmQUpGUF9UNmRsY2dYWjJwM3lTQmw0eFZ2TV9ER1dCMmZSbUY5OHcwVllzag?oc=5",
+   "press": "약사공론",
+   "summary": "",
+   "others": 5,
+   "topics": [
+    "chiryo"
+   ],
+   "score": 2,
+   "tier": 3,
+   "publishedAt": "2026-09-29T00:42:11.000Z",
+   "firstSeenAt": "2026-10-05T06:21:52.038Z",
+   "link": "https://www.kpanews.co.kr/news/articleView.html?idxno=545007",
+   "image": "https://cdn.kpanews.co.kr/news/photo/202609/545007_450270_4132.png",
+   "desc": "전이성 전립선암 환자와 보호자 10명 중 8명 이상이 세포독성항암 치료 시작에 심리적 부담을 느끼는 것으로 나타났다. 다만 이후 사용할 수 있는 치료제가 있다는"
+  },
+  {
    "title": "˝가임기 여성 100만 명 방치˝…호르몬제 급여화 및 인슐린 저항성 대사 치료제 트랙 신설 요구:동아경제신문 & daenews.co.kr",
    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9USVB1SXFGSzFiNHFJQXphNE8xRUFMc2g5QlQxQVl2TmNxUkdSMHhtcld4cmtoelVvcGZkTnRVZkt3Ykd4UVHSAWJBVV95cUxOMDYxaDBKbDlYNzN2VWF1Z3h3cmlGSlBSWU1RZ3hVLUZ6dEVfcXRPRzNLdlpPeUV2bWFEdkdnMFUyUFBUMzBNWFlGUjVzbXJrMnctNzMwVG1BOU04cEJLSUZ6UQ?oc=5",
    "press": "동아경제",
@@ -306,40 +408,6 @@
    "link": "https://www.daenews.co.kr/26705",
    "image": "https://www.daenews.co.kr/imgdata/daenews_co_kr/202609/202609283403148.jpg",
    "desc": "인슐린 저항성 환자 대사치료제 급여 요구질환 특성 반영한 별도 급여기준 마련해야 [동아경제신문=유경석 기자] 가임"
-  },
-  {
-   "title": "전세대 아우르는 ‘치매·간병인 보험’ 급증…신계약 2년 새 50%↑",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE16WHpiY09Pd1dQeWtnU3pBVE5neUZFNGREQk5BR2loMk5xeHBJbUVWYzBjQUM1S0hFUlhiSDV1ck43LTdJaDJjbEd0ai1xSS1mbnhqbjEyRkRMQS1sakMzS3FpQi0?oc=5",
-   "press": "서울경제TV",
-   "summary": "",
-   "others": 4,
-   "topics": [
-    "ganbyeong"
-   ],
-   "score": 6,
-   "tier": 1,
-   "publishedAt": "2026-09-28T00:30:19.000Z",
-   "firstSeenAt": "2026-10-04T12:54:30.424Z",
-   "link": "https://www.sentv.co.kr/article/view/sentv202609280016",
-   "image": "https://www.sentv.co.kr/data/sentv/image/news/2024/03/c2ecd50a2515dea8e436b8d1b16ed9bf.jpg",
-   "desc": "초고령화 사회 진입과 맞물려 치매와 간병 부담이 가중되면서, 전 세대를 아우르는 ‘치매·간병인 보험’ 시장이 가파른 성장세를 보이고"
-  },
-  {
-   "title": "치매·간병보험, 2년 새 50% 폭증…'전 세대 필수 보장' 급부상 : 리뷰·칼럼",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1PNWJGREVXeHBmd2ZFU2k5cVFYSFJZeFI1Ml9GclRRc1lXb09BSlpBLS04WTNPa0VzTngydDNHc1VxUnBOZl9kNzMzcG4xUHdrVDM4dg?oc=5",
-   "press": "의약일보",
-   "summary": "",
-   "others": 2,
-   "topics": [
-    "ganbyeong"
-   ],
-   "score": 4,
-   "tier": 3,
-   "publishedAt": "2026-09-27T23:16:00.000Z",
-   "firstSeenAt": "2026-10-04T12:54:30.424Z",
-   "link": "https://www.medicaldaily.co.kr/post/121209",
-   "image": "https://images.medicaldaily.co.kr/data/images/full/0/142/14202.jpg",
-   "desc": "대한민국의 초고령화 사회 진입으로 치매·간병 부담이 확산되면서, 치매·간병인 보험 신규 계약이 2년 새 48.7% 폭증하여 '전 세대 필수 보장'으로 급부상했다. 2026년 상반기 신계약 초회보험료는 958억3천799만원을 기록했으며, 보험사들은 치매 진단 및 치료, 간병, 자산관리 기"
   },
   {
    "title": "5세대 실손 '갸우뚱'·실손24도 지지부진…국감서 따질듯",
@@ -376,21 +444,18 @@
    "desc": "[기획특집1] 요양병원 의료혁신 및 간병 급여화 시범사업정부가 요양병원의 의료 기능을 재정립하는 ‘의료혁신’과 의료·간병 필요도가 높은 환자의 간병비를 건강보험으로 지원하는 ‘간병 서비스 제도화’를 함께 추진한다. 핵심 구도는 중증환자에게는 의료·간병을 충분히 제공하되, 경증환자, 장기"
   },
   {
-   "title": "통행량·사고 줄어도 적자… 車보험 '8주룰' 초반 성과 아직 미풍",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSkVKV0dXVzJjUlEzSDEydkdCcVdYNzA4aGJUME03MDBiUXVIWlFkNi00XzkzV2tRR2RRdjViMFhXMmxVdVUtMzJ2dTFKSWpvREtfQlRQQjJzTEQ0TkdkNnplbm1KalNVNnV2YkJqSGxSeWVRVjZjNHVOd0gzbG5GTVFpa0Q?oc=5",
-   "press": "글로벌이코노믹",
+   "title": "전세대 아우르는 '치매·간병인 보험' 신계약 2년새 50% 증가",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBYbFA3dlNaRFF1Um5nOTEwQnFrbkJoUnlhZE40OEtBVi1UWDREX2xLOC0tejhSazFLaFNDb2JEWTJQMlJJcG9LSmptbFR3Q1VFMmhGZnYyMl9MQjDSAWBBVV95cUxOcFJCYTRmelZ0M1oxZG5pdWtfNUtvNUlPZUJKZ0lMcXVIV1hkQm5RQjliekl1MzNBYl9ZTUhMYlQ0TXhpRmZkdXhVakkyUEVNU0ZMdnFsckx5SDdwZHhnWHQ?oc=5",
+   "press": "연합뉴스",
    "summary": "",
-   "others": 0,
+   "others": 3,
    "topics": [
-    "jeongchaek"
+    "ganbyeong"
    ],
-   "score": 2,
-   "tier": 3,
-   "publishedAt": "2026-09-26T20:30:00.000Z",
-   "firstSeenAt": "2026-09-30T06:05:30.810Z",
-   "link": "https://www.g-enews.com/article/Finance/2026/09/202609231400126196a6e8311f64_1",
-   "image": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=2026092215011800923a6e8311f641182357383.jpg",
-   "desc": "자동차보험이 많이 팔리지만 적자 구간에서 회복하지 못하고 있다. 연초 보험료를 소폭 인상했음에도 정비 공임비와 병원 치료비 등 물적·인적 보상 비용이 급증하면서, 주요 자동차보험이 적자에서 벗어나지 못하고 있다. 자동차보험 경상환자 장기치료를 제한하는 '8주룰'을 시행했지만, 작은 사고"
+   "score": 6,
+   "tier": 1,
+   "publishedAt": "2026-09-25T07:00:00.000Z",
+   "firstSeenAt": "2026-10-05T06:21:52.038Z"
   },
   {
    "title": "올 국정감사 핫이슈 ‘소아의료·관리급여’ 예고",
@@ -408,23 +473,6 @@
    "link": "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=940093",
    "image": "",
    "desc": "제22대 국회 3번째 국정감사가 한 달여 앞으로 다가온 가운데, 올해 국정감사에서 다뤄질 주요 보건복지 이슈 윤곽이 드러나고 있다.최근 심각성이 더해지고 있는 소아응급의료체계 붕괴와 함께 정부가 도입한 ‘관리급여 제도’ 실효성이 보건복지위원회 국정감사 주요 쟁점으로 떠오를 전망이다.국회"
-  },
-  {
-   "title": "\"하루 20만원 준다는데\"…부모님 뵙는 추석, 간병인보험 챙겨볼까",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9qUWxrRHRrbHVXZ21JTVZFRnhvM1FpbnhGR2kxTWVXeHY3WmxBc3ZXTVAxaGw1Nmc2ZTgtNnhReFR4YXRwSEhpamtwbTFnSF9xSmcwaFVkZVZkdG4y?oc=5",
-   "press": "뉴스핌",
-   "summary": "",
-   "others": 1,
-   "topics": [
-    "ganbyeong"
-   ],
-   "score": 4,
-   "tier": 3,
-   "publishedAt": "2026-09-23T07:00:00.000Z",
-   "firstSeenAt": "2026-10-05T00:08:24.934Z",
-   "link": "https://www.newspim.com/news/view/20260923000888",
-   "image": "https://img.newspim.com/news/2026/07/28/2607281441374400_210_tc.jpg",
-   "desc": "[서울=뉴스핌] 이윤애 기자 = 추석을 맞아 부모님을 찾아뵙는 자녀들 사이에서 간병인보험에 대한 관심이 커지고 있다. 부모님이 갑작스러운 질병이나 사고로 입원하면 하루 10만원을 훌쩍 넘는 간병비가 장기간 이어질 수 있어서다.보험사들도 관련 신상품을 잇달아 선보이고 일"
   },
   {
    "title": "같은 로봇수술도 자부담 30%·50%…5세대 실손, ‘중증 여부’ 먼저 봐야",
@@ -495,21 +543,46 @@
    "desc": "파드셉, 리브리반트, 테빔브라 등 주요 항암제의 건강보험 적용을 앞두고 급여 기준이 마련된다. 건강보험심사평가원은 22일 암환자에게 처방·투여하는 약제에 대한 공고 개정안에 대한 의견조회에 나섰다. 이번 개정안에는 총 18개 항목의 개정 사항이 포함됐다. 항암요법 14개가 신설되고, 급"
   },
   {
-   "title": "의협, '관리급여' 헌법소원 청구…\"의료 자율성·환자 치료권 침해\"",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1neU43SVlkLTEzNUE2SWZ6WUpxSUVHMU5WWHExUktXaDZ2ay1IS2ZONXh3SVFJQnlTb3VmNnk5ZExDUldVOFc5bUJrT0pPREtNOWR5TXhIR2JRVjJiX0E0?oc=5",
-   "press": "보건신문",
+   "title": "의협, 관리급여 헌법소원…‘실손보험 비급여 개편’ 변수되나",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBpNDhxQUY2Wmd1eHJQRnp0dm50YXZQYzQ0NkhPTFo0T3RpaFoxcG9jeEFmbFJIVFlMaGg3R0xPYXM0N0l4TWpyTnRSbjZNbnNLSG9kQ1ZxTXVVbGlCMTVhVUw2V0tOd0VZ?oc=5",
+   "press": "보험매일",
    "summary": "",
-   "others": 4,
+   "others": 9,
    "topics": [
     "jeongchaek"
    ],
    "score": 2,
    "tier": 2,
+   "publishedAt": "2026-09-22T22:09:21.000Z",
+   "firstSeenAt": "2026-10-05T06:21:52.038Z"
+  },
+  {
+   "title": "의협, 정부 관리급여 제도 부당성 내세워 헌법소원심판 청구",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB6SnNNbEhwNkQ2bWlzbDEyMjRPdnhoNUV3LXZfOE41LW9kSVZfWXFBWEtSWEVfLXpyMHZudm9XeWZOa1NaT0ZrVDJqMzc3TE03X3FJUlh2WWdSenE1dGN4UXppZTlqb2o5TGlSZzdB?oc=5",
+   "press": "간호사신문",
+   "summary": "",
+   "others": 0,
+   "topics": [
+    "jeongchaek"
+   ],
+   "score": 2,
+   "tier": 3,
+   "publishedAt": "2026-09-22T07:38:33.000Z",
+   "firstSeenAt": "2026-10-05T06:21:52.038Z"
+  },
+  {
+   "title": "의협, '관리급여' 헌재 심판청구 … \"치료권·진료자율 침해\"",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5JLXU0aHp1Zkl5aEExYXYwbWJibnFDYU5zVTF1d0dFSGxILWUzcVRQMzV2d2x1ZmRhTmVneFJ0TkVPaXExUkZlTXAxYTNla1lTRkRCR01KRFRYR3pQQzRHbUJLQmZZSVhuNDQ4M1NUYUdlQWlhNl9ONkVvRdIBgAFBVV95cUxPMXdEVkQtRmlDU0ZoOE1jdWQ1TmJ4anB0VFZZUmtjQ1FrMnZuRENhdkZvSUtGRmVWWE1XbHl4TmE0VW5PaWJZV3JxenZRSnM4WXhZUmxvOWUxQkVLUDl2VkZUa0E4MzFSdjJRTTdCYjhBZzBnZnZtTDc2VjVhRExfRA?oc=5",
+   "press": "뉴데일리",
+   "summary": "",
+   "others": 1,
+   "topics": [
+    "jeongchaek"
+   ],
+   "score": 2,
+   "tier": 3,
    "publishedAt": "2026-09-22T07:00:00.000Z",
-   "firstSeenAt": "2026-10-05T00:08:24.934Z",
-   "link": "http://m.bokuennews.com/m/m_article.html?no=284639",
-   "image": "http://www.bokuennews.com/data/photos/cdn/20260939/art_1790061292.jpg",
-   "desc": "의사협회가 정부의 관리급여 제도에 대해 헌법소원심판을 청구했다. 도수치료 등을 관리급여로 편입해 비급여의 가격과 이용 기준을 정부가 통제하는 것이 의사의 직업수행 자유와 환자의 치료받을 권리를 침.."
+   "firstSeenAt": "2026-10-05T06:21:52.038Z"
   },
   {
    "title": "의협 \"관리급여는 헌법위반\"",
@@ -527,23 +600,6 @@
    "link": "http://www.medical-tribune.co.kr/news/articleView.html?idxno=215250",
    "image": "https://cdn.medical-tribune.co.kr/news/thumbnail/202609/215250_63462_4617_v150.jpg",
    "desc": "대한의사협회가 9월 22일 서울 종로구 헌법재판소에 관리급여 제도에 대한 헌법소원심판 청구서를 제출했다.의협은 올해 7월부터 시행된 도수치료 등 관리급여 제도가 비급여의 가격과 이용 기준을 통제해 환자의 치료 선택권과 의료인의 직업수행 자유를 침해한다고 주장해 왔다.이번 헌법소원에는"
-  },
-  {
-   "title": "“간병인 석션은 불법” 대법원 판결 이후… 긴장감 감도는 병동 [간병리포트]",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qc3pDbHlMV1pnbEphcmk0d2JkZFpnRHJvVDdsS0F4OUZPSkZUU1QxLWxEanROcWg1WHFsWUVYYzJJWDN6VUMxQTN2RVdsVzZRc1c1VWNCVjE1VTMyZG10b3lSbHNyUzZBN185VmNDaHZkTGZ4SWR5b1hHcklFSU0?oc=5",
-   "press": "헬스조선",
-   "summary": "",
-   "others": 0,
-   "topics": [
-    "ganbyeong"
-   ],
-   "score": 4,
-   "tier": 3,
-   "publishedAt": "2026-09-21T07:00:00.000Z",
-   "firstSeenAt": "2026-10-05T00:08:24.934Z",
-   "link": "https://health.chosun.com/site/data/html_dir/2026/09/18/2026091803088.html",
-   "image": "https://health.chosun.com/site/data/img_dir/2026/09/18/2026091803084_0.jpg",
-   "desc": "요양병원에서는 간병인이 와상 환자에게 석션을 시행하는 일이 흔하다. 석션기(의료용 흡인기)나 흡인용 튜브와 연결된 카테터(신체 내부에 꽂는 가는 관)를 기관 절개 호흡기관에 넣어 ..."
   },
   {
    "title": "국토부 자보 경상환자 대책 후속조치 마련 분주",
@@ -578,7 +634,7 @@
    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5aZVFFVVB2MWlBU3pyRTE0UGlIUlFRbWloT2VjX1R0N3BSRXI4Mjg2OHd4eHd6SThmX1dkQVpneHRiNFZKZG43M05rWkt1UkxQSjg2bm9sSzUyaGNtWnluSklsZExmaS1CQU5ldTd0dw?oc=5",
    "press": "보험저널",
    "summary": "",
-   "others": 8,
+   "others": 6,
    "topics": [
     "silson"
    ],
@@ -602,18 +658,18 @@
    "firstSeenAt": "2026-10-05T00:08:24.934Z"
   },
   {
-   "title": "금감원,자동차보험 약관 개정…경상환자 8주 초과 치료 시 전문가 심사",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4xQktnWnhTUVNrN1pNb2psSzF1RWxCaTFjSk10amNhMDFNX1c4V29OUlhUeGp5VUdMdkZtS1dubUFuNGxvT1c2a3MzLXFMV1ZMRVFSeDJFQWxiUWlmNy1kdE5GQ29NRTjSAWtBVV95cUxQcWdOSUxsSVVrUUpPeHd6QVM4bG1aWDRfYldITDI0NDFIZmtFckxDLWpZak5ZcDBSU3oyUWhJTVgtb3k0VGI2d096eEIzLTk5ZXZyVUU3akFPTEZBeGxfazZWMFJFWG5yX01JYw?oc=5",
-   "press": "금융계",
+   "title": "수억원대 혈액암 치료제 건강보험 급여 시험대",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5RT0dVbDduNWJqRkdVYmlSWVB6ckNMdWcxcFN1YnAtV3BpZlFGazZrbThXYXJQRmsxNHRuaHJiQ2swTlVfVl94VV9wR3BiQmlyWFhrR00yMmdxOFXSAWBBVV95cUxPSXhJTDdqd0FfdXZvejNjWnA3UTlEdTdRdGlmdjRxMDZ2YzhYYlVHY000dDVpb0I1T3ZaM1ZZLWVFLTBFWFA1N3pYWWU4eDYwNER3QS1odmpraGhTOHZfQ2I?oc=5",
+   "press": "연합뉴스",
    "summary": "",
    "others": 0,
    "topics": [
-    "jeongchaek"
+    "chiryo"
    ],
    "score": 2,
-   "tier": 3,
-   "publishedAt": "2026-09-14T09:47:49.000Z",
-   "firstSeenAt": "2026-10-05T00:08:24.934Z"
+   "tier": 1,
+   "publishedAt": "2026-09-12T07:00:00.000Z",
+   "firstSeenAt": "2026-10-05T06:21:52.038Z"
   },
   {
    "title": "5세대 실손 전환 부진…시장 안착 ‘안갯속’",
@@ -630,6 +686,20 @@
    "firstSeenAt": "2026-10-05T00:08:24.934Z"
   },
   {
+   "title": "'1·2세대 실손' 종신보험가입자, 특약으로 5세대 변경 가능",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1QZVM0WUVlOU92d0h1M3F5dzRmYjhFemxqcXdCV3lHcHRQWFRSNHFsU2xrU2JvUzF2WmdNeUhBV05PZTRTei1VbTY1YU1xc3JBc2xZa0lITFFkdw?oc=5",
+   "press": "파이낸셜뉴스",
+   "summary": "",
+   "others": 1,
+   "topics": [
+    "silson"
+   ],
+   "score": 4,
+   "tier": 1,
+   "publishedAt": "2026-09-11T07:00:00.000Z",
+   "firstSeenAt": "2026-10-05T06:21:52.038Z"
+  },
+  {
    "title": "'옛 실손→5세대' 갈아탈때 '특약'도 허용..GA 부당승환 막는다 - 머니투데이",
    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE13N2FnZXVaOENUWW9IQ0tIdUYybFpWWXl1TzN2dmdiYU1Fdzc2YUpoTUVtdl9ubklJS0NzMUk1U2l2MmlwUVVCMjFJREpUY3hBQ05WMWlOQktpLWVnUDdXTEE1VHZWdm5WV0tF0gFwQVVfeXFMUHBJSWd3allISUhLcllXeXVjYUM4ZUd3RXFELXh5OWpSRy10Qjk5NV9ISzljN2JQeUE4a092M2xJbVZjUVU4UHU3U0pGNUZZbUdlOTcxQS1Pa054c21saDV4eExLMFJEbHdMYUVPaVlucg?oc=5",
    "press": "머니투데이",
@@ -642,23 +712,6 @@
    "tier": 1,
    "publishedAt": "2026-09-11T07:00:00.000Z",
    "firstSeenAt": "2026-10-05T00:08:24.934Z"
-  },
-  {
-   "title": "\"3년간 보험료 반값\"…5세대 실손 '환승' 고민하시나요",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5Zc29qLWtocWJhTG0yemFmWl9HNEIwaHY4b2dGdmYyS2lMcjVKUkNvRlI4N2RNQ2FKZjI1YkptbWJIS1o1QnZoUlhHT0xYVlhjeWpWcDU1MTNMdw?oc=5",
-   "press": "한국경제",
-   "summary": "",
-   "others": 3,
-   "topics": [
-    "silson"
-   ],
-   "score": 4,
-   "tier": 1,
-   "publishedAt": "2026-09-06T07:00:00.000Z",
-   "firstSeenAt": "2026-10-04T06:28:34.484Z",
-   "link": "https://www.hankyung.com/article/2026090668791",
-   "image": "https://img.hankyung.com/photo/202609/99.32183472.1.jpg",
-   "desc": "\"3년간 보험료 반값\"…5세대 실손 '환승' 고민하시나요, Cover Story 5세대 실손보험, 보장 범위 잘 따져봐야 환승 건수 7월 1만2762건 전월대비 50% 가까이 늘어 5세대, 보장 범위 줄지만 보험료 부담도 낮아져 중증 비급여 보장 수준 유지 비중증은 자기부담률 강화 보험"
   }
  ]
 }
