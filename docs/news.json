@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-07T06:38:51.228Z",
+ "updatedAt": "2026-10-07T14:01:29.789Z",
  "naver": false,
  "topics": [
   {
@@ -12,7 +12,7 @@
    "id": "susul",
    "label": "수술비",
    "kind": "담보",
-   "count": 4
+   "count": 5
   },
   {
    "id": "chiryo",
@@ -34,6 +34,92 @@
   }
  ],
  "items": [
+  {
+   "title": "삼성화재, 1~5종 수술비 신규 가입기준 10월 11일 변경… ‘매회 지급’서 연 1회로(영상+)",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1PRExxM0MwYnprU1NNaDl3TmxYaEZvZHRac0gtazBLREdJT19wVVYwTmlWY3k5LXQ3dm5NM2NYT1lkZGpCczVmRDRWaVJQdTFmdVgzVjVEMy1LZzM0alFEREw3RWRxaVlmUTlrczdBNA?oc=5",
+   "press": "보험저널",
+   "summary": "",
+   "others": 1,
+   "topics": [
+    "susul"
+   ],
+   "score": 10,
+   "tier": 2,
+   "publishedAt": "2026-10-07T10:57:42.000Z",
+   "firstSeenAt": "2026-10-07T01:00:23.553Z",
+   "link": "https://www.insjournal.co.kr/news/articleView.html?idxno=33302",
+   "image": "https://cdn.insjournal.co.kr/news/thumbnail/202610/33302_35815_4834_v150.jpg",
+   "desc": "※유튜브 채널 '보험저널TV'를 구독하면 더 많은 영상을 보실 수 있습니다.(https://youtube.com/channel/UC6v10hcO7KLhWBNYZE4vkDQ)삼성화재가 1~5종 수술비의 신규 가입기준을 10월 11일부터 전격 변경한다. 약관상 지급요건을 충족하는 수술을"
+  },
+  {
+   "title": "정은경 \"돌봄은 국가 책임…'사적 간병' 없는 로드맵 추진\"",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB6d1RWNWNIQkRzdXdPTEgwdHlXLVZSODBhWi1Fb0xlSVBpSzdNVUlpc3ktMG80V1laalgwd1ZTSlkzQVVxSTBhdmRJSERMN1JDLU9oc0FOTVFxY1Myb0ZQWV82SGNaajdIQjdjbUFYRG0wVEtKT2xESNIBeEFVX3lxTFB6d1RWNWNIQkRzdXdPTEgwdHlXLVZSODBhWi1Fb0xlSVBpSzdNVUlpc3ktMG80V1laalgwd1ZTSlkzQVVxSTBhdmRJSERMN1JDLU9oc0FOTVFxY1Myb0ZQWV82SGNaajdIQjdjbUFYRG0wVEtKT2xESA?oc=5",
+   "press": "뉴시스",
+   "summary": "",
+   "others": 0,
+   "topics": [
+    "ganbyeong"
+   ],
+   "score": 10,
+   "tier": 1,
+   "publishedAt": "2026-10-07T10:48:36.000Z",
+   "firstSeenAt": "2026-10-07T14:01:29.789Z",
+   "link": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20261007_0003818103",
+   "image": "https://img1.newsis.com/2026/10/07/NISI20261007_0021479091_web.jpg",
+   "desc": "[세종=뉴시스] 강진아 기자 = 정은경 보건복지부 장관이 이른바 '돌봄 지옥'으로 불리는 현실에 \"돌봄에 대한 부담은 각 개인이나 가족이 아니라 사회와 국가의 책임\"이라며 장기적으로 사적 간병인이 없는 체계를 목표로 로드맵을 마련하겠다고 밝혔다"
+  },
+  {
+   "title": "[국정감사] 간호간병통합서비스 확대 로드맵 추진…수가·간호사인력도 검토",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9HT1RuemVkM3M3YnNJMVNuUGV2MVJMUzBBcm1uQzFvQmVtNjBMemJ2WHVPNVRTVGg4Q0NrZFZEOUpERmVkMkVuenJlaUw3dmxTeF9pMURpWjhJS19qcEhTcGU5Mk9mVXd4X1RYQXV3?oc=5",
+   "press": "간호사신문",
+   "summary": "",
+   "others": 0,
+   "topics": [
+    "ganbyeong",
+    "jeongchaek"
+   ],
+   "score": 10,
+   "tier": 3,
+   "publishedAt": "2026-10-07T09:26:31.000Z",
+   "firstSeenAt": "2026-10-07T14:01:29.789Z",
+   "link": "https://www.nursenews.co.kr/news/articleView.html?idxno=44891",
+   "image": "https://cdn.nursenews.co.kr/news/photo/202610/44891_36795_1358.jpg",
+   "desc": "정부가 급성기병원의 간호간병통합서비스를 확대하고 요양병원 간병비 급여화, 재가 통합돌봄을 연계하는 돌봄체계를 추진한다. 수도권 상급종합병원의 병동 제한과 수가,"
+  },
+  {
+   "title": "네이버페이서 병원비 확인부터 보험금 청구까지…실손24 연동",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9RUnYxa3FSeng4ei1TNlIzdzUyVjFmaUIzYlpTdERxTG1qcEJjQXVtWGFGemdSeWJOWWl1YkRqZjJoQW1pWjlVbE9vMEtvUmN0cE8xcFhOSnR2RUU1Wk5WcHp1UzdhTkpmUXhnNXgyMFNaX3o0UC1VbtIBeEFVX3lxTE9RUnYxa3FSeng4ei1TNlIzdzUyVjFmaUIzYlpTdERxTG1qcEJjQXVtWGFGemdSeWJOWWl1YkRqZjJoQW1pWjlVbE9vMEtvUmN0cE8xcFhOSnR2RUU1Wk5WcHp1UzdhTkpmUXhnNXgyMFNaX3o0UC1Vbg?oc=5",
+   "press": "뉴시스",
+   "summary": "",
+   "others": 0,
+   "topics": [
+    "silson"
+   ],
+   "score": 10,
+   "tier": 1,
+   "publishedAt": "2026-10-07T08:32:36.000Z",
+   "firstSeenAt": "2026-10-07T14:01:29.789Z",
+   "link": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20261007_0003817910",
+   "image": "https://img1.newsis.com/2026/10/07/NISI20261007_0002257973_web.jpg",
+   "desc": "[서울=뉴시스]권안나 기자 = 네이버페이가 실손청구전산화 시스템인 '실손24'와 연동해 실손보험금을 서류 없이 청구할 수 있는 의료기관을 전국 약 5만곳으로 확대했다"
+  },
+  {
+   "title": "[2026년 국감] 응급실 압수수색·비급여 쏠림… 필수의료 위기 수술대에",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ueWI0bWhNSVhBRkNrTE85cXVTLUl6SVJpeGJUemZiNzBXMGRSQU1DNTlWN19YLTJHTDVUQU9NZ2trbFREWUlLVUdSZ0tkZTZzX2l4X3QxeDRjSnFEWGFjeldTNVh0R0gzdklnSA?oc=5",
+   "press": "팜뉴스",
+   "summary": "",
+   "others": 0,
+   "topics": [
+    "susul"
+   ],
+   "score": 10,
+   "tier": 3,
+   "publishedAt": "2026-10-07T06:54:46.000Z",
+   "firstSeenAt": "2026-10-07T14:01:29.789Z",
+   "link": "https://www.pharmnews.com/news/articleView.html?idxno=306744",
+   "image": "https://cdn.pharmnews.com/news/photo/202610/306744_208259_5434.png",
+   "desc": "[팜뉴스=우정민 기자] 소아응급실 압수수색과 비급여 진료 쏠림 지적이 국정감사에서 집중됐다. 김윤 의원(더불어민주당 소속)은 7일 열린 국정감사에서 최근 발생한"
+  },
   {
    "title": "저소득층 수술 때 값비싼 비급여 잔뜩?… 중소병원의 '수상한 치료'",
    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE15SVFEbmhuaE0wY1ZhSDNtZ2J3a1psNjRscHpxQW5aS0UwQjc4enIzNGhZMG9NTlNINzJYZWlrWUYyajVvcFljd0lzUVFlZHFpR1h6T2hBYU9LbTBvenVwYzZWWmhCSER3MzlYbXBTbkVNREHSAXNBVV95cUxNeUlRRG5obmhNMGNWYUgzbWdid2tabDY0bHB6cUFuWktFMEI3OHpyMzRoWTBvTU5TSDcyWGVpa1lGMmo1b3BZY3dJc1FRZWRxaUdYek9oQWFPS20wb3p1cGM2VlpoQkhEdzM5WG1wU25FTURB?oc=5",
@@ -69,23 +155,6 @@
    "desc": "암치료비 1000만원 시대…中 반려동물 암보험 시장 열린다, [베이징 나우] 개·고양이도 고령화…암보험에 몰리는 보험사 시바견 림프종 치료비 1000만원…반려동물 암보험 경쟁"
   },
   {
-   "title": "보험업계, ‘치매 이후 돈 관리’로 무게중심 이동…신탁시장도 1조원 돌파",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE11WndOelhJRWVPX29JeEFITzUzamZXb0VMWXNRc3VBOU81VWtZRkRGYjRRMzFvQ3IyMHlIeHZlanNnZHhSUTlYOVVWYXVvWVM5R09OU0dnM0xaSEt4b21MdEliVlY1bWJCaWFjSElNa9IBb0FVX3lxTE11WndOelhJRWVPX29JeEFITzUzamZXb0VMWXNRc3VBOU81VWtZRkRGYjRRMzFvQ3IyMHlIeHZlanNnZHhSUTlYOVVWYXVvWVM5R09OU0dnM0xaSEt4b21MdEliVlY1bWJCaWFjSElNaw?oc=5",
-   "press": "금융경제신문",
-   "summary": "",
-   "others": 0,
-   "topics": [
-    "ganbyeong"
-   ],
-   "score": 10,
-   "tier": 3,
-   "publishedAt": "2026-10-07T03:10:54.000Z",
-   "firstSeenAt": "2026-10-07T06:38:51.228Z",
-   "link": "http://www.fetimes.co.kr/news/articleView.html?idxno=128421",
-   "image": "https://cdn.fetimes.co.kr/news/thumbnail/202610/128421_95218_1835_v150.jpg",
-   "desc": "[금융경제신문=최원석 기자] 보험업계의 고령화 대응이 단순한 보험금 지급을 넘어 치매 이후 자산을 관리하고 노후자금을 활용하는 영역으로 넓어지고 있다. 치매·간병보험 수요가 빠르게 증가하는 가운데 보험사들은 신탁과 사망보험금 유동화 등을 앞세워 생전과 사후 자산관리 기능을 강화하고 있다"
-  },
-  {
    "title": "복지부, '비급여 관리' 추가적인 제도 마련 시사",
    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1iTldJMzdTZld0MzQtQVVHdTJMNnZjenZpd2t2VjhhUUFFTnNlOXlpSUNVWDlySHNTVGxxSWg0dHF1d1RPSVdHTzBLVXRFaUhldWswLUFJemdNN3J6U1hDaDF3OWtBc0FaYXc?oc=5",
    "press": "의학신문",
@@ -101,6 +170,23 @@
    "link": "https://www.bosa.co.kr/news/articleView.html?idxno=3013449",
    "image": "https://cdn.bosa.co.kr/news/photo/202610/3013449_414331_425.jpg",
    "desc": "[의학신문·일간보사=이재원 기자] 정은경 보건복지부 장관이 현행 제도만으로 비급여 진료를 관리하는 데 한계가 있다며 추가적인 제도 개선 필요성을 공식화했다. 비급"
+  },
+  {
+   "title": "보험업계, ‘치매 이후 돈 관리’로 무게중심 이동…신탁시장도 1조원 돌파",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAxUk9QRm9HcmNWZEl1QVJKVjdGcDhfWnRyNTkyb29TY2NYR0U1dU1Zb0l3WXo2YlozUEIxZGEtbEt2dV9sUG1pMFUzWG9iTFpKQ1hBLTF2S0h5aGlGNy1xZ19pYmVHVGRFOEFob9IBb0FVX3lxTE11WndOelhJRWVPX29JeEFITzUzamZXb0VMWXNRc3VBOU81VWtZRkRGYjRRMzFvQ3IyMHlIeHZlanNnZHhSUTlYOVVWYXVvWVM5R09OU0dnM0xaSEt4b21MdEliVlY1bWJCaWFjSElNaw?oc=5",
+   "press": "금융경제신문",
+   "summary": "",
+   "others": 0,
+   "topics": [
+    "ganbyeong"
+   ],
+   "score": 10,
+   "tier": 3,
+   "publishedAt": "2026-10-07T02:00:00.000Z",
+   "firstSeenAt": "2026-10-07T14:01:29.789Z",
+   "link": "https://www.fetimes.co.kr/news/articleView.html?idxno=128421",
+   "image": "https://cdn.fetimes.co.kr/news/thumbnail/202610/128421_95218_1835_v150.jpg",
+   "desc": "[금융경제신문=최원석 기자] 보험업계의 고령화 대응이 단순한 보험금 지급을 넘어 치매 이후 자산을 관리하고 노후자금을 활용하는 영역으로 넓어지고 있다. 치매·간병보험 수요가 빠르게 증가하는 가운데 보험사들은 신탁과 사망보험금 유동화 등을 앞세워 생전과 사후 자산관리 기능을 강화하고 있다"
   },
   {
    "title": "[국감2026] 5세대 실손 전환부터 청구 전산화까지…산적한 보험 현안",
@@ -137,6 +223,23 @@
    "desc": ""
   },
   {
+   "title": "2035년 창상 견인기 시스템 시장: 최소침습 수술 수요가 성장 견인 - 뉴스 및 통계",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOX0ZUVTNzWE9SRkdybnF1UDdoRzhvWXRmNGtKQi1JU2hOakpaa18zQWJQVWVpNDZHVnhnSFg5SVZFajFaVHBkZEZhMk1YaU8xN3M2NkhmSVhOTjR4THFsUDVJbUd6OXFRaC1fUVREUFJGYjBKU1NfWVVpdWhTNDRGc051SVBOZlhrYS1YUFlQRGZ3dFdJejhKVVhwSkppamx3OVdJLWVMT0lFZlZwNW5WOWhqTXg0YU9QRldhNGhWdmR5SWFpRUh0QjdZNk5zQTQ?oc=5",
+   "press": "IndexBox",
+   "summary": "",
+   "others": 2,
+   "topics": [
+    "susul"
+   ],
+   "score": 10,
+   "tier": 3,
+   "publishedAt": "2026-10-06T17:06:04.000Z",
+   "firstSeenAt": "2026-10-07T14:01:29.789Z",
+   "link": "https://www.indexbox.io/ko/blog/wound-retractor-systems-market-forecast-to-2035-minimally-invasive-surgery-demand-drives-5-5-7-5-cagr/",
+   "image": "https://www.indexbox.io/landing/img/blog/custom-report-v2-localized/ko/wound-retractor-systems-market-forecast-to-2035-minimally-invasive-surgery-demand-drives-5-5-7-5-cagr-c5f3a3ca9a0c1053.webp",
+   "desc": "글로벌 창상 견인기 시스템 시장이 2035년까지 성장할 전망이다. 복강경 및 최소침습 수술 건수 증가와 일회용 기기 수요가 성장을 이끌고 있다."
+  },
+  {
    "title": "강원대병원 병상가동률 50%⋯수술건수 3,942건으로 회복 더뎌",
    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBzMUR1anhYTkZ6bVZjaW83LWc3bUVvUmFQSVh3ZFYyc3FaUUgzcFZaNWs3RkxkWEJtZlhUQ2NobWIzSzcyQTZfZU9SSVNHWWpzUXhWUk1xYXg3WGM?oc=5",
    "press": "강원일보",
@@ -145,7 +248,7 @@
    "topics": [
     "susul"
    ],
-   "score": 10,
+   "score": 7,
    "tier": 3,
    "publishedAt": "2026-10-06T07:54:10.000Z",
    "firstSeenAt": "2026-10-06T13:50:05.861Z",
@@ -162,7 +265,7 @@
    "topics": [
     "silson"
    ],
-   "score": 16,
+   "score": 13,
    "tier": 1,
    "publishedAt": "2026-10-06T07:45:05.000Z",
    "firstSeenAt": "2026-10-06T13:50:05.861Z",
@@ -175,11 +278,11 @@
    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9panF0ckkzeWtiVUdTNkp1V1RpYjQzd0lwRTItb2d1NzJtMjIzem16ZWczZlNTdDB4TDFxblMxNEpxeFV3NVd6OVg4R2puSnA0bzhYdFdrd04zTDBjT0taRERzdlB6TFhOWjBEdnRXb1FOeUdkRXFXVtIBeEFVX3lxTE9panF0ckkzeWtiVUdTNkp1V1RpYjQzd0lwRTItb2d1NzJtMjIzem16ZWczZlNTdDB4TDFxblMxNEpxeFV3NVd6OVg4R2puSnA0bzhYdFdrd04zTDBjT0taRERzdlB6TFhOWjBEdnRXb1FOeUdkRXFXVg?oc=5",
    "press": "뉴시스",
    "summary": "",
-   "others": 4,
+   "others": 3,
    "topics": [
     "jeongchaek"
    ],
-   "score": 10,
+   "score": 7,
    "tier": 1,
    "publishedAt": "2026-10-06T07:15:31.000Z",
    "firstSeenAt": "2026-10-06T13:50:05.861Z",
@@ -196,7 +299,7 @@
    "topics": [
     "silson"
    ],
-   "score": 10,
+   "score": 7,
    "tier": 3,
    "publishedAt": "2026-10-06T07:06:13.000Z",
    "firstSeenAt": "2026-10-07T01:00:23.553Z",
@@ -213,7 +316,7 @@
    "topics": [
     "ganbyeong"
    ],
-   "score": 10,
+   "score": 7,
    "tier": 1,
    "publishedAt": "2026-10-06T07:04:45.000Z",
    "firstSeenAt": "2026-10-06T13:50:05.861Z",
@@ -243,7 +346,7 @@
    "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE8tVGhlV0ZrVFpuU3gzRWpTVF9lcHVsRFlwNW5ydGpHVUNqVW80TU5laEFMeVVCdHZ4a24wMFJUazFrWG8?oc=5",
    "press": "한국공공정책신문",
    "summary": "",
-   "others": 1,
+   "others": 2,
    "topics": [
     "chiryo",
     "jeongchaek"
@@ -308,62 +411,11 @@
    "desc": "초고령화 사회 진입에 따라 노후 돌봄 거주지로 자택, 실버타운(노인복지주택), 노인요양시설 간의 정확한 경제적 비용 비교가 시급해졌다. 2026년 기준 자택 상주 간병비는 월평균 450만원(하루 15만원) 선으로 급증했으며, 가족의 무급 돌봄 노동과 추가 생활비를 포함하면 시설 입소보다"
   },
   {
-   "title": "집으로 간 간병보험",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPOFVvRTdaTi0tWUdqeENyMzExOUFjakFIa0pMWHhNMU1qNV9rXy1QMHhSb0MtNkctTE15TjR6SVJUdmhyUFpKNWhBQTlkeWFkQ1prMHVZX2pnVjl6UXFTZlE4eEE0WU1IcVYtb3RsQzMxM3RZcTJwZDdwaUVLNzI4NEtXc1BPZjMtX0xvNFBTSy1vUFJnLTZYS3Z6aEhaRks1LXdhOVp1dmg1OVJBaXI3dVVlamVFMjdGblo0R3d0OXhrZEh6ZG5rNGgtcnNaUQ?oc=5",
-   "press": "이투데이",
-   "summary": "",
-   "others": 0,
-   "topics": [
-    "ganbyeong"
-   ],
-   "score": 7,
-   "tier": 3,
-   "publishedAt": "2026-10-05T11:36:05.000Z",
-   "firstSeenAt": "2026-10-06T13:50:05.861Z",
-   "link": "https://www.etoday.co.kr/special-report-list?gpid=8988&tit=%EC%A7%91%EC%9C%BC%EB%A1%9C+%EA%B0%84+%EA%B0%84%EB%B3%91%EB%B3%B4%ED%97%98",
-   "image": "https://www.etoday.co.kr/images/etoday_og.jpg",
-   "desc": ""
-  },
-  {
-   "title": "이 대통령 “비용 때문에 치료 주저 없도록…간병비 건강보험 적용 추진”",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5OV2lSZnN6Q2stNlpRaHdVX2FjWlZLTGJua1RlQnNfMUJaOHM3TnZqUDJWdGR4OEZQVnNLemNGUklmeklEbUVQSzQxdHFxaFE3V2lRZXBSUGZmMVBIdnRmUENyTmFSZktrbmxmWm9JTUQ?oc=5",
-   "press": "팍스메디컬뉴스",
-   "summary": "",
-   "others": 0,
-   "topics": [
-    "ganbyeong"
-   ],
-   "score": 4,
-   "tier": 3,
-   "publishedAt": "2026-10-03T12:55:19.000Z",
-   "firstSeenAt": "2026-10-05T15:21:40.043Z",
-   "link": "https://www.paxmedicalnews.com/news/articleView.html?idxno=3100",
-   "image": "https://cdn.paxmedicalnews.com/news/photo/202610/3100_3086_5918.jpg",
-   "desc": "[팍스메디컬뉴스] 이재명 대통령이 간병비에 건강보험을 적용하겠다고 밝히면서 정부의 간병비 부담 완화 정책에 다시 관심이 쏠리고 있다.이 대통령은 지난 2일 서울"
-  },
-  {
-   "title": "요오드계 수술용 손 소독제 시장 2035년 전망: 수술 건수 증가가 성장 견인 - 뉴스 및 통계",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNVUdVTkhib3B0d1hzUEZENlJCZFZab3RISE5pem5IWmt3NjQwYVBNN0E5SXAxSGR2NjJ5M2g4UTR4OGRiSmNxRDd0a2E3WFlZcVN6UFRBek9zNzROUDZlMS1tNUhyZjdVc2pKWXBLVV9YUzE0TzRkTUNwbEhWYmNqTDVYRmdVWFNDSUs1cnBlTE1PS1V6c0k1UEJxT1JYbzFxNFp2TnlLck1xTHZKbk4tUVVSZVdpMEkwWFBic0tvSmcxbDZ3NkVZaGdYS1JWSlRTVHF5T2FYMEM?oc=5",
-   "press": "IndexBox",
-   "summary": "",
-   "others": 2,
-   "topics": [
-    "susul"
-   ],
-   "score": 6,
-   "tier": 3,
-   "publishedAt": "2026-10-03T10:26:04.000Z",
-   "firstSeenAt": "2026-10-05T06:21:52.038Z",
-   "link": "https://www.indexbox.io/ko/blog/iodine-based-surgical-hand-scrub-market-to-accelerate-on-rising-surgical-volumes-driving-growth-through-2035/",
-   "image": "https://www.indexbox.io/landing/img/blog/custom-report-v2-localized/ko/iodine-based-surgical-hand-scrub-market-to-accelerate-on-rising-surgical-volumes-driving-growth-through-2035-c9e5d0e8a0b67184.webp",
-   "desc": "글로벌 요오드계 수술용 손 소독제 시장이 2035년까지 수술 건수 증가와 감염 관리 규정 강화에 힘입어 성장할 전망이다."
-  },
-  {
    "title": "“보험금 다툼 끊이질 않네”…민원·분쟁신청 꾸준한데 5세대 실손 앞날은",
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBrLURta2ZkUy1OLUk2MUtfNWtoN2RQZTNZMWhKRXBhdnc1M3RVUkZ0TEs5UmMtZHFDMmNOem1oc2dhT0t4cDhuMk84NXU0amFuQTE2NQ?oc=5",
    "press": "매일경제",
    "summary": "",
-   "others": 1,
+   "others": 2,
    "topics": [
     "silson"
    ],
@@ -374,23 +426,6 @@
    "link": "https://www.mk.co.kr/news/economy/12167710",
    "image": "https://pimg.mk.co.kr/news/cms/202610/03/news-p.v1.20261002.b69c0b8c950f431ea06433311790c646_R.jpg",
    "desc": "올해 국감서도 5세대 실손보험 안건 실손 비롯해 보장성 보험 민원 꾸준 약관해석과 보험금 지급 사유 때문"
-  },
-  {
-   "title": "삼성화재, 1~5종 수술비 신규 가입기준 10월 11일 변경… ‘매회 지급’서 연 1회로",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1PRExxM0MwYnprU1NNaDl3TmxYaEZvZHRac0gtazBLREdJT19wVVYwTmlWY3k5LXQ3dm5NM2NYT1lkZGpCczVmRDRWaVJQdTFmdVgzVjVEMy1LZzM0alFEREw3RWRxaVlmUTlrczdBNA?oc=5",
-   "press": "보험저널",
-   "summary": "",
-   "others": 1,
-   "topics": [
-    "susul"
-   ],
-   "score": 2,
-   "tier": 2,
-   "publishedAt": "2026-10-01T07:33:09.000Z",
-   "firstSeenAt": "2026-10-07T01:00:23.553Z",
-   "link": "https://www.insjournal.co.kr/news/articleView.html?idxno=33302",
-   "image": "https://cdn.insjournal.co.kr/news/thumbnail/202610/33302_35815_4834_v150.jpg",
-   "desc": "※유튜브 채널 '보험저널TV'를 구독하면 더 많은 영상을 보실 수 있습니다.(https://youtube.com/channel/UC6v10hcO7KLhWBNYZE4vkDQ)삼성화재가 1~5종 수술비의 신규 가입기준을 10월 11일부터 전격 변경한다. 약관상 지급요건을 충족하는 수술을"
   },
   {
    "title": "암 치료비 매년 반복·간병은 연중 365일… 한화손보, 암 치료부터 장기 간병까지(영상+)",
@@ -428,11 +463,28 @@
    "desc": "[한국정경신문=석지연 기자] 보험업계가 오는 6일부터 시작되는 국정감사 준비작업을 본격화 하고 있다. 올해 국감에서는 5세대 실손의료보험과 실손보험 청구 전산화 등 최근 도입된 제도의 현장 안착 여부를 비롯해 법인보험대리점(GA) 판매수수료와 부당승환, 요양병원 보험사기 등이 주요 쟁점"
   },
   {
+   "title": "[N2 포커스] 국감 앞둔 보험업계, 5세대 실손 등 '소비자 접점' 현안 주목",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE10M2xZbENpeEJTYVpKVUVscEtLNWZyVlZJbkFPRDFpMkh3X2t0ZW82aTBBWkh4aDNEY3hTREJIdFIwUVZrcTBlZmJhRllkUGszM2N0VkRXemVTR24tUHc?oc=5",
+   "press": "뉴스투데이",
+   "summary": "",
+   "others": 5,
+   "topics": [
+    "silson"
+   ],
+   "score": 4,
+   "tier": 3,
+   "publishedAt": "2026-09-30T21:44:00.000Z",
+   "firstSeenAt": "2026-10-07T14:01:29.789Z",
+   "link": "https://www.news2day.co.kr/article/20260930500272",
+   "image": "https://cdn.news2day.co.kr/data2/content/image/2026/09/30/.cache/512/20260930500265.png",
+   "desc": "[뉴스투데이=김태규 기자] 국회 정무위원회 국정감사에서 보험업권 질의는 5세대 실손보험 안착, 보험금 지급 관행, 판매채널 관리 등 소비자와 맞닿은 사안에 집중될 것으로 보인다. 1일 금융권에 따르면 정무위는 지난 28일 전체회의에서 피감기관 소속 증인 314명에 대한"
+  },
+  {
    "title": "요로상피암 ‘신약+신약’ 병용요법 건보 적용…환자 치료부담 낮춘다",
    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9rVWJia3ZIMHpGUTFYSXIwQ3QzNTQ2OWdxdWVLbjFjUDlDUFZCdjgyNi1RdGZtVFJZLVhCN0ZqUWVTdXFXTnBodi1aaGN2b1c5OXJOa0dIN3J6N00xYmt4UndsZXpPczBmZzBN?oc=5",
    "press": "헬스경향",
    "summary": "",
-   "others": 8,
+   "others": 9,
    "topics": [
     "chiryo"
    ],
@@ -466,7 +518,7 @@
    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBqeXFZTmxWaHFfR05xYVd6cGJtR2Zjai1ycWpIMVQtRlFNbndkYXZhYml3YmJGZDVxQTlNOFhFSDNxNWFXc3ptX19pX1JVSGJBbHhTbldvaC1Yd1lnVHdHVGlGWXk?oc=5",
    "press": "매일일보",
    "summary": "",
-   "others": 16,
+   "others": 14,
    "topics": [
     "chiryo"
    ],
@@ -479,21 +531,21 @@
    "desc": "매일일보 = 이용 기자 | 희귀·소외암 환자의 치료비 부담을 낮추기 위해 다음 달부터 일부 항암제에 대한 건강보험 적용이 확대된다. 유전자 변이 희귀 폐암 치료제"
   },
   {
-   "title": "보험업계 국감, 굵직한 악재 피했지만…'5세대 실손·GA 불완전판매' 칼날 집중 될 듯",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE12LWNWUGRyVXlJa0lhMU9veElFVmJKWXRhWmpacUQ0N285VENvRU9KdkY0bVYtY0pHWTVKRXV6N3UtaklwekNfT0VwWTdIZVZHcEtpdDVyVnRjR1NwY0pqcnBjTUZXbjNUVzB6VTJKck16NG8?oc=5",
-   "press": "소비자가 만드는 신문",
+   "title": "2026 국정감사, 실손부터 IFRS17까지... '쟁점 산적'",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE02dzlfakZKUlZUWGYzNzN0cXRxWmxTT0VmNG9VOEkwMkdLUTE1d0dhVU9FVmM4d0xJUXJyeUJkSk93dHdNdGYwOWowcVg5ZWNDS3o1Qm5MNjhmRmZFeWhOTlRFbmY1MVNO?oc=5",
+   "press": "보험매일",
    "summary": "",
-   "others": 6,
+   "others": 0,
    "topics": [
-    "silson"
+    "jeongchaek"
    ],
-   "score": 4,
-   "tier": 3,
-   "publishedAt": "2026-09-29T21:10:00.000Z",
-   "firstSeenAt": "2026-10-06T01:52:20.479Z",
-   "link": "https://www.consumernews.co.kr/news/articleView.html?idxno=764807",
-   "image": "http://www.consumernews.co.kr/news/thumbnail/202609/764807_318717_385_v150.jpg",
-   "desc": "올해 국회 국정감사에서 보험업권은 개별 보험사를 둘러싼 현안보다는 저조한 5세대 실손보험 가입 현황과 법인보험대리점(GA) 불완전판매 논란 등 정책 위주 질의가 이어질 것으로 예상된다. 단일종목 레버리지 ETF 도입 논란과 국책은행 지방이전 등 타 업권에서 굵직한 현안이 대거 발생함에 "
+   "score": 2,
+   "tier": 2,
+   "publishedAt": "2026-09-30T00:56:05.000Z",
+   "firstSeenAt": "2026-10-07T14:01:29.789Z",
+   "link": "https://www.fins.co.kr/news/articleView.html?idxno=110118",
+   "image": "https://cdn.fins.co.kr/news/thumbnail/202609/110118_26613_5525_v150.jpg",
+   "desc": "2026년 국정감사를 앞두고 보험업계가 촉각을 곤두세우고 있다. 올해 보험권 국감은 단순히 개별 보험사의 경영 현안을 넘어 실손보험과 비급여, 보험금 지급, 판매채널, IFRS17과 K-ICS 등 보험산업의 구조적 문제가 두루 다뤄질 것으로 전망된다.특히 실손보험 개편과 비급여 관리, "
   },
   {
    "title": "전이성 전립선암 환자 96.6% \"후속 치료제 급여 확대 필요\"",
@@ -528,23 +580,6 @@
    "link": "https://www.mediwelfare.com/news/articleView.html?idxno=4883",
    "image": "http://www.mediwelfare.com/news/thumbnail/202609/4883_6830_4825_v150.jpg",
    "desc": "[기획특집1] 요양병원 의료혁신 및 간병 급여화 시범사업정부가 요양병원의 의료 기능을 재정립하는 ‘의료혁신’과 의료·간병 필요도가 높은 환자의 간병비를 건강보험으로 지원하는 ‘간병 서비스 제도화’를 함께 추진한다. 핵심 구도는 중증환자에게는 의료·간병을 충분히 제공하되, 경증환자, 장기"
-  },
-  {
-   "title": "5세대 실손 '갸우뚱'·실손24도 지지부진…국감서 따질듯",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1DTEd2dFY2SjNxX2F6WUFCRXA2V3NPanY0MjNsWmZ1TkZRb01RYUdHTjVqWlN4dksxSy03eGJLM0lZaGM2VlozVTM3QzRKdzFOMWp4XzZ4ZTZoNllsNFd1SjlnSGZtLXJtWHBj?oc=5",
-   "press": "비즈워치",
-   "summary": "",
-   "others": 3,
-   "topics": [
-    "silson"
-   ],
-   "score": 4,
-   "tier": 3,
-   "publishedAt": "2026-09-28T07:00:00.000Z",
-   "firstSeenAt": "2026-10-05T00:08:24.934Z",
-   "link": "https://news.bizwatch.co.kr/article/finance/2026/09/18/0025",
-   "image": "https://cdn.bizwatch.co.kr/news/photo/2023/09/27/4e713c6fdc0351db61ee81837ffbc6e9.jpg",
-   "desc": "보험개혁의 핵심 과제로 추진된 5세대 실손의료보험과 실손보험 청구 전산화가 올해 국정감사에서 점검 대상에 오를 것으로 보인다. 5세대 실손 출시 이후 기존 가입자의 전환이 기대만큼 빠르지 않은 데다 실손24 역시 의..."
   },
   {
    "title": "요양병원 간병비 급여화 법안 국회 문턱 ‘머뭇’… 시범사업 선제 가동 속 재정·부작용 입법 논쟁 심화",
@@ -616,23 +651,6 @@
    "desc": "(서울=연합뉴스) 강수련 기자 = 고령화 사회에 본격적으로 진입하면서, 치매·간병인 보험 신계약 규모가 2년 새 50% 가까이 늘었다."
   },
   {
-   "title": "올 국정감사 핫이슈 ‘소아의료·관리급여’ 예고",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5DLWVUbFFPSTlIY20wVWlOQVpXT2FkLV9ZLXlwTHYwVVlmMS1iVFZLUTJ6dzN0cy1mWndxZy1YblBVOEpVcjRMVlMtdjQ2bkJOQkpqN2R2MDZRSXowengwdk5ZbTVTZkZvRnZBX2JVdlBwa2VE?oc=5",
-   "press": "데일리메디",
-   "summary": "",
-   "others": 0,
-   "topics": [
-    "jeongchaek"
-   ],
-   "score": 4,
-   "tier": 2,
-   "publishedAt": "2026-09-24T07:00:00.000Z",
-   "firstSeenAt": "2026-10-04T06:28:34.484Z",
-   "link": "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=940093",
-   "image": "",
-   "desc": "제22대 국회 3번째 국정감사가 한 달여 앞으로 다가온 가운데, 올해 국정감사에서 다뤄질 주요 보건복지 이슈 윤곽이 드러나고 있다.최근 심각성이 더해지고 있는 소아응급의료체계 붕괴와 함께 정부가 도입한 ‘관리급여 제도’ 실효성이 보건복지위원회 국정감사 주요 쟁점으로 떠오를 전망이다.국회"
-  },
-  {
    "title": "의협, 관리급여 헌법소원…‘실손보험 비급여 개편’ 변수되나",
    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBpNDhxQUY2Wmd1eHJQRnp0dm50YXZQYzQ0NkhPTFo0T3RpaFoxcG9jeEFmbFJIVFlMaGg3R0xPYXM0N0l4TWpyTnRSbjZNbnNLSG9kQ1ZxTXVVbGlCMTVhVUw2V0tOd0VZ?oc=5",
    "press": "보험매일",
@@ -684,23 +702,6 @@
    "desc": "파드셉, 리브리반트, 테빔브라 등 주요 항암제의 건강보험 적용을 앞두고 급여 기준이 마련된다. 건강보험심사평가원은 22일 암환자에게 처방·투여하는 약제에 대한 공고 개정안에 대한 의견조회에 나섰다. 이번 개정안에는 총 18개 항목의 개정 사항이 포함됐다. 항암요법 14개가 신설되고, 급"
   },
   {
-   "title": "의협, 정부 관리급여 제도 부당성 내세워 헌법소원심판 청구",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB6SnNNbEhwNkQ2bWlzbDEyMjRPdnhoNUV3LXZfOE41LW9kSVZfWXFBWEtSWEVfLXpyMHZudm9XeWZOa1NaT0ZrVDJqMzc3TE03X3FJUlh2WWdSenE1dGN4UXppZTlqb2o5TGlSZzdB?oc=5",
-   "press": "간호사신문",
-   "summary": "",
-   "others": 0,
-   "topics": [
-    "jeongchaek"
-   ],
-   "score": 2,
-   "tier": 3,
-   "publishedAt": "2026-09-22T07:38:33.000Z",
-   "firstSeenAt": "2026-10-07T01:00:23.553Z",
-   "link": "https://www.nursenews.co.kr/news/articleView.html?idxno=44507",
-   "image": "https://cdn.nursenews.co.kr/news/photo/202609/44507_36344_3826.jpg",
-   "desc": "대한의사협회가 정부의 관리급여 제도 강행에 맞서 헌법소원심판을 청구하며 본격적인 법적 대응에 나섰다.의협은 9월 22일 서울 종로구 헌법재판소를 찾아 국민의 기본"
-  },
-  {
    "title": "비급여 항암제 환자 81% ‘월 300만원+’…암보험, 진단금 넘어 ‘치료비 구조’가 갈린다",
    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE42cjd5N2tRREwwUERHdU5ZMDhzU04wTVQ1YWo4dFpfcUFNdnhNVmdnSFpyWjdITUJzNzF6OG5FbkpvT3NESjZwazJBUU83czNUZWN6Umw5QVlkNXE4Y2pHLURaMEpCVFFXems2N0RkRQ?oc=5",
    "press": "보험저널",
@@ -739,14 +740,17 @@
    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5RT0dVbDduNWJqRkdVYmlSWVB6ckNMdWcxcFN1YnAtV3BpZlFGazZrbThXYXJQRmsxNHRuaHJiQ2swTlVfVl94VV9wR3BiQmlyWFhrR00yMmdxOFXSAWBBVV95cUxPSXhJTDdqd0FfdXZvejNjWnA3UTlEdTdRdGlmdjRxMDZ2YzhYYlVHY000dDVpb0I1T3ZaM1ZZLWVFLTBFWFA1N3pYWWU4eDYwNER3QS1odmpraGhTOHZfQ2I?oc=5",
    "press": "연합뉴스",
    "summary": "",
-   "others": 0,
+   "others": 1,
    "topics": [
     "chiryo"
    ],
    "score": 2,
    "tier": 1,
    "publishedAt": "2026-09-12T07:00:00.000Z",
-   "firstSeenAt": "2026-10-05T06:21:52.038Z"
+   "firstSeenAt": "2026-10-05T06:21:52.038Z",
+   "link": "https://www.yna.co.kr/view/AKR20260911125400530",
+   "image": "https://img5.yna.co.kr/photo/cms/2020/06/14/67/PCM20200614000067009_P4.jpg",
+   "desc": "(서울=연합뉴스) 서한기 기자 = 한 번 투약에 수억 원이 드는 초고가 면역세포 치료제를 암 환자에게 더 일찍 투여할 수 있도록 건강보험 적용을..."
   }
  ]
 }
