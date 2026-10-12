@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-11T13:36:21.489Z",
+ "updatedAt": "2026-10-12T00:42:58.641Z",
  "naver": false,
  "topics": [
   {
@@ -18,7 +18,7 @@
    "id": "chiryo",
    "label": "치료비",
    "kind": "담보",
-   "count": 9
+   "count": 10
   },
   {
    "id": "silson",
@@ -35,6 +35,23 @@
  ],
  "items": [
   {
+   "title": "아스텔라스 항암제 파드셉·빌로이 동시 급여 적용…치료 선택지 확대",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5hZ3A5UlhIX01zdzZYMVVJdnFfemRjT3ZDYm9iaTU2WFgtNlZpSkx6bDFuUVItcU8yOHlxWlFkdFA2TXU5ZFhTYjhHTTlsTkdQWS1HMm1mR0ZwV2t1OGFzTjZlM3FkaEExcGtiT2VUbDluUdIBdkFVX3lxTFBMZXlsOEp1Y1hicV9EdkNQZW1YcGluMFViZ2V3ejA5T2FfMl9RWGdLcUxia0RMSHFmUVBqVFVscnQtR0hyODdCb2ltQTdIcURyLXdnYXhEY25ZenhMTkFGRy1xZzV1Skx6c3Jtb2FmcUVQeVllbFE?oc=5",
+   "press": "메디소비자뉴스",
+   "summary": "",
+   "others": 2,
+   "topics": [
+    "chiryo"
+   ],
+   "score": 7,
+   "tier": 3,
+   "publishedAt": "2026-10-10T23:53:22.000Z",
+   "firstSeenAt": "2026-10-12T00:42:58.641Z",
+   "link": "http://www.medisobizanews.com/news/articleView.html?idxno=143000",
+   "image": "https://cdn.medisobizanews.com/news/thumbnail/202610/143000_136455_5952_v150.jpg",
+   "desc": "“이번 급여 적용은 글로벌 표준치료와 국내 실제 치료환경 간의 간극을 줄였다는 점에서 무엇보다 의미가 큽니다.”지난 8일 서울 콘래드 호텔에서 열린 한국아스텔라스의 ‘파드셉·빌로이 건강보험 급여 등재 기념 기자간담회’에서 가톨릭대학교 서울성모병원 종양내과 김인호 교수는 그동안 비용 부담"
+  },
+  {
    "title": "4세대 실손 만기 55만 건…병원 안 가면 5세대, 도수치료 땐 유지",
    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1vS0dGUDBLX2dzZWxXa1RZdVQwYWE0RUR4RVFHTW5kbHc3S2lxRUNmTkdqVVB3emMtbDJBd3hSUVpCR1BUckd4MldCSzRESmdaZksyVThrVHBieWpkM08zTjNR?oc=5",
    "press": "매일신문",
@@ -43,7 +60,7 @@
    "topics": [
     "silson"
    ],
-   "score": 12,
+   "score": 9,
    "tier": 3,
    "publishedAt": "2026-10-10T21:22:59.000Z",
    "firstSeenAt": "2026-10-11T06:35:15.889Z",
@@ -60,7 +77,7 @@
    "topics": [
     "ganbyeong"
    ],
-   "score": 7,
+   "score": 4,
    "tier": 3,
    "publishedAt": "2026-10-09T17:00:00.000Z",
    "firstSeenAt": "2026-10-10T01:12:44.392Z",
@@ -77,7 +94,7 @@
    "topics": [
     "silson"
    ],
-   "score": 6,
+   "score": 4,
    "tier": 3,
    "publishedAt": "2026-10-09T00:02:41.000Z",
    "firstSeenAt": "2026-10-09T06:53:07.543Z",
@@ -107,7 +124,7 @@
    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5MRS1GaVdCSkgyVThwVFo2d2E1blNMMmc3cERaZWdLWkhaWEFSb3dtVmRTS1dkb3ZqWTM1TEhtbWZTVEdlNzdQXzQ1SVd3M1dpRi1VQ1dpaHhUcDRBeUFuUWRDTjV2d2lZckHSAW9BVV95cUxPa3AzLU5Fcm9HYVZBVnVweHh4UzJjTHpKZkxqcVUyNms4d0ZKWXUxTTB6ejFld1dwTnhCc1NiTkk1Uk9wWVNhb0RJRUZoMWtOdzFDbk9VNWVTZWY0SlAtejVBaWEzSThFN2hzQUF0T3c?oc=5",
    "press": "머니투데이",
    "summary": "",
-   "others": 1,
+   "others": 0,
    "topics": [
     "chiryo"
    ],
@@ -226,7 +243,7 @@
    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5xUFI1UWt3aEZFT1hkNXNJcW42TVlpbTVHM2RVcC1hVkVQYXFmRFRvN242ZWFqZElNZGxSbGtwemR0TXRnZTdILVZtQWxXTVVKbVMyV1U4TnFXVVZQUzR6TkhZRmN5WUNRQWN2ZXpKUlPSAXRBVV95cUxQcklLVVhKYlU3Qk52eDNqOXlDRm94c2ZZVC1VWi0tc0pjcTJxS0lEOEVhUmJ5NXlWeDFEM2FzcjRvYlVsc2ZKWUFmYldaanA5QlA4aHY5bVhrN1pvdDdIampyOU9oSElrcmF6VmJELU13SUR1Zg?oc=5",
    "press": "연합인포맥스",
    "summary": "",
-   "others": 34,
+   "others": 35,
    "topics": [
     "jeongchaek"
    ],
@@ -346,7 +363,7 @@
    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5naFN4SkJHdFZaRHhNakdZdnlHSUxTbjBWS2VoM0I2SF94eDc1emxfUFJCMExGVzNzXzhoLXJmR2c2Y090V3ltZHdBdTR6MjMxZ3hzeS1ibkY5X1pXOVloT2dFaFlPTkR0blhGZVlB?oc=5",
    "press": "한국일보",
    "summary": "",
-   "others": 0,
+   "others": 1,
    "topics": [
     "susul"
    ],
@@ -465,7 +482,7 @@
    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNVUdVTkhib3B0d1hzUEZENlJCZFZab3RISE5pem5IWmt3NjQwYVBNN0E5SXAxSGR2NjJ5M2g4UTR4OGRiSmNxRDd0a2E3WFlZcVN6UFRBek9zNzROUDZlMS1tNUhyZjdVc2pKWXBLVV9YUzE0TzRkTUNwbEhWYmNqTDVYRmdVWFNDSUs1cnBlTE1PS1V6c0k1UEJxT1JYbzFxNFp2TnlLck1xTHZKbk4tUVVSZVdpMEkwWFBic0tvSmcxbDZ3NkVZaGdYS1JWSlRTVHF5T2FYMEM?oc=5",
    "press": "IndexBox",
    "summary": "",
-   "others": 18,
+   "others": 19,
    "topics": [
     "susul"
    ],
@@ -546,6 +563,23 @@
    "desc": "면역항암제 테빔브라(성분명 티슬렐리주맙)를 사용하는 식도암·위암·폐암 환자들의 치료비 부담이 크게 낮아진다. PD-1 면역항암제 테빔브라가 10월 1일부터 식도편평세포암 1차치료, 위·위식도접합부 선암 1차치료, 비소세포폐암 1·2차치료 등 3개 암종 5개 적응증에서 건강보험 급여를 적"
   },
   {
+   "title": "희귀·소외암환자 치료비 부담 낮춘다, 10월부터 암 치료제 건강보험 적용 확대",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1hS1ZURVpGNXlrU21uNXpFTG56T0VPSW81UWx2aVhOYjdKTDNUczV4ajhEd0c2dUc5R0FsNmJmX2hLV2VnRXN3OEZRem9ubGJoYUFITXhVTU1hSDZTMld5dlNfQkZ0cTVsZmFz?oc=5",
+   "press": "한국의약통신",
+   "summary": "",
+   "others": 7,
+   "topics": [
+    "chiryo"
+   ],
+   "score": 2,
+   "tier": 3,
+   "publishedAt": "2026-09-30T20:24:17.000Z",
+   "firstSeenAt": "2026-10-12T00:42:58.641Z",
+   "link": "https://www.kmpnews.co.kr/news/articleView.html?idxno=73424",
+   "image": "https://cdn.kmpnews.co.kr/news/thumbnail/202610/73424_70039_2345_v150.jpg",
+   "desc": "보건복지부(장관 정은경)는 10월 1일부터 희귀·소외암환자의 치료 접근성 향상을 위하여 신약인 유전자 변이 희귀 폐암 치료제 ‘레테브모캡슐’, 절제 불가능한 진행성·전이성 위암 치료제 ‘빌로이주’, 요로상피암 1차 치료제 ‘파드셉주’+‘키트루다주’에 대한 건강보험 적용 확대가 건강보험정"
+  },
+  {
    "title": "요로상피암 ‘신약+신약’ 병용요법 건보 적용…환자 치료부담 낮춘다",
    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9rVWJia3ZIMHpGUTFYSXIwQ3QzNTQ2OWdxdWVLbjFjUDlDUFZCdjgyNi1RdGZtVFJZLVhCN0ZqUWVTdXFXTnBodi1aaGN2b1c5OXJOa0dIN3J6N00xYmt4UndsZXpPczBmZzBN?oc=5",
    "press": "헬스경향",
@@ -580,23 +614,6 @@
    "desc": "항암제 3종 건보 문턱 낮아진다다른 제약사 신약 병용 첫 급여 폐암 레테브모· 위암 빌로이 요로상피암 파드셉+키트루다 병용"
   },
   {
-   "title": "政, 희귀·소외암 치료비 부담 낮춘다… 10월부터 암 치료제 건강보험 적용 확대",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBqeXFZTmxWaHFfR05xYVd6cGJtR2Zjai1ycWpIMVQtRlFNbndkYXZhYml3YmJGZDVxQTlNOFhFSDNxNWFXc3ptX19pX1JVSGJBbHhTbldvaC1Yd1lnVHdHVGlGWXk?oc=5",
-   "press": "매일일보",
-   "summary": "",
-   "others": 8,
-   "topics": [
-    "chiryo"
-   ],
-   "score": 2,
-   "tier": 3,
-   "publishedAt": "2026-09-30T04:38:26.000Z",
-   "firstSeenAt": "2026-10-08T14:08:40.631Z",
-   "link": "https://www.m-i.kr/news/articleView.html?idxno=2001188",
-   "image": "https://cdn.m-i.kr/news/photo/202609/2001188_2000928_1327.jpg",
-   "desc": "매일일보 = 이용 기자 | 희귀·소외암 환자의 치료비 부담을 낮추기 위해 다음 달부터 일부 항암제에 대한 건강보험 적용이 확대된다. 유전자 변이 희귀 폐암 치료제"
-  },
-  {
    "title": "암·뇌혈관·허혈성심장질환 진단비 한데 담았다… NH농협손보, 암 진단 후 치료비까지 보장",
    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBHWUJWeVJyX2duaHU0OFByMTkwVjVaZldsaTBoUUFYUzF1RmU5M05fR2JXOW95ek1aM3BrSHB0TE10WS1oR3QyZVJPY2ZoU0czUkFHeGdEOTI4TF8wMjByamdhMGZBN21PYnZjdi02cw?oc=5",
    "press": "보험저널",
@@ -624,7 +641,7 @@
    ],
    "score": 2,
    "tier": 3,
-   "publishedAt": "2026-09-29T00:42:11.000Z",
+   "publishedAt": "2026-09-29T07:00:00.000Z",
    "firstSeenAt": "2026-10-06T13:50:05.861Z",
    "link": "https://www.kpanews.co.kr/news/articleView.html?idxno=545007",
    "image": "https://cdn.kpanews.co.kr/news/photo/202609/545007_450270_4132.png",
