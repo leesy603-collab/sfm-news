@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-12T00:42:58.641Z",
+ "updatedAt": "2026-10-12T06:40:43.489Z",
  "naver": false,
  "topics": [
   {
@@ -18,7 +18,7 @@
    "id": "chiryo",
    "label": "치료비",
    "kind": "담보",
-   "count": 10
+   "count": 9
   },
   {
    "id": "silson",
@@ -101,23 +101,6 @@
    "link": "https://www.nspna.com/news/?mode=view&newsid=830757",
    "image": "https://file.nspna.com/news/2026/10/06/20261006182015_830757_1.jpg",
    "desc": "금융위원회가 지난 5월 6일 첫선을 보인 5세대 실손의료보험이 출시 5개월을 맞았다. 5세대 실손보험은 기존 상품 대비 보험료 부담을 크게 낮추는 대신 비급여 보장 구조를 세분화한 것이 특징이다."
-  },
-  {
-   "title": "간병비 연 10조 원 시대인데…'간호·간병통합서비스' 올해 7곳 느는 데 그쳐,제주·충남 참여율 30%대",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE16WTF0NzZoNW5wMU5NNDMyd1I2R1F4dVVGUmFDZGxRRGx3bVVFa1BncERYcUtoenExU2ZLMWRrZ3ZnQnRaWUJuYlRqWWdockNVODh2LTlR?oc=5",
-   "press": "위키트리",
-   "summary": "",
-   "others": 0,
-   "topics": [
-    "ganbyeong"
-   ],
-   "score": 4,
-   "tier": 3,
-   "publishedAt": "2026-10-08T09:59:00.000Z",
-   "firstSeenAt": "2026-10-09T06:53:07.543Z",
-   "link": "https://www.wikitree.co.kr/articles/1164915",
-   "image": "",
-   "desc": ""
   },
   {
    "title": "항암신약 '파드셉·빌로이' 이달 급여…\"암 치료환경 좋아져 감사\" - 머니투데이",
@@ -220,6 +203,23 @@
    "link": "http://www.newscape.co.kr/news/articleView.html?idxno=124972",
    "image": "https://cdn.newscape.co.kr/news/thumbnail/202610/124972_118822_551_v150.jpg",
    "desc": "[뉴스케이프 전수영 기자] 고령화 사회로의 전환이 빠르게 진행되는 가운데 간병비로 인한 환자와 가족의 부담도 커지고 있다. 이에 간호·간병통합서비스 확대와 요양병원 간병비 급여화 시범사업과 함께 법안의 조속한 논의가 필요하다는 지적이 제기됐다.8일 국회 보건복지위원회 박용갑 더불어민주당"
+  },
+  {
+   "title": "\"간병비 연 10조원 시대…간호·간병통합서비스 대책 세워야\"",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9SdGFDSUxiMnBPMWdkT0h0Y05CUVY4alh0eGR5STlsQ25FSEZHMDhoOXRVSzROeGRtSkFBWU1YYklsOVZ4dGRyTXRpMmVvVi1GLW84ZHV2UWM3LUFnaTQxcQ?oc=5",
+   "press": "뉴스1",
+   "summary": "",
+   "others": 1,
+   "topics": [
+    "ganbyeong"
+   ],
+   "score": 4,
+   "tier": 1,
+   "publishedAt": "2026-10-08T01:41:29.000Z",
+   "firstSeenAt": "2026-10-12T06:40:43.489Z",
+   "link": "https://www.news1.kr/local/daejeon-chungnam/6314092",
+   "image": "https://i3n.news1.kr/system/photos/2025/10/21/7553489/high.jpg",
+   "desc": "박용갑, 개인 부담 덜고 국가 역할 확대 역설 환자와 가족이 부담하는 간병비가 연간 10조 원을 넘어설 것으로 예상되는 가운데 국가 차원의 간병 부담 완화 대책이 필요하다는 지적이 나왔다.박용갑 더불어민주당 …"
   },
   {
    "title": "간병비 연 10조원 넘을 것으로 전망…국가 책임 강화 촉구",
@@ -482,7 +482,7 @@
    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNVUdVTkhib3B0d1hzUEZENlJCZFZab3RISE5pem5IWmt3NjQwYVBNN0E5SXAxSGR2NjJ5M2g4UTR4OGRiSmNxRDd0a2E3WFlZcVN6UFRBek9zNzROUDZlMS1tNUhyZjdVc2pKWXBLVV9YUzE0TzRkTUNwbEhWYmNqTDVYRmdVWFNDSUs1cnBlTE1PS1V6c0k1UEJxT1JYbzFxNFp2TnlLck1xTHZKbk4tUVVSZVdpMEkwWFBic0tvSmcxbDZ3NkVZaGdYS1JWSlRTVHF5T2FYMEM?oc=5",
    "press": "IndexBox",
    "summary": "",
-   "others": 19,
+   "others": 20,
    "topics": [
     "susul"
    ],
@@ -505,7 +505,7 @@
    ],
    "score": 4,
    "tier": 1,
-   "publishedAt": "2026-10-02T23:58:11.000Z",
+   "publishedAt": "2026-10-03T07:00:00.000Z",
    "firstSeenAt": "2026-10-03T00:43:04.804Z",
    "link": "https://www.mk.co.kr/news/economy/12167710",
    "image": "https://pimg.mk.co.kr/news/cms/202610/03/news-p.v1.20261002.b69c0b8c950f431ea06433311790c646_R.jpg",
@@ -544,23 +544,6 @@
    "link": "https://www.newssun.kr/news/articleView.html?idxno=103499",
    "image": "https://cdn.newssun.kr/news/thumbnail/202610/103499_73602_3648_v150.jpg",
    "desc": "[정치=한국뉴스통신] 강희진 기자 = 오는 10월 1일부터 국소 진행성 또는 전이성 요로상피암 환자의 1차 치료에 사용되는 파드셉(엔포투맙 베도틴)과 키트루다(펨브롤리주맙) 병용요법에 건강보험이 적용된다.국회 교육위원회 이주영 국회의원(개혁신당)은 건강보험정책심의원회 심의를 통해 이와"
-  },
-  {
-   "title": "면역항암제 테빔브라, 식도암·위암·폐암 건강보험 확대…환자 부담 약값 크게 인하",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1GOV9KbU1GWlZVaVoyOU1uSF9ZTVczbnhweU9NaE41ckNmeHFDYy1uSjhzQ2UwUFhSRnd0S01hclo0RUVZdm1IaW93Q3ZsMzNFbk9jMkgtRjJ2ZUZ1Sk1JSzE1elZNa1FjRkZ3cFVFVFI?oc=5",
-   "press": "캔서앤서",
-   "summary": "",
-   "others": 1,
-   "topics": [
-    "chiryo"
-   ],
-   "score": 4,
-   "tier": 3,
-   "publishedAt": "2026-10-01T02:23:19.000Z",
-   "firstSeenAt": "2026-10-08T14:08:40.631Z",
-   "link": "https://www.canceranswer.co.kr/news/articleView.html?idxno=7037",
-   "image": "https://cdn.canceranswer.co.kr/news/thumbnail/202610/7037_10137_1533_v150.jpg",
-   "desc": "면역항암제 테빔브라(성분명 티슬렐리주맙)를 사용하는 식도암·위암·폐암 환자들의 치료비 부담이 크게 낮아진다. PD-1 면역항암제 테빔브라가 10월 1일부터 식도편평세포암 1차치료, 위·위식도접합부 선암 1차치료, 비소세포폐암 1·2차치료 등 3개 암종 5개 적응증에서 건강보험 급여를 적"
   },
   {
    "title": "희귀·소외암환자 치료비 부담 낮춘다, 10월부터 암 치료제 건강보험 적용 확대",
@@ -669,7 +652,7 @@
    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1DTEd2dFY2SjNxX2F6WUFCRXA2V3NPanY0MjNsWmZ1TkZRb01RYUdHTjVqWlN4dksxSy03eGJLM0lZaGM2VlozVTM3QzRKdzFOMWp4XzZ4ZTZoNllsNFd1SjlnSGZtLXJtWHBj?oc=5",
    "press": "비즈워치",
    "summary": "",
-   "others": 7,
+   "others": 6,
    "topics": [
     "silson"
    ],
