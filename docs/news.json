@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-13T07:10:53.103Z",
+ "updatedAt": "2026-10-14T00:35:21.742Z",
  "naver": false,
  "topics": [
   {
@@ -35,38 +35,72 @@
  ],
  "items": [
   {
-   "title": "국방부, 부사관 암 치료비 지원 기부금 전달…1인 최대 300만원",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1kc3ZjNjBKYVJrUDJHamhsemZ5THNrSmE2R3kzT3VxekYxcmdhWHoxYXA3SktMZEFOREMwVDdtdXA1bEJTWThqVVNlNl8zQ3dTcWJCeVd0elYxcGx5SkpjbkRieDA2S2c?oc=5",
-   "press": "뉴스1",
+   "title": "[강화 드림+ ④] 무릎 아픈 어르신이라면…인공관절 수술비 최대 240만원 지원",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5BWC1uSENHT2kycjUtbXBadnR2NVlKNTdNbnhUX0lfLWlXMFRtY2F6d3QtSFUtRjdlb2FuSFZFWlFjNlFuc25wbFNiMHBwdGg2OHFRT1h5Mlo3YkJtX1NaN1FMRUhxTmRTTlVoQ1Z3dw?oc=5",
+   "press": "인천뉴스",
+   "summary": "",
+   "others": 0,
+   "topics": [
+    "susul"
+   ],
+   "score": 14,
+   "tier": 3,
+   "publishedAt": "2026-10-13T23:23:15.000Z",
+   "firstSeenAt": "2026-10-14T00:35:21.742Z",
+   "link": "https://www.incheonnews.com/news/articleView.html?idxno=441677",
+   "image": "https://cdn.incheonnews.com/news/thumbnail/202610/441677_251174_2658_v150.jpg",
+   "desc": "인천뉴스 이자윤 기자 ㅣ 강화군에서 무릎 인공관절 수술을 앞둔 어르신이라면 병원 수술 일정부터 잡기 전에 지원 대상 여부를 확인할 필요가 있다.강화군은 어르신들의 의료비 부담을 줄이기 위해 무릎 인공관절 수술비 지원사업을 운영하고 있다.강화군 자체 지원 대상은 신청일 기준 65세 이상이"
+  },
+  {
+   "title": "[심층분석] 5세대 실손 전환율 저조…이유 톺아보니",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE13bTQ3MDVqSzhZSnpfbWpqZDA3TjFSdlF6di1tOVlvMmJxSV85NlFzak11bmhaNXVLd08yOGdXOU43UDFDVTFCRTNXZFR4WFc1RTd1YkhXdDdjcWhxS19hNmtaV0xLUWxzVkhTTA?oc=5",
+   "press": "굿모닝경제",
+   "summary": "",
+   "others": 1,
+   "topics": [
+    "silson"
+   ],
+   "score": 14,
+   "tier": 3,
+   "publishedAt": "2026-10-13T22:05:00.000Z",
+   "firstSeenAt": "2026-10-14T00:35:21.742Z",
+   "link": "https://www.goodkyung.com/news/articleView.html?idxno=292309",
+   "image": "https://cdn.goodkyung.com/news/thumbnail/202610/292309_265981_5148_v150.jpg",
+   "desc": "과잉 비급여 보험금의 꼬리를 끊어내 고질적인 실손보험 적자 구조를 바로잡겠다며 5세대 실손의료보험이 출범한 지 어느덧 5개월. 금융당국과 보험업계는 기존 1·2세"
+  },
+  {
+   "title": "비급여 항암 면역주사 임상재평가, 국감 앞두고 '부랴부랴'",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9UTGYxdkxHeHY1U0p2cVhDTFVoSFZ1T29WV0Y2ZzRGMnpxaTFIaVA2eTEzQ3JMMmgtQVBqWk1KSmhadFhRaGVDRzJLZDkwU3hLWkxad1NSZ0ZWNWdidWFXX1FuZ2ZZNHNqMFNVNVBVb2xhNXpoZ1HSAXZBVV95cUxPVExmMXZMR3h2NVNKdnFYQ0xVaEhWdU9vVldGNmc0RjJ6cWkxSGlQNnkxM0NyTDJoLUFQalpNSkpoWnRYUWhlQ0cyS2Q5MFN4S1pMWndTUmdGVjVnYnVhV19RbmdmWTRzajBTVTVQVW9sYTV6aGdR?oc=5",
+   "press": "코리아헬스로그",
    "summary": "",
    "others": 0,
    "topics": [
     "chiryo"
    ],
    "score": 10,
-   "tier": 1,
-   "publishedAt": "2026-10-13T06:55:38.000Z",
-   "firstSeenAt": "2026-10-13T07:10:53.103Z",
-   "link": "https://www.news1.kr/diplomacy/defense-diplomacy/6318507",
-   "image": "https://i3n.news1.kr/system/photos/2026/10/13/8156572/high.jpg",
-   "desc": "투병 중인 부사관 129명에게 기부…총 3억 3400만원 상당 국방부가 암 투병 중인 부사관의 치료비를 지원하는 기부금 전달식을 13일 개최했다. 이를 통해 1인당 최대 300만 원의 치료비가 지원됐다. 이번 사업은 대한암협 …"
+   "tier": 3,
+   "publishedAt": "2026-10-13T09:07:38.000Z",
+   "firstSeenAt": "2026-10-14T00:35:21.742Z",
+   "link": "https://www.koreahealthlog.com/news/articleView.html?idxno=59419",
+   "image": "https://cdn.koreahealthlog.com/news/thumbnail/202610/59419_56674_135_v150.jpg",
+   "desc": "식품의약품안전처가 국정감사를 앞두고서야 비급여 면역주사제 싸이모신알파1, 이뮤노시아닌, 비스쿰알붐 단일제에 대해 임상재평가를 공고했다. 한국보건의료연구원(NECA)이 의료기술재평가에서 세 제제에 대해 암 환자 투여를 '권고하지 않음'으로 평가한 지 1년여 만이다.식약처는 지난 12일 이"
   },
   {
-   "title": "대한암협회·유한재단, ‘부사관 암 치료비’ 3억 3400여만원 국방부에 기부",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE51ODZwVWQ4ZThFSWdyd0ladFV6VnRUUkhIc2JCQ01YdDJldld6UnV0MXVGdlhlalRrWDUxcnNHWWd4QUY5QzVNMkNwVUNjYnpj?oc=5",
-   "press": "문화일보",
+   "title": "대한암협회·유한재단, 암 투병 부사관 129명에 치료비 3억3천만원 지원",
+   "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1Ialo0U1ZLQWVOcENwbTZ3Z1FVSXphUWI3TjV1UmhEalJka1NyNXVlcHRaVHRDd1RmUnBld3pRakNwTFgt?oc=5",
+   "press": "후생신보",
    "summary": "",
-   "others": 1,
+   "others": 14,
    "topics": [
     "chiryo"
    ],
    "score": 10,
-   "tier": 1,
-   "publishedAt": "2026-10-13T06:38:35.000Z",
-   "firstSeenAt": "2026-10-13T07:10:53.103Z",
-   "link": "https://www.munhwa.com/article/11623180",
-   "image": "https://wimg.munhwa.com/news/cms/2026/10/13/news-p.v1.20261013.508621b3da7c4b5d9773d04a08d7b6fc_R.jpg",
-   "desc": "국방부와 대한암협회 및 유한재단은 13일 오후 서울 용산 국방부 청사에서 부사관 암 치료를 위한 기부금 전달식을 개최했다고 밝혔다. 전달식에는 이두희 국방부차관과 대한암협회 이민혁 회장, 유한재단 송문식 사무국장 및 지원을 받는 부사관 대표 등 관계자들이 참석했다. 이"
+   "tier": 3,
+   "publishedAt": "2026-10-13T07:49:00.000Z",
+   "firstSeenAt": "2026-10-14T00:35:21.742Z",
+   "link": "http://www.whosaeng.com/174393",
+   "image": "",
+   "desc": ""
   },
   {
    "title": "도수치료 실손보험, 10회 넘기면 소견서가 보험금 가른다…연 15회 관리급여까지",
@@ -90,7 +124,7 @@
    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5HXzBxU012akRSNXFXai1UZDQ2U09pVGlLRnhfZnpnWjJzVTd4UjlDeFZTVlJ4S19CdTNIYlRHdE9vU0V1c1JaZzQzUy1JNDZJeHVYN2lhdl81TEVUS0pidGtnZ2Y4SmtaM2RB?oc=5",
    "press": "헬스경향",
    "summary": "",
-   "others": 1,
+   "others": 2,
    "topics": [
     "chiryo"
    ],
@@ -111,7 +145,7 @@
    "topics": [
     "ganbyeong"
    ],
-   "score": 14,
+   "score": 11,
    "tier": 1,
    "publishedAt": "2026-10-12T20:09:31.000Z",
    "firstSeenAt": "2026-10-13T07:10:53.103Z",
@@ -124,11 +158,11 @@
    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOaklBeU9rWmlGdFV3UXdyRVJxUDZQU0Rud0NQVGZGcjZjajBTSnRUSlRjdnlTM3pUbFpWaGl4Uk8wMXNMVEhTUkw1ZWx4NDY3V29JcFdrcTVab3MtX0pBQmc2T1JINnBVNG9EamtRaVFUZ0x5Q0p1SmphY0x6R0QyX0h5bkxqczgtMXBFQUNTV2NCQjJ5V0JWdjBZbHpWOXpwOFVMcnJlbW8zdFg4aU5OYkJyaHl0OW5nWWlMeTdGT0tndHNrVzl6RWtoS1ZoSUd6VGprWlU2Nnhka0x5?oc=5",
    "press": "IndexBox",
    "summary": "",
-   "others": 16,
+   "others": 14,
    "topics": [
     "susul"
    ],
-   "score": 10,
+   "score": 7,
    "tier": 3,
    "publishedAt": "2026-10-12T12:41:05.000Z",
    "firstSeenAt": "2026-10-12T16:13:15.791Z",
@@ -145,7 +179,7 @@
    "topics": [
     "silson"
    ],
-   "score": 12,
+   "score": 9,
    "tier": 3,
    "publishedAt": "2026-10-12T07:55:56.000Z",
    "firstSeenAt": "2026-10-12T16:13:15.791Z",
@@ -158,11 +192,11 @@
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5hZ3A5UlhIX01zdzZYMVVJdnFfemRjT3ZDYm9iaTU2WFgtNlZpSkx6bDFuUVItcU8yOHlxWlFkdFA2TXU5ZFhTYjhHTTlsTkdQWS1HMm1mR0ZwV2t1OGFzTjZlM3FkaEExcGtiT2VUbDluUdIBdkFVX3lxTFBMZXlsOEp1Y1hicV9EdkNQZW1YcGluMFViZ2V3ejA5T2FfMl9RWGdLcUxia0RMSHFmUVBqVFVscnQtR0hyODdCb2ltQTdIcURyLXdnYXhEY25ZenhMTkFGRy1xZzV1Skx6c3Jtb2FmcUVQeVllbFE?oc=5",
    "press": "메디소비자뉴스",
    "summary": "",
-   "others": 4,
+   "others": 5,
    "topics": [
     "chiryo"
    ],
-   "score": 4,
+   "score": 2,
    "tier": 3,
    "publishedAt": "2026-10-10T23:53:22.000Z",
    "firstSeenAt": "2026-10-13T02:42:13.302Z",
@@ -179,7 +213,7 @@
    "topics": [
     "silson"
    ],
-   "score": 6,
+   "score": 4,
    "tier": 3,
    "publishedAt": "2026-10-10T21:22:59.000Z",
    "firstSeenAt": "2026-10-11T06:35:15.889Z",
@@ -196,7 +230,7 @@
    "topics": [
     "susul"
    ],
-   "score": 6,
+   "score": 4,
    "tier": 3,
    "publishedAt": "2026-10-10T10:31:05.000Z",
    "firstSeenAt": "2026-10-12T16:13:15.791Z",
@@ -226,7 +260,7 @@
    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5MRS1GaVdCSkgyVThwVFo2d2E1blNMMmc3cERaZWdLWkhaWEFSb3dtVmRTS1dkb3ZqWTM1TEhtbWZTVEdlNzdQXzQ1SVd3M1dpRi1VQ1dpaHhUcDRBeUFuUWRDTjV2d2lZckHSAW9BVV95cUxPa3AzLU5Fcm9HYVZBVnVweHh4UzJjTHpKZkxqcVUyNms4d0ZKWXUxTTB6ejFld1dwTnhCc1NiTkk1Uk9wWVNhb0RJRUZoMWtOdzFDbk9VNWVTZWY0SlAtejVBaWEzSThFN2hzQUF0T3c?oc=5",
    "press": "머니투데이",
    "summary": "",
-   "others": 0,
+   "others": 1,
    "topics": [
     "chiryo"
    ],
@@ -345,7 +379,7 @@
    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5xUFI1UWt3aEZFT1hkNXNJcW42TVlpbTVHM2RVcC1hVkVQYXFmRFRvN242ZWFqZElNZGxSbGtwemR0TXRnZTdILVZtQWxXTVVKbVMyV1U4TnFXVVZQUzR6TkhZRmN5WUNRQWN2ZXpKUlPSAXRBVV95cUxQcklLVVhKYlU3Qk52eDNqOXlDRm94c2ZZVC1VWi0tc0pjcTJxS0lEOEVhUmJ5NXlWeDFEM2FzcjRvYlVsc2ZKWUFmYldaanA5QlA4aHY5bVhrN1pvdDdIampyOU9oSElrcmF6VmJELU13SUR1Zg?oc=5",
    "press": "연합인포맥스",
    "summary": "",
-   "others": 38,
+   "others": 36,
    "topics": [
     "jeongchaek"
    ],
@@ -362,7 +396,7 @@
    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPRXRmb3FVNHR0ekotQUgwS3ZiTm1hQ1FFWi1CNm0zdEw1ZG5nY1M5ajBTaTIyTFBud3dhb0p3OFdCNUp0LVgzcmw2SVN6bXZHbnRlSkwtZF9TcGxoNXk2amJZR0dmTlVRVURwMGVyWG0yb2pfalBFREJ0VmFvV1pTeklDTS1xUkJhMUFZQ3A0WktoSkgtbDZuMEJXci1NV0lnblZSZkx6X3hma01MTXNtSFh4dEd6QkljbEdqNEtyN0V3QVBFekdzNFlnXzBQWFFnVGRmRnNacDNQRmlDSEJjZGNCajhXa21pNXZjS1dtZlNfdw?oc=5",
    "press": "IndexBox",
    "summary": "",
-   "others": 2,
+   "others": 3,
    "topics": [
     "susul"
    ],
@@ -461,18 +495,18 @@
    "desc": "글로벌 복강경 수동 수술 기구 시장은 최소침습 수술 건수 증가와 정밀 기구 수요에 힘입어 2035년까지 성장할 전망입니다."
   },
   {
-   "title": "단독 저소득층 수술 때 값비싼 비급여 잔뜩?… 중소병원의 '수상한 치료'",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5naFN4SkJHdFZaRHhNakdZdnlHSUxTbjBWS2VoM0I2SF94eDc1emxfUFJCMExGVzNzXzhoLXJmR2c2Y090V3ltZHdBdTR6MjMxZ3hzeS1ibkY5X1pXOVloT2dFaFlPTkR0blhGZVlB?oc=5",
+   "title": "저소득층 수술 때 값비싼 비급여 잔뜩?… 중소병원의 '수상한 치료'",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5naFN4SkJHdFZaRHhNakdZdnlHSUxTbjBWS2VoM0I2SF94eDc1emxfUFJCMExGVzNzXzhoLXJmR2c2Y090V3ltZHdBdTR6MjMxZ3hzeS1ibkY5X1pXOVloT2dFaFlPTkR0blhGZVlB0gFzQVVfeXFMTXlJUURuaG5oTTBjVmFIM21nYndrWmw2NGxwenFBblpLRTBCNzh6cjM0aFkwb01OU0g3MlhlaWtZRjJqNW9wWWN3SXNRUWVkcWlHWHpPaEFhT0ttMG96dXBjNlZaaEJIRHczOVhtcFNuRU1EQQ?oc=5",
    "press": "한국일보",
    "summary": "",
-   "others": 1,
+   "others": 0,
    "topics": [
     "susul"
    ],
    "score": 2,
    "tier": 1,
    "publishedAt": "2026-10-07T04:03:00.000Z",
-   "firstSeenAt": "2026-10-09T13:55:51.066Z",
+   "firstSeenAt": "2026-10-14T00:35:21.742Z",
    "link": "https://www.hankookilbo.com/news/article/A2026100711140002168",
    "image": "https://newsimg.hankookilbo.com/2026/10/07/a8ebc8f0-f9cf-485b-bd0b-7c2385a26e73.jpg",
    "desc": "① 재난적 의료비 지불보증 지원이 2021년 449건에서 2025년 4455건으로 늘고 지원액도 167억6000만 원까지 커졌습니다. ② 중소병원 두 곳이 전체 지원의 11.8%를 차지했으며 척추와 관절 분야에서 비급여 치료가 늘어난 정황이 포착됐습니다. ③ 건보공단은 직접 환수가 어렵"
@@ -527,23 +561,6 @@
    "link": "https://weekly.hankooki.com/news/articleView.html?idxno=7187741",
    "image": "https://cdn.weekly.hankooki.com/news/thumbnail/202610/7187741_249731_1218_v150.jpg",
    "desc": "[주간한국 손재하 기자] 보험업권에서는 오는 8일 국회 정무위원회 금융 분야 국정감사서 5세대 실손의료보험(실손보험)의 시장 안착과 실손보험 청구 전산화 의료기관 참여율 개선, 그리고 법인보험대리점(GA) 설계사들의 과잉 경쟁에 따른 부당승환 우려 등의 의제가 다뤄질 전망이다. 이 가운"
-  },
-  {
-   "title": "강원대병원 병상가동률 50%⋯수술건수 3,942건으로 회복 더뎌",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBzMUR1anhYTkZ6bVZjaW83LWc3bUVvUmFQSVh3ZFYyc3FaUUgzcFZaNWs3RkxkWEJtZlhUQ2NobWIzSzcyQTZfZU9SSVNHWWpzUXhWUk1xYXg3WGM?oc=5",
-   "press": "강원일보",
-   "summary": "",
-   "others": 0,
-   "topics": [
-    "susul"
-   ],
-   "score": 2,
-   "tier": 3,
-   "publishedAt": "2026-10-06T07:54:10.000Z",
-   "firstSeenAt": "2026-10-06T13:50:05.861Z",
-   "link": "https://www.kwnews.co.kr/article/20261006501160",
-   "image": "https://kbhvfnyo14945.edge.naverncp.com/data2/content/image/2026/10/06/.cache/512/20261006501147.jpg",
-   "desc": "강원대병원 병상과 수술실 가동이 2024년 의정 갈등 이전 수준과 비교, 크게 낮은 것으로 나타났다. 국회 보건복지위원회 서미화 더불어민주당 의원이 보건복지부로부터 제출받은 국립대병원 병상가동률 등에 따르면 지난해 강원대병원 병상가동률은 50%에 그쳤다. 의정 갈등이"
   },
   {
    "title": "“실손보험 재가입할 때인데”…5세대로 전환 앞두고 점검할 사안은",
@@ -648,28 +665,28 @@
    "desc": "올해 국감서도 5세대 실손보험 안건 실손 비롯해 보장성 보험 민원 꾸준 약관해석과 보험금 지급 사유 때문"
   },
   {
-   "title": "간병인보험 추천 간병보험 비교해서 요양병원 일반형 체증형 제대로 장점 단점 파악하기(가입 순위 상품)",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBLVnBmSmRRQWhwS2RDQ1FHOXg5MjAzSjdNVXo2UnByLW0tV3Y0MXRPZFFZVmJpUmRXb2ozaHVKcTNNcHFDSXA3WnlGZ2ZLbHA4aXVWZ2hFVFpqYVla?oc=5",
-   "press": "YouTube",
+   "title": "간병인 일당, DB손보는 20만원 복귀·삼성화재는 10만원 동결…갈린 손보사",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE11bHNRVTBmb2tFRERTTk00UjlnQ2pqMHNzbXF0WmFPZEJCcHdGMU1iQTd2c2YwUERVdDdkaE45QURWcC1sVHRyQUoxQVpSRlRjSDJRQ2c5V19qcDZyZm92amk1SGNWMWZG?oc=5",
+   "press": "녹색경제신문",
    "summary": "",
    "others": 0,
    "topics": [
     "ganbyeong"
    ],
-   "score": 6,
+   "score": 4,
    "tier": 3,
-   "publishedAt": "2026-10-02T05:20:43.000Z",
-   "firstSeenAt": "2026-10-09T06:53:07.543Z",
-   "link": "https://www.youtube.com/watch?si=-tNc1IrTiccUnaiM&v=feGLD26H3GQ&feature=youtu.be",
-   "image": "",
-   "desc": "YouTube에서 마음에 드는 동영상과 음악을 감상하고, 직접 만든 콘텐츠를 업로드하여 친구, 가족뿐 아니라 전 세계 사람들과 콘텐츠를 공유할 수 있습니다."
+   "publishedAt": "2026-10-02T07:00:00.000Z",
+   "firstSeenAt": "2026-10-14T00:35:21.742Z",
+   "link": "https://www.greened.kr/news/articleView.html?idxno=351275",
+   "image": "https://www.greened.kr/news/thumbnail/202610/351275_403011_121_v150.jpg",
+   "desc": "[녹색경제신문 = 최정윤 기자]손해율 부담에 올해 상반기 일제히 낮췄던 간병인사용일당 가입 한도를 두고 손해보험사들의 선택이 갈리고 있다.DB손해보험은 하반기 들어 하루 20만원으로 되돌린 뒤 \"변경 계획이 없다\"고 했고, 삼성화재는 \"10만원 그대로\"라며 심사 강화로 대응하고 있다. "
   },
   {
    "title": "요로상피암 ‘신약+신약’ 병용요법 건보 적용…환자 치료부담 낮춘다",
    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9rVWJia3ZIMHpGUTFYSXIwQ3QzNTQ2OWdxdWVLbjFjUDlDUFZCdjgyNi1RdGZtVFJZLVhCN0ZqUWVTdXFXTnBodi1aaGN2b1c5OXJOa0dIN3J6N00xYmt4UndsZXpPczBmZzBN?oc=5",
    "press": "헬스경향",
    "summary": "",
-   "others": 1,
+   "others": 2,
    "topics": [
     "chiryo"
    ],
@@ -686,7 +703,7 @@
    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1hS1ZURVpGNXlrU21uNXpFTG56T0VPSW81UWx2aVhOYjdKTDNUczV4ajhEd0c2dUc5R0FsNmJmX2hLV2VnRXN3OEZRem9ubGJoYUFITXhVTU1hSDZTMld5dlNfQkZ0cTVsZmFz?oc=5",
    "press": "한국의약통신",
    "summary": "",
-   "others": 11,
+   "others": 13,
    "topics": [
     "chiryo"
    ],
@@ -716,21 +733,21 @@
    "desc": "항암제 3종 건보 문턱 낮아진다다른 제약사 신약 병용 첫 급여 폐암 레테브모· 위암 빌로이 요로상피암 파드셉+키트루다 병용"
   },
   {
-   "title": "암·뇌혈관·허혈성심장질환 진단비 한데 담았다… NH농협손보, 암 진단 후 치료비까지 보장",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBHWUJWeVJyX2duaHU0OFByMTkwVjVaZldsaTBoUUFYUzF1RmU5M05fR2JXOW95ek1aM3BrSHB0TE10WS1oR3QyZVJPY2ZoU0czUkFHeGdEOTI4TF8wMjByamdhMGZBN21PYnZjdi02cw?oc=5",
-   "press": "보험저널",
+   "title": "전이성 전립선암 환자 96.6% \"후속 치료제 급여 확대 필요\"",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5POEZJMzd0Y1NRVFF0OTF3U0Y5ZUZNUVdpRVJyV01WYjYxUUpqQVlsWWRnQlNTa1B3Mk42RjBMcjlmQUpGUF9UNmRsY2dYWjJwM3lTQmw0eFZ2TV9ER1dCMmZSbUY5OHcwVllzag?oc=5",
+   "press": "약사공론",
    "summary": "",
-   "others": 0,
+   "others": 3,
    "topics": [
     "chiryo"
    ],
    "score": 2,
-   "tier": 2,
+   "tier": 3,
    "publishedAt": "2026-09-29T07:00:00.000Z",
-   "firstSeenAt": "2026-10-11T13:36:21.489Z",
-   "link": "https://www.insjournal.co.kr/news/articleView.html?idxno=33258",
-   "image": "https://cdn.insjournal.co.kr/news/thumbnail/202609/33258_35765_5455_v150.jpg",
-   "desc": "NH농협손해보험이 ‘NH 5.N.5 굿플러스 건강보험(1040)’에서 암·뇌혈관질환·허혈성심장질환 진단비를 한데 보장한다. 암은 진단에 그치지 않고 로봇수술과 방사선치료, 표적·면역항암치료까지 이어서 대비할 수 있도록 했다. 10년 고지형은 무사고 기간에 따라 보험료 할인도 최대 15"
+   "firstSeenAt": "2026-10-14T00:35:21.742Z",
+   "link": "https://www.kpanews.co.kr/news/articleView.html?idxno=545007",
+   "image": "https://cdn.kpanews.co.kr/news/photo/202609/545007_450270_4132.png",
+   "desc": "전이성 전립선암 환자와 보호자 10명 중 8명 이상이 세포독성항암 치료 시작에 심리적 부담을 느끼는 것으로 나타났다. 다만 이후 사용할 수 있는 치료제가 있다는"
   },
   {
    "title": "5세대 실손 '갸우뚱'·실손24도 지지부진…국감서 따질듯",
@@ -817,23 +834,6 @@
    "link": "https://www.insjournal.co.kr/news/articleView.html?idxno=33229",
    "image": "https://cdn.insjournal.co.kr/news/thumbnail/202609/33229_35734_3918_v150.jpg",
    "desc": "5세대 실손의료보험이 출시된 지 넉 달을 넘기면서 보험 영업현장의 관심도 단순한 ‘보험료 인하’에서 실제 치료를 받을 때 얼마나 보장받을 수 있는지로 옮겨가고 있다. 특히 비중증 비급여 입원치료의 자기부담률이 50%로 높아지면서 관절·척추 치료와 양성질환 로봇수술 등이 주요 점검 대상"
-  },
-  {
-   "title": "실손보험 1세대부터 5세대까지, 세대별 실손보험 차이 | 이 영상 하나로 끝, 다른 영상 안보셔도 됩니다",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBXM3hFbWtkU3hjRklxT0pfTl9Cc2RWazRnZGZ1Uy1UZmFSaWpVVHZqU3N3WEtVdDB4TWtVN2Y4QXdSX25DUS1XZ1l5Q01lbkhsWm44dXJyT1VweWNQ?oc=5",
-   "press": "YouTube",
-   "summary": "",
-   "others": 1,
-   "topics": [
-    "silson"
-   ],
-   "score": 4,
-   "tier": 3,
-   "publishedAt": "2026-09-23T07:00:00.000Z",
-   "firstSeenAt": "2026-10-10T13:07:38.627Z",
-   "link": "https://www.youtube.com/watch?si=nsuqXlk5IujsLLt8&v=DmzVxuZ7Lhg&feature=youtu.be",
-   "image": "",
-   "desc": "YouTube에서 마음에 드는 동영상과 음악을 감상하고, 직접 만든 콘텐츠를 업로드하여 친구, 가족뿐 아니라 전 세계 사람들과 콘텐츠를 공유할 수 있습니다."
   }
  ]
 }
