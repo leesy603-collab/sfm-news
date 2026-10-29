@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-29T06:34:54.057Z",
+ "updatedAt": "2026-10-29T13:47:49.600Z",
  "naver": false,
  "topics": [
   {
@@ -12,7 +12,7 @@
    "id": "susul",
    "label": "수술비",
    "kind": "담보",
-   "count": 4
+   "count": 6
   },
   {
    "id": "chiryo",
@@ -35,6 +35,23 @@
  ],
  "items": [
   {
+   "title": "“보험료는 덜내는데 보장은 줄고”…실손 5세대, 전환할까 말까",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE10UVhSUTVjUnc4ZDdVZ0tIdEFHLUY1ZUhaanpTazVQY04ybkdNNHZ2VGppQnBlaXNhLTdNLS0zdExGOUN1REpBTHdYSFh0SU1WVXRRVw?oc=5",
+   "press": "매일경제",
+   "summary": "",
+   "others": 1,
+   "topics": [
+    "silson"
+   ],
+   "score": 14,
+   "tier": 1,
+   "publishedAt": "2026-10-29T07:23:13.000Z",
+   "firstSeenAt": "2026-10-29T13:47:49.600Z",
+   "link": "https://www.mk.co.kr/news/economy/12189996",
+   "image": "https://pimg.mk.co.kr/news/cms/202610/29/news-p.v1.20261029.6cd2abb33f1a4fda89fab6ae6b00482d_R.jpg",
+   "desc": "초기 1~2세대 실손과 5세대 차이 비급여 보장 빠지고 보장 범위 축소 보험료 줄어든다지만 유인책 부족"
+  },
+  {
    "title": "초고령사회, 노인 돌봄에 '재정 경고등'…보험사들은 치매·간병 보장 경쟁",
    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5GRUZnanFkR0FsV0E0ZHBreU5sc25YT0hmMWV6bGRzeDVVZUVzcXVIOU02VC1RTTR4OEo0RlNKMVJDRUFnWEZ1SHh6LWlzbU9EbGVsbjVCOW9jakM0aGlrWklFS19JSXlFeVRoR9IBb0FVX3lxTE5RZ1A4WjZjY3ltMHpEYmZPZkkxRHNScFotRXBZUzFhX1E2T1lPaWlPWXJmWTlkN21Ga2xibEdvMF9IdXEycmZZd0JOY09yaWlTS0JVQTJMVUh3LVVuQlBPVjJoMHM4NGhPd05XTUExcw?oc=5",
    "press": "금융경제신문",
@@ -56,7 +73,7 @@
    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNFVqX2w0WXB5b3JVNE1Tdjh2Vko3Unhpa0U4emlUOUxteDZyUUx2Zk9DM0xXNWNYZ0pJVmtZQ1FSSkhzaWRIeFRqS1F1dzNTeXZQZ2k1S3oyV2NRTFB4bFlZQ2hXNzQydTZvMTgzakFhR2JkWXlEcWJyVUFEUFZhRGhGb3JRdlhhOEZ2S0Rn?oc=5",
    "press": "조선일보",
    "summary": "",
-   "others": 0,
+   "others": 1,
    "topics": [
     "ganbyeong"
    ],
@@ -78,7 +95,7 @@
     "silson",
     "jeongchaek"
    ],
-   "score": 10,
+   "score": 7,
    "tier": 3,
    "publishedAt": "2026-10-28T08:00:06.000Z",
    "firstSeenAt": "2026-10-28T13:38:22.327Z",
@@ -197,7 +214,7 @@
    "topics": [
     "silson"
    ],
-   "score": 9,
+   "score": 6,
    "tier": 3,
    "publishedAt": "2026-10-27T10:20:26.000Z",
    "firstSeenAt": "2026-10-28T00:42:42.604Z",
@@ -214,7 +231,7 @@
    "topics": [
     "jeongchaek"
    ],
-   "score": 7,
+   "score": 4,
    "tier": 2,
    "publishedAt": "2026-10-27T09:00:32.000Z",
    "firstSeenAt": "2026-10-27T12:49:11.774Z",
@@ -231,7 +248,7 @@
    "topics": [
     "ganbyeong"
    ],
-   "score": 11,
+   "score": 8,
    "tier": 3,
    "publishedAt": "2026-10-27T08:10:26.000Z",
    "firstSeenAt": "2026-10-27T12:49:11.774Z",
@@ -244,11 +261,11 @@
    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5SYVFkZW5BZjFlM25MLWlRNElKS0ZFYjRjalpWbFVUei1MVW1KdzFaZUp5cFNkbzhaNXRISXlHX1NtNmR4eC05TEtrSnA4d2R1RXc0YnZ2bUFnSndteHAwZDlJQWlRYzlucDBVcTZGeE_SAXBBVV95cUxOUmFRZGVuQWYxZTNuTC1pUTRJSktGRWI0Y2paVmxVVHotTFVtSncxWmVKeXBTZG84WjV0SEl5R19TbTZkeHgtOUxLa0pwOHdkdUV3NGJ2dm1BZ0p3bXhwMGQ5SUFpUWM5bnAwVXE2RnhP?oc=5",
    "press": "머니투데이",
    "summary": "",
-   "others": 14,
+   "others": 12,
    "topics": [
     "silson"
    ],
-   "score": 11,
+   "score": 8,
    "tier": 1,
    "publishedAt": "2026-10-27T07:50:00.000Z",
    "firstSeenAt": "2026-10-27T12:49:11.774Z",
@@ -265,7 +282,7 @@
    "topics": [
     "silson"
    ],
-   "score": 9,
+   "score": 6,
    "tier": 1,
    "publishedAt": "2026-10-27T07:45:00.000Z",
    "firstSeenAt": "2026-10-27T12:49:11.774Z",
@@ -308,23 +325,6 @@
    "desc": "도널드 트럼프 미국 대통령에게 세 차례 표를 던진 여성이 암 치료비 부담에 정치적 선택을 바꿨다. 여섯 아이를 돌보며 유방암과 싸우는 그는 이번 중간선거에서 생애 처음 민주당 후보에게 투표했다. AP통신은 25일(현지시간) 미국 텍사스주 매캘런에 사는 신디 반다(46)의 사연을 전했다…"
   },
   {
-   "title": "“8주룰 초기 효과 크네”…車보험 손해율 3%P 안팎 줄었다",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBNdndvY3htOGs2TXJRbmVOV2dsZXpGQ21leXl3YktoU2VwQTZub3NVMWNkMjNVSWJRMEdNUEpsZGNtdVZXWW85NHF0X2lLVDJYX0HSAVNBVV95cUxNY3ZiQlh0ZGZKRkRlUXRGb3I1VnZ6VV9ub1dGdW03TFV3RFM5NGV1TXFuS0J0ajRjZzNvNlV6eTVUNWllNXQwazNkblpCLThrR3FfZw?oc=5",
-   "press": "서울경제",
-   "summary": "",
-   "others": 3,
-   "topics": [
-    "jeongchaek"
-   ],
-   "score": 2,
-   "tier": 1,
-   "publishedAt": "2026-10-25T08:45:48.000Z",
-   "firstSeenAt": "2026-10-29T06:34:54.057Z",
-   "link": "https://www.sedaily.com/article/20105819",
-   "image": "",
-   "desc": ""
-  },
-  {
    "title": "“암 걸려 보험금 달랬더니 계약 해지”…2년 전 건강검진, ‘이게’ 빌미? [어쩌다 세상이]",
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB5cl9kaHB4dXYybUVEc0NkNXMwTHVnTm1MRS1aMVozc1VjVWZ3X19WRElOTDdPNXlPUDQtcVktX1JRbTZ0V3NnR0FVeXJRNndEMlVQUw?oc=5",
    "press": "매일경제",
@@ -342,11 +342,28 @@
    "desc": "보험사 “추가검사 소견 숨겼다” 보험금 3000만원 지급 거절 법원 “고의·중과실 인정 어려워”"
   },
   {
+   "title": "‘8주룰' 시행 한 달여…손보사들, 경상환자 겨냥한 운전자보험 담보 경쟁",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5CVlVjQld2aDJ2TUNJb2J1TXIzbUtuYk0zdFYzZ1ltNlZXVGVQX2l0Y09yVUR2dnFJVjBYbXRxV213eU93eFFWcHJPUTN3bVJGNmRub3lObjh3REFUZnc?oc=5",
+   "press": "라온신문",
+   "summary": "",
+   "others": 2,
+   "topics": [
+    "jeongchaek"
+   ],
+   "score": 4,
+   "tier": 3,
+   "publishedAt": "2026-10-22T00:53:25.000Z",
+   "firstSeenAt": "2026-10-29T13:47:49.600Z",
+   "link": "https://raonnews.com/mobile/article.html?no=62098",
+   "image": "https://www.raonnews.com/data/photos/20261043/art_17926302440762_7fe3e7.jpg",
+   "desc": "자동차보험에서 경상환자의 장기 치료를 제한하는 이른바 ‘8주룰'이 시행된 데 이어 오는 25일부터는 경상환자 향후치료비 지급 기준도 바뀐다. 손해보험사들은 운전자보험과 상해보험에 경상 상해를 보장하는 담보를 잇따라 추가하며 자동차보험에서 줄어든 보상을 장기보험으로 보완하라는 영업에 나섰"
+  },
+  {
    "title": "일반 수술 기기 시장 2035년 전망: 수술 건수와 최소침습 시술 확산이 성장 견인 - 뉴스 및 통계",
    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNUEZpTjlYMDFmZUZZOU9yWkVhUG9TRE5VRnFkNWN4RFByb2xHajhiTGFZdzg1Skt6cXFqV2lKb3JtWlZlMHlmYl9LUURXSWxHSzVHeDdaT003RDdDb2tZMGxKRnlTS29jV0RYeXNFbnVqZUtDRGRkYnRVWGgxUG5EZ0Z4d0V2Unk4eGxWZmJBWm9ja184dHBIN0JkeXByT29ZSnVsb3lpSjNhbV9ZWFBQZTcwdjNZbDdDOXJSeWFHM1BKaldjOXh1RkRWWW55RmFxaWs5OG90QkdfRW5DejFOcThXVkVGZDhBeEEyNDNuVQ?oc=5",
    "press": "IndexBox",
    "summary": "",
-   "others": 8,
+   "others": 3,
    "topics": [
     "susul"
    ],
@@ -359,21 +376,72 @@
    "desc": "세계 일반 수술 기기 시장이 2035년까지 연평균 5.2% 성장할 전망입니다. 수술 건수 증가와 최소침습 시술 확산이 성장을 이끌고 있습니다."
   },
   {
-   "title": "무릎 인공관절수술 연 9만 건 육박…수술 후 꼭 지켜야 할 생활습관",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5vZnk3c3p1dzZha2xXam82SkVSbWUzVTdXTmZUcE9iVVpNeGJpNnJ5VllmRWpidTlYa2Npenh6UmJWRG5WLVNFU3RDZC1HVXRaMXdfYmJac2ZhTnZxOEV0bDhNTlhLSGMyX3B4Sg?oc=5",
-   "press": "뉴스탭",
+   "title": "연간 9만 건 받는 무릎 인공관절수술 오래 쓰려면?",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9HRlpRaVFfUVBoZnJPQ1BfcGdpMnZzM0pPS1FmM3EzX3pZelJMSFF1czc0VF83X2hjVF81akJyRjA5STNGYU9rTDZELWh6V1lHOE5ZbGdBUnhvY2x1VlBmMWtMZFFfWXYtbEJZOVlOY211QzQyQkdMYw?oc=5",
+   "press": "스포츠조선",
    "summary": "",
-   "others": 2,
+   "others": 0,
    "topics": [
     "susul"
    ],
    "score": 4,
    "tier": 3,
-   "publishedAt": "2026-10-21T02:54:13.000Z",
-   "firstSeenAt": "2026-10-21T05:28:00.022Z",
-   "link": "https://www.newstap.co.kr/news/articleView.html?idxno=336213",
-   "image": "https://cdn.newstap.co.kr/news/photo/202610/336213_446690_5347.jpg",
-   "desc": "고령 인구 증가와 함께 국내 무릎 인공관절수술 건수가 연간 9만 건에 육박한 것으로 나타났다. 인공관절수술은 말기 퇴행성관절염 환자의 통증을 줄이고 보행 기능을"
+   "publishedAt": "2026-10-21T07:00:00.000Z",
+   "firstSeenAt": "2026-10-29T13:47:49.600Z",
+   "link": "https://www.sportschosun.com/life/2026-10-21/202610210100132820008658",
+   "image": "https://www.sportschosun.com/article/html/2026/10/21/2026102101001328200086581_w.jpg",
+   "desc": "초고령사회 진입과 함께 고령 인구가 꾸준히 늘면서 국내 무릎 인공관절수술 건수가 연간 9만 건에 육박하고 있다."
+  },
+  {
+   "title": "무릎 인공관절수술 5년 새 24%↑…수술 후 관리도 중요",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5fUzdjd2dLZjY5T0REUENZa2QyRVhMYl9XRHRPOUhWdFFKU0wxN25UWjVETlI2QzBzVUo2emZGaXIzcEFoUG9lRnJvQXB3RlBOUTVLNXFieF9nRXZXbUVrZE41ZWZld2lWNEE?oc=5",
+   "press": "한국면세뉴스",
+   "summary": "",
+   "others": 0,
+   "topics": [
+    "susul"
+   ],
+   "score": 4,
+   "tier": 3,
+   "publishedAt": "2026-10-21T02:52:12.000Z",
+   "firstSeenAt": "2026-10-29T13:47:49.600Z",
+   "link": "https://www.kdfnews.com/news/articleView.html?idxno=189641",
+   "image": "http://www.kdfnews.com/news/thumbnail/202610/189641_242028_5141_v150.jpg",
+   "desc": "국내 무릎 인공관절수술이 5년 새 약 24% 증가한 것으로 나타났다. 국민건강보험공단의 2025년 주요수술 통계연보에 따르면 지난해 슬관절 치환술은 8만9618건으로 2020년 7만2382건보다 늘었다.인공관절은 손상된 무릎 연골과 뼈 일부를 제거하고 보형물을 삽입하는 치료다. 수술 뒤"
+  },
+  {
+   "title": "아스텔라스, 투톱 항암제 급여 진입···넥스트 스텝은 아이저베이",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE45MEVvYlpGS3JlZ0xKRmQ5RkZycHRtZnJUOTkxUlZlaXI4Y2U4c3czSF9VUWQ3ODNoODJJTWdPbjYwR1dwblJCeTRyeW4xUzgtWnpNTy00X0Nwa3pISWhkYW9mV3NHN0pFcXBn?oc=5",
+   "press": "메디칼업저버",
+   "summary": "",
+   "others": 0,
+   "topics": [
+    "chiryo"
+   ],
+   "score": 2,
+   "tier": 3,
+   "publishedAt": "2026-10-20T21:03:48.000Z",
+   "firstSeenAt": "2026-10-29T13:47:49.600Z",
+   "link": "https://www.monews.co.kr/news/articleView.html?idxno=414668",
+   "image": "https://cdn.monews.co.kr/news/photo/202610/414668_218439_593.jpg",
+   "desc": "한국아스텔라스제약이 항암제 급여 확대를 발판으로 국내 사업 기반을 강화하는 가운데, 다음 주자로 희귀 안과질환 사업 확장에 나서 주목된다.10월부터 나란히 급여권"
+  },
+  {
+   "title": "손보사, 치매·간병보험 판매 급증 '속앓이'⋯미래 손해율 부담 우려",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBwTk5haWlQb21BRVVlRnN4UDlFM01KaWZiNEw4MUFhMHE0R29PVFktUk1GZUFwb0ppQnZwWnBCcjd1WmE5SGJJcm9ZVQ?oc=5",
+   "press": "아이뉴스24",
+   "summary": "",
+   "others": 1,
+   "topics": [
+    "ganbyeong"
+   ],
+   "score": 4,
+   "tier": 3,
+   "publishedAt": "2026-10-20T07:17:34.000Z",
+   "firstSeenAt": "2026-10-29T13:47:49.600Z",
+   "link": "http://www.inews24.com/view/2017001",
+   "image": "https://image.inews24.com/v1/7c5c5b52ed213a.jpg",
+   "desc": "지급보험금 3년 새 12.8% 증가, 초회보험료 2.3배 늘어 \"적정 보험금·보장 범위로 상품 설계부터 위험 관리해야\" 손해보험사의 치매·장기간병보험 판매가 크게 늘면서 향후 보험금 지급 부담에 대한 우려도 커지고 있다. 고령화에 따른 간병 수요 증가로 신계약 확보 경쟁이 활발해졌지만 "
   },
   {
    "title": "세르비에 담관암 신약 '팁소보' 11월 보험급여 등재",
@@ -517,7 +585,7 @@
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5hc0JBWm9NTHZmb0R1SVNuN1R5M3NlYzJRR2JiNGhRSkRPUkdYUkJMUktPT0pyTTFhaUlJbm5TcW1FLTRrY0V4cjBJdVlpZlhaUDk3VA?oc=5",
    "press": "매일경제",
    "summary": "",
-   "others": 1,
+   "others": 0,
    "topics": [
     "ganbyeong"
    ],
@@ -598,23 +666,6 @@
    "desc": "[프레스나인] 5세대 실손의료보험 출시 이후 기존 1·2세대 가입자의 자발적 전환율이 0.12%에 그친 것으로 나타났다. 금융당국이 11월부터 보험료 할인제도를 시행할 예정인 가운데 기존 가입자의 전환 수요가 늘어날지 주목된다.14일 보험업계에 따르면 손해보험협회가 삼성화재·현대해상·D"
   },
   {
-   "title": "대한암협회·유한재단, 암 투병 부사관 129명에 치료비 3억3천만원 지원",
-   "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1Ialo0U1ZLQWVOcENwbTZ3Z1FVSXphUWI3TjV1UmhEalJka1NyNXVlcHRaVHRDd1RmUnBld3pRakNwTFgt?oc=5",
-   "press": "후생신보",
-   "summary": "",
-   "others": 6,
-   "topics": [
-    "chiryo"
-   ],
-   "score": 2,
-   "tier": 3,
-   "publishedAt": "2026-10-13T07:49:00.000Z",
-   "firstSeenAt": "2026-10-20T05:28:02.330Z",
-   "link": "http://www.whosaeng.com/174393",
-   "image": "",
-   "desc": ""
-  },
-  {
    "title": "[단독] 대전 요양병원 절반 \"정부 간병비 지원 사업 불참\"",
    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRFo0Q1ZNbHdNUkUxeTZqU01DZDJrSVByUUZPU2sxRGVtaWwxZkZMeF9oYmxHMUM4dnl1RHh1cEVkMGxOZFlQQXBtdi1zRHJUeXdJbDNqR0xDRjcxaW8xaEdCUnVIRFJuT2xKbVNnZU9PWWZzQjB3SEhVNDZnR0JJLTVta1BWRW5xNndLV3FxYw?oc=5",
    "press": "조선일보",
@@ -632,21 +683,21 @@
    "desc": "대전 지역 요양병원 20여 곳이 보건복지부의 요양병원 간병비 급여화 사업 참여를 집단 거부하기로 결정함. 구체적인 선정 기준과 지표가 확정되지 않은 상황에서 간병인 직접 고용에 따른 비용 부담과 인력 수급 불확실성이 커지자 병원계가 반발하고 있는 상황임."
   },
   {
-   "title": "자동차보험 경상환자 ‘8주룰’ 시행…손보협회, 피해 신고센터 운영",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5jSVowdDFnMUhfNHRNeXhFa0NnS2xfWnRxXy1TU21BVlZIZFpzVWJwXzJ3ZVFWc3ZsLWNsWmk4OHFIQWpCelZGT2lqbHc3OGpGdGxHdmVVVFEtU3JWRlo3eTNZTElDb01DRjNPaFljUW9Pdw?oc=5",
-   "press": "인더스트리뉴스",
+   "title": "손보협회, 자동차보험 '8주룰'...경상환자 피해 잡는다",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5aR2xGTDByMXhwMjN6NW1TRFA0aWhWQzZwYkVYX01oTnp0WEJSS0VGMTBVcmR1b2hUVU1EZmtCUUI4NWp1Yno0ZF9VV2UxT2htb0oxTmNzVS1NZmhRRHpHazVMV21Ham5KclhhUw?oc=5",
+   "press": "매경헬스",
    "summary": "",
-   "others": 25,
+   "others": 19,
    "topics": [
     "jeongchaek"
    ],
    "score": 4,
    "tier": 3,
-   "publishedAt": "2026-10-08T07:00:00.000Z",
-   "firstSeenAt": "2026-10-29T06:34:54.057Z",
-   "link": "https://www.industrynews.co.kr/news/articleView.html?idxno=87242",
-   "image": "https://cdn.industrynews.co.kr/news/photo/202610/87242_108200_5342.jpg",
-   "desc": "[인더스트리뉴스 김은경 기자] 자동차보험 경상환자의 장기치료 필요성을 검토하는 ‘8주룰’이 시행된 가운데 손해보험협회가 보험사의 보상 과정에서 발생할 수 있는 소"
+   "publishedAt": "2026-10-12T07:00:00.000Z",
+   "firstSeenAt": "2026-10-29T13:47:49.600Z",
+   "link": "https://www.mkhealth.co.kr/news/articleView.html?idxno=80420",
+   "image": "https://cdn.mkhealth.co.kr/news/thumbnail/202610/80420_94014_5428_v150.jpg",
+   "desc": "손해보험협회가 자동차보험 경상환자의 장기치료 필요성 검토절차, 이른바 '8주룰' 시행에 따른 소비자 피해를 예방하기 위해 피해 신고센터를 운영한다. 제도 시행 과정에서 발생할 수 있는 보험사의 업무 미흡 사례를 접수해 사실관계를 확인하고 개선을 유도한다는 취지다.손해보험협회는 12일부터"
   },
   {
    "title": "저소득층 수술 때 값비싼 비급여 잔뜩?… 중소병원의 '수상한 치료'",
@@ -683,28 +734,11 @@
    "desc": "※유튜브 채널 '보험저널TV'를 구독하면 더 많은 영상을 보실 수 있습니다.(https://youtube.com/channel/UC6v10hcO7KLhWBNYZE4vkDQ)삼성화재가 1~5종 수술비의 신규 가입기준을 10월 11일부터 전격 변경한다. 약관상 지급요건을 충족하는 수술을"
   },
   {
-   "title": "[국감2026] 5세대 실손 전환부터 청구 전산화까지…산적한 보험 현안",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBOZDlzd1NQMUw4UVFyWXBLMjZNenVSTmdOU0M3ZU1iaFVRYkh0TExMTzZvMjltQnVjS08wbGU5dkJvTkgyNTFSOENqemk4ODVUM3FZUm5PN1V3RXdFN2lRUGpwY01sRVl6MXJRRW9ScDbSAXRBVV95cUxNTGZ3VmozR0ktZUtCcmd4QmVOYkxBNDVsdDJpMmpzLWtHUE5qRVNUVG9rT3dmN2J3R0czdVBIUUdraEkzTW5taUNoVXdFOTdnaEdHNEs3M2JiUTlBanpBYURDbU9YX2xQa3hxMVBVYlZXTG84ZA?oc=5",
-   "press": "주간한국",
-   "summary": "",
-   "others": 1,
-   "topics": [
-    "silson"
-   ],
-   "score": 6,
-   "tier": 3,
-   "publishedAt": "2026-10-07T07:00:00.000Z",
-   "firstSeenAt": "2026-10-29T06:34:54.057Z",
-   "link": "https://weekly.hankooki.com/news/articleView.html?idxno=7187741",
-   "image": "https://cdn.weekly.hankooki.com/news/thumbnail/202610/7187741_249731_1218_v150.jpg",
-   "desc": "[주간한국 손재하 기자] 보험업권에서는 오는 8일 국회 정무위원회 금융 분야 국정감사서 5세대 실손의료보험(실손보험)의 시장 안착과 실손보험 청구 전산화 의료기관 참여율 개선, 그리고 법인보험대리점(GA) 설계사들의 과잉 경쟁에 따른 부당승환 우려 등의 의제가 다뤄질 전망이다. 이 가운"
-  },
-  {
    "title": "“실손보험 재가입할 때인데”…5세대로 전환 앞두고 점검할 사안은",
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1DbVFzSEdzRFZqeUgxdHB1cWhzUUlDTmFEaHVCb3JXWDJ5LXRZM2lmWUdhamF0ZFp1THFleXhyTEJaX0hSQXA4VXZ5RmpfT2JOczROXw?oc=5",
    "press": "매일경제",
    "summary": "",
-   "others": 2,
+   "others": 1,
    "topics": [
     "silson"
    ],
@@ -717,21 +751,21 @@
    "desc": "실손 세대별 5~15년 재가입 주기 5세대보다 기존 실손 유지 희망↑ 해지 후 재가입 하면 심사과정 거쳐"
   },
   {
-   "title": "간병인보험 추천 간병보험 비교해서 요양병원 일반형 체증형 제대로 장점 단점 파악하기(가입 순위 상품)",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBnMWFKWmFweUR6dVhSZTRVQWhBalhDVGRtejA2N0RIYmNOa1hmLXFrdWxyMFctU1ljYWFGVmY4bXJqdjhRbFM0ODdKeUpmeFhGUVRVUUdTTkFmYXhM?oc=5",
-   "press": "YouTube",
+   "title": "로봇 인공관절 수술, 5년 재수술 위험 기존 수술과 차이 없어…英 136만 건 분석",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5MOWU0QzhpeHlvT2JKbERjYXlLVnNfcHUyVE9ac3l3YlZjSUk1LS12Z0NkWm9ZeG5GeU5sMmxrZU9zajFkc1I4V2xIQkotaktiWUo2NGllTEFDSjY5Q3gzbVVEVmNIVms2RnJjU2Vn?oc=5",
+   "press": "팸타임스 FAM Times",
    "summary": "",
    "others": 0,
    "topics": [
-    "ganbyeong"
+    "susul"
    ],
-   "score": 6,
+   "score": 4,
    "tier": 3,
-   "publishedAt": "2026-10-01T07:00:00.000Z",
-   "firstSeenAt": "2026-10-28T00:42:42.604Z",
-   "link": "https://www.youtube.com/watch?si=DlWqeByIlHh-ZEFq&v=feGLD26H3GQ&feature=youtu.be",
+   "publishedAt": "2026-10-02T07:00:00.000Z",
+   "firstSeenAt": "2026-10-29T13:47:49.600Z",
+   "link": "https://www.famtimes.co.kr/news/articleView.html?idxno=701189",
    "image": "",
-   "desc": "YouTube에서 마음에 드는 동영상과 음악을 감상하고, 직접 만든 콘텐츠를 업로드하여 친구, 가족뿐 아니라 전 세계 사람들과 콘텐츠를 공유할 수 있습니다."
+   "desc": ""
   },
   {
    "title": "전세대 아우르는 '치매·간병인 보험' 신계약 2년새 50% 증가",
