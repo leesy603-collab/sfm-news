@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-05T01:45:31.852Z",
+ "updatedAt": "2026-11-05T07:28:38.017Z",
  "naver": false,
  "topics": [
   {
@@ -12,7 +12,7 @@
    "id": "susul",
    "label": "수술비",
    "kind": "담보",
-   "count": 7
+   "count": 6
   },
   {
    "id": "chiryo",
@@ -112,7 +112,7 @@
    "topics": [
     "silson"
    ],
-   "score": 12,
+   "score": 9,
    "tier": 1,
    "publishedAt": "2026-11-04T06:21:29.000Z",
    "firstSeenAt": "2026-11-04T07:02:09.527Z",
@@ -146,7 +146,7 @@
    "topics": [
     "jeongchaek"
    ],
-   "score": 7,
+   "score": 4,
    "tier": 3,
    "publishedAt": "2026-11-03T06:21:46.000Z",
    "firstSeenAt": "2026-11-04T17:38:01.365Z",
@@ -163,7 +163,7 @@
    "topics": [
     "jeongchaek"
    ],
-   "score": 7,
+   "score": 4,
    "tier": 3,
    "publishedAt": "2026-11-03T02:44:37.000Z",
    "firstSeenAt": "2026-11-03T07:20:24.051Z",
@@ -180,7 +180,7 @@
    "topics": [
     "chiryo"
    ],
-   "score": 7,
+   "score": 4,
    "tier": 3,
    "publishedAt": "2026-11-03T02:05:36.000Z",
    "firstSeenAt": "2026-11-03T07:20:24.051Z",
@@ -197,7 +197,7 @@
    "topics": [
     "chiryo"
    ],
-   "score": 7,
+   "score": 4,
    "tier": 3,
    "publishedAt": "2026-11-03T01:51:12.000Z",
    "firstSeenAt": "2026-11-05T01:45:31.852Z",
@@ -244,7 +244,7 @@
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5jZ20wT2xYazNrZldQQmU3MTU1OFc5OUdqc0hzSEFCZWtvYjgwQ3pNUWNhVFRNMDZ1STl2bDVxMWpaS3RrTXFfLUwtbkdpeUR0X3Bzbw?oc=5",
    "press": "매일경제",
    "summary": "",
-   "others": 1,
+   "others": 0,
    "topics": [
     "ganbyeong"
    ],
@@ -257,23 +257,6 @@
    "desc": "재활치료 연간 10회 지원 보험업계 돌봄 보장 강화"
   },
   {
-   "title": "실손보험, 선택형 특약·계약전환 할인 시행…실효성 두고 엇갈린 시선",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4yUTlBdW9yUkdVdV9ZTzVWT1BUb2hXWEI3Z2ozUTFNamp4MzgyYXlENGpFZzRTdjhkNmlwSm9YaU45a1cyWm5KTndWUzRXdFJWR2t2aWpiVUV6ODBFVXlaSFZ1QjNJVkplVmlka3c1MnQzTXM5eVE?oc=5",
-   "press": "대한경제",
-   "summary": "",
-   "others": 0,
-   "topics": [
-    "silson"
-   ],
-   "score": 4,
-   "tier": 3,
-   "publishedAt": "2026-11-02T05:56:51.000Z",
-   "firstSeenAt": "2026-11-03T07:20:24.051Z",
-   "link": "https://www.dnews.co.kr/m_home/view.jsp?idxno=202611021418528770198",
-   "image": "https://image.dnews.co.kr/photo/photo/2026/11/02/202611021418528770198-2-702147.png",
-   "desc": "[대한경제=이종호 기자]11월 중순부터 실손의료보험 1·2세대 가입자를 대상으로 선택형 할인특약과 계약전환 할인제도가 시행되지만 실효성을 두고 의견이 갈리고 있다. 2일 보험업계에 따르면 이달 중순 이후 실손보험의 선택형 할인 특약 제도와 계약전환 할인제도(재매입)이 ..."
-  },
-  {
    "title": "하나손해보험, 치매·간병 필두로 장기보험 공략 '가속'...장기 이익체력 강화 '승부수'",
    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5QcEt1Tlhld1ZFNXdCZDE4dGw4NUI4V2hIX2FuaE5uTXBVRlRDZ0J3V01yME41dW10RXFqSThjdGplQ0V0LVd5bUhvektPMVNGV21WeGo1alhuUnhvVXVRUlZnLWNWekJD?oc=5",
    "press": "녹색경제신문",
@@ -282,7 +265,7 @@
    "topics": [
     "ganbyeong"
    ],
-   "score": 6,
+   "score": 4,
    "tier": 3,
    "publishedAt": "2026-11-02T03:02:00.000Z",
    "firstSeenAt": "2026-11-05T01:45:31.852Z",
@@ -299,7 +282,7 @@
    "topics": [
     "chiryo"
    ],
-   "score": 4,
+   "score": 2,
    "tier": 2,
    "publishedAt": "2026-11-02T02:44:27.000Z",
    "firstSeenAt": "2026-11-02T06:57:13.520Z",
@@ -516,7 +499,7 @@
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9jUGhXTHpoc1h2YlNfRkp6a3lXWEtOZ2FFNVQzMXhJMThyWm5VYWxUQzFteUZTbm9BTWJsdWNZdzNKYkxQcnBYYlRPSk9NT1kyYzJkSNIBWEFVX3lxTE9OWlBJSlFjWFhGU2xmenlyT0Fyd3ZxV1dSeUZscU9YWVNHSXlqUG0xckVjUmYzUS1LZUFLbTN4VmZrbTgxR2RRaWE3MUpRbzBpbldBRWt0aVo?oc=5",
    "press": "미디어펜",
    "summary": "",
-   "others": 6,
+   "others": 5,
    "topics": [
     "silson"
    ],
@@ -533,7 +516,7 @@
    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1qVmt0Rl9HbmlxTWJsWnI0Y2NQOXh0RXg4eHlnUEhGX01vLS1yaG1HTklLeFFSa0lkSVo1Tzh3RXYxalNfenZLbmJCZkRsZWhoc2RMYW9BVmVnY0UyRmQwRzVLOUYybEdLSWNYbnpn?oc=5",
    "press": "중소기업신문",
    "summary": "",
-   "others": 1,
+   "others": 0,
    "topics": [
     "chiryo"
    ],
@@ -579,6 +562,23 @@
    "link": "http://www.wealthm.co.kr/news/articleView.html?idxno=12837",
    "image": "https://cdn.wealthm.co.kr/news/photo/202610/12837_18727_421.jpg",
    "desc": "올해 하반기부터 3세대 실손보험까지 대부분 제한 없이 보험금을 받을 수 있었던 도수치료가 제한되고, 교통사고 8주룰이 도입된다. 정부는 ‘도수치료 관리급여 수가 및 급여기준 마련’ 방침에 따라 지난 7월 1일부터 도수치료 관리급여 적용 관련 심사가이드를 변경 시행하고 있으며, 9월 10"
+  },
+  {
+   "title": "“실손보험료 낮춰 볼까”…할인형 특약과 세대 전환 다음 달 도입 앞둬",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBUU3NaTi1LZV9ycHluMHBCbGRUdi1Xc2JmTWlmVlN0WEg2VzdTVHdtdG9MLTdKMlhVcXI5V2Z0YTI4blhyYWx0bmljcmswYXlISzhMNg?oc=5",
+   "press": "매일경제",
+   "summary": "",
+   "others": 1,
+   "topics": [
+    "silson"
+   ],
+   "score": 4,
+   "tier": 1,
+   "publishedAt": "2026-10-17T07:00:00.000Z",
+   "firstSeenAt": "2026-11-05T07:28:38.017Z",
+   "link": "https://www.mk.co.kr/news/economy/12178564",
+   "image": "https://pimg.mk.co.kr/news/cms/202610/17/news-p.v1.20261016.687c647272ee4c75ad483360598d0e17_R.jpg",
+   "desc": "실손 1~2세대 가입자 보험료 부담 비급여 보장 제외해 보험료 낮출수도 5세대로 전환하면 일정 기간 할인"
   },
   {
    "title": "건보 이사장 \"간병비 급여화 요구 높아…장기요양과 간극 좁힐 것\"",
@@ -648,6 +648,23 @@
    "link": "https://www.dailymedi.com/news/news_view.php?wr_id=941171",
    "image": "",
    "desc": "사진제공 연합뉴스. 초기 약제비가 높은 차세대 만성 골수성 백혈병(CML) 표적치료제의 1차 치료 건강보험 급여 적용이 장기적으로 국가 보건 재정을 구조적으로 절감할 수 있다는 전문가 제언이 나왔다. 초기 치료 효과가 뛰어난 고가 신약을 선제 투여해 환자를 약 복용이 필요 없는 ‘무치료"
+  },
+  {
+   "title": "[실손 갈아타기, 할인 승부수] 여전히 관심 저조한 5세대 실손...11월 보험료 반값 통할까",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Cenk3ZUU0ZUNMaDYxWFUxYUZhbEpJajliNVpWWVlVa3Ridzh2ZkdQVm9qZ0ZnM2NfOXZYa1dQLWtoUmRuOUF5V3JVTGgwSlNsYWU5TmZ6U0lWZ9IBWEFVX3lxTFBKYWJJTFgySjc5c1kySHNnUWR2MDFTdndYVHQ0TzVqNnhtYWdLMng3YkdhQTFKdmtCc0U2SEhBVklkUmJ3VFB1S0FuQ3A0YlFBbzlaUTAyRXo?oc=5",
+   "press": "아주경제",
+   "summary": "",
+   "others": 15,
+   "topics": [
+    "silson"
+   ],
+   "score": 4,
+   "tier": 3,
+   "publishedAt": "2026-10-15T07:00:00.000Z",
+   "firstSeenAt": "2026-11-05T07:28:38.017Z",
+   "link": "https://www.ajunews.com/view/20261015140601196",
+   "image": "https://image.ajunews.com/content/image/2026/10/15/20261015142157837051.png",
+   "desc": "지난 5월 출시된 5세대 실손보험으로 갈아탄 기존 1·2세대 계약이 3만3577건에 그친 것으로 나타났다. 주요 손해보험사 9곳의 1·2..."
   },
   {
    "title": "포항시, 암 치료비 부담 덜어준다···취약계층 의료안전망 강화",
@@ -767,40 +784,6 @@
    "link": "https://weekly.hankooki.com/news/articleView.html?idxno=7187741",
    "image": "https://cdn.weekly.hankooki.com/news/thumbnail/202610/7187741_249731_1218_v150.jpg",
    "desc": "[주간한국 손재하 기자] 보험업권에서는 오는 8일 국회 정무위원회 금융 분야 국정감사서 5세대 실손의료보험(실손보험)의 시장 안착과 실손보험 청구 전산화 의료기관 참여율 개선, 그리고 법인보험대리점(GA) 설계사들의 과잉 경쟁에 따른 부당승환 우려 등의 의제가 다뤄질 전망이다. 이 가운"
-  },
-  {
-   "title": "강원대병원 병상가동률 50%⋯수술건수 3,942건으로 회복 더뎌",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBzMUR1anhYTkZ6bVZjaW83LWc3bUVvUmFQSVh3ZFYyc3FaUUgzcFZaNWs3RkxkWEJtZlhUQ2NobWIzSzcyQTZfZU9SSVNHWWpzUXhWUk1xYXg3WGM?oc=5",
-   "press": "강원일보",
-   "summary": "",
-   "others": 0,
-   "topics": [
-    "susul"
-   ],
-   "score": 2,
-   "tier": 3,
-   "publishedAt": "2026-10-06T07:00:00.000Z",
-   "firstSeenAt": "2026-11-01T13:57:21.272Z",
-   "link": "https://www.kwnews.co.kr/article/20261006501160",
-   "image": "https://kbhvfnyo14945.edge.naverncp.com/data2/content/image/2026/10/06/.cache/512/20261006501147.jpg",
-   "desc": "강원대병원 병상과 수술실 가동이 2024년 의정 갈등 이전 수준과 비교, 크게 낮은 것으로 나타났다. 국회 보건복지위원회 서미화 더불어민주당 의원이 보건복지부로부터 제출받은 국립대병원 병상가동률 등에 따르면 지난해 강원대병원 병상가동률은 50%에 그쳤다. 의정 갈등이"
-  },
-  {
-   "title": "“실손보험 재가입할 때인데”…5세대로 전환 앞두고 점검할 사안은",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1DbVFzSEdzRFZqeUgxdHB1cWhzUUlDTmFEaHVCb3JXWDJ5LXRZM2lmWUdhamF0ZFp1THFleXhyTEJaX0hSQXA4VXZ5RmpfT2JOczROXw?oc=5",
-   "press": "매일경제",
-   "summary": "",
-   "others": 2,
-   "topics": [
-    "silson"
-   ],
-   "score": 8,
-   "tier": 1,
-   "publishedAt": "2026-10-06T07:00:00.000Z",
-   "firstSeenAt": "2026-11-02T06:57:13.520Z",
-   "link": "https://www.mk.co.kr/news/economy/12169411",
-   "image": "https://pimg.mk.co.kr/news/cms/202610/06/news-p.v1.20261006.f49c5a0466284b8aa8cf34b8937d556c_R.jpg",
-   "desc": "실손 세대별 5~15년 재가입 주기 5세대보다 기존 실손 유지 희망↑ 해지 후 재가입 하면 심사과정 거쳐"
   }
  ]
 }
