@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-05T07:28:38.017Z",
+ "updatedAt": "2026-11-05T17:43:19.159Z",
  "naver": false,
  "topics": [
   {
@@ -61,7 +61,7 @@
    "topics": [
     "jeongchaek"
    ],
-   "score": 10,
+   "score": 7,
    "tier": 2,
    "publishedAt": "2026-11-04T09:18:10.000Z",
    "firstSeenAt": "2026-11-04T17:38:01.365Z",
@@ -78,7 +78,7 @@
    "topics": [
     "jeongchaek"
    ],
-   "score": 10,
+   "score": 7,
    "tier": 3,
    "publishedAt": "2026-11-04T08:47:00.000Z",
    "firstSeenAt": "2026-11-04T17:38:01.365Z",
@@ -95,7 +95,7 @@
    "topics": [
     "ganbyeong"
    ],
-   "score": 14,
+   "score": 11,
    "tier": 3,
    "publishedAt": "2026-11-04T07:39:27.000Z",
    "firstSeenAt": "2026-11-04T17:38:01.365Z",
@@ -105,20 +105,20 @@
   },
   {
    "title": "1·2세대 실손, 기존 보험 해지 없이 5세대로…금융위 규제 정비",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5GekhkV3VZZ1ZFMFN2TjNkWVNQUjlrWUFsbjlRY1puREwxZWxFOUVYajlMRU9WOEt6RGdRclBsZ3puYkE4QmNVaWNrWlh6RVRmd19wRENZS05vVDNZaFMxUA?oc=5",
-   "press": "뉴스1",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9GdTJVRXBPeHQtS3VINVpLQVdlWlA1VUtOTG1vVncyc3E3VGt5NjdwUUJraHc5WW1kT2JldFJmLVdCSUNwNDc1VDdhNDJwN08wVlZpZGxUUmwwZw?oc=5",
+   "press": "파이낸셜뉴스",
    "summary": "",
-   "others": 1,
+   "others": 2,
    "topics": [
     "silson"
    ],
    "score": 9,
    "tier": 1,
-   "publishedAt": "2026-11-04T06:21:29.000Z",
-   "firstSeenAt": "2026-11-04T07:02:09.527Z",
-   "link": "https://www.news1.kr/finance/insurance-card/6342972",
-   "image": "",
-   "desc": ""
+   "publishedAt": "2026-11-04T06:22:35.000Z",
+   "firstSeenAt": "2026-11-05T17:43:19.159Z",
+   "link": "https://www.fnnews.com/news/202611041522331422",
+   "image": "https://image.fnnews.com/resource/media/image/2026/11/04/202611041522279819_e.jpg",
+   "desc": "(서울=뉴스1) 박재찬 보험전문기자 = 금융당국이 1·2세대 실손보험 가입자가 기존 보험을 해지하지 않고도 5세대 실손보험으로 전환할 수 있도록 관련 규제를 완화했다. 기존 보험의 주계약은 유지하면서 실손보험 특약만 5세대로 바꿀 수 있도록 허용한 것이다.금융당.."
   },
   {
    "title": "DB생명 ‘당신곁에 치매간병보험’, IAI 보험인정지수 70.1점…신뢰도 높고 디지털 이용경험 취약",
@@ -129,7 +129,7 @@
    "topics": [
     "ganbyeong"
    ],
-   "score": 9,
+   "score": 6,
    "tier": 3,
    "publishedAt": "2026-11-03T10:26:31.000Z",
    "firstSeenAt": "2026-11-03T17:24:25.489Z",
@@ -189,23 +189,6 @@
    "desc": "[금융경제신문=최원석 기자] 동양생명이 사망보험금에 질병 진단 시 보험료 납입 면제와 치료비 보장을 결합한 종신보험을 선보였다. 보험료를 내는 동안 암이나 주요 심뇌혈관 질환이 발생하면 납입 부담을 줄여주고 10년간 보험료를 모두 납부한 고객에게는 핵심치료 보장을 제공하는 구조다.3일 "
   },
   {
-   "title": "전통문화 지켜온 무형유산 전승자에 의료 지원…유한재단, 암 치료비 최대 300만원",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBydm0zZVA2RmJrSjliWTVLQVNGa1ZhSjFyczhXODRncV9zdHl1cDBlVTBHSjlHb1ZhakMyeXdacEdQcmNfWm4tYzB0SUhjVWZaT0YwaTVYWEFJNlJDdFRzT1RNZ0hyWlBTLVpn?oc=5",
-   "press": "서울뉴스통신",
-   "summary": "",
-   "others": 0,
-   "topics": [
-    "chiryo"
-   ],
-   "score": 4,
-   "tier": 3,
-   "publishedAt": "2026-11-03T01:51:12.000Z",
-   "firstSeenAt": "2026-11-05T01:45:31.852Z",
-   "link": "http://www.snakorea.com/news/articleView.html?idxno=1061129",
-   "image": "https://cdn.snakorea.com/news/thumbnail/202611/1061129_1012534_4945_v150.jpg",
-   "desc": "【서울 = 서울뉴스통신】 최정인 기자 = 국가무형유산을 보존하고 전승해 온 장인과 예술인들이 암 치료 과정에서 겪는 경제적 부담을 덜 수 있도록 민간재단의 후원을 통한 의료비 지원이 추진된다.국가유산청은 유한재단의 후원으로 대한암협회와 함께 암 진단을 받은 국가무형유산 전승자 약 20명"
-  },
-  {
    "title": "표적항암제 '레테브모' 급여 등재되자 캡슐에서 정제로 전환",
    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBaS2JDREthVmN1NHctOWNqU1lwakE4NV82VlQxaEhCdkF5ME5KY0JoT2N2aThVYTRGTnkyZHJRVkRRQVp3UUk4R0VCVWZpRDRBMExUVU1R?oc=5",
    "press": "데일리팜",
@@ -223,37 +206,20 @@
    "desc": "한국릴리의 RET 표적항암제 레테브모(성분명 셀퍼카티닙)가 건강보험 급여 목록에 이름을 올린 직후 캡슐에서 정제로의 제형 전환 절차에 돌입했다. 지난 10월 1일 자로 급여 등재된 캡슐 제형을 유통하며 환자 치료 접근성을 유지하는 한편, 재고가 소진되는 시점에 맞춰 신규 허가받은 정제 "
   },
   {
-   "title": "[메가이슈분석] 치매보험 넘어 신탁까지…고령자 자산관리 새 국면",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9pcjZ1Qm0yRmk4dXpLV3BtR2g2bG1EUV9Cc2tVaXNheWM5WGtEeGNxTGtHa3V4dFVGRWVjNnl1NGJyTXcydlZLWTl6WW9PQzJTcU5FU0xEb0xZVlc1VGV0NlRWM1JkWkRFbTlMMzA1dHhTd9IBckFVX3lxTE9pcjZ1Qm0yRmk4dXpLV3BtR2g2bG1EUV9Cc2tVaXNheWM5WGtEeGNxTGtHa3V4dFVGRWVjNnl1NGJyTXcydlZLWTl6WW9PQzJTcU5FU0xEb0xZVlc1VGV0NlRWM1JkWkRFbTlMMzA1dHhTdw?oc=5",
-   "press": "메가경제",
-   "summary": "",
-   "others": 1,
-   "topics": [
-    "ganbyeong"
-   ],
-   "score": 4,
-   "tier": 3,
-   "publishedAt": "2026-11-02T08:46:40.000Z",
-   "firstSeenAt": "2026-11-02T16:43:58.065Z",
-   "link": "https://megaeconomy.co.kr/news/newsview.php?ncode=1065602780474464",
-   "image": "https://megaeconomy.co.kr/news/data/20261102/p1065602780474464_671_thum.png",
-   "desc": "[메가이슈분석] 치매보험 넘어 신탁까지…고령자 자산관리 새 국면 [메가경제=박선영 기자] 고령화에 따른 치매·간병 수요가 늘면서 생명보험사의 노후 금융서비스가 보험금 지급을 넘어 재산관리 영역으로 확대되고 있다. 삼성생명과 교보생명은 치매 치료와 장기요양, 간병비 보장을 강화하고 있으며"
-  },
-  {
    "title": "하나손보, 치매 재활·요양비 보장 확대…진단부터 장기요양까지",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5jZ20wT2xYazNrZldQQmU3MTU1OFc5OUdqc0hzSEFCZWtvYjgwQ3pNUWNhVFRNMDZ1STl2bDVxMWpaS3RrTXFfLUwtbkdpeUR0X3Bzbw?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBfSTEza1VKTHI4OEYwTVJOVkxmREZHS3h2cU1NcGQwX3ppMDdJTFN1MDhTZWU1VkhGSGRma2NrUi1pWXoycWc?oc=5",
    "press": "매일경제",
    "summary": "",
    "others": 0,
    "topics": [
     "ganbyeong"
    ],
-   "score": 6,
+   "score": 4,
    "tier": 1,
    "publishedAt": "2026-11-02T07:47:37.000Z",
-   "firstSeenAt": "2026-11-04T01:37:53.480Z",
-   "link": "https://www.mk.co.kr/news/economy/12193672",
-   "image": "https://pimg.mk.co.kr/news/cms/202611/02/news-p.v1.20261102.f242c939a5004a588a2dfa27d21fbb96_R.jpg",
+   "firstSeenAt": "2026-11-05T17:43:19.159Z",
+   "link": "https://m.mk.co.kr/amp/12193672",
+   "image": "https://static.mk.co.kr/facebook_mknews.jpg",
    "desc": "재활치료 연간 10회 지원 보험업계 돌봄 보장 강화"
   },
   {
@@ -380,7 +346,7 @@
    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5GRUZnanFkR0FsV0E0ZHBreU5sc25YT0hmMWV6bGRzeDVVZUVzcXVIOU02VC1RTTR4OEo0RlNKMVJDRUFnWEZ1SHh6LWlzbU9EbGVsbjVCOW9jakM0aGlrWklFS19JSXlFeVRoR9IBb0FVX3lxTE5RZ1A4WjZjY3ltMHpEYmZPZkkxRHNScFotRXBZUzFhX1E2T1lPaWlPWXJmWTlkN21Ga2xibEdvMF9IdXEycmZZd0JOY09yaWlTS0JVQTJMVUh3LVVuQlBPVjJoMHM4NGhPd05XTUExcw?oc=5",
    "press": "금융경제신문",
    "summary": "",
-   "others": 1,
+   "others": 0,
    "topics": [
     "ganbyeong"
    ],
@@ -391,6 +357,23 @@
    "link": "https://www.fetimes.co.kr/news/articleView.html?idxno=128724",
    "image": "https://cdn.fetimes.co.kr/news/thumbnail/202610/128724_95504_5740_v150.jpg",
    "desc": "[금융경제신문=최원석 기자] 초고령사회 진입으로 노인 돌봄 수요가 급증하면서 노인장기요양보험 재정에 경고등이 켜졌다. 최근 2년 사이 연간 흑자 규모가 85% 넘게 줄어든 가운데 민간 생명보험사들은 치매와 간병 보장을 확대하며 고령층 돌봄 수요에 대응하고 있다.29일 국민건강보험공단이 "
+  },
+  {
+   "title": "나중에 후회할라...\"반값 할인? 안 갈아탈래\" 5세대 실손 '외면' - 머니투데이",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5nMUVSRlZqOXMxWFNOV0RWcWp1aEZpcE1DUkF6Y2M2cmRGYnJ5ZXFIT2ZmWDlMQXVEd1Rab19ubUV0TkV6QmR1dTFHN1l2OVozTy1iWDlxQWFac20wX0JCamlTR0xvc3ZERE840gFwQVVfeXFMUC0zZXljNDQ5Sjg4VkllQjJ2d2ZsRzZRR0IxTFlMRGVuUFV5M3BWYXZ2ODd3RlJBSTFEOHZCM2ZQOFVUZDdFc0lmTXlmTEU0TUpEaklrXzY5MDZNXzVDNElxZmdWcDJqR2tsNFJyeVhOeA?oc=5",
+   "press": "머니투데이",
+   "summary": "",
+   "others": 3,
+   "topics": [
+    "silson"
+   ],
+   "score": 4,
+   "tier": 1,
+   "publishedAt": "2026-10-27T21:30:00.000Z",
+   "firstSeenAt": "2026-11-05T17:43:19.159Z",
+   "link": "https://www.mt.co.kr/finance/2026/10/28/2026102718244197440",
+   "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=729,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/10/2026102718244197440_1.jpg",
+   "desc": "\"실손 보장이 갈수록 줄고 있는데, 보험료 아낀다고 5세대로 갈아타면 나중에 크게 후회를 할 것 같다\".(옛 실손보험 가입자) 5세대 실손 전환과 관련한 보험계약자들의 반응이다. 기존 1·2세대 실손의료보험 가입자가 5세대 실손보험으로 갈아타면 3년간 보험료를 절반만 내는 계약전환 할인"
   },
   {
    "title": "[보험 이슈] 커지는 치매·간병보험 시장…보험사, 조기 진단·장기요양 보장 넓힌다",
@@ -410,23 +393,6 @@
    "desc": "초고령사회 진입과 함께 치매 환자와 가족의 치료·간병 부담이 커지면서 치매·간병보험 시장이 빠르게 성장하고 있다. 보험업계는 치매 진단 이후 보험금을 지급하는 기존 상품에서 나아가 조기 진단과 최신 치료제, 장기요양, 간병 서비스까지 보장 범위를 넓히며 시장 공략에 나섰다.27일 보험개"
   },
   {
-   "title": "\"5세대 실손 '갈아타기' 추진할 용감한 보험 CEO 없다\"..회계의 '역풍' - 머니투데이",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9wSVh3RFEzaXhRVzV4dW8zVVhDN1lpR0xZUEtaekFuVnhLNjduVzYtU0xRc2c2dkRCNWR4UjNybTZSM1R0R0MzS1JLbTVwalpncDRVQ0xUb1BxbG9sUzFESHpqUXhack42Z29N0gFwQVVfeXFMTnJ2Z2I1TTJfSE1mb2p2X3RsV3RBb3FUWm80aUVpQzBhS0FXZXU4M3piVEpERTZfclpmV1hHdFhvRldvanVreUZsU3BxeHNZRmJ4bGZGQkpSa3RXY1FrT2l4RFVuWG9wanJOOGZKOXlTaw?oc=5",
-   "press": "머니투데이",
-   "summary": "",
-   "others": 1,
-   "topics": [
-    "silson"
-   ],
-   "score": 4,
-   "tier": 1,
-   "publishedAt": "2026-10-27T07:45:00.000Z",
-   "firstSeenAt": "2026-11-04T17:38:01.365Z",
-   "link": "https://www.mt.co.kr/finance/2026/10/27/2026102618223277572",
-   "image": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2026/10/2026102618223277572_1.jpg",
-   "desc": "\"5세대로 갈아타면, 무조건 손실계약이 되는데 이를 추진할 용감한 보험 CEO(최고경영자)가 과연 있을까요. \"(한 보험사 대표) 정부가 실손의료보험의 구조개혁을 위해 다음달 처음으로 계약재매입(계약전환 할인제도)을 시행하지만 결국 과거와 마찬가지로 '실패' 할 가능성이 높다는 관측이 "
-  },
-  {
    "title": "산청군, “암 치료비 부담 낮추고 치료 연속성 높인다”",
    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTZS1DZ2txVElCb190RnJ3TFQ4dXAta1F5QncyUXlpV2M5cDZFR09ya0taeF9LUzJUblhFRG4wa3RyUVBLME1VaTk0OHo4Y0o0dnl4a0d4bXMwTTh3VHJlNHhqSFJLVjh6dm5FT0VIN0zSAXRBVV95cUxQU1M0MkpjbWpDcC1kd0RBcjNpUm4zQ0toZ3hNYXBkUnY0UlFKdVZ0STRyclJ6NHpqMzEwaTBmSGpuWDkwaXhWOW1KdDJMV21BbUN3Z2pmMmNneVBwWE5uWmZMQnJoRmRQWXNWbXNBN1hFTEFIWg?oc=5",
    "press": "경남열린신문",
@@ -442,6 +408,23 @@
    "link": "https://www.gnopennews.co.kr/news/articleView.html?idxno=210693",
    "image": "https://cdn.gnopennews.co.kr/news/thumbnail/202610/210693_217239_0044_v150.jpg",
    "desc": "[경남열린신문] 산청군은 저소득층 암환자의 경제적 부담을 완화하고 치료 연속성을 높이기 위해 암환자 의료비 지원사업을 연중 추진하고 있다고 27일 밝혔다. 대상은 의료급여 수급권자와 건강보험 차상위 본인부담 경감대상자로 암 종류와 관계없이 암환자 의료비를 지원받을 수 있다. 성인 암환자"
+  },
+  {
+   "title": "11월 실손 할인 시행…보장 줄일까, 5세대로 갈아탈까",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQMVdnektvRElIOHBWazRwbl9YTUJvdEIxczktdmlhdHlyaUVmWkVXRjlyYmFWa1l6ZkVydDNJSVRwdlQ3MTFtZFZKaHdoVXlDSU12RURoNVRJZU5IUnBkMHZwVjlWcE1hd0lDbUF2YVJ4a2xIOFY1UzdBNF9IRHhJZQ?oc=5",
+   "press": "이데일리",
+   "summary": "",
+   "others": 1,
+   "topics": [
+    "silson"
+   ],
+   "score": 4,
+   "tier": 1,
+   "publishedAt": "2026-10-26T06:33:56.000Z",
+   "firstSeenAt": "2026-11-05T17:43:19.159Z",
+   "link": "https://www.edaily.co.kr/News/Read?newsId=03503046645616856&mediaCodeNo=257",
+   "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/10/PS26102600788.jpg",
+   "desc": "11월부터 초기 실손의료보험 가입자 약 1700만명을 대상으로 보험료 할인제도가 시행될 예정이다. 기존 계약을 유지하면서 일부 보장을 빼거나, 5세대 실손보험으로 갈아타 보험료를 낮추는 두 가지 방식이다. 보험료 부담을 덜 수 있지만 선택에 따라 보장 범위와 자기부담..."
   },
   {
    "title": "“암 걸려 보험금 달랬더니 계약 해지”…2년 전 건강검진, ‘이게’ 빌미? [어쩌다 세상이]",
@@ -478,6 +461,40 @@
    "desc": "초고령사회 진입과 함께 고령 인구가 꾸준히 늘면서 국내 무릎 인공관절수술 건수가 연간 9만 건에 육박하고 있다."
   },
   {
+   "title": "손보사, 치매·간병보험 판매 급증 '속앓이'⋯미래 손해율 부담 우려",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBwTk5haWlQb21BRVVlRnN4UDlFM01KaWZiNEw4MUFhMHE0R29PVFktUk1GZUFwb0ppQnZwWnBCcjd1WmE5SGJJcm9ZVQ?oc=5",
+   "press": "아이뉴스24",
+   "summary": "",
+   "others": 1,
+   "topics": [
+    "ganbyeong"
+   ],
+   "score": 4,
+   "tier": 3,
+   "publishedAt": "2026-10-20T07:00:00.000Z",
+   "firstSeenAt": "2026-11-05T17:43:19.159Z",
+   "link": "http://www.inews24.com/view/2017001",
+   "image": "https://image.inews24.com/v1/7c5c5b52ed213a.jpg",
+   "desc": "지급보험금 3년 새 12.8% 증가, 초회보험료 2.3배 늘어 \"적정 보험금·보장 범위로 상품 설계부터 위험 관리해야\" 손해보험사의 치매·장기간병보험 판매가 크게 늘면서 향후 보험금 지급 부담에 대한 우려도 커지고 있다. 고령화에 따른 간병 수요 증가로 신계약 확보 경쟁이 활발해졌지만 "
+  },
+  {
+   "title": "비급여 암치료비 3천만→5천만원…보험사, 암 보장 한도 상향 경쟁",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9vSGN5eHdrNWtjZjc5bFEzMGVnRXhUNVQ2ZElxR29ySTVNVFZNRUVVUnJxLVpyODN1V2lYbnVaQVhCR24xeWVUUmFyX2NVV3N0cVNPZnE3WU5idXpVa3c?oc=5",
+   "press": "라온신문",
+   "summary": "",
+   "others": 0,
+   "topics": [
+    "chiryo"
+   ],
+   "score": 4,
+   "tier": 3,
+   "publishedAt": "2026-10-20T07:00:00.000Z",
+   "firstSeenAt": "2026-11-05T17:43:19.159Z",
+   "link": "https://raonnews.com/mobile/article.html?no=62023",
+   "image": "https://www.raonnews.com/data/photos/20261043/art_17924559006082_a59441.jpg",
+   "desc": "보험사들이 암 보장 한도를 놓고 경쟁하고 있다. 생명보험사들은 비급여 암치료비와 신생물 수술비 한도를 기한을 정해 올리고 기존 상품의 판매 종료를 예고했다. 20일 보험업계에 따르면 미래에셋생명은 지난달 4일부터 이달 30일까지 '인수한도 상향 이벤트'를 진행하고 있다. 비급여 암주요치"
+  },
+  {
    "title": "세르비에 담관암 신약 '팁소보' 11월 보험급여 등재",
    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40ckFkMHlEblN4ZEFzcll1OUpOV25KRXpiWFVrTFVuN2gya3pLSV9GSVlfb29EeTdpOGRYWmplOTkxNmVCWF9SbVc1SUZpX2F1YmNvYlJ3?oc=5",
    "press": "데일리팜",
@@ -493,23 +510,6 @@
    "link": "https://www.dailypharm.com/user/news/343561",
    "image": "https://vod.dailypharm.com/new_dailypharm/editor/content/2026/10/19/cbc0801a-d125-4a98-801d-c28a0398c2dc.png",
    "desc": "담관암 신약 팁소보가 보험급여 목록에 등재된다. 취재 결과, 한국세르비에는 최근 국민건강보험공단과 담관암·급성골수성백혈병(AML, Acute myeloid leukemia) 표적항암제 팁소보(이보시데닙)에 대한 약가협상을 최종 타결했다. 팁소보의 등재는 약가유연계약제를 통해 이뤄질 예정"
-  },
-  {
-   "title": "5세대 실손 전환 유인책 시행…구세대 가입자 마음 돌릴까",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9jUGhXTHpoc1h2YlNfRkp6a3lXWEtOZ2FFNVQzMXhJMThyWm5VYWxUQzFteUZTbm9BTWJsdWNZdzNKYkxQcnBYYlRPSk9NT1kyYzJkSNIBWEFVX3lxTE9OWlBJSlFjWFhGU2xmenlyT0Fyd3ZxV1dSeUZscU9YWVNHSXlqUG0xckVjUmYzUS1LZUFLbTN4VmZrbTgxR2RRaWE3MUpRbzBpbldBRWt0aVo?oc=5",
-   "press": "미디어펜",
-   "summary": "",
-   "others": 5,
-   "topics": [
-    "silson"
-   ],
-   "score": 6,
-   "tier": 3,
-   "publishedAt": "2026-10-20T07:00:00.000Z",
-   "firstSeenAt": "2026-11-05T01:45:31.852Z",
-   "link": "https://www.mediapen.com/news/view/1131256",
-   "image": "https://image.mediapen.com/news/202610/news_1131256_1792475983_m.jpg",
-   "desc": "[미디어펜=이보라 기자] 다음달부터 5세대 실손보험으로 전환하는 가입자에 대해 보험료 반값 할인 등 갈아타기 유인책이 도입되면서 전환율을 올릴 수 있을지 주목된다.20일 보험업계에"
   },
   {
    "title": "[국감] 항암제 급여평가, 사회적 편익 반영 시험대",
@@ -650,21 +650,21 @@
    "desc": "사진제공 연합뉴스. 초기 약제비가 높은 차세대 만성 골수성 백혈병(CML) 표적치료제의 1차 치료 건강보험 급여 적용이 장기적으로 국가 보건 재정을 구조적으로 절감할 수 있다는 전문가 제언이 나왔다. 초기 치료 효과가 뛰어난 고가 신약을 선제 투여해 환자를 약 복용이 필요 없는 ‘무치료"
   },
   {
-   "title": "[실손 갈아타기, 할인 승부수] 여전히 관심 저조한 5세대 실손...11월 보험료 반값 통할까",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Cenk3ZUU0ZUNMaDYxWFUxYUZhbEpJajliNVpWWVlVa3Ridzh2ZkdQVm9qZ0ZnM2NfOXZYa1dQLWtoUmRuOUF5V3JVTGgwSlNsYWU5TmZ6U0lWZ9IBWEFVX3lxTFBKYWJJTFgySjc5c1kySHNnUWR2MDFTdndYVHQ0TzVqNnhtYWdLMng3YkdhQTFKdmtCc0U2SEhBVklkUmJ3VFB1S0FuQ3A0YlFBbzlaUTAyRXo?oc=5",
-   "press": "아주경제",
+   "title": "5세대 실손 14%가 갈아타기… 새달 보험료 할인에 전환 늘 듯",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE52TzYtNXBJczVNWlpxQnlpVDRrNjQ0RTFwQWN4c0hJRThlZUlteU9CckZreHlwV3JTYUpWV2dmQmlNUTNIcEVpN081VkxQc1RJMHJJZXlJV0pfMl9qU3ZEUmdEbzJoOV96dGh1RldfQ2IxV0dIMHFzbndB?oc=5",
+   "press": "서울신문",
    "summary": "",
-   "others": 15,
+   "others": 17,
    "topics": [
     "silson"
    ],
-   "score": 4,
-   "tier": 3,
+   "score": 6,
+   "tier": 1,
    "publishedAt": "2026-10-15T07:00:00.000Z",
-   "firstSeenAt": "2026-11-05T07:28:38.017Z",
-   "link": "https://www.ajunews.com/view/20261015140601196",
-   "image": "https://image.ajunews.com/content/image/2026/10/15/20261015142157837051.png",
-   "desc": "지난 5월 출시된 5세대 실손보험으로 갈아탄 기존 1·2세대 계약이 3만3577건에 그친 것으로 나타났다. 주요 손해보험사 9곳의 1·2..."
+   "firstSeenAt": "2026-11-05T17:43:19.159Z",
+   "link": "https://www.seoul.co.kr/news/economy/finance/2026/10/15/20261015031002",
+   "image": "https://img.seoul.co.kr//img/upload/2026/10/14/SSC_20261014174111_O2.jpg",
+   "desc": "5세대 실손의료보험 가입은 매달 9만건 넘게 이어지지만, 보험료가 비싼 1·2세대 가입자의 전환은 오히려 줄었다. 기존 보장을 포기하기 어렵고 다음달 할인 제도를 기다리는 수요도 영향을 준 것으로 보인다. 11월부터 선택지가 늘어나며 고민이 커질 전망이다."
   },
   {
    "title": "포항시, 암 치료비 부담 덜어준다···취약계층 의료안전망 강화",
@@ -688,7 +688,7 @@
    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE13bTQ3MDVqSzhZSnpfbWpqZDA3TjFSdlF6di1tOVlvMmJxSV85NlFzak11bmhaNXVLd08yOGdXOU43UDFDVTFCRTNXZFR4WFc1RTd1YkhXdDdjcWhxS19hNmtaV0xLUWxzVkhTTA?oc=5",
    "press": "굿모닝경제",
    "summary": "",
-   "others": 1,
+   "others": 3,
    "topics": [
     "silson"
    ],
