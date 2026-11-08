@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-08T00:53:32.198Z",
+ "updatedAt": "2026-11-08T13:56:29.545Z",
  "naver": false,
  "topics": [
   {
@@ -35,15 +35,32 @@
  ],
  "items": [
   {
+   "title": "간병보험 추천 상품을 고를 때…비교와 가입 기준은",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4xYmtKSnlCaW5SeGZuTE1ZZGpaMTdRckcwSkpNOU92WVB3dm5WLVpVeDRjTnBJZEFId3oxekxQZHk4ZFJzTEJHRG1qYmdlcVFkTmZmLVV3M1UyY2tYcjZ6dnNPcEZrVm4ycXA0S0JHNzhtZ1U?oc=5",
+   "press": "스페셜타임스",
+   "summary": "",
+   "others": 0,
+   "topics": [
+    "ganbyeong"
+   ],
+   "score": 10,
+   "tier": 3,
+   "publishedAt": "2026-11-08T02:06:06.000Z",
+   "firstSeenAt": "2026-11-08T13:56:29.545Z",
+   "link": "https://www.specialtimes.co.kr/news/articleView.html?idxno=483032",
+   "image": "https://cdn.specialtimes.co.kr/news/thumbnail/202611/483032_471020_66_v150.jpg",
+   "desc": "간병보험 추천 상품을 찾는 이들은 부모님이나 자신의 노후를 대비하여 어떤 보장을 골라야 할지 고민하며 관련 정보를 살펴본다. 이 보험은 노년에 누군가의 도움이 필요할 때 드는 비용을 덜기 위하여 가입하는 상품이다. 질병이나 신체 기능 저하로 인해 일상생활이 어려워졌을 때 발생하는 비용"
+  },
+  {
    "title": "1·2세대 실손 가입자 1700만명…기존 계약 유지냐 5세대 전환이냐",
    "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9LdS11TVFxbC1GNWotWkhjNWxxMWg1TWNlVWxFU3RKTE5WSHFwM0FYZHJLdk0ySUprempjVjRiUllfejA?oc=5",
-   "press": "투데이타임즈",
+   "press": "한국공공정책신문",
    "summary": "",
    "others": 2,
    "topics": [
     "silson"
    ],
-   "score": 11,
+   "score": 8,
    "tier": 3,
    "publishedAt": "2026-11-06T06:00:59.000Z",
    "firstSeenAt": "2026-11-06T16:59:16.677Z",
@@ -60,30 +77,13 @@
    "topics": [
     "silson"
    ],
-   "score": 7,
+   "score": 4,
    "tier": 1,
    "publishedAt": "2026-11-06T05:59:30.000Z",
    "firstSeenAt": "2026-11-06T07:28:13.683Z",
    "link": "https://www.mk.co.kr/news/economy/12200450",
    "image": "https://pimg.mk.co.kr/news/cms/202611/06/news-p.v1.20261106.6f90c149653e4ca59680c7f886095bff_R.jpg",
    "desc": "초기 1~2세대 실손 보험료 부담 선택형 할인, 전환 할인 시행 예정 비급여 등 특약 제외로 보험료↓"
-  },
-  {
-   "title": "[금융위원회] 실손보험 전환상품, 기존 계약에 특약 부가 허용… 보험사 관리책임도 강화",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1tT3VMZVowdG9DTTRwd3Frak5qZ2dhSU5ob1paLWI5aHFzbUJ6QVZNWUg0Ny1xNk5FZ2thbm15SEtPNGlQZ3hfSTBxN3FvR3JFbG92bUJXMW9aNUtMd0E?oc=5",
-   "press": "커넥트이천",
-   "summary": "",
-   "others": 0,
-   "topics": [
-    "silson"
-   ],
-   "score": 7,
-   "tier": 3,
-   "publishedAt": "2026-11-06T03:36:17.000Z",
-   "firstSeenAt": "2026-11-07T01:09:41.586Z",
-   "link": "https://www.connecticheon.com/ko-kr/articles/3234",
-   "image": "https://cdn.www.connecticheon.com/w1200/q100/f_jpg/article-images/2026-11-06/24cf89e5-9716-4d6d-8069-acfdd4463ddf.jpg",
-   "desc": "실손보험 계약전환 할인제도 관련 상품을 기존 주계약에 특약으로 붙일 수 있도록 규제가 정비된다. 금융위원회는 11월 4일 이 같은 내용을 포함한 ‘보험업감독규정’ 개정안을 의결했다고 밝혔다. 실손보험은 다른 상품과의 끼워팔기를 막기 위해 원칙적으로 단독형으로 설계하도록 돼..."
   },
   {
    "title": "[기자수첩] 실손 전환의 데자뷔, 할인 다음은",
@@ -291,23 +291,6 @@
    "desc": "재활치료 연간 10회 지원 보험업계 돌봄 보장 강화"
   },
   {
-   "title": "하나손해보험, 치매·간병 필두로 장기보험 공략 '가속'...장기 이익체력 강화 '승부수'",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5QcEt1Tlhld1ZFNXdCZDE4dGw4NUI4V2hIX2FuaE5uTXBVRlRDZ0J3V01yME41dW10RXFqSThjdGplQ0V0LVd5bUhvektPMVNGV21WeGo1alhuUnhvVXVRUlZnLWNWekJD?oc=5",
-   "press": "녹색경제신문",
-   "summary": "",
-   "others": 0,
-   "topics": [
-    "ganbyeong"
-   ],
-   "score": 4,
-   "tier": 3,
-   "publishedAt": "2026-11-02T03:02:00.000Z",
-   "firstSeenAt": "2026-11-05T01:45:31.852Z",
-   "link": "https://www.greened.kr/news/articleView.html?idxno=353618",
-   "image": "https://www.greened.kr/news/thumbnail/202611/353618_405582_583_v150.jpg",
-   "desc": "[녹색경제신문 = 윤덕제 기자]하나손보가 치매간병보험을 필두로 수익성 높은 장기보험 시장 공략에 속도를 높이고 있다. 초고령화 사회 진입으로 치매 환자 급증에 대응하고 하나금융의 시니어케어 사업 확장과도 맞닿아 있는 것으로 풀이된다.2일 하나손해보험은 이달부터 치매 모든 과정을 꼼꼼하게"
-  },
-  {
    "title": "손보사 車보험 적자 탈출 신호탄… ‘8주룰’·비급여 관리 손익 개선 기대",
    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNd2h0QmlMaWhZd2FFUjZsVWgwdE1fRWtMdzFzSFF5UEJxYUFzM1ROVEQ3eWJvSUpMOTdhUm1kQkdpUmstMzZkd1V0SjVoRW94b2R0ZW5SamxuOFNvWnhEV2p2Zk9WdExLbnA2emUtMHB1UHlqWWtWOTJfdTYxNzVCcEFybzE?oc=5",
    "press": "글로벌이코노믹",
@@ -335,7 +318,7 @@
    ],
    "score": 2,
    "tier": 1,
-   "publishedAt": "2026-10-31T06:01:27.000Z",
+   "publishedAt": "2026-10-31T07:00:00.000Z",
    "firstSeenAt": "2026-11-01T00:24:32.248Z",
    "link": "https://www.mk.co.kr/news/culture/12192432",
    "image": "https://pimg.mk.co.kr/news/cms/202610/31/news-p.v1.20261030.9fe8e36b95eb4447a983b04695df21c4_R.jpg",
@@ -414,7 +397,7 @@
    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBIcVJ0ZEhpRDkxcVUyaW03UWJfSjRSSHl4alB3MGFzdVdxLURBY0ZJcnJKQUMzeWRBLTFoOXhqTTlQZm5jeU1WcklVQWRDV29mMzQ1WksyZjg1b2ZvckEzWWx2ZWh1d3NGdzRN0gFwQVVfeXFMTlJhUWRlbkFmMWUzbkwtaVE0SUpLRkViNGNqWlZsVVR6LUxVbUp3MVplSnlwU2RvOFo1dEhJeUdfU202ZHh4LTlMS2tKcDh3ZHVFdzRidnZtQWdKd214cDBkOUlBaVFjOW5wMFVxNkZ4Tw?oc=5",
    "press": "머니투데이",
    "summary": "",
-   "others": 18,
+   "others": 20,
    "topics": [
     "silson"
    ],
@@ -425,6 +408,23 @@
    "link": "https://www.mt.co.kr/finance/2026/10/27/2026102714445935886",
    "image": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2026/10/2026102714445935886_1.jpg",
    "desc": "하지만 보험사 입장에서 이 같은 조건의 계약 전환은 당장 부담이 더 크다는 의견이 많다. 계약 전환이 늘어날수록 할인 혜택을 적용하는 계약도 많아지는 만큼 보험료 수입 감소 부담이 커질 수 있다."
+  },
+  {
+   "title": "실손보험 반값 할인 11월 시작, 1·2세대 가입자 전환해야 할까? 🏥💰",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1Gd1pBdDBqaGR4TVI4Mi00X1RHV014ZWlRV3E4TU9pTzVhaTlMRkt1cWV0a0NkS1hVSHhHbzIxY05QWlR1QjRPSXdWd1Z6SHFrODBR?oc=5",
+   "press": "뉴닉",
+   "summary": "",
+   "others": 1,
+   "topics": [
+    "silson"
+   ],
+   "score": 4,
+   "tier": 3,
+   "publishedAt": "2026-10-27T07:00:00.000Z",
+   "firstSeenAt": "2026-11-08T13:56:29.545Z",
+   "link": "https://newneek.co/@newneek/article/48154",
+   "image": "https://d2phebdq64jyfk.cloudfront.net/media/article/94f4409601f0476ba3fa15341d038c4e.webp",
+   "desc": "11월부터 1·2세대 실손보험 가입자를 위한 보험료 할인 제도가 시행돼요. 기존 보험을 5세대로 전환하면 3년간 50% 할인되지만, 보장 범위가 줄어들어 병원 이용 빈도에 따라 신중한 판단이 필요해요."
   },
   {
    "title": "산청군, “암 치료비 부담 낮추고 치료 연속성 높인다”",
@@ -705,7 +705,7 @@
    "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1Ialo0U1ZLQWVOcENwbTZ3Z1FVSXphUWI3TjV1UmhEalJka1NyNXVlcHRaVHRDd1RmUnBld3pRakNwTFgt?oc=5",
    "press": "후생신보",
    "summary": "",
-   "others": 3,
+   "others": 2,
    "topics": [
     "chiryo"
    ],
