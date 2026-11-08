@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-07T13:38:01.592Z",
+ "updatedAt": "2026-11-08T00:53:32.198Z",
  "naver": false,
  "topics": [
   {
@@ -94,7 +94,7 @@
    "topics": [
     "silson"
    ],
-   "score": 7,
+   "score": 4,
    "tier": 2,
    "publishedAt": "2026-11-05T23:40:12.000Z",
    "firstSeenAt": "2026-11-06T01:46:29.110Z",
@@ -111,7 +111,7 @@
    "topics": [
     "ganbyeong"
    ],
-   "score": 9,
+   "score": 6,
    "tier": 3,
    "publishedAt": "2026-11-05T22:00:00.000Z",
    "firstSeenAt": "2026-11-07T06:40:48.112Z",
@@ -128,7 +128,7 @@
    "topics": [
     "ganbyeong"
    ],
-   "score": 9,
+   "score": 6,
    "tier": 1,
    "publishedAt": "2026-11-05T21:00:00.000Z",
    "firstSeenAt": "2026-11-06T01:46:29.110Z",
@@ -145,7 +145,7 @@
    "topics": [
     "jeongchaek"
    ],
-   "score": 7,
+   "score": 4,
    "tier": 3,
    "publishedAt": "2026-11-05T20:50:00.000Z",
    "firstSeenAt": "2026-11-06T01:46:29.110Z",
@@ -163,7 +163,7 @@
     "ganbyeong",
     "jeongchaek"
    ],
-   "score": 6,
+   "score": 4,
    "tier": 2,
    "publishedAt": "2026-11-04T21:12:00.000Z",
    "firstSeenAt": "2026-11-05T01:45:31.852Z",
@@ -342,23 +342,6 @@
    "desc": "지난해 우리 국민이 가장 많이 받은 수술은 무엇일까. 바로 백내장 수술이다. 국민건강보험공단이 지난 8월 발간한 ‘2025년 주요 수술 통계연보’에 따르면 지난해 백내장 수술은 69만2126건으로, 전체 35개 주요 수술 가운데 가장 많았다. 전년보다 4.2% 증가했으며, 인구 10만명"
   },
   {
-   "title": "“보험료는 덜내는데 보장은 줄고”…실손 5세대, 전환할까 말까",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE10UVhSUTVjUnc4ZDdVZ0tIdEFHLUY1ZUhaanpTazVQY04ybkdNNHZ2VGppQnBlaXNhLTdNLS0zdExGOUN1REpBTHdYSFh0SU1WVXRRVw?oc=5",
-   "press": "매일경제",
-   "summary": "",
-   "others": 1,
-   "topics": [
-    "silson"
-   ],
-   "score": 6,
-   "tier": 1,
-   "publishedAt": "2026-10-29T07:23:13.000Z",
-   "firstSeenAt": "2026-10-29T13:47:49.600Z",
-   "link": "https://www.mk.co.kr/news/economy/12189996",
-   "image": "https://pimg.mk.co.kr/news/cms/202610/29/news-p.v1.20261029.6cd2abb33f1a4fda89fab6ae6b00482d_R.jpg",
-   "desc": "초기 1~2세대 실손과 5세대 차이 비급여 보장 빠지고 보장 범위 축소 보험료 줄어든다지만 유인책 부족"
-  },
-  {
    "title": "백내장 수술 후 하루씩 병원 체류…입원치료 인정하지 않은 서울서부지법",
    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBUcnlkZG1oY0xXTkNQekliZERDNHFjLUljUnFLUFVpSk1NQWI2Y0xfWUI0Uy13VElqeThDdVdGcjVvUkx6SVA1a29yaVJ3S1FhNVR6VWFYOWQ1clByZlI5VHY5VlNPY3RK?oc=5",
    "press": "이즈보험",
@@ -374,6 +357,23 @@
    "link": "https://dazabi.com/insurance_magazine/article.php?id=1912",
    "image": "https://dazabi.com/img/isinsu_meta.png",
    "desc": "서울서부지법은 백내장 수술 관련 입원의료비 10,855,800원을 청구한 계약자의 항소를 기각했다. 병원 체류시간과 함께 치료의 실질을 판단한 확정판결이다."
+  },
+  {
+   "title": "“보험료는 덜내는데 보장은 줄고”…실손 5세대, 전환할까 말까",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE10UVhSUTVjUnc4ZDdVZ0tIdEFHLUY1ZUhaanpTazVQY04ybkdNNHZ2VGppQnBlaXNhLTdNLS0zdExGOUN1REpBTHdYSFh0SU1WVXRRVw?oc=5",
+   "press": "매일경제",
+   "summary": "",
+   "others": 1,
+   "topics": [
+    "silson"
+   ],
+   "score": 6,
+   "tier": 1,
+   "publishedAt": "2026-10-29T07:00:00.000Z",
+   "firstSeenAt": "2026-10-29T13:47:49.600Z",
+   "link": "https://www.mk.co.kr/news/economy/12189996",
+   "image": "https://pimg.mk.co.kr/news/cms/202610/29/news-p.v1.20261029.6cd2abb33f1a4fda89fab6ae6b00482d_R.jpg",
+   "desc": "초기 1~2세대 실손과 5세대 차이 비급여 보장 빠지고 보장 범위 축소 보험료 줄어든다지만 유인책 부족"
   },
   {
    "title": "실손의료비 변천사 1~5세대 비교표 | is보험 보험안내자료",
@@ -462,7 +462,7 @@
   },
   {
    "title": "“암 걸려 보험금 달랬더니 계약 해지”…2년 전 건강검진, ‘이게’ 빌미? [어쩌다 세상이]",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB5cl9kaHB4dXYybUVEc0NkNXMwTHVnTm1MRS1aMVozc1VjVWZ3X19WRElOTDdPNXlPUDQtcVktX1JRbTZ0V3NnR0FVeXJRNndEMlVQUw?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE0wWDh3bXFCdkFheHJwNnltR2V4Q2ZLQ3ZUQTJMbkNSNEtfUS1vTnR3QzlBOEVoMlZMVzE1dXNjRnB3RUFESkE?oc=5",
    "press": "매일경제",
    "summary": "",
    "others": 0,
@@ -472,9 +472,9 @@
    "score": 2,
    "tier": 1,
    "publishedAt": "2026-10-25T07:00:00.000Z",
-   "firstSeenAt": "2026-10-25T05:26:14.056Z",
-   "link": "https://www.mk.co.kr/news/economy/12184955",
-   "image": "https://pimg.mk.co.kr/news/cms/202610/25/news-p.v1.20261023.82af79d5826f4a018eab25acdc301cbc_R.png",
+   "firstSeenAt": "2026-11-08T00:53:32.198Z",
+   "link": "https://m.mk.co.kr/amp/12184955",
+   "image": "https://static.mk.co.kr/facebook_mknews.jpg",
    "desc": "보험사 “추가검사 소견 숨겼다” 보험금 3000만원 지급 거절 법원 “고의·중과실 인정 어려워”"
   },
   {
@@ -564,7 +564,7 @@
   },
   {
    "title": "'요양병원 간병 급여화' 기준 발표 임박…지역 소외 대책은?",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9oX2FoRHo2Y1FyMEhfUGwxMUlHdkhpMWRNUldHN2JHRDFCeFJNa21RdGZqRDRzVHlyXzZjTS1fSm1BdnBsUndOT0NRTFotWXJEejRZdVZaZDQzSE9oQ3dfONIBeEFVX3lxTE1icnctMXI1V0JGZEpnZkVwMmV0SDNrVVFfVEZWdDNpSmhlRFJlM1ZITWdsYk53TmVSVXpZeGdKckNPOEJQbGcyX1ZJWWhVejQzd01KemFjU2tDejFodVdCYVNzTTdoa18wYVpqdVFEcnJGSUxUSlBrNQ?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9oX2FoRHo2Y1FyMEhfUGwxMUlHdkhpMWRNUldHN2JHRDFCeFJNa21RdGZqRDRzVHlyXzZjTS1fSm1BdnBsUndOT0NRTFotWXJEejRZdVZaZDQzSE9oQ3dfOA?oc=5",
    "press": "뉴시스",
    "summary": "",
    "others": 1,
@@ -575,7 +575,7 @@
    "score": 4,
    "tier": 1,
    "publishedAt": "2026-10-19T07:00:00.000Z",
-   "firstSeenAt": "2026-10-22T12:34:50.523Z",
+   "firstSeenAt": "2026-11-08T00:53:32.198Z",
    "link": "https://www.newsis.com/view/NISX20261019_0003831192",
    "image": "https://img1.newsis.com/2026/09/18/NISI20260918_0021443023_web.jpg",
    "desc": "[서울=뉴시스] 구무서 기자 = 국민 간병비 부담을 덜기 위해 추진 중인 요양병원 간병비 급여화 사업의 구체적인 기준 발표를 앞두고 관심이 모아지고 있다. 일각에서는 소규모, 지역 소외 등의 우려가 나오는데 정부는 사각지대를 해소하기 위한 별도 모형 도입 등의 가능성을 열어놓고 방안을 "
@@ -650,23 +650,6 @@
    "desc": "사진제공 연합뉴스. 초기 약제비가 높은 차세대 만성 골수성 백혈병(CML) 표적치료제의 1차 치료 건강보험 급여 적용이 장기적으로 국가 보건 재정을 구조적으로 절감할 수 있다는 전문가 제언이 나왔다. 초기 치료 효과가 뛰어난 고가 신약을 선제 투여해 환자를 약 복용이 필요 없는 ‘무치료"
   },
   {
-   "title": "포항시, 암 치료비 부담 덜어준다···취약계층 의료안전망 강화",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB3V2l5bno1R1UxdVJsZG1PMVJIV0cwbDlYSERyU3FDaDNrMVJHNGhhUWFCR0N1VXJXM3FOYmVlV0tGdlZ1dWtjdTBJVmxHVnBIU1p6R0lFU1FpVnk4U0dzZVVaUWhsMmotUjlqNTRUUnVXZw?oc=5",
-   "press": "프라임경제",
-   "summary": "",
-   "others": 0,
-   "topics": [
-    "chiryo"
-   ],
-   "score": 2,
-   "tier": 3,
-   "publishedAt": "2026-10-15T00:03:59.000Z",
-   "firstSeenAt": "2026-11-04T17:38:01.365Z",
-   "link": "https://www.newsprime.co.kr/news/article/?no=751015",
-   "image": "https://www.newsprime.co.kr/data/photos/cdn/20261042/art_751015_1792010370.jpg",
-   "desc": "[프라임경제] 포항시가 암 치료에 따른 의료비 지출로 어려움을 겪는 저소득층을 대상으로 경제적 지원에 나선다.장기간 치료가 필요한 환자들의 비용 부담을 줄이고, 경제적 여건과 관계없이 안정적으로 치료를 이어갈 수 있도록 연중 암환자 의료비 지원사업을 추진한다.암은 진단 이후 수술과 약물"
-  },
-  {
    "title": "[심층분석] 5세대 실손 전환율 저조…이유 톺아보니",
    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE13bTQ3MDVqSzhZSnpfbWpqZDA3TjFSdlF6di1tOVlvMmJxSV85NlFzak11bmhaNXVLd08yOGdXOU43UDFDVTFCRTNXZFR4WFc1RTd1YkhXdDdjcWhxS19hNmtaV0xLUWxzVkhTTA?oc=5",
    "press": "굿모닝경제",
@@ -716,6 +699,23 @@
    "link": "https://www.k-health.com/news/articleView.html?idxno=101663",
    "image": "https://cdn.k-health.com/news/photo/202610/101663_203029_524.jpg",
    "desc": "암 환자에게 비급여로 사용되는 면역주사제 이뮤노시아닌과 비스쿰알붐에 대한 식품의약품안전처의 재평가가 지연되고 있다는 지적이 제기됐다.두 약제는 한국보건의료연구원("
+  },
+  {
+   "title": "대한암협회·유한재단, 암 투병 부사관 129명에 치료비 3억3천만원 지원",
+   "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1Ialo0U1ZLQWVOcENwbTZ3Z1FVSXphUWI3TjV1UmhEalJka1NyNXVlcHRaVHRDd1RmUnBld3pRakNwTFgt?oc=5",
+   "press": "후생신보",
+   "summary": "",
+   "others": 3,
+   "topics": [
+    "chiryo"
+   ],
+   "score": 2,
+   "tier": 3,
+   "publishedAt": "2026-10-13T07:00:00.000Z",
+   "firstSeenAt": "2026-11-08T00:53:32.198Z",
+   "link": "http://www.whosaeng.com/174393",
+   "image": "",
+   "desc": ""
   },
   {
    "title": "손보협회, 자동차보험 '8주룰'...경상환자 피해 잡는다",
