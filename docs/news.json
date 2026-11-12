@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-12T02:29:03.114Z",
+ "updatedAt": "2026-11-12T07:49:10.930Z",
  "naver": false,
  "topics": [
   {
@@ -35,11 +35,29 @@
  ],
  "items": [
   {
-   "title": "노인 10명 중 7명 ‘아파도 집에서’…2027 재가 돌봄 확대, '간병보험'도 달라져야",
+   "title": "실손 비급여 관리·車보험 흑자 전환…DB손보 3분기 순익 4440억 35%↑",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYnpDMnJXWU5qaEVJcDFQWGxJSEE2VDFYNlJxOVlqenhWWGhyMng1cXhrU0F3cUYxeFJsQWhmal8wMkdrWHRmX0Y5cHdwYXhuLWFGcmJQWXY1UzNHSm1xRVdlVi13cHFlRUVHdUxubUpTSW9BWWc1UDZZTFBIZG16VHhJdkk?oc=5",
+   "press": "글로벌이코노믹",
+   "summary": "",
+   "others": 0,
+   "topics": [
+    "silson",
+    "jeongchaek"
+   ],
+   "score": 10,
+   "tier": 3,
+   "publishedAt": "2026-11-12T06:20:09.000Z",
+   "firstSeenAt": "2026-11-12T07:49:10.930Z",
+   "link": "https://www.g-enews.com/article/Finance/2026/11/202611121514203184e30fcb1ba8_1",
+   "image": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=2026031719443700062edf69f862c144721434.jpg",
+   "desc": "DB손해보험의 올해 3분기 연결 당기순이익이 4440억원으로 지난해 같은 기간보다 35.3% 늘었다. 투자손익은 절반 이상 줄었지만, 실손보험 비급여 관리 강화가 장기보험 손익 개선에 보탬이 된 데다 자동차보험과 일반보험이 흑자로 돌아서면서 전체 실적을 끌어올렸다.12일 DB손보에 따르"
+  },
+  {
+   "title": "‘시설 입소’에서 ‘내 집 요양’으로…재가 돌봄 확대가 바꿀 '간병보험' 공식",
    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1vSlRwTVEzWHh0SE91Z3ZpOUwxVXNEenZrSkpiWnhWOTE5Z2hqc1J5eWlXWU1hRVhXSGhPUkRlRXJEaFNmUlE2b3pyRTA3YVpZVGtvWGJWX1FRaFlEWkVGczFsRjZURjVjOWFobi1pYw?oc=5",
    "press": "보험저널",
    "summary": "",
-   "others": 0,
+   "others": 1,
    "topics": [
     "ganbyeong"
    ],
@@ -50,6 +68,23 @@
    "link": "https://www.insjournal.co.kr/news/articleView.html?idxno=33889",
    "image": "https://cdn.insjournal.co.kr/news/thumbnail/202611/33889_36546_957_v150.jpg",
    "desc": "노후 돌봄의 기준이 달라지고 있다. 장기요양 수급자들은 건강이 악화되더라도 익숙한 집에서 계속 생활하기를 원하지만 고령화와 1인가구 증가로 가족이 돌봄을 전적으로 책임지기는 갈수록 어려워지고 있다. 정부도 이에 맞춰 2027년 재가서비스 보장을 대폭 확대하면서 치매·간병보험 역시 단순"
+  },
+  {
+   "title": "신협, 일상 속 상해부터 치매·암 치료까지 보장… 공제상품 4종 출시·개편",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFA0UUJUbDhvdlR6QTJ5aS11bmNRcmFwLUlNWlYwdF93eE1IN1RyNFY3b3Z3LU5oS3B4Y2xjUnZoaDVDVWZQTUE?oc=5",
+   "press": "시사코리아",
+   "summary": "",
+   "others": 1,
+   "topics": [
+    "ganbyeong"
+   ],
+   "score": 10,
+   "tier": 3,
+   "publishedAt": "2026-11-12T01:06:00.000Z",
+   "firstSeenAt": "2026-11-12T07:49:10.930Z",
+   "link": "https://www.sisakorea.kr/100385",
+   "image": "https://www.sisakorea.kr/imgdata/sisakorea_kr/202611/202611120917388.jpg",
+   "desc": "[시사코리아=김덕주기자] 신협중앙회(회장 고영철, 이하 신협)는 고객의 다양한 보장 수요에 대응하기 위해 11일(수) 신규 공제상품 1종을 출시하고, 기"
   },
   {
    "title": "[해피라이프]건강한 노후의 조건…근골격계 질환부터 간병비 대비까지",
@@ -179,7 +214,7 @@
    "topics": [
     "ganbyeong"
    ],
-   "score": 7,
+   "score": 4,
    "tier": 3,
    "publishedAt": "2026-11-10T06:56:00.000Z",
    "firstSeenAt": "2026-11-10T07:51:05.749Z",
@@ -196,7 +231,7 @@
    "topics": [
     "jeongchaek"
    ],
-   "score": 7,
+   "score": 4,
    "tier": 1,
    "publishedAt": "2026-11-10T03:25:02.000Z",
    "firstSeenAt": "2026-11-11T01:27:41.489Z",
@@ -213,7 +248,7 @@
    "topics": [
     "ganbyeong"
    ],
-   "score": 7,
+   "score": 4,
    "tier": 3,
    "publishedAt": "2026-11-10T03:18:05.000Z",
    "firstSeenAt": "2026-11-11T17:31:19.852Z",
@@ -260,7 +295,7 @@
    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0taHhPZmZlZWdCQ0p2eEdET3NQQnE4cGsyTkVsZ1RJUXpPZ0JSYm9LUUhkNU9LZTM5eHJ0RU0tbG5mWS1PTkJRWExROHBJeEZkNVE3djRKS3lsM18zSmpGN0ZTVmxSc0xtS2RhNWtaOXTSAXBBVV95cUxNLWh4T2ZmZWVnQkNKdnhHRE9zUEJxOHBrMk5FbGdUSVF6T2dCUmJvS1FIZDVPS2UzOXhydEVNLWxuZlktT05CUVhMUThwSXhGZDVRN3Y0Skt5bDNfM0pqRjdGU1ZsUnNMbUtkYTVrWjl0?oc=5",
    "press": "머니투데이",
    "summary": "",
-   "others": 0,
+   "others": 1,
    "topics": [
     "chiryo"
    ],
@@ -271,6 +306,23 @@
    "link": "https://www.mt.co.kr/amp/finance/2026/11/10/2026110919413956102",
    "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=728,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/11/2026110919413956102_1.jpg",
    "desc": "암진단비 지급을 둘러싼 대법원 판결로 손해보험사들이 수백억 원의 보험금을 추가 지급하면서 재보험금 분담을 놓고 손보사와 재보험사간 갈등이 커지고 있다. 9일 보험업계에 따르면 삼성화재와 메리츠화재 등 주요 손보사들은 지난 4월 대법원의 암분류기준 약관 관련 판결로 추가 지급한 보험금에 "
+  },
+  {
+   "title": "의료계, 비급여 관리법안 반발…“진료 자율성 침해”",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1hZDNxSWcyMUl5a3dGeFJhaVd6X0NvX2NOa1c3WDl3LWVxWXNYeEI4a3VRdzd3UGMtYWJsOUxLd211aDAwclo1cmVRVVVRZVF2LU5qemhjNk5FQ2ctYzJNbExnenZQYmFSaHg0V3kyOE5Xdw?oc=5",
+   "press": "헬스포커스뉴스",
+   "summary": "",
+   "others": 1,
+   "topics": [
+    "jeongchaek"
+   ],
+   "score": 4,
+   "tier": 3,
+   "publishedAt": "2026-11-09T15:00:00.000Z",
+   "firstSeenAt": "2026-11-12T07:49:10.930Z",
+   "link": "https://www.healthfocus.co.kr/news/articleView.html?idxno=210322",
+   "image": "https://cdn.healthfocus.co.kr/news/thumbnail/202611/210322_210527_4923_v150.jpg",
+   "desc": "더불어민주당 백혜련 의원이 지난 3일 대표발의한 ‘비급여항목 관리에 관한 법률안’을 두고 의료계의 반발이 확산하고 있다. 대한심장혈관흉부외과의사회와 대한외과의사회, 직선제 대한산부인과개원의사회는 잇따라 성명을 내고 법안 철회와 전면 재검토를 촉구했다.법안은 비급여 진료의 투명성과 환자"
   },
   {
    "title": "자동차보험 ‘8주룰’ 본격 시행…과잉진료 줄이고 보험료 낮출까",
@@ -290,57 +342,6 @@
    "desc": "【투데이신문 김효인 기자】 교통사고 경상환자의 장기 치료에 대한 심사가 본격화되면서 자동차보험의 보험금 지급 구조에도 변화가 예상된다. 이른바 ‘8주룰’ 시행으로 불필요한 치료비 지출을 줄이고 보험사의 손해율을 개선할 수 있을지 관심이 쏠리고 있다.9일 보험업계와 자동차손해배상진흥원에 "
   },
   {
-   "title": "전남의사회 \"비급여 관리법안, 진료실 잃게 할 것\"",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNUpGdldJZ3hDVkJUSlNQamxzaVgwU3FNNXdWeW9GUWotMWhTSjZQMWNTS0lDbTBvMXdLV0txYmdsMU5wOC1FT01YdmRSOXNRUVBET0lEZ19uM0ZvRmJkWms0QzZuU0RQdWRSVkVoTkpnUjRqVWhzeGZvT1V3T1RoRnBDYTcyU3d2MHdn?oc=5",
-   "press": "의협신문",
-   "summary": "",
-   "others": 1,
-   "topics": [
-    "jeongchaek"
-   ],
-   "score": 4,
-   "tier": 2,
-   "publishedAt": "2026-11-09T06:34:39.000Z",
-   "firstSeenAt": "2026-11-11T01:27:41.489Z",
-   "link": "https://www.doctorsnews.co.kr/news/articleView.html?idxno=167202&sc_word=&sc_word2=",
-   "image": "http://www.doctorsnews.co.kr/news/photo/202611/167202_140146_352.png",
-   "desc": "전라남도의사회가 더불어민주당 백혜련 의원이 대표발의한 '비급여항목 관리에 관한 법률안'에 대해 \"환자의 알 권리를 명분으로 국가의 진료 개입을 확대하는 법안\"이라며 즉각 철회를 요구했다.전남의사회는 9일 성명서를 내고 이같이 밝혔다. 지난 3일 발의된 이 법안은 비급여 가격관리 기준과 "
-  },
-  {
-   "title": "‘8주룰’ 본격화에…경상 환자 장기 입원 심사 하루 600건꼴",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9SSlM0cEJPcnFBSjU5SHJYU1RFcDl4VWFUaVdRSEYyaTVvcUh6cXdpSWZwbTY1LVNoR2dFb1FKMW1ubEpfUl9hTnJ0RE55YnRUcVhpd0lfazJjSzRLVU5IWUVR?oc=5",
-   "press": "미주중앙일보",
-   "summary": "",
-   "others": 0,
-   "topics": [
-    "jeongchaek"
-   ],
-   "score": 4,
-   "tier": 1,
-   "publishedAt": "2026-11-09T06:31:00.000Z",
-   "firstSeenAt": "2026-11-09T20:14:17.320Z",
-   "link": "https://www.koreadaily.com/article/20261108223210512",
-   "image": "https://www.koreadaily.com/data/photo/thumbnail/2026/11/09/eb9d873c-d831-4f85-ab28-bdf794f21f84.jpg",
-   "desc": "교통사고 경상 환자 가운데 8주 이상 치료가 필요한지 심사를 받는 경우가 늘었다. 이른바 ‘8주룰’ 제도가 도입 8주를 넘기면서 생겨난 변화다. 9일 자동차손해배상진흥원에 따르면 교통사고 경상 환자가 8주를 초과해 ..."
-  },
-  {
-   "title": "車보험 8주룰 도입 두달, 8주 초과 심의 하루 600건 육박",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1qZ3JXS2htMURCaDFjV0M4RnNiUnhmVXBwaU9oS2QxY08tbVRhR3Q5Yi1wY2o3UW9XdGFsTWRoR1FyVGRzSUcwZHRoNGJ0R3AwOW4wdko2OERMbmhvMHBBOUptQXU3MmJRQXNhTVZheGNjcEk?oc=5",
-   "press": "대한경제",
-   "summary": "",
-   "others": 4,
-   "topics": [
-    "jeongchaek"
-   ],
-   "score": 4,
-   "tier": 3,
-   "publishedAt": "2026-11-09T06:27:36.000Z",
-   "firstSeenAt": "2026-11-10T03:46:54.875Z",
-   "link": "https://m.dnews.co.kr/m_home/view.jsp?idxno=202611091511380900252",
-   "image": "https://image.dnews.co.kr/photo/photo/2026/11/09/202611091511380900252-2-704049.png",
-   "desc": "[대한경제=이종호 기자]교통사고 경상환자가 8주를 초과해 치료를 받으려면 심의를 받아야 하는 일명 8주룰이 시행된 지 두달이 지나면서 해당 심의를 신청한 건수가 하루평균 약 600건에 육박하는 것으로 나타났다. 9일 손해보험업계에 따르면 교통사고 경상환자가 8주를 초과 ..."
-  },
-  {
    "title": "나이 탓으로 넘긴 시력 변화, 노안일까?... 60대 최다 수술은 ‘백내장’",
    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE15MmZvaGs3UzVDTjI1a0N5R2JkQjFpYk4yYXJCSU9jd3B2RmdZR0preUpNY2VoNUlmdHhSNy1IbHFvMzZjSXZGYmJwNklwTGYzU0szVnJzdWltWmNLUWF5Q2NR?oc=5",
    "press": "스포츠월드",
@@ -349,7 +350,7 @@
    "topics": [
     "susul"
    ],
-   "score": 4,
+   "score": 2,
    "tier": 3,
    "publishedAt": "2026-11-09T05:59:18.000Z",
    "firstSeenAt": "2026-11-09T07:20:06.205Z",
@@ -528,23 +529,6 @@
    "desc": "초기 1~2세대 실손과 5세대 차이 비급여 보장 빠지고 보장 범위 축소 보험료 줄어든다지만 유인책 부족"
   },
   {
-   "title": "실손의료비 변천사 1~5세대 비교표 | is보험 보험안내자료",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5WX3RFbnR0c3pUbkRhZE1vbW1IWnppNVJQSjhUWGlDR21yN3B4ajBUNUpoWW92OHRfYVNRTjZueUVQR1VwOVJNNWtrbXVjSGRPWUFKTkp4M3ZNeWozS0hmbU1LNA?oc=5",
-   "press": "이즈보험",
-   "summary": "",
-   "others": 1,
-   "topics": [
-    "silson"
-   ],
-   "score": 4,
-   "tier": 3,
-   "publishedAt": "2026-10-29T07:00:00.000Z",
-   "firstSeenAt": "2026-11-07T13:38:01.592Z",
-   "link": "https://dazabi.com/Content/insurance_guides/index.php",
-   "image": "https://dazabi.com/img/isinsu_meta.png",
-   "desc": "1세대부터 5세대까지 실손의료비보험의 담보구성, 가입금액, 보장·면책기간, 갱신주기와 공제금액을 비교표로 확인하세요. 가입 시기별 차이와 급여·비급여 보장비율을 살펴볼 수 있으며, 실제 보장 여부와 조건은 가입한 보험의 약관을 확인해야 합니다."
-  },
-  {
    "title": "항암제 급여까지 평균 659일…환자단체 “등재기간 단축해야”",
    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1nNjhCT0RETzNKdWtydVFoazBKWXFlQ1Nna0l3UnJYa0xMNVlac1R3cXZnYWhZQnI3RkhXMmdFcmp3UVlIUDlja25UZ3dNUXJDYzYxWWhIWHRkM3RybGZGWXRvWG1ua3Y2VXlNX3VB?oc=5",
    "press": "간호사신문",
@@ -566,7 +550,7 @@
    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE16YnVGTkM5OXFpNU1ERjZkRmJYbTFFd1A2eldhQXNDUERnbDNUdEpfS3N1ZUZOOG13R0FPQ1NUeFRKRkFHNzJvTkhMSzJVOElMTk9mdGJCUVczRDcxT0ZnQkY4REQ0dnVrU21OS0hycw?oc=5",
    "press": "데일리e뉴스",
    "summary": "",
-   "others": 2,
+   "others": 3,
    "topics": [
     "ganbyeong"
    ],
@@ -583,7 +567,7 @@
    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBIcVJ0ZEhpRDkxcVUyaW03UWJfSjRSSHl4alB3MGFzdVdxLURBY0ZJcnJKQUMzeWRBLTFoOXhqTTlQZm5jeU1WcklVQWRDV29mMzQ1WksyZjg1b2ZvckEzWWx2ZWh1d3NGdzRN0gFwQVVfeXFMTlJhUWRlbkFmMWUzbkwtaVE0SUpLRkViNGNqWlZsVVR6LUxVbUp3MVplSnlwU2RvOFo1dEhJeUdfU202ZHh4LTlMS2tKcDh3ZHVFdzRidnZtQWdKd214cDBkOUlBaVFjOW5wMFVxNkZ4Tw?oc=5",
    "press": "머니투데이",
    "summary": "",
-   "others": 22,
+   "others": 21,
    "topics": [
     "silson"
    ],
@@ -645,6 +629,23 @@
    "link": "https://nownews.seoul.co.kr/news/newsView.php?id=20261026601007",
    "image": "https://imgnn.seoul.co.kr/img/upload/2026/10/26/SSC_20261026111902.jpg.webp",
    "desc": "도널드 트럼프 미국 대통령에게 세 차례 표를 던진 여성이 암 치료비 부담에 정치적 선택을 바꿨다. 여섯 아이를 돌보며 유방암과 싸우는 그는 이번 중간선거에서 생애 처음 민주당 후보에게 투표했다. AP통신은 25일(현지시간) 미국 텍사스주 매캘런에 사는 신디 반다(46)의 사연을 전했다…"
+  },
+  {
+   "title": "▨손해사정사 양유진의 보험과 보상 담론-자동차보험 ‘8주룰’, 경상환자 치료는 무엇이 달라질까",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE84Ql9LZ2p3WkF2ZnZualdqTXpQa0tWMXo5UWF6clBMQlBHZlZNQTh1UmRIM3NRazB0QkFMUmFlS1VkdUNjXzZQNFBtZ2JuQ0dtZzUxR3VJVDctdDBVQkVaOTdBcDl1ZDlaZ1hV?oc=5",
+   "press": "보험신보",
+   "summary": "",
+   "others": 0,
+   "topics": [
+    "jeongchaek"
+   ],
+   "score": 4,
+   "tier": 2,
+   "publishedAt": "2026-10-26T07:00:00.000Z",
+   "firstSeenAt": "2026-11-12T07:49:10.930Z",
+   "link": "https://www.insweek.co.kr/news/articleView.html?idxno=72801",
+   "image": "https://cdn.insweek.co.kr/news/photo/202610/72801_35110_5922.jpg",
+   "desc": "교통사고로 목과 허리를 다쳐 두 달 가까이 치료를 받고 있는 피해자가 있다. 여전히 통증이 남아 있어 치료를 계속하고 싶은데 보험사로부터 “8주를 넘겨 치료하려면"
   },
   {
    "title": "연간 9만 건 받는 무릎 인공관절수술 오래 쓰려면?",
@@ -781,23 +782,6 @@
    "link": "https://www.goodkyung.com/news/articleView.html?idxno=292309",
    "image": "https://cdn.goodkyung.com/news/thumbnail/202610/292309_265981_5148_v150.jpg",
    "desc": "과잉 비급여 보험금의 꼬리를 끊어내 고질적인 실손보험 적자 구조를 바로잡겠다며 5세대 실손의료보험이 출범한 지 어느덧 5개월. 금융당국과 보험업계는 기존 1·2세"
-  },
-  {
-   "title": "[단독] 대전 요양병원 절반 \"정부 간병비 지원 사업 불참\"",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRFo0Q1ZNbHdNUkUxeTZqU01DZDJrSVByUUZPU2sxRGVtaWwxZkZMeF9oYmxHMUM4dnl1RHh1cEVkMGxOZFlQQXBtdi1zRHJUeXdJbDNqR0xDRjcxaW8xaEdCUnVIRFJuT2xKbVNnZU9PWWZzQjB3SEhVNDZnR0JJLTVta1BWRW5xNndLV3FxYw?oc=5",
-   "press": "조선일보",
-   "summary": "",
-   "others": 0,
-   "topics": [
-    "ganbyeong"
-   ],
-   "score": 6,
-   "tier": 1,
-   "publishedAt": "2026-10-13T07:00:00.000Z",
-   "firstSeenAt": "2026-11-04T17:38:01.365Z",
-   "link": "https://www.chosun.com/national/welfare-medical/2026/10/13/RLSR2ST4JBD3NBXOJPKCPOIXYM/",
-   "image": "https://www.chosun.com/resizer/v2/MSXU4CVDLZAKZK2P7GZY7GKM3U.jpg?auth=4225039c41431e0f7b77a08da9d176a81bed0d2ea03cd207b627e2d0972ad71a&width=1200&height=630&smart=true",
-   "desc": "대전 지역 요양병원 20여 곳이 보건복지부의 요양병원 간병비 급여화 사업 참여를 집단 거부하기로 결정함. 구체적인 선정 기준과 지표가 확정되지 않은 상황에서 간병인 직접 고용에 따른 비용 부담과 인력 수급 불확실성이 커지자 병원계가 반발하고 있는 상황임."
   }
  ]
 }
