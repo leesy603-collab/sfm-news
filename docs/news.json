@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-13T07:26:26.756Z",
+ "updatedAt": "2026-11-13T17:25:03.850Z",
  "naver": false,
  "topics": [
   {
@@ -18,7 +18,7 @@
    "id": "chiryo",
    "label": "치료비",
    "kind": "담보",
-   "count": 9
+   "count": 7
   },
   {
    "id": "silson",
@@ -39,7 +39,7 @@
    "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9oY2FNaVBtc3dLV3ctR3JpY1lQNkNUNVBNTmxiNGFuR0dKdTRIOFhSTWJfbHZvb0ZHeUZPVTBlZw?oc=5",
    "press": "사회적경제뉴스",
    "summary": "",
-   "others": 0,
+   "others": 1,
    "topics": [
     "ganbyeong"
    ],
@@ -52,8 +52,25 @@
    "desc": ""
   },
   {
+   "title": "물리치료사들 거리로 \"'도수치료 관리급여·비급여 관리법안 철회하라\"",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBucHpraXJpMkZQc0NNVGNQWlo1VkxlT09uR0dCelBsMXBGTE9Jd1BsTkRRenVTUThPeTJzZTlLRjAxNGNQekwxeld3NjkyemQtdGJaWkhsTGxteTVlc2pWVU8tcGtyZDJnVlUxTg?oc=5",
+   "press": "의협신문",
+   "summary": "",
+   "others": 1,
+   "topics": [
+    "jeongchaek"
+   ],
+   "score": 12,
+   "tier": 2,
+   "publishedAt": "2026-11-13T01:40:11.000Z",
+   "firstSeenAt": "2026-11-13T17:25:03.850Z",
+   "link": "https://doctorsnews.co.kr/news/articleView.html?idxno=167289",
+   "image": "http://www.doctorsnews.co.kr/news/photo/202611/167289_140275_3233.png",
+   "desc": "도수치료 관리급여 시행으로 환자들의 치료 선택권이 제한되고 물리치료사들의 고용 불안이 커지고 있다며 물리치료사 100여명이 거리로 나선다. 비급여 진료 전반에 대한 국가 관리체계를 마련하는 법률안에도 반대 목소리를 낼 예정이다.전국임상물리치료사연대는 오는 15일 오후 1시 30분부터 4"
+  },
+  {
    "title": "野, “요양병원 중심 간병비 지원, 통합돌봄 취지와 상충…간호사 처우개선비 2460억 원 미사용도 부실 관리”",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBKRW0xU1M3VkJPd240WFQ3WUdOeVA1aWh1ZXBlUU9FUTFIQU00OW9rSUdEaG1GODRncG9oaTdFUXZYOURoOUZpdmYyVk5uQ0tCN1c5dzNMSlhkMFNfUFptc3F4V1ZnRHljY1NPbnZn?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PSW5NdmpjRVpfNEpmWDNSYlV4ZURyWmxsdHZQUTNBWWtzV2hreXZzY2F4ZDJoeWtzZWNjU2dYdXAtTmJyUEREd09TdTNmMUxUZU1tdTV4SmkyVEpiRUxDMGsxd3dxbU4yU0ZGdmNpZHU?oc=5",
    "press": "데일리메디팜",
    "summary": "",
    "others": 0,
@@ -63,10 +80,10 @@
    "score": 14,
    "tier": 2,
    "publishedAt": "2026-11-12T23:07:27.000Z",
-   "firstSeenAt": "2026-11-13T07:26:26.756Z",
-   "link": "http://m.dailymedipharm.com/news/articleView.html?idxno=78448",
+   "firstSeenAt": "2026-11-13T17:25:03.850Z",
+   "link": "http://www.dailymedipharm.com/news/articleView.html?idxno=78448",
    "image": "http://www.dailymedipharm.com/news/photo/202611/78448_53565_555.png",
-   "desc": "이만희 의원 \"간병서비스 제도화 사업, 2030년까지 요양병원 500곳에 예산 5조 3700억 원 투입 추진...돌봄 필요한 국민 요양병원에 보내라는 신호\" 국회 보건복지위원회 국민의힘 이만희 의원은 최근 국정감사에서 정부가 추진 중인 요양병원 중심의 간..."
+   "desc": "이만희 의원 \"간병서비스 제도화 사업, 2030년까지 요양병원 500곳에 예산 5조 3700억 원 투입 추진...돌봄 필요한 국민 요양병원에 보..."
   },
   {
    "title": "'3년간 반값' 5세대 실손 유인책 먹힐까",
@@ -77,7 +94,7 @@
    "topics": [
     "silson"
    ],
-   "score": 12,
+   "score": 9,
    "tier": 1,
    "publishedAt": "2026-11-12T09:38:18.000Z",
    "firstSeenAt": "2026-11-13T02:06:04.826Z",
@@ -197,7 +214,7 @@
    "topics": [
     "jeongchaek"
    ],
-   "score": 7,
+   "score": 4,
    "tier": 3,
    "publishedAt": "2026-11-11T08:15:54.000Z",
    "firstSeenAt": "2026-11-11T17:31:19.852Z",
@@ -248,7 +265,7 @@
    "topics": [
     "jeongchaek"
    ],
-   "score": 6,
+   "score": 4,
    "tier": 3,
    "publishedAt": "2026-11-10T08:31:20.000Z",
    "firstSeenAt": "2026-11-10T17:20:45.916Z",
@@ -278,7 +295,7 @@
    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5OR2RPZHNuc0k3QzJuRnloXzhXX21wM0VKQXVSTVlYcVE5WE1GVkdDdS05VHJRdUFOc1BaZVMwQ05OUG5SaWI5NHJUS3huSGxRMHdta3ZyV1VGWHVhX09wRjltRWhWeHNrZkdB0gFwQVVfeXFMTS1oeE9mZmVlZ0JDSnZ4R0RPc1BCcThwazJORWxnVElRek9nQlJib0tRSGQ1T0tlMzl4cnRFTS1sbmZZLU9OQlFYTFE4cEl4RmQ1UTd2NEpLeWwzXzNKakY3RlNWbFJzTG1LZGE1a1o5dA?oc=5",
    "press": "머니투데이",
    "summary": "",
-   "others": 1,
+   "others": 0,
    "topics": [
     "chiryo"
    ],
@@ -346,7 +363,7 @@
    "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9LdS11TVFxbC1GNWotWkhjNWxxMWg1TWNlVWxFU3RKTE5WSHFwM0FYZHJLdk0ySUprempjVjRiUllfejA?oc=5",
    "press": "한국공공정책신문",
    "summary": "",
-   "others": 3,
+   "others": 2,
    "topics": [
     "silson"
    ],
@@ -374,23 +391,6 @@
    "link": "https://daily.hankooki.com/news/articleView.html?idxno=1422273",
    "image": "https://cdn.daily.hankooki.com/news/thumbnail/202611/1422273_1600845_1052_v150.jpg",
    "desc": "[데일리한국 최동수 기자] iM라이프가 실적 감소에도 연금보험을 중심으로 치매·간병보험까지 사업 영역을 넓히며 수익 기반 다변화에 나섰다. 향후 3년 내 보험계약서비스마진(CSM) 1조원 달성을 목표로 내걸고 신계약 수익성 개선에도 속도를 내고 있다. 다만 연금보험 확대에 따른 자본 부"
-  },
-  {
-   "title": "\"간병인 직접 구할까, 보험사에 맡길까\"…간병보험 선택법",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE40c0NvMUZOcjFWMzA1VGdDN0k1YV9YYWNMZUdJMlhYWW95SnZKczhCbVRjY3QwSWMyd2QzTGtacTJOellMVlpsRzlSY3RjT1VyZ2FGZnQxenRzQ2VTbFBycg?oc=5",
-   "press": "뉴스1",
-   "summary": "",
-   "others": 0,
-   "topics": [
-    "ganbyeong"
-   ],
-   "score": 4,
-   "tier": 1,
-   "publishedAt": "2026-11-05T21:00:00.000Z",
-   "firstSeenAt": "2026-11-13T07:26:26.756Z",
-   "link": "https://www.news1.kr/finance/insurance-card/6344578",
-   "image": "",
-   "desc": ""
   },
   {
    "title": "[단독] 간병급여화, 간병인 최대 5.4만명 추가 필요...인건비 재원 문제",
@@ -456,11 +456,28 @@
    ],
    "score": 4,
    "tier": 2,
-   "publishedAt": "2026-11-03T21:08:00.000Z",
+   "publishedAt": "2026-11-04T08:00:00.000Z",
    "firstSeenAt": "2026-11-13T07:26:26.756Z",
    "link": "https://www.newsthevoice.com/news/articleView.html?idxno=47918",
    "image": "http://www.newsthevoice.com/news/thumbnail/202611/47918_67036_1958_v150.jpg",
    "desc": "[심평원 종감 서면답변 = ② 환자 부담·수가·진료비 관리] 건강보험심사평가원이 내년 상반기 요양병원 간병서비스 급여화 시범사업을 추진할 계획이라고 밝혔다. 오는 2030년까지 약 500개 요양병원, 중증환자 약 8만8000명을 대상으로 단계적으로 간병서비스를 제공하는 방안을 연구 중이"
+  },
+  {
+   "title": "[건강프라임_칼럼] 요양병원 간병비, 내년부터 30%만 낸다...중점적으로 살펴야 할 것들",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5NWlNYaW5QcjU4Z1VpalpoRjVvYlJFaGRHT1YyQ05UclpNV0FFQVIxdkhjYjF5VXQxczNBa1VSS2gyZ25CbUFheHVTVjVTVmViYUhhSGxuemQ2YW5oMXh6TmFtcTh1dU13ME5BNngwMNIBckFVX3lxTFBjQWN3eDNBcEN3TTVxSkZaVFZ6c1dlV0x4UUY1STZuUXVzS2Zwak1fQnNzOWxZcl9LYXBPWUZDX2tNMlBBcmZVamw2aW9qYTdzWE5haFdyXy1LbkljdGp1TTZhRVdDajc5MldGbFV6MUxRQQ?oc=5",
+   "press": "시선뉴스",
+   "summary": "",
+   "others": 1,
+   "topics": [
+    "ganbyeong"
+   ],
+   "score": 6,
+   "tier": 3,
+   "publishedAt": "2026-11-04T07:39:27.000Z",
+   "firstSeenAt": "2026-11-13T17:25:03.850Z",
+   "link": "https://www.sisunnews.co.kr/news/articleView.html?idxno=249098",
+   "image": "https://cdn.sisunnews.co.kr/news/thumbnail/202611/249098_478226_3913_v150.jpg",
+   "desc": ""
   },
   {
    "title": "보험료 30% 저렴해진 5세대 실손보험, 갈아탈까 유지할까?",
@@ -569,7 +586,7 @@
    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBIcVJ0ZEhpRDkxcVUyaW03UWJfSjRSSHl4alB3MGFzdVdxLURBY0ZJcnJKQUMzeWRBLTFoOXhqTTlQZm5jeU1WcklVQWRDV29mMzQ1WksyZjg1b2ZvckEzWWx2ZWh1d3NGdzRN0gFwQVVfeXFMTlJhUWRlbkFmMWUzbkwtaVE0SUpLRkViNGNqWlZsVVR6LUxVbUp3MVplSnlwU2RvOFo1dEhJeUdfU202ZHh4LTlMS2tKcDh3ZHVFdzRidnZtQWdKd214cDBkOUlBaVFjOW5wMFVxNkZ4Tw?oc=5",
    "press": "머니투데이",
    "summary": "",
-   "others": 23,
+   "others": 21,
    "topics": [
     "silson"
    ],
@@ -599,23 +616,6 @@
    "desc": "[경남열린신문] 산청군은 저소득층 암환자의 경제적 부담을 완화하고 치료 연속성을 높이기 위해 암환자 의료비 지원사업을 연중 추진하고 있다고 27일 밝혔다. 대상은 의료급여 수급권자와 건강보험 차상위 본인부담 경감대상자로 암 종류와 관계없이 암환자 의료비를 지원받을 수 있다. 성인 암환자"
   },
   {
-   "title": "적응증 18개, 급여 2개인 키트루다...다른 면역항암제는?",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9qekdqcFAwU2M5bTRHZExvdHZNdlVqTVAzYUZGeVlpVlpvRjVOQnZxSnBrcWtHYURfQmNEVHREMjFsQ1VfWk40SlpIRGVwdHNKYmEyeVhIN19rY2kzTW1PeEpxYmtJeU80XzJz?oc=5",
-   "press": "히트뉴스",
-   "summary": "",
-   "others": 0,
-   "topics": [
-    "chiryo"
-   ],
-   "score": 6,
-   "tier": 2,
-   "publishedAt": "2026-10-26T07:00:00.000Z",
-   "firstSeenAt": "2026-11-10T17:20:45.916Z",
-   "link": "https://www.hitnews.co.kr/news/articleView.html?idxno=38080",
-   "image": "https://cdn.hitnews.co.kr/news/thumbnail/202202/38080_44901_318_v150.jpg",
-   "desc": "한국MSD 키트루다가 폐암 1차 급여등재 건으로 약평위를 통과했지만 이는 신규 급여가 아닌 확대로 이 외에 급여확대를 기다리는 적응증이 16개다.히트뉴스가 국내 허가된 면역항암제 적응증과 급여 현황을 분석한 결과 대부분의 면역항암제가 추가되는 적응증 수에 비해 급여등재 수는 1/4 수준"
-  },
-  {
    "title": "트럼프 세 번 찍었는데…암 치료비에 등 돌린 美 여섯 아이 엄마 [핫이슈]",
    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5IZXh0X2RxUlEzUklYWnFqRU9xUHVTckNKT1d2WFp0TGFGMHhVLS16ZHJHRTZVNnB6MG5mNlMtMXI2VV9uZ19tYk5YQnVuUG9ycDBPb09UR2h0alJzbExPeFdVZkZKbXpLdTRqUl9mcXQ?oc=5",
    "press": "나우뉴스",
@@ -631,23 +631,6 @@
    "link": "https://nownews.seoul.co.kr/news/newsView.php?id=20261026601007",
    "image": "https://imgnn.seoul.co.kr/img/upload/2026/10/26/SSC_20261026111902.jpg.webp",
    "desc": "도널드 트럼프 미국 대통령에게 세 차례 표를 던진 여성이 암 치료비 부담에 정치적 선택을 바꿨다. 여섯 아이를 돌보며 유방암과 싸우는 그는 이번 중간선거에서 생애 처음 민주당 후보에게 투표했다. AP통신은 25일(현지시간) 미국 텍사스주 매캘런에 사는 신디 반다(46)의 사연을 전했다…"
-  },
-  {
-   "title": "▨손해사정사 양유진의 보험과 보상 담론-자동차보험 ‘8주룰’, 경상환자 치료는 무엇이 달라질까",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE84Ql9LZ2p3WkF2ZnZualdqTXpQa0tWMXo5UWF6clBMQlBHZlZNQTh1UmRIM3NRazB0QkFMUmFlS1VkdUNjXzZQNFBtZ2JuQ0dtZzUxR3VJVDctdDBVQkVaOTdBcDl1ZDlaZ1hV?oc=5",
-   "press": "보험신보",
-   "summary": "",
-   "others": 0,
-   "topics": [
-    "jeongchaek"
-   ],
-   "score": 4,
-   "tier": 2,
-   "publishedAt": "2026-10-26T07:00:00.000Z",
-   "firstSeenAt": "2026-11-13T07:26:26.756Z",
-   "link": "https://www.insweek.co.kr/news/articleView.html?idxno=72801",
-   "image": "https://cdn.insweek.co.kr/news/photo/202610/72801_35110_5922.jpg",
-   "desc": "교통사고로 목과 허리를 다쳐 두 달 가까이 치료를 받고 있는 피해자가 있다. 여전히 통증이 남아 있어 치료를 계속하고 싶은데 보험사로부터 “8주를 넘겨 치료하려면"
   },
   {
    "title": "연간 9만 건 받는 무릎 인공관절수술 오래 쓰려면?",
@@ -682,23 +665,6 @@
    "link": "https://raonnews.com/mobile/article.html?no=62023",
    "image": "https://www.raonnews.com/data/photos/20261043/art_17924559006082_a59441.jpg",
    "desc": "보험사들이 암 보장 한도를 놓고 경쟁하고 있다. 생명보험사들은 비급여 암치료비와 신생물 수술비 한도를 기한을 정해 올리고 기존 상품의 판매 종료를 예고했다. 20일 보험업계에 따르면 미래에셋생명은 지난달 4일부터 이달 30일까지 '인수한도 상향 이벤트'를 진행하고 있다. 비급여 암주요치"
-  },
-  {
-   "title": "세르비에 담관암 신약 '팁소보' 11월 보험급여 등재",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8ydFpWa293WkdVdTRxQ3kwLVZKclNWdVlIek9iTm51LVRwUEFjQVdwRzBmUFdRVWNiZ3g1NkhCanNwZzhTREdlcFAxczlYTWp5ck5xUVhn?oc=5",
-   "press": "데일리팜",
-   "summary": "",
-   "others": 0,
-   "topics": [
-    "chiryo"
-   ],
-   "score": 2,
-   "tier": 2,
-   "publishedAt": "2026-10-20T07:00:00.000Z",
-   "firstSeenAt": "2026-11-13T07:26:26.756Z",
-   "link": "https://new.dailypharm.com/user/news/343561",
-   "image": "https://vod.dailypharm.com/new_dailypharm/editor/content/2026/10/19/cbc0801a-d125-4a98-801d-c28a0398c2dc.png",
-   "desc": "담관암 신약 팁소보가 보험급여 목록에 등재된다. 취재 결과, 한국세르비에는 최근 국민건강보험공단과 담관암·급성골수성백혈병(AML, Acute myeloid leukemia) 표적항암제 팁소보(이보시데닙)에 대한 약가협상을 최종 타결했다. 팁소보의 등재는 약가유연계약제를 통해 이뤄질 예정"
   },
   {
    "title": "[국감] 항암제 급여평가, 사회적 편익 반영 시험대",
