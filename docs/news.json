@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-14T01:43:17.933Z",
+ "updatedAt": "2026-11-14T07:07:24.841Z",
  "naver": false,
  "topics": [
   {
@@ -18,7 +18,7 @@
    "id": "chiryo",
    "label": "치료비",
    "kind": "담보",
-   "count": 7
+   "count": 6
   },
   {
    "id": "silson",
@@ -129,7 +129,7 @@
     "silson",
     "jeongchaek"
    ],
-   "score": 7,
+   "score": 4,
    "tier": 3,
    "publishedAt": "2026-11-12T06:20:09.000Z",
    "firstSeenAt": "2026-11-12T07:49:10.930Z",
@@ -146,7 +146,7 @@
    "topics": [
     "jeongchaek"
    ],
-   "score": 7,
+   "score": 4,
    "tier": 3,
    "publishedAt": "2026-11-12T01:56:39.000Z",
    "firstSeenAt": "2026-11-12T17:46:46.931Z",
@@ -176,7 +176,7 @@
    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWUp2V2kzUmVzTjduUWtqbjFWTFgtc19LOUdLNi1nRDJoZ0FjWlZYMjlPWkJjZzA1eHlPbS1QTGd4aUtqaDh5ODRHYlQtV2lhR193VTJuM0JIekR1WUYwZGpIVGhlZkhmZkxJTW1EWTFtMU5oVVo0ZFUyX25wRmZxbA?oc=5",
    "press": "이데일리",
    "summary": "",
-   "others": 1,
+   "others": 0,
    "topics": [
     "ganbyeong"
    ],
@@ -363,7 +363,7 @@
    "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9LdS11TVFxbC1GNWotWkhjNWxxMWg1TWNlVWxFU3RKTE5WSHFwM0FYZHJLdk0ySUprempjVjRiUllfejA?oc=5",
    "press": "한국공공정책신문",
    "summary": "",
-   "others": 2,
+   "others": 3,
    "topics": [
     "silson"
    ],
@@ -462,6 +462,23 @@
    "desc": ""
   },
   {
+   "title": "유한재단, 국가무형유산 전승자 암 치료비 지원",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBlbm1ncWRTZmxoY3NydkZKeWZnbkpPVlllLXlMZTl0VWZUUGt4eWVlbmhHZkRZN1c4REFCeGZLZEd6d05yTnFTVVFZeGZwb3JMUlVfTGR1WDVpWlFCSXhhNtIBeEFVX3lxTE9fb3dFTEdUX3lrX1Q3UVR6ejZNTHlIeVNWS29VQ2pxQ21jLWJMcExtWXNVZzRUQ1pBa29walRudVJaREVOYVRuZXNjQUNYa3k0SkVrdjBWbW1OTG1EckpEU3JGOHZDRTVJT3BETUlsMk9YTjZZXzhVaw?oc=5",
+   "press": "뉴시스",
+   "summary": "",
+   "others": 0,
+   "topics": [
+    "chiryo"
+   ],
+   "score": 2,
+   "tier": 1,
+   "publishedAt": "2026-11-03T08:00:00.000Z",
+   "firstSeenAt": "2026-11-14T07:07:24.841Z",
+   "link": "https://www.newsis.com/view/NISX20261103_0003852097",
+   "image": "https://img1.newsis.com/2026/10/18/NISI20261018_0002266396_web.jpg",
+   "desc": "[서울=뉴시스]한이재 기자 = 1970년 고(故) 유일한 박사가 설립한 유한재단 후원으로 암 투병 중인 국가무형유산 전승자에게 경제적 지원이 이뤄진다.국가유산청은 대한암협회와 함께 암 진단을 받은 전승자 약 20명에게 치료비 또는 간병비를 최대 300만원까지 지원한다고 3일 밝혔다.그간"
+  },
+  {
    "title": "“대한민국 수술 건수 1위”…이문세도 앓은 ‘이 질환’ 뭐길래 [헬스타클럽]",
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE92VkFTaU5NTmZuUDZfQWNRUS1lX25MNUlSTXRoMnY3bDRCWVJSR3JuSWtVeEk1VkJSUWhrSkE3UVFFUTc3WmVMNVFDSXprYXB1cjBQRA?oc=5",
    "press": "매일경제",
@@ -500,7 +517,7 @@
    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1nMnozSUNzaGtOc1pVSFM3Z0R5R0xJNGFLZi0zLU9hRC15Y3dqTGc4WmZfeVp5c3BoRENSOEJrcWdTZzYzNkhfbWZSdnNMb29TczE0cmlOc0k0TzNfTFcwMQ?oc=5",
    "press": "라온신문",
    "summary": "",
-   "others": 16,
+   "others": 15,
    "topics": [
     "silson"
    ],
@@ -698,40 +715,6 @@
    "link": "https://www.newsport.co.kr/news/articleView.html?idxno=2251",
    "image": "https://cdn.newsport.co.kr/news/photo/202610/2251_3471_145.png",
    "desc": "실손의료보험 계약전환 할인 제도가 내달 시행되지만 보험사들은 적극적인 전환 마케팅에 나서기 어려운 상황이다. 기존 계약의 보장을 줄이는 과정에서 소비자 민원이 발"
-  },
-  {
-   "title": "대한암협회ᆞ유한재단, 부사관 129명 암 치료비 지원",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFAyMWJ2bjdlSmlVeWhfQ3A2UzV1dV9KT3hMQWxVMWI4WHlHZnVNTEM2UDFIdnFLblBESDRoUExTSURDaUJ4RW1XOEtMZE95b2FxNXQ2c3RkWWctU014WEhWc3hwUUh3UE8yWlRCSjZvbzYwUQ?oc=5",
-   "press": "헬스포커스뉴스",
-   "summary": "",
-   "others": 1,
-   "topics": [
-    "chiryo"
-   ],
-   "score": 2,
-   "tier": 3,
-   "publishedAt": "2026-10-15T07:00:00.000Z",
-   "firstSeenAt": "2026-11-13T07:26:26.756Z",
-   "link": "https://www.healthfocus.co.kr/news/articleView.html?idxno=210113",
-   "image": "https://cdn.healthfocus.co.kr/news/thumbnail/202610/210113_210318_86_v150.jpg",
-   "desc": "대한암협회(회장 이민혁)는 유한재단의 후원으로 암 투병 중인 현직 부사관 129명에게 총 3억 3,000여만원의 치료비를 지원했다고 14일 밝혔다. 이날 서울 국방부 청사에서 열린 전달식에는 이민혁 대한암협회장, 이두희 국방부 차관, 송문식 유한재단 사무국장 등이 참석했다.이번 사업은"
-  },
-  {
-   "title": "“고가 백혈병신약 1차 급여, 건보재정 절감”",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5OUVNzaXBLbXNKRnk5cGI1c0lKdUx0WXFTVlhrTklLaWZJM05XamJGZ1dyX1NMTnYyT0FlZGFnMExUOGhhNWpPcGpfY1NtWEhUWkFNR0xJVTk1REgzeUFqeVZxMGQ5dG4z?oc=5",
-   "press": "데일리메디",
-   "summary": "",
-   "others": 0,
-   "topics": [
-    "chiryo"
-   ],
-   "score": 2,
-   "tier": 2,
-   "publishedAt": "2026-10-15T07:00:00.000Z",
-   "firstSeenAt": "2026-11-11T17:31:19.852Z",
-   "link": "https://www.dailymedi.com/news/news_view.php?wr_id=941171",
-   "image": "",
-   "desc": "사진제공 연합뉴스. 초기 약제비가 높은 차세대 만성 골수성 백혈병(CML) 표적치료제의 1차 치료 건강보험 급여 적용이 장기적으로 국가 보건 재정을 구조적으로 절감할 수 있다는 전문가 제언이 나왔다. 초기 치료 효과가 뛰어난 고가 신약을 선제 투여해 환자를 약 복용이 필요 없는 ‘무치료"
   }
  ]
 }
