@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-18T08:00:14.194Z",
+ "updatedAt": "2026-11-18T18:28:44.292Z",
  "naver": false,
  "topics": [
   {
@@ -12,19 +12,19 @@
    "id": "susul",
    "label": "수술비",
    "kind": "담보",
-   "count": 1
+   "count": 5
   },
   {
    "id": "chiryo",
    "label": "치료비",
    "kind": "담보",
-   "count": 6
+   "count": 7
   },
   {
    "id": "silson",
    "label": "실손",
    "kind": "담보",
-   "count": 10
+   "count": 11
   },
   {
    "id": "jeongchaek",
@@ -90,7 +90,7 @@
    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5YY19qQnVGeXkyOEhLR1BLdTJKRDBDTTBXaEtTdWhFWHd0MTZxbENVRXRFVURxYXNkdkJLUUhQWFFsMFJQQ2diT1hsT0VUdjlxNnF0bGVIVHVWSVRHdnh6T1VScnNYS0UzcjIxR0JubWdRaEE?oc=5",
    "press": "소비자가 만드는 신문",
    "summary": "",
-   "others": 5,
+   "others": 3,
    "topics": [
     "silson"
    ],
@@ -120,23 +120,6 @@
    "desc": "3대 질병 보장…노후·간병 부담까지 동시에 챙긴다, 정초원 기자, 금융"
   },
   {
-   "title": "실손 5세대 3년 반값…병원 자주 가면 유지가 낫다",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ROFZlZ1V6MWJPaXA1RW8wZzJBdGRBQkxZdVNMVVNyNzM3dnVEQi1Ebk5EQWFETnFvbV9HdzhoZ3YzQVhSWTBoUzVELXozdmZQZmdLcDZBcTB4MXExb1lockxFU2dFTFE?oc=5",
-   "press": "자본시장뉴스",
-   "summary": "",
-   "others": 1,
-   "topics": [
-    "silson"
-   ],
-   "score": 9,
-   "tier": 3,
-   "publishedAt": "2026-11-17T04:00:00.000Z",
-   "firstSeenAt": "2026-11-17T04:09:40.431Z",
-   "link": "https://www.jabon.co.kr/news/articleView.html?idxno=8804",
-   "image": "https://cdn.jabon.co.kr/news/photo/202611/8804_21372_947.jpg",
-   "desc": "초기 실손보험 가입자가 5세대 상품으로 옮기면 새 보험료를 반값으로 깎아 주는 제도가 이달 문을 연다. 기존 계약을 그대로 두고 쓰지 않는 보장만 덜어 내는 선택"
-  },
-  {
    "title": "박홍배, 자동차보험 대차료 제도 개선 나선다",
    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE90c2VKZ2pNU1ZOam92YThGM0R5anoxWG9JQ2dXZGd5cWJEVW5FSm9pTFBUTUZOUEhKMWI5Q1kwaHRTYjYtM05jZ093VFFTWDlidEg4RUtUSGFSQ2ZHS1kxczI5elVGMDMxbTdIZ1Y4NGM?oc=5",
    "press": "위키리크스한국",
@@ -152,57 +135,6 @@
    "link": "https://www.wikileaks-kr.org/news/articleView.html?idxno=194748",
    "image": "https://www.wikileaks-kr.org/news/thumbnail/202611/194748_213053_1752_v150.jpg",
    "desc": "국회 정무위원회 소속 박홍배 더불어민주당 의원이 자동차보험 대차료와 관련해 업계 의견을 청취하고 제도 개선을 위한 점검에 나섰다.박 의원은 16일 부산시당에서 전국렌터카연합회와 부산지역 렌터카 업계 관계자들을 만나 자동차보험 대차료 지급기준 개선 등 주요 현안을 논의했다고 밝혔다.이번 "
-  },
-  {
-   "title": "도수치료 관리급여에 거리로 나온 물리치료사들…'치료권' 호소",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE53Y01zWTg3SUNOUHZDYV9sNHU4MU9NVTI2Z2NETFRFeDBhaEdfVDFiU0VTYk1lbjhlYUU0NTdlQ3BvQVhxbUNQU1JYaVpIMHZmSDdZY1J5ZkNMZGlRQVdmZXVHQnY5ZWpEZUhR?oc=5",
-   "press": "메디파나뉴스",
-   "summary": "",
-   "others": 0,
-   "topics": [
-    "jeongchaek"
-   ],
-   "score": 7,
-   "tier": 3,
-   "publishedAt": "2026-11-16T09:43:31.000Z",
-   "firstSeenAt": "2026-11-17T18:49:32.089Z",
-   "link": "https://www.medipana.com/news/articleView.html?idxno=421938",
-   "image": "https://cdn.medipana.com/news/photo/202611/421938_329918_364.jpg",
-   "desc": "도수치료 관리급여를 둘러싼 의료현장의 반발이 물리치료사들의 거리 집회로 확대됐다. 과잉진료와 불필요한 의료비 지출을 관리하려는 정책 취지와 별개로, 치료 시작 시점과 이용 횟수에 일률적인 기준을 적용하면 환자별 임상적 필요성이 충분히 반영되지 못할 수 있다는 우려에서다. 물리치료사들은 "
-  },
-  {
-   "title": "지지부진한 5세대 실손 갈아타기…할인제도 먹힐까",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBoVlFRcGx2Y1dtRlFYU1JJSENKcUQ1QUZlTTlIams5Y2pDczU0M19OVUpNTFhCek5mTlltN0t6bHpqNVFjMFMySXhtOTBIakxPc3hz0gFYQVVfeXFMTTU3ZTh5M2pGYm1tb2IyWThzbWdCYnRVQzBSa2ZFS012akZpNXFpME1UOGVHVFRYa0x6UF91SWk4bEVwWjBrbExMOEFOVmwxWWlHdll0ZnpsbQ?oc=5",
-   "press": "SBS Biz",
-   "summary": "",
-   "others": 15,
-   "topics": [
-    "silson"
-   ],
-   "score": 6,
-   "tier": 1,
-   "publishedAt": "2026-11-16T02:23:00.000Z",
-   "firstSeenAt": "2026-11-17T18:49:32.089Z",
-   "link": "https://biz.sbs.co.kr/article/20000346642",
-   "image": "https://img.biz.sbs.co.kr/upload/2026/11/16/sgw1794796876088.jpg",
-   "desc": "[앵커]실손의료보험을 5세대로 갈아타면 3년간 보험료를 절반으로 깎아주는 할인 제도가 이달 중 시행됩니다.기존 가입자들의 전환을 유도하기 위한 건데, 효과가 얼마나 있을지는 미지수입니다.류선우 기자, 5세대 실손 갈아타기, 현재 지지부진하다고요?[기자]네, 주요 손해보험사 9곳의 지난달"
-  },
-  {
-   "title": "보험료 깎아줘도 안 바꾼다···5세대 실손 전환율 13%대 정체",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5MV2Z3ZjJWUGNVekRjVHBMMFpUSTh2Ymo4U0Q2SVUwTTE5bmhMQmMzYmNDT1phbHpoblQyMExxZUx6MlBBd29RTjI2SjRCaFR1elNMYjByTURCeXg5c1lzNkZJNkFNT0lGeVQ3TQ?oc=5",
-   "press": "스마트비즈",
-   "summary": "",
-   "others": 1,
-   "topics": [
-    "silson"
-   ],
-   "score": 8,
-   "tier": 3,
-   "publishedAt": "2026-11-16T02:01:47.000Z",
-   "firstSeenAt": "2026-11-17T18:49:32.089Z",
-   "link": "https://www.smartbizn.com/news/articleView.html?idxno=159505",
-   "image": "https://cdn.smartbizn.com/news/photo/202611/159505_267341_4548.jpg",
-   "desc": "| 스마트비즈 = 기하늘 기자 | 5세대 실손보험 전환 할인제도 시행을 앞두고 기존 가입자의 5세대 이동이 확대될지 주목된다. 지난 5월 출시 이후 기존 가입자의"
   },
   {
    "title": "간병인 보험, 보장금액만 보면 될까?",
@@ -281,7 +213,7 @@
    "topics": [
     "ganbyeong"
    ],
-   "score": 6,
+   "score": 4,
    "tier": 2,
    "publishedAt": "2026-11-15T15:00:00.000Z",
    "firstSeenAt": "2026-11-15T16:40:24.080Z",
@@ -298,13 +230,30 @@
    "topics": [
     "jeongchaek"
    ],
-   "score": 4,
+   "score": 2,
    "tier": 2,
    "publishedAt": "2026-11-15T15:00:00.000Z",
    "firstSeenAt": "2026-11-17T04:09:40.431Z",
    "link": "https://www.insweek.co.kr/news/articleView.html?idxno=73013",
    "image": "https://cdn.insweek.co.kr/news/photo/202611/73013_35321_2942.jpeg",
    "desc": "[보험신보 이재호 기자] 자동차보험 경상환자의 과잉진료를 억제하기 위해 도입된 ‘8주룰’의 심사 결과에 대한 통계 공개체계를 마련해야 한다는 의견이 나오고 있다."
+  },
+  {
+   "title": "실손 '5세대 갈아타기' 10%대 그쳐…이달 할인제도 효과 관심",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBKVTdRUEJhV1ZkVmpMemtoT1NqTjJSYW1acHBBdWhtVms0eUVFUTQ4eUtwUU5GY0JGcDFHY21yV3NPRmhucTF1cVJDWEU4WE5RVElmQzBkZ1Bickk?oc=5",
+   "press": "연합뉴스",
+   "summary": "",
+   "others": 8,
+   "topics": [
+    "silson"
+   ],
+   "score": 4,
+   "tier": 1,
+   "publishedAt": "2026-11-14T06:29:00.000Z",
+   "firstSeenAt": "2026-11-18T18:28:44.292Z",
+   "link": "https://www.yna.co.kr/view/AKR20261114037700002",
+   "image": "https://img4.yna.co.kr/photo/yna/YH/2023/10/30/PYH2023103008230001300_P4.jpg",
+   "desc": "(서울=연합뉴스) 배영경 기자 = 조만간 시행될 5세대 실손의료보험 전환 할인제도가 이전 세대 상품 가입자의 적극적인 갈아타기를 유도할 수 있을..."
   },
   {
    "title": "野, “요양병원 중심 간병비 지원, 통합돌봄 취지와 상충…간호사 처우개선비 2460억 원 미사용도 부실 관리”",
@@ -324,6 +273,59 @@
    "desc": "이만희 의원 \"간병서비스 제도화 사업, 2030년까지 요양병원 500곳에 예산 5조 3700억 원 투입 추진...돌봄 필요한 국민 요양병원에 보..."
   },
   {
+   "title": "'3년간 반값' 5세대 실손 유인책 먹힐까",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0ySndvNC03LWxPUlVVLWV1eE9RZ0t6TGRtcEJCWWQtd1VrV05GUVdodFM5UkxCNmxxOWFvd3VIT1RVX09DSUVXUklLakxLa0FJQUswSV9xRkczZw?oc=5",
+   "press": "파이낸셜뉴스",
+   "summary": "",
+   "others": 1,
+   "topics": [
+    "silson"
+   ],
+   "score": 4,
+   "tier": 1,
+   "publishedAt": "2026-11-12T09:38:18.000Z",
+   "firstSeenAt": "2026-11-18T18:28:44.292Z",
+   "link": "https://www.fnnews.com/news/202611121838386982",
+   "image": "https://image.fnnews.com/resource/media/image/2026/11/12/202611121838148386_e.jpg",
+   "desc": "금융당국이 1600만명으로 추산되는 1·2세대 실손보험 가입자의 5세대 전환을 유도하기 위해 3년간 보험료를 50% 할인하는 혜택을 이달 내놓는다."
+  },
+  {
+   "title": "암·순환계·비급여수술 ‘한 담보'로 20년간 '10억’… 현대해상, '퍼펙트플러스' 전면 배치 (영상+)",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1HRUxvTzhidFlweUE1cWtqeGpxVVFUSXdxaGF4QXFjakZSalE1UVpnRmJaSHdZUVFPck5XRENwNjMzZDNRX3BUR1FoRThQUjBQUTN0bG85VHAwbmtUbXAzNmJBdk9NYmxIRTQ3QVZudw?oc=5",
+   "press": "보험저널",
+   "summary": "",
+   "others": 0,
+   "topics": [
+    "susul",
+    "chiryo"
+   ],
+   "score": 2,
+   "tier": 2,
+   "publishedAt": "2026-11-12T08:00:00.000Z",
+   "firstSeenAt": "2026-11-18T18:28:44.292Z",
+   "link": "https://www.insjournal.co.kr/news/articleView.html?idxno=33708",
+   "image": "https://cdn.insjournal.co.kr/news/thumbnail/202610/33708_36318_3354_v150.jpg",
+   "desc": "※유튜브 채널 '보험저널TV'를 구독하면 더 많은 영상을 보실 수 있습니다.(https://youtube.com/channel/UC6v10hcO7KLhWBNYZE4vkDQ)현대해상이 ‘퍼펙트플러스’를 중심으로 치료비와 납입지원 보장을 새롭게 구성했다. 핵심은 암과 순환계질환 주요치료,"
+  },
+  {
+   "title": "실손 비급여 관리·車보험 흑자 전환…DB손보 3분기 순익 4440억 35%↑",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYnpDMnJXWU5qaEVJcDFQWGxJSEE2VDFYNlJxOVlqenhWWGhyMng1cXhrU0F3cUYxeFJsQWhmal8wMkdrWHRmX0Y5cHdwYXhuLWFGcmJQWXY1UzNHSm1xRVdlVi13cHFlRUVHdUxubUpTSW9BWWc1UDZZTFBIZG16VHhJdkk?oc=5",
+   "press": "글로벌이코노믹",
+   "summary": "",
+   "others": 0,
+   "topics": [
+    "silson",
+    "jeongchaek"
+   ],
+   "score": 2,
+   "tier": 3,
+   "publishedAt": "2026-11-12T06:20:09.000Z",
+   "firstSeenAt": "2026-11-18T18:28:44.292Z",
+   "link": "https://www.g-enews.com/article/Finance/2026/11/202611121514203184e30fcb1ba8_1",
+   "image": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=2026031719443700062edf69f862c144721434.jpg",
+   "desc": "DB손해보험의 올해 3분기 연결 당기순이익이 4440억원으로 지난해 같은 기간보다 35.3% 늘었다. 투자손익은 절반 이상 줄었지만, 실손보험 비급여 관리 강화가 장기보험 손익 개선에 보탬이 된 데다 자동차보험과 일반보험이 흑자로 돌아서면서 전체 실적을 끌어올렸다.12일 DB손보에 따르"
+  },
+  {
    "title": "[해피라이프]건강한 노후의 조건…근골격계 질환부터 간병비 대비까지",
    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWUp2V2kzUmVzTjduUWtqbjFWTFgtc19LOUdLNi1nRDJoZ0FjWlZYMjlPWkJjZzA1eHlPbS1QTGd4aUtqaDh5ODRHYlQtV2lhR193VTJuM0JIekR1WUYwZGpIVGhlZkhmZkxJTW1EWTFtMU5oVVo0ZFUyX25wRmZxbA?oc=5",
    "press": "이데일리",
@@ -339,6 +341,23 @@
    "link": "https://www.edaily.co.kr/News/Read?newsId=02325526645645064&mediaCodeNo=257",
    "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/11/PS26111200250.jpg",
    "desc": "이데일리TV '해피라이프' 방송 캡쳐. ‘해피라이프’는 이데일리TV를 통해 매일 새벽 2시에 방송 중이다. 이번 방송에서는 고령층의 근골격계 질환 관리부터 부모님 병원비와 간병비에 대비하는 방법까지 살펴본다. 이날 방송에는 바른한방병원 강현석 진료부장, 엠금융서비스 다..."
+  },
+  {
+   "title": "실손의료보험 5세대가 무엇인지·어떤 보장을 제공하는지·가입 시 확인해야 할 사항",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9SM0daa0dYX1BfSzlsSFNHWHZsY25YU3F3di1iT0ZBY2RocnFuRUI0VFRlZmtxU1EtYWtKckFnTnBRVjg2c2U1TzNUMFZ2QWpiMkpGYVFEX2Q1eWQ2WFZJeDZycUdCclBpS193cWVuM013WUE?oc=5",
+   "press": "스페셜타임스",
+   "summary": "",
+   "others": 0,
+   "topics": [
+    "silson"
+   ],
+   "score": 4,
+   "tier": 3,
+   "publishedAt": "2026-11-11T22:02:30.000Z",
+   "firstSeenAt": "2026-11-18T18:28:44.292Z",
+   "link": "https://www.specialtimes.co.kr/news/articleView.html?idxno=484612",
+   "image": "https://cdn.specialtimes.co.kr/news/thumbnail/202611/484612_471992_230_v150.jpg",
+   "desc": "실손의료보험 5세대는 기존 실손보험에 최신 보장 체계를 적용한 상품을 의미한다. 이 기사는 실손의료보험 5세대의 제도적 구조와 목적, 실제 가입 과정에서 흔히 마주치는 문제점, 그리고 확인해야 할 핵심 절차를 단계별로 설명한다.보장 구조와 적용 범위실손의료보험 5세대는 의료비 실비를"
   },
   {
    "title": "[단독] “간병인보험 보장한도 손보나”… 금감원, 보장금액·손해율 정밀 조사 착수",
@@ -375,23 +394,6 @@
    "desc": "[포인트데일리 성정현 기자] 교통사고 경상환자의 무분별한 장기 치료를 막기 위해 도입된 이른바 '8주룰'이 심사 과정의 공정성과 투명성을 둘러싼 논란이 제기되고 있다.양방과 한방의 전문의가 심사를 나눠 맡는 구조지만 진료 분야별 승인율은 공개되지 않아 심사 결과의 객관성을 확인하기 어렵"
   },
   {
-   "title": "4주 진단서로 못 줄인 경상환자 치료비…‘8주룰’은 다를까",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5NeXdPX1kwYktOOTdiV2VPSnFqRGRscHAteENJSGIxdS02dUlRamZTcldVbV81d3NzclljNVZUUlVnWEFfNzhuTjFNSXVvb3JlV1ktMEYwR3pDUUZBOEE3RXNWVQ?oc=5",
-   "press": "쿠키뉴스",
-   "summary": "",
-   "others": 0,
-   "topics": [
-    "jeongchaek"
-   ],
-   "score": 4,
-   "tier": 1,
-   "publishedAt": "2026-11-09T21:00:09.000Z",
-   "firstSeenAt": "2026-11-17T04:09:40.431Z",
-   "link": "https://www.kukinews.com/article/view/kuk202611090178",
-   "image": "",
-   "desc": ""
-  },
-  {
    "title": "암진단비 보험금, 보상주체 놓고 2차전 - 머니투데이",
    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5OR2RPZHNuc0k3QzJuRnloXzhXX21wM0VKQXVSTVlYcVE5WE1GVkdDdS05VHJRdUFOc1BaZVMwQ05OUG5SaWI5NHJUS3huSGxRMHdta3ZyV1VGWHVhX09wRjltRWhWeHNrZkdB0gFwQVVfeXFMTS1oeE9mZmVlZ0JDSnZ4R0RPc1BCcThwazJORWxnVElRek9nQlJib0tRSGQ1T0tlMzl4cnRFTS1sbmZZLU9OQlFYTFE4cEl4RmQ1UTd2NEpLeWwzXzNKakY3RlNWbFJzTG1LZGE1a1o5dA?oc=5",
    "press": "머니투데이",
@@ -407,6 +409,40 @@
    "link": "https://www.mt.co.kr/finance/2026/11/10/2026110919413956102",
    "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=728,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/11/2026110919413956102_1.jpg",
    "desc": "암진단비 지급을 둘러싼 대법원 판결로 손해보험사들이 수백억 원의 보험금을 추가 지급하면서 재보험금 분담을 놓고 손보사와 재보험사간 갈등이 커지고 있다. 9일 보험업계에 따르면 삼성화재와 메리츠화재 등 주요 손보사들은 지난 4월 대법원의 암분류기준 약관 관련 판결로 추가 지급한 보험금에 "
+  },
+  {
+   "title": "나이 탓으로 넘긴 시력 변화, 노안일까?... 60대 최다 수술은 ‘백내장’",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE15MmZvaGs3UzVDTjI1a0N5R2JkQjFpYk4yYXJCSU9jd3B2RmdZR0preUpNY2VoNUlmdHhSNy1IbHFvMzZjSXZGYmJwNklwTGYzU0szVnJzdWltWmNLUWF5Q2NR?oc=5",
+   "press": "스포츠월드",
+   "summary": "",
+   "others": 0,
+   "topics": [
+    "susul"
+   ],
+   "score": 2,
+   "tier": 3,
+   "publishedAt": "2026-11-09T05:59:18.000Z",
+   "firstSeenAt": "2026-11-18T18:28:44.292Z",
+   "link": "https://www.sportsworldi.com/newsView/20261109511511",
+   "image": "https://www.sportsworldi.com/content/image/2026/11/09/20261109511510.png",
+   "desc": "나이가 들면서 시야가 흐려졌다고 해서 모두 노안으로 볼 수는 없다. 가까운 곳에 초점을 맞추기 어려운 노안과 수정체가 혼탁해지는 백내장은 서로 다른 변화지만 함께 나타날 수 있다. 증상만으로 원인을 구분하기 어려운 만큼, 안과 검사를 통해 눈 상태를 확인해야 한다."
+  },
+  {
+   "title": "AI 발전에 따른 백내장 수술의 미래",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5iVlBUbWFfLXlyeTB3dlpxRVBOb1haanlGN0hQMWQ3eUtQNkViMnRzekJvRjJENmd0OGVMeWt6d1RnemRaTUp1THlQTWpPcThYNmxmUW43eXM0dU9aRENyV0hON0l0THdmUDFBbHQ3S0tWZw?oc=5",
+   "press": "원주투데이",
+   "summary": "",
+   "others": 0,
+   "topics": [
+    "susul"
+   ],
+   "score": 2,
+   "tier": 3,
+   "publishedAt": "2026-11-09T00:29:01.000Z",
+   "firstSeenAt": "2026-11-18T18:28:44.292Z",
+   "link": "https://www.wonjutoday.co.kr/news/curationView.html?idxno=213475",
+   "image": "https://cdn.wonjutoday.co.kr/news/photo/202611/213475_112941_2956.jpg",
+   "desc": "우리나라에서 가장 많이 하는 수술이 백내장 수술이다. 국민건강보험공단 통계에 따르면 2025년 69만여 건으로 35개 주요 수술 중 건수가 가장 많았다. 백내장"
   },
   {
    "title": "1·2세대 실손 가입자 1700만명…기존 계약 유지냐 5세대 전환이냐",
@@ -478,6 +514,23 @@
    "desc": ""
   },
   {
+   "title": "1·2세대 실손, 기존 보험 해지 없이 5세대로…금융위 규제 정비",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5GekhkV3VZZ1ZFMFN2TjNkWVNQUjlrWUFsbjlRY1puREwxZWxFOUVYajlMRU9WOEt6RGdRclBsZ3puYkE4QmNVaWNrWlh6RVRmd19wRENZS05vVDNZaFMxUA?oc=5",
+   "press": "뉴스1",
+   "summary": "",
+   "others": 0,
+   "topics": [
+    "silson"
+   ],
+   "score": 4,
+   "tier": 1,
+   "publishedAt": "2026-11-04T08:00:00.000Z",
+   "firstSeenAt": "2026-11-18T18:28:44.292Z",
+   "link": "https://www.news1.kr/finance/insurance-card/6342972",
+   "image": "",
+   "desc": ""
+  },
+  {
    "title": "표적항암제 '레테브모' 급여 등재되자 캡슐에서 정제로 전환",
    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBaS2JDREthVmN1NHctOWNqU1lwakE4NV82VlQxaEhCdkF5ME5KY0JoT2N2aThVYTRGTnkyZHJRVkRRQVp3UUk4R0VCVWZpRDRBMExUVU1R?oc=5",
    "press": "데일리팜",
@@ -499,7 +552,7 @@
    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5sOHhaMFVlQVdxR2xUSnlUNkZhZ3J5SzNrY29rc1R6WjBBZGUzekthWU5WQWV2MzNfdjdDRkU3aXZBSXhwZzZRamhBWmVpSHBkSHc?oc=5",
    "press": "네이버페이 머니스토리",
    "summary": "",
-   "others": 5,
+   "others": 2,
    "topics": [
     "silson"
    ],
@@ -510,6 +563,23 @@
    "link": "https://story.pay.naver.com/content/3830",
    "image": "",
    "desc": ""
+  },
+  {
+   "title": "“대한민국 수술 건수 1위”…이문세도 앓은 ‘이 질환’ 뭐길래 [헬스타클럽]",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE92VkFTaU5NTmZuUDZfQWNRUS1lX25MNUlSTXRoMnY3bDRCWVJSR3JuSWtVeEk1VkJSUWhrSkE3UVFFUTc3WmVMNVFDSXprYXB1cjBQRA?oc=5",
+   "press": "매일경제",
+   "summary": "",
+   "others": 0,
+   "topics": [
+    "susul"
+   ],
+   "score": 2,
+   "tier": 1,
+   "publishedAt": "2026-10-31T07:00:00.000Z",
+   "firstSeenAt": "2026-11-18T18:28:44.292Z",
+   "link": "https://www.mk.co.kr/news/culture/12192432",
+   "image": "https://pimg.mk.co.kr/news/cms/202610/31/news-p.v1.20261030.9fe8e36b95eb4447a983b04695df21c4_R.jpg",
+   "desc": "지난해 우리 국민이 가장 많이 받은 수술은 무엇일까. 바로 백내장 수술이다. 국민건강보험공단이 지난 8월 발간한 ‘2025년 주요 수술 통계연보’에 따르면 지난해 백내장 수술은 69만2126건으로, 전체 35개 주요 수술 가운데 가장 많았다. 전년보다 4.2% 증가했으며, 인구 10만명"
   },
   {
    "title": "백내장 수술 후 하루씩 병원 체류…입원치료 인정하지 않은 서울서부지법",
@@ -544,23 +614,6 @@
    "link": "https://www.mk.co.kr/news/economy/12189996",
    "image": "https://pimg.mk.co.kr/news/cms/202610/29/news-p.v1.20261029.6cd2abb33f1a4fda89fab6ae6b00482d_R.jpg",
    "desc": "초기 1~2세대 실손과 5세대 차이 비급여 보장 빠지고 보장 범위 축소 보험료 줄어든다지만 유인책 부족"
-  },
-  {
-   "title": "실손의료비 변천사 1~5세대 비교표 | is보험 보험안내자료",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5WX3RFbnR0c3pUbkRhZE1vbW1IWnppNVJQSjhUWGlDR21yN3B4ajBUNUpoWW92OHRfYVNRTjZueUVQR1VwOVJNNWtrbXVjSGRPWUFKTkp4M3ZNeWozS0hmbU1LNA?oc=5",
-   "press": "이즈보험",
-   "summary": "",
-   "others": 1,
-   "topics": [
-    "silson"
-   ],
-   "score": 4,
-   "tier": 3,
-   "publishedAt": "2026-10-29T07:00:00.000Z",
-   "firstSeenAt": "2026-11-18T08:00:14.194Z",
-   "link": "https://dazabi.com/Content/insurance_guides/index.php",
-   "image": "https://dazabi.com/img/isinsu_meta.png",
-   "desc": "1세대부터 5세대까지 실손의료비보험의 담보구성, 가입금액, 보장·면책기간, 갱신주기와 공제금액을 비교표로 확인하세요. 가입 시기별 차이와 급여·비급여 보장비율을 살펴볼 수 있으며, 실제 보장 여부와 조건은 가입한 보험의 약관을 확인해야 합니다."
   },
   {
    "title": "[보험 이슈] 커지는 치매·간병보험 시장…보험사, 조기 진단·장기요양 보장 넓힌다",
@@ -601,7 +654,7 @@
    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBIcVJ0ZEhpRDkxcVUyaW03UWJfSjRSSHl4alB3MGFzdVdxLURBY0ZJcnJKQUMzeWRBLTFoOXhqTTlQZm5jeU1WcklVQWRDV29mMzQ1WksyZjg1b2ZvckEzWWx2ZWh1d3NGdzRN0gFwQVVfeXFMTlJhUWRlbkFmMWUzbkwtaVE0SUpLRkViNGNqWlZsVVR6LUxVbUp3MVplSnlwU2RvOFo1dEhJeUdfU202ZHh4LTlMS2tKcDh3ZHVFdzRidnZtQWdKd214cDBkOUlBaVFjOW5wMFVxNkZ4Tw?oc=5",
    "press": "머니투데이",
    "summary": "",
-   "others": 47,
+   "others": 35,
    "topics": [
     "silson"
    ],
@@ -646,6 +699,23 @@
    "link": "https://www.insweek.co.kr/news/articleView.html?idxno=72801",
    "image": "https://cdn.insweek.co.kr/news/photo/202610/72801_35110_5922.jpg",
    "desc": "교통사고로 목과 허리를 다쳐 두 달 가까이 치료를 받고 있는 피해자가 있다. 여전히 통증이 남아 있어 치료를 계속하고 싶은데 보험사로부터 “8주를 넘겨 치료하려면"
+  },
+  {
+   "title": "‘8주룰' 시행 한 달여…손보사들, 경상환자 겨냥한 운전자보험 담보 경쟁",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5CVlVjQld2aDJ2TUNJb2J1TXIzbUtuYk0zdFYzZ1ltNlZXVGVQX2l0Y09yVUR2dnFJVjBYbXRxV213eU93eFFWcHJPUTN3bVJGNmRub3lObjh3REFUZnc?oc=5",
+   "press": "라온신문",
+   "summary": "",
+   "others": 0,
+   "topics": [
+    "jeongchaek"
+   ],
+   "score": 4,
+   "tier": 3,
+   "publishedAt": "2026-10-22T07:00:00.000Z",
+   "firstSeenAt": "2026-11-18T18:28:44.292Z",
+   "link": "https://raonnews.com/mobile/article.html?no=62098",
+   "image": "https://www.raonnews.com/data/photos/20261043/art_17926302440762_7fe3e7.jpg",
+   "desc": "자동차보험에서 경상환자의 장기 치료를 제한하는 이른바 ‘8주룰'이 시행된 데 이어 오는 25일부터는 경상환자 향후치료비 지급 기준도 바뀐다. 손해보험사들은 운전자보험과 상해보험에 경상 상해를 보장하는 담보를 잇따라 추가하며 자동차보험에서 줄어든 보상을 장기보험으로 보완하라는 영업에 나섰"
   },
   {
    "title": "세르비에 담관암 신약 '팁소보' 11월 보험급여 등재",
